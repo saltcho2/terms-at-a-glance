@@ -94,5 +94,22 @@
     }];
   }));
 
-  window.expandedServiceCount = selected.length;
+  window.expandedServices.naver = {
+    name: '네이버',
+    domain: 'naver.com',
+    aliases: ['NAVER', '네이버 검색', '네이버 포털'],
+    mark: 'N',
+    overall: '개인정보·게시물·계정 해지 확인 필요',
+    reviewStatus: '공식 문서 요약 · 2026. 10. 7. 점검',
+    source: 'https://policy.naver.com/policy/service.html',
+    items: [
+      ['payment','결제·구독','유료 서비스는 별도 결제 조건 적용','mid','네이버의 유료 서비스와 포인트는 각 서비스의 별도 이용약관과 결제·환불 기준이 함께 적용될 수 있습니다.','네이버 안에서 유료 서비스를 이용할 때는 결제 직전에 자동 갱신 여부와 환불 기준을 따로 확인해야 합니다.','https://policy.naver.com/policy/service.html'],
+      ['privacy','개인정보','검색·접속·위치정보 처리 범위 확인','high','서비스 이용 과정에서 계정·기기·접속 기록과 서비스에 따라 위치정보가 처리될 수 있으며 자세한 내용은 개인정보처리방침에서 정합니다.','네이버를 이용하면 로그인 정보뿐 아니라 접속 기록과 이용한 기능에 따른 정보도 처리될 수 있습니다.','https://policy.naver.com/policy/privacy.html'],
+      ['content','콘텐츠 권리','게시물 공개 범위와 삭제 기준 확인','high','이용자가 올린 게시물은 설정한 공개 범위에 따라 노출되며 약관·운영정책이나 법령을 위반하면 비공개 또는 삭제될 수 있습니다.','블로그·카페 등에 올린 글과 사진은 공개 설정에 따라 다른 사람이 볼 수 있고 운영정책 위반 판단을 받으면 내려갈 수 있습니다.','https://policy.naver.com/policy/service.html'],
+      ['cancel','해지·환불','탈퇴 뒤 데이터 복구가 어려울 수 있음','high','이용계약을 해지하면 법령이나 개인정보처리방침에 따라 보관해야 하는 정보를 제외한 계정 데이터가 삭제되고 복구가 어려울 수 있습니다.','네이버 탈퇴 전에 메일·게시물·파일 등 필요한 자료를 먼저 내려받아야 합니다.','https://policy.naver.com/policy/service.html'],
+      ['other','기타 주의','약관 위반 시 서비스 이용 제한 가능','mid','관련 법령과 약관·운영정책을 위반하면 게시물 제한이나 서비스 이용 제한이 적용될 수 있으며 중요한 변경은 정해진 방식으로 안내됩니다.','운영정책 위반 판단을 받으면 일부 기능이나 계정 이용이 제한될 수 있으니 이의 제기 절차도 확인해야 합니다.','https://policy.naver.com/policy/service.html']
+    ]
+  };
+
+  window.expandedServiceCount = selected.length + 1;
 })();
