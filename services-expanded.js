@@ -4,7 +4,7 @@
       ['grok','Grok','x.ai','그록'],['midjourney','Midjourney','midjourney.com','미드저니'],['runway','Runway','runwayml.com','런웨이'],['leonardoai','Leonardo AI','leonardo.ai','레오나르도 AI'],['stabilityai','Stability AI','stability.ai','스태빌리티 AI'],
       ['huggingface','Hugging Face','huggingface.co','허깅페이스'],['replicate','Replicate','replicate.com','레플리케이트'],['poe','Poe','poe.com','포'],['characterai','Character.AI','character.ai','캐릭터 AI'],['civitai','Civitai','civitai.com','시비타이'],
       ['cursor','Cursor','cursor.com','커서'],['windsurf','Windsurf','windsurf.com','윈드서프'],['lovable','Lovable','lovable.dev','러버블'],['boltnew','Bolt.new','bolt.new','볼트'],['v0','v0','v0.dev','브이제로'],
-      ['glitch','Glitch','glitch.com','글리치'],['stackoverflow','Stack Overflow','stackoverflow.com','스택오버플로'],['npm','npm','npmjs.com','엔피엠'],['pypi','PyPI','pypi.org','파이피아이'],['dockerhub','Docker Hub','hub.docker.com','도커 허브'],
+      ['stackoverflow','Stack Overflow','stackoverflow.com','스택오버플로'],['npm','npm','npmjs.com','엔피엠'],['pypi','PyPI','pypi.org','파이피아이'],['dockerhub','Docker Hub','hub.docker.com','도커 허브'],
       ['docker','Docker','docker.com','도커'],['jetbrains','JetBrains','jetbrains.com','젯브레인즈'],['vscode_market','Visual Studio Marketplace','marketplace.visualstudio.com','비주얼 스튜디오 마켓플레이스'],['unity','Unity','unity.com','유니티'],['unrealengine','Unreal Engine','unrealengine.com','언리얼 엔진'],
       ['sentry','Sentry','sentry.io','센트리'],['datadog','Datadog','datadoghq.com','데이터독'],['newrelic','New Relic','newrelic.com','뉴렐릭'],['grafana','Grafana Cloud','grafana.com','그라파나'],['mongodb','MongoDB Atlas','mongodb.com','몽고DB'],
       ['supabase','Supabase','supabase.com','수파베이스'],['firebase','Firebase','firebase.google.com','파이어베이스'],['rendercloud','Render','render.com','렌더'],['railway','Railway','railway.app','레일웨이'],['flyio','Fly.io','fly.io','플라이닷아이오'],
@@ -60,7 +60,7 @@
     ]
   };
 
-  const quotas = { digital: 45, productivity: 40, content: 35, commerce: 35, finance: 20, lifestyle: 25 };
+  const quotas = { digital: 44, productivity: 40, content: 35, commerce: 35, finance: 20, lifestyle: 25 };
   const selected = Object.entries(groups).flatMap(([category, rows]) => rows.slice(0, quotas[category]).map(row => ({ category, row })));
   const categoryOther = {
     digital: '계정 제한, 저장 용량, 외부 연동과 서비스 종료 시 데이터 이전 방법을 확인하세요.',
