@@ -15,7 +15,6 @@
     "lovable": { terms: "https://lovable.dev/product-terms", privacy: "https://lovable.dev/privacy" },
     "boltnew": { terms: "https://stackblitz.com/terms-of-service", privacy: "https://stackblitz.com/privacy-policy" },
     "v0": { terms: "https://vercel.com/legal/terms", privacy: "https://vercel.com/legal/privacy-policy" },
-    "glitch": { terms: null, privacy: null },
     "stackoverflow": { terms: "https://stackoverflow.com/legal/terms-of-service/public?ClientSessionId=1fd34108-ef75-4e05-bdb5-3c5c621ad638", privacy: "https://stackoverflow.com/legal/privacy-policy" },
     "npm": { terms: "https://docs.npmjs.com/policies/terms/", privacy: "https://docs.npmjs.com/policies/privacy/" },
     "pypi": { terms: "https://policies.python.org/pypi.org/Terms-of-Service/", privacy: "https://policies.python.org/pypi.org/Privacy-Notice/" },
