@@ -81,7 +81,8 @@
   <script src="services-extra.js?v=20261007"></script>
   <script src="services-more.js?v=20261007"></script>
   <script src="services-volume.js?v=20261007"></script>
-  <script src="services-expanded.js?v=20261007"></script>
+  <script src="services-expanded.js?v=20261007c"></script>
+  <script src="policy-links.js?v=20261007c"></script>
   <script src="casebook.js?v=20261007"></script>
   <script>
     const services={
@@ -185,11 +186,24 @@
       const actions={payment:'다음 결제일, 청구 금액과 해지 경로를 확인하고 결제 화면을 저장하세요.',privacy:'맞춤 광고, 활동 기록과 제3자 제공 설정을 확인하고 필요 없는 선택 동의를 해제하세요.',content:'공개 범위와 플랫폼의 이용 권한을 확인하고 중요한 원본은 별도로 보관하세요.',cancel:'환불 가능 기간과 해지 완료 시점을 확인하고 완료 화면이나 이메일을 보관하세요.',other:'서비스 제한, 책임 주체와 지역별 예외 조건을 공식 문서에서 한 번 더 확인하세요.'};
       return actions[item[0]];
     }
+    function sourceInfo(data,item){
+      const policy=data.policyLinks;
+      const wanted=item[0]==='privacy'?'privacy':'terms';
+      const alternate=wanted==='privacy'?'terms':'privacy';
+      const labels={terms:'이용약관',privacy:'개인정보처리방침'};
+      const direct=policy?.[wanted]||null;
+      const fallback=policy?.[alternate]||null;
+      const url=direct||fallback||item[6]||data.source||null;
+      if(!data.preliminary)return {url,note:`<strong>공식 문서를 바탕으로 작성한 요약입니다</strong>${data.reviewStatus?.match(/\d{4}\. \d{1,2}\. \d{1,2}\./)?.[0]||auditDate} 점검 · 지역과 가입 방식에 따라 다를 수 있음`,label:'공식 약관에서 직접 확인'};
+      if(direct)return {url,note:`<strong>공식 ${labels[wanted]} 직링크를 확인했습니다</strong>${window.policyLinkAuditDate||auditDate} 점검 · 항목 요약은 상세 검수 전`,label:`공식 ${labels[wanted]}에서 확인`};
+      if(fallback)return {url,note:`<strong>공식 ${labels[wanted]} 별도 링크를 확인하지 못했습니다</strong>공식 ${labels[alternate]} 문서로 대신 연결했습니다.`,label:'대체 공식 문서에서 확인'};
+      return {url:null,note:'<strong>공개된 공식 문서 직링크를 확인하지 못했습니다</strong>회사 홈페이지로 보내지 않고 링크가 없는 상태를 그대로 표시합니다.',label:'공식 문서 링크 없음'};
+    }
     function render(){
       const data=services[current];
       $('#serviceName').textContent=data.name;$('#serviceMeta').textContent=data.reviewStatus?`${data.domain} · ${data.reviewStatus}`:`${data.domain} · 공식 문서 요약 · ${auditDate} 점검`;renderServiceMark(data);$('#overallText').textContent=data.overall;$('.overall').classList.toggle('preliminary',!!data.preliminary);
       const visible=data.items.filter(item=>activeFilter==='all'||item[0]===activeFilter);
-      $('#results').innerHTML=visible.map((item,i)=>`<article class="card ${i===0?'open':''}" data-category="${item[0]}"><button class="card-head" type="button" aria-expanded="${i===0}" aria-label="${item[2]} 상세 내용 열기"><span class="icon" aria-hidden="true">${icons[item[0]]}</span><span><span class="card-title"><h3>${item[1]} · ${item[2]}</h3><span class="badge risk-${item[3]}">${labels[item[3]]}</span></span><span class="summary">${item[5]}</span></span><span class="chev" aria-hidden="true">⌄</span></button><div class="detail"><div class="detail-grid"><div class="detail-box warning"><p class="detail-label">주의사항 · 실제로 생길 수 있는 일</p><p>${item[5]}</p></div><div class="detail-box action"><p class="detail-label">가입 전 확인 · 지금 할 일</p><p>${actionFor(item)}</p></div></div><div class="source-row"><span class="source-note">${data.preliminary?'<strong>상세 약관 검수 전 기본 확인 항목입니다</strong>약관 주소가 확인되면 공식 문서 링크를 제공합니다.':`<strong>공식 문서를 바탕으로 작성한 요약입니다</strong>${data.reviewStatus?.match(/\d{4}\. \d{1,2}\. \d{1,2}\./)?.[0]||auditDate} 점검 · 지역과 가입 방식에 따라 다를 수 있음`}</span>${data.preliminary?'<span class="source-pending">공식 약관 링크 검수 중</span>':`<a class="source-link" href="${item[6]||data.source}" target="_blank" rel="noopener">공식 약관에서 직접 확인</a>`}</div></div></article>`).join('');
+      $('#results').innerHTML=visible.map((item,i)=>{const source=sourceInfo(data,item);return `<article class="card ${i===0?'open':''}" data-category="${item[0]}"><button class="card-head" type="button" aria-expanded="${i===0}" aria-label="${item[2]} 상세 내용 열기"><span class="icon" aria-hidden="true">${icons[item[0]]}</span><span><span class="card-title"><h3>${item[1]} · ${item[2]}</h3><span class="badge risk-${item[3]}">${labels[item[3]]}</span></span><span class="summary">${item[5]}</span></span><span class="chev" aria-hidden="true">⌄</span></button><div class="detail"><div class="detail-grid"><div class="detail-box warning"><p class="detail-label">주의사항 · 실제로 생길 수 있는 일</p><p>${item[5]}</p></div><div class="detail-box action"><p class="detail-label">가입 전 확인 · 지금 할 일</p><p>${actionFor(item)}</p></div></div><div class="source-row"><span class="source-note">${source.note}</span>${source.url?`<a class="source-link" href="${source.url}" target="_blank" rel="noopener">${source.label}</a>`:`<span class="source-pending">${source.label}</span>`}</div></div></article>`}).join('');
       $$('.card-head').forEach(btn=>btn.addEventListener('click',()=>{const card=btn.closest('.card');card.classList.toggle('open');btn.setAttribute('aria-expanded',card.classList.contains('open'));}));
       $('#empty').style.display='none';$('#results').style.display='grid';$('#incidentPanel').style.display='block';renderServiceCases();
     }
