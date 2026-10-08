@@ -1,34 +1,50 @@
 window.serviceCases={
-  coupang:[{year:'2026',org:'대한민국 개인정보보호위원회',title:'대규모 개인정보 유출과 안전조치 미흡 제재',text:'개인정보보호위원회는 대규모 이용자 정보 유출, 안전조치 미흡, 법적 근거 없는 이용기록 수집 등을 확인해 과징금·과태료와 시정명령을 의결했습니다.',url:'https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=D010030000&nttId=12171'},{year:'2024',org:'대한민국 개인정보보호위원회',title:'배달원·주문자 개인정보 유출 제재',text:'개인정보보호위원회는 쿠팡이츠 배달원의 실명·전화번호가 음식점에 전달되고 판매자시스템에서 다른 판매자의 주문정보가 노출된 사고와 관련해 안전조치 미흡을 확인하고 제재했습니다.',url:'https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=10808'}],
-  youtube:[{year:'2019',org:'미국 FTC',title:'아동 이용자 정보 수집 문제',text:'Google과 YouTube는 부모 동의 없이 아동의 개인정보를 수집했다는 혐의와 관련해 1억7천만 달러를 지급하고, 아동 콘텐츠의 데이터 처리 방식을 바꾸기로 했습니다.',url:'https://www.ftc.gov/news-events/news/press-releases/2019/09/google-youtube-will-pay-record-170-million-alleged-violations-childrens-privacy-law'}],
-  tiktok:[{year:'2023',org:'아일랜드 DPC',title:'아동 계정의 공개 기본 설정 문제',text:'아일랜드 개인정보 감독기관은 TikTok의 아동 이용자 데이터 처리와 공개 기본 설정 등에 문제가 있었다며 3억4천5백만 유로의 과징금을 부과했습니다.',url:'https://www.dataprotection.ie/en/news-media/press-releases/DPC-announces-345-million-euro-fine-of-TikTok'}],
-  facebook:[{year:'2019',org:'미국 FTC',title:'개인정보 통제 약속 위반',text:'FTC는 Facebook이 이용자의 개인정보 통제 선택을 제대로 지키지 않았다며 50억 달러의 제재금과 새로운 개인정보 보호 의무를 부과했습니다.',url:'https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook'}],
-  x:[{year:'2022',org:'미국 FTC',title:'보안용 연락처를 맞춤 광고에 이용',text:'Twitter는 계정 보안을 위해 받았다고 설명한 전화번호와 이메일을 맞춤 광고에도 사용한 문제로 1억5천만 달러를 지급하기로 했습니다.',url:'https://www.ftc.gov/news-events/news/press-releases/2022/05/ftc-charges-twitter-deceptively-using-account-security-data-sell-targeted-ads'}],
-  snapchat:[{year:'2014',org:'미국 FTC',title:'사라지는 메시지 설명과 실제 기능의 차이',text:'FTC는 Snapchat 메시지가 완전히 사라진다고 오해하게 만들었지만 이용자가 저장할 방법이 존재했다며 문제를 제기했고, 회사는 개인정보 보호 프로그램을 운영하기로 합의했습니다.',url:'https://www.ftc.gov/news-events/news/press-releases/2014/05/snapchat-settles-ftc-charges-promises-disappearing-messages-were-false'}],
-  zoom:[{year:'2020',org:'미국 FTC',title:'화상회의 보안 수준을 과장한 문제',text:'FTC는 Zoom이 암호화 수준을 실제보다 강하게 설명하는 등 보안 관행을 잘못 알렸다고 판단했고, 회사는 강화된 보안 프로그램을 시행하기로 합의했습니다.',url:'https://www.ftc.gov/news-events/news/press-releases/2020/11/ftc-requires-zoom-enhance-its-security-practices-part-settlement'}],
-  primevideo:[{year:'2025',org:'미국 FTC',title:'원치 않은 Prime 가입과 어려운 해지',text:'FTC는 소비자가 동의하지 않은 Prime 가입과 복잡한 해지 절차로 피해를 봤다며, 환급을 포함한 25억 달러 규모의 합의를 발표했습니다.',url:'https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-secures-historic-25-billion-settlement-against-amazon'}],
-  uber:[{year:'2018',org:'미국 FTC',title:'대규모 정보 유출 사실을 늦게 공개',text:'Uber는 이용자와 운전자 정보 유출 사실이 뒤늦게 드러난 뒤 기존 FTC 합의를 확대해 독립적인 개인정보 보호 감사를 받기로 했습니다.',url:'https://www.ftc.gov/news-events/news/press-releases/2018/04/uber-agrees-expanded-settlement-ftc-related-privacy-security-claims'}],
-  airbnb:[{year:'2019',org:'네덜란드 소비자시장청',title:'처음 본 가격과 최종 비용의 차이',text:'소비자 당국의 조치 뒤 Airbnb는 검색 단계부터 피할 수 없는 비용을 포함한 총액을 표시하고, 숙소 제공자가 개인인지 사업자인지 더 분명히 알리도록 방식을 바꿨습니다.',url:'https://www.acm.nl/en/publications/airbnb-will-now-use-clearer-prices-and-fairer-conditions'}],
-  linkedin:[{year:'2024',org:'아일랜드 DPC',title:'맞춤 광고를 위한 개인정보 처리 문제',text:'아일랜드 개인정보 감독기관은 LinkedIn이 행동 분석과 맞춤 광고를 위해 개인정보를 처리하면서 적절한 법적 근거를 갖추지 못했다고 판단해 3억1천만 유로의 과징금을 부과했습니다.',url:'https://www.reuters.com/technology/eu-privacy-regulator-fines-linkedin-310-mln-euro-2024-10-24/'}],
-  discord:[{year:'2025',org:'Discord 공지',title:'외부 고객지원 업체에서 발생한 정보 유출',text:'Discord는 외부 고객지원 업체가 침해돼 일부 이용자의 이름, 이메일, 결제수단 끝 네 자리 등이 노출됐다고 밝혔습니다. Discord 자체 시스템이 직접 침해된 사건은 아니었습니다.',url:'https://www.theverge.com/news/792032/discord-customer-service-data-breach-hack'}],
-  twitch:[{year:'2021',org:'Twitch 공지',title:'서버 설정 오류로 인한 데이터 노출',text:'Twitch는 서버 설정 변경 오류 때문에 일부 데이터가 외부에 노출됐다고 밝혔고, 예방 조치로 전체 스트림 키를 초기화했습니다.',url:'https://blog.twitch.tv/en/2021/10/06/updates-on-the-twitch-security-incident/'}],
-  reddit:[{year:'2023',org:'Reddit 공지',title:'직원 대상 피싱으로 내부 정보 접근',text:'Reddit는 직원 대상 피싱 공격으로 한 직원의 자격 증명이 탈취돼 일부 내부 문서와 연락처 정보에 접근이 발생했다고 밝혔습니다.',url:'https://www.reddit.com/r/reddit/comments/10y427y/we_had_a_security_incident_heres_what_we_know/'}],
-  kakaotalk:[{year:'2024',org:'대한민국 개인정보보호위원회',title:'오픈채팅 이용자 정보 유출',text:'개인정보보호위원회는 카카오톡 오픈채팅 이용자 정보가 불법 거래된 사건과 관련해 카카오의 안전조치가 부족했다고 판단하고 과징금과 시정명령을 부과했습니다.',url:'https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=10180'}],
-  aliexpress:[{year:'2024',org:'대한민국 개인정보보호위원회',title:'개인정보 국외 이전 고지 문제',text:'개인정보보호위원회는 AliExpress가 국내 이용자 개인정보를 해외 판매자에게 제공하면서 필요한 고지와 보호조치를 충분히 이행하지 않았다고 판단해 과징금과 시정명령을 부과했습니다.',url:'https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=10386'}],
-  adobe:[{year:'2024',org:'미국 FTC',title:'중도해지 수수료 고지와 해지 절차 문제',text:'FTC는 Adobe가 연간 약정의 중도해지 수수료를 충분히 알리지 않고 해지를 어렵게 했다고 제소했습니다.',url:'https://www.ftc.gov/news-events/news/press-releases/2024/06/ftc-takes-action-against-adobe-executives-hiding-fees-preventing-consumers-easily-cancelling'}],
-  epicgames:[{year:'2023',org:'미국 FTC',title:'의도하지 않은 게임 내 결제',text:'FTC는 Fortnite의 버튼 배치와 결제 절차가 원치 않는 구매를 유발했다며 Epic Games에 소비자 환급을 명령했습니다.',url:'https://www.ftc.gov/news-events/news/press-releases/2023/03/ftc-finalizes-order-requiring-fortnite-maker-epic-games-pay-245-million-tricking-users-making'}]
-  ,instagram:[{year:'2022',org:'아일랜드 DPC',title:'아동 계정의 연락처 공개와 기본 공개 설정',text:'아일랜드 개인정보 감독기관은 아동 이용자의 이메일·전화번호 공개와 계정의 공개 기본 설정 등 개인정보 처리 문제를 확인해 4억500만 유로의 과징금을 부과했습니다.',url:'https://dataprotection.ie/en/dpc-guidance/decisions/inquiry-concerning-processing-personal-data-relating-child-users-instagram-social-networking-service'}]
-  ,netflix:[{year:'2020',org:'대한민국 공정거래위원회',title:'일방적 요금 변경 등 불공정 약관 시정',text:'공정거래위원회는 Netflix 약관에서 일방적인 요금 변경, 회원 책임 없는 손해배상 제한 등 불공정 조항을 확인해 자진 시정하도록 했습니다.',url:'https://www.ftc.go.kr/www/selectBbsNttView.do?bordCd=3&key=12&nttSn=41373&pageIndex=8&pageUnit=10&rltnNttSn=37069&searchCnd=all&searchCtgry=01%2C02&searchViolt=100'}]
-  ,spotify:[{year:'2023',org:'스웨덴 IMY·유럽 EDPB',title:'개인정보 열람 답변의 투명성 부족',text:'스웨덴 개인정보 감독기관은 이용자가 자신의 개인정보가 어떻게 쓰이는지 이해하기 어렵게 안내한 문제 등을 확인해 Spotify에 과징금을 부과했습니다.',url:'https://www.edpb.europa.eu/news/national-news/2023/imy-issues-administrative-fine-against-spotify-shortcomings-regarding_pl'}]
-  ,google:[{year:'2022',org:'대한민국 개인정보보호위원회',title:'이용자 행태정보 수집·맞춤광고 제재',text:'개인정보보호위원회는 Google이 이용자의 다른 웹사이트·앱 이용 행태정보를 수집·분석해 맞춤형 광고에 활용하면서 적법한 동의를 충분히 받지 않았다고 판단해 제재했습니다.',url:'https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?amp=1&bbsId=BS074&mCode=C020010000&nttId=8221'}]
-  ,xbox:[{year:'2023',org:'미국 FTC',title:'아동 계정 개인정보 수집 문제',text:'FTC는 Microsoft가 부모 동의 전에 Xbox 아동 이용자의 개인정보를 수집·보관한 문제로 2천만 달러를 지급하고 가입 절차를 개선하기로 했다고 밝혔습니다.',url:'https://www.ftc.gov/news-events/news/press-releases/2023/06/ftc-will-require-microsoft-pay-20-million-over-charges-it-illegally-collected-personal-information'}]
-  ,canva:[{year:'2019',org:'Canva 공지',title:'계정 정보가 포함된 보안 사고',text:'Canva는 2019년 보안 사고로 일부 이용자의 이름, 이메일 주소와 암호화된 비밀번호 등 계정 정보가 영향을 받았다고 공지했습니다.',url:'https://www.canva.com/help/incident-may24/'}]
-  ,dropbox:[{year:'2016',org:'Dropbox 공지',title:'2012년 유출 계정 정보 재확인',text:'Dropbox는 2012년 사건과 관련된 이용자 이메일과 해시된 비밀번호 정보가 추가로 확인돼 해당 이용자의 비밀번호를 초기화했다고 밝혔습니다.',url:'https://blog.dropbox.com/topics/company/resetting-passwords-to-keep-your-files-safe'}]
-  ,slack:[{year:'2015',org:'Slack 공지',title:'사용자 데이터베이스 무단 접근',text:'Slack은 사용자 데이터베이스에 대한 무단 접근이 발생해 일부 계정 정보가 영향을 받았다고 밝히고 비밀번호 초기화와 2단계 인증 도입 조치를 안내했습니다.',url:'https://slack.com/blog/news/new-information-2015-incident'}]
-  ,shein:[{year:'2018',org:'SHEIN 고객 통지',title:'고객 계정 정보가 포함된 사이버 공격',text:'SHEIN은 2018년 사이버 공격으로 일부 고객의 이메일 주소와 암호화된 비밀번호 등 계정 정보가 탈취됐다고 이용자에게 알렸습니다.',url:'https://dojmt.gov/wp-content/uploads/Shein-1.pdf'}]
-  ,disneyplus:[{year:'2026',org:'미국 캘리포니아주 법무부',title:'Disney 계정의 개인정보 선택권 문제',text:'캘리포니아주 법무부는 스트리밍 서비스를 포함한 Disney 계정에서 개인정보 판매·공유 거부 선택과 관련한 문제를 제기했고, Disney는 합의금과 시정 조건에 동의했습니다.',url:'https://oag.ca.gov/news/press-releases/california-wont-let-it-go-attorney-general-bonta-announces-275-million'}]
-  ,line:[{year:'2025',org:'LY Corporation 공지',title:'LINE 공식 계정 정보의 오표시·노출',text:'LINE 운영사는 LINE 공식 계정의 일부 정보가 잘못 표시되거나 노출된 문제를 확인하고 대상과 대응 내용을 보안 공지에 게시했습니다.',url:'https://www.lycorp.co.jp/en/privacy-security/announcement/'}]
-  ,tving:[{year:'2026',org:'TVING 공지·언론 보도',title:'이용자 개인정보 유출 사고',text:'TVING은 이용자 개인정보 유출 사고를 공지하고 사과와 피해 지원 절차를 안내했습니다. 비밀번호 재사용 이용자는 다른 서비스의 비밀번호도 함께 변경하는 편이 안전합니다.',url:'https://nwww.newsis.com/view/NISX20260906_0003778177'}]
-  ,temu:[{year:'2026',org:'유럽연합 집행위원회',title:'불법 상품 판매 위험 관리 미흡 제재',text:'유럽연합 집행위원회는 Temu가 불법 상품이 판매될 위험을 충분히 평가·완화하지 못했다고 판단해 디지털서비스법에 따른 과징금을 부과했습니다.',url:'https://www.reuters.com/world/china/temu-fined-232-million-breaching-eu-rules-sale-illegal-products-2026-05-28/'}]
+  "coupang": [
+    {
+      "year": "2026",
+      "org": "대한민국 개인정보보호위원회",
+      "title": "대규모 개인정보 유출과 안전조치 미흡 제재",
+      "text": "개인정보보호위원회는 대규모 이용자 정보 유출, 안전조치 미흡, 법적 근거 없는 이용기록 수집 등을 확인해 과징금·과태료와 시정명령을 의결했습니다.",
+      "url": "https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=D010030000&nttId=12171",
+      "serviceName": "쿠팡",
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "아래 사건의 출처와 요약 대조 · 이후 절차 전체 검수 아님"
+    }
+  ],
+  "disneyplus": [
+    {
+      "year": "2026",
+      "org": "미국 캘리포니아주 법무부",
+      "title": "Disney 계정의 개인정보 선택권 문제",
+      "text": "캘리포니아주 법무부는 스트리밍 서비스를 포함한 Disney 계정에서 개인정보 판매·공유 거부 선택과 관련한 문제를 제기했고, Disney는 합의금과 시정 조건에 동의했습니다.",
+      "url": "https://oag.ca.gov/news/press-releases/california-wont-let-it-go-attorney-general-bonta-announces-275-million",
+      "serviceName": "Disney+",
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "아래 사건의 출처와 요약 대조 · 이후 절차 전체 검수 아님"
+    }
+  ],
+  "tving": [
+    {
+      "year": "2026",
+      "org": "TVING 공지·언론 보도",
+      "title": "이용자 개인정보 유출 사고",
+      "text": "2026년 9월 보도에 따르면 TVING은 개인정보 유출 사고에 대해 사과하고 보험금·포인트 지원 신청 절차를 안내했습니다. 당시 공지된 신청 기간은 9월 7~30일로, 이 보도만으로 현재도 신청할 수 있다고 해석하면 안 됩니다.",
+      "url": "https://nwww.newsis.com/view/NISX20260906_0003778177",
+      "serviceName": "TVING",
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "아래 사건의 출처와 요약 대조 · 이후 절차 전체 검수 아님"
+    }
+  ],
+  "temu": [
+    {
+      "year": "2026",
+      "org": "Reuters 보도 · 유럽연합 집행위원회 조치",
+      "title": "불법 상품 판매 위험 관리 미흡 제재",
+      "text": "2026년 5월 Reuters는 EU 집행위원회가 불법 상품의 위험 평가 미흡을 이유로 Temu에 2억 유로의 과징금을 부과했다고 보도했습니다. Temu는 결정에 이견을 표했습니다. 이후 이의 절차의 결론까지 확인한 사례는 아닙니다.",
+      "url": "https://www.reuters.com/world/china/temu-fined-232-million-breaching-eu-rules-sale-illegal-products-2026-05-28/",
+      "serviceName": "Temu",
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "아래 사건의 출처와 요약 대조 · 이후 절차 전체 검수 아님"
+    }
+  ]
 };
-window.caseAuditDate='2026. 9. 30.';
