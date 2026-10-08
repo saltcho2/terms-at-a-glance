@@ -1,0 +1,3689 @@
+{
+  "checkedAt": "2026. 10. 9. (한국 시간)",
+  "inventoryCount": 500,
+  "publishedServiceCount": 8,
+  "publishedItemCount": 24,
+  "pendingServiceCount": 492,
+  "sourceCaseCount": 32,
+  "publishedCaseCount": 4,
+  "linkProbe": {
+    "total": 925,
+    "errorsOrTimeouts": 204,
+    "otherResponses": 721,
+    "note": "HTTP 접속 점검만 수행. 401·403·429 포함. 정상 약관·최신 버전·내용 검수 완료 건수가 아님."
+  },
+  "completed": false,
+  "note": "게시된 서비스도 표시된 항목만 원문과 대조했습니다. 전체 서비스·전체 조항·모든 사례의 최신 상태 검수는 미완료입니다.",
+  "services": [
+    {
+      "key": "youtube",
+      "name": "YouTube",
+      "domain": "youtube.com",
+      "status": "partial-items-reviewed",
+      "reviewScope": "한국 지역 이용약관·Google 개인정보처리방침 중 아래 3개 항목 확인 · 유료 약관은 미검수"
+    },
+    {
+      "key": "netflix",
+      "name": "Netflix",
+      "domain": "netflix.com",
+      "status": "partial-items-reviewed",
+      "reviewScope": "한국어 공식 고객센터 중 해지·이용 목적 2개 항목 확인 · 전체 약관은 미검수"
+    },
+    {
+      "key": "temu",
+      "name": "Temu",
+      "domain": "temu.com",
+      "status": "partial-items-reviewed",
+      "reviewScope": "한국 이용약관 중 아래 3개 항목 확인 · 개인정보·반품 세부 정책은 미검수"
+    },
+    {
+      "key": "instagram",
+      "name": "Instagram",
+      "domain": "instagram.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "tiktok",
+      "name": "TikTok",
+      "domain": "tiktok.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "discord",
+      "name": "Discord",
+      "domain": "discord.com",
+      "status": "partial-items-reviewed",
+      "reviewScope": "국제 영문 약관·개인정보처리방침 중 아래 4개 항목 확인 · 유료 약관은 미검수"
+    },
+    {
+      "key": "spotify",
+      "name": "Spotify",
+      "domain": "spotify.com",
+      "status": "partial-items-reviewed",
+      "reviewScope": "한국 이용약관 중 아래 4개 항목 확인"
+    },
+    {
+      "key": "coupang",
+      "name": "쿠팡",
+      "domain": "coupang.com",
+      "status": "partial-items-reviewed",
+      "reviewScope": "개인정보처리방침 중 아래 3개 항목 확인 · 와우·환불 약관은 재검수 대기"
+    },
+    {
+      "key": "facebook",
+      "name": "Facebook",
+      "domain": "facebook.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "threads",
+      "name": "Threads",
+      "domain": "threads.net",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "x",
+      "name": "X",
+      "domain": "x.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "linkedin",
+      "name": "LinkedIn",
+      "domain": "linkedin.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "reddit",
+      "name": "Reddit",
+      "domain": "reddit.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "pinterest",
+      "name": "Pinterest",
+      "domain": "pinterest.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "snapchat",
+      "name": "Snapchat",
+      "domain": "snapchat.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "kakaotalk",
+      "name": "카카오톡",
+      "domain": "kakao.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "line",
+      "name": "LINE",
+      "domain": "line.me",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "telegram",
+      "name": "Telegram",
+      "domain": "telegram.org",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "twitch",
+      "name": "Twitch",
+      "domain": "twitch.tv",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "disneyplus",
+      "name": "Disney+",
+      "domain": "disneyplus.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "watcha",
+      "name": "왓챠",
+      "domain": "watcha.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "tving",
+      "name": "TVING",
+      "domain": "tving.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wavve",
+      "name": "Wavve",
+      "domain": "wavve.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "appletv",
+      "name": "Apple TV+",
+      "domain": "tv.apple.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "primevideo",
+      "name": "Prime Video",
+      "domain": "primevideo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "applemusic",
+      "name": "Apple Music",
+      "domain": "music.apple.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "melon",
+      "name": "멜론",
+      "domain": "melon.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "soundcloud",
+      "name": "SoundCloud",
+      "domain": "soundcloud.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "aliexpress",
+      "name": "AliExpress",
+      "domain": "aliexpress.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "shein",
+      "name": "SHEIN",
+      "domain": "shein.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "musinsa",
+      "name": "무신사",
+      "domain": "musinsa.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "zigzag",
+      "name": "지그재그",
+      "domain": "zigzag.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "elevenst",
+      "name": "11번가",
+      "domain": "11st.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "gmarket",
+      "name": "G마켓",
+      "domain": "gmarket.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ssg",
+      "name": "SSG.COM",
+      "domain": "ssg.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "baemin",
+      "name": "배달의민족",
+      "domain": "baemin.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "yogiyo",
+      "name": "요기요",
+      "domain": "yogiyo.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "google",
+      "name": "Google",
+      "domain": "google.com",
+      "status": "partial-items-reviewed",
+      "reviewScope": "개인정보처리방침 중 아래 2개 항목 확인 · 제품별 약관은 미검수"
+    },
+    {
+      "key": "microsoft",
+      "name": "Microsoft",
+      "domain": "microsoft.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "apple",
+      "name": "Apple iCloud",
+      "domain": "icloud.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "dropbox",
+      "name": "Dropbox",
+      "domain": "dropbox.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "notion",
+      "name": "Notion",
+      "domain": "notion.so",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "slack",
+      "name": "Slack",
+      "domain": "slack.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "zoom",
+      "name": "Zoom",
+      "domain": "zoom.us",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "canva",
+      "name": "Canva",
+      "domain": "canva.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "airbnb",
+      "name": "Airbnb",
+      "domain": "airbnb.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "booking",
+      "name": "Booking.com",
+      "domain": "booking.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "tripcom",
+      "name": "Trip.com",
+      "domain": "trip.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "uber",
+      "name": "Uber",
+      "domain": "uber.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "kakaot",
+      "name": "카카오 T",
+      "domain": "kakaomobility.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "mastodon",
+      "name": "Mastodon",
+      "domain": "mastodon.social",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "bluesky",
+      "name": "Bluesky",
+      "domain": "bsky.app",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "tumblr",
+      "name": "Tumblr",
+      "domain": "tumblr.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "quora",
+      "name": "Quora",
+      "domain": "quora.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "medium",
+      "name": "Medium",
+      "domain": "medium.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "vimeo",
+      "name": "Vimeo",
+      "domain": "vimeo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "flickr",
+      "name": "Flickr",
+      "domain": "flickr.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "weverse",
+      "name": "Weverse",
+      "domain": "weverse.io",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "band",
+      "name": "NAVER BAND",
+      "domain": "band.us",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "kakaostory",
+      "name": "카카오스토리",
+      "domain": "story.kakao.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "signal",
+      "name": "Signal",
+      "domain": "signal.org",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "nextdoor",
+      "name": "Nextdoor",
+      "domain": "nextdoor.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "clubhouse",
+      "name": "Clubhouse",
+      "domain": "clubhouse.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "behance",
+      "name": "Behance",
+      "domain": "behance.net",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "deviantart",
+      "name": "DeviantArt",
+      "domain": "deviantart.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "hulu",
+      "name": "Hulu",
+      "domain": "hulu.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "max",
+      "name": "Max",
+      "domain": "max.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "paramountplus",
+      "name": "Paramount+",
+      "domain": "paramountplus.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "peacock",
+      "name": "Peacock",
+      "domain": "peacocktv.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "crunchyroll",
+      "name": "Crunchyroll",
+      "domain": "crunchyroll.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "viki",
+      "name": "Rakuten Viki",
+      "domain": "viki.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "deezer",
+      "name": "Deezer",
+      "domain": "deezer.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "tidal",
+      "name": "TIDAL",
+      "domain": "tidal.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "amazonmusic",
+      "name": "Amazon Music",
+      "domain": "music.amazon.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "audible",
+      "name": "Audible",
+      "domain": "audible.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "bugs",
+      "name": "벅스",
+      "domain": "bugs.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "genie",
+      "name": "지니뮤직",
+      "domain": "genie.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "flo",
+      "name": "FLO",
+      "domain": "music-flo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "webtoon",
+      "name": "WEBTOON",
+      "domain": "webtoons.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "kakaopage",
+      "name": "카카오페이지",
+      "domain": "page.kakao.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "amazon",
+      "name": "Amazon",
+      "domain": "amazon.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ebay",
+      "name": "eBay",
+      "domain": "ebay.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "etsy",
+      "name": "Etsy",
+      "domain": "etsy.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "walmart",
+      "name": "Walmart",
+      "domain": "walmart.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "target",
+      "name": "Target",
+      "domain": "target.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "rakuten",
+      "name": "Rakuten",
+      "domain": "rakuten.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "qoo10",
+      "name": "Qoo10",
+      "domain": "qoo10.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "mercadolibre",
+      "name": "Mercado Libre",
+      "domain": "mercadolibre.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "poshmark",
+      "name": "Poshmark",
+      "domain": "poshmark.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "depop",
+      "name": "Depop",
+      "domain": "depop.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "stockx",
+      "name": "StockX",
+      "domain": "stockx.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "kream",
+      "name": "KREAM",
+      "domain": "kream.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "navershopping",
+      "name": "네이버쇼핑",
+      "domain": "shopping.naver.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "kurly",
+      "name": "마켓컬리",
+      "domain": "kurly.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "lotteon",
+      "name": "롯데ON",
+      "domain": "lotteon.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "homeplus",
+      "name": "홈플러스",
+      "domain": "homeplus.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ikea",
+      "name": "IKEA",
+      "domain": "ikea.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "sephora",
+      "name": "Sephora",
+      "domain": "sephora.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "oliveyoung",
+      "name": "올리브영",
+      "domain": "oliveyoung.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "daiso",
+      "name": "다이소몰",
+      "domain": "daisomall.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "github",
+      "name": "GitHub",
+      "domain": "github.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "gitlab",
+      "name": "GitLab",
+      "domain": "gitlab.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "atlassian",
+      "name": "Atlassian",
+      "domain": "atlassian.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "trello",
+      "name": "Trello",
+      "domain": "trello.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "asana",
+      "name": "Asana",
+      "domain": "asana.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "clickup",
+      "name": "ClickUp",
+      "domain": "clickup.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "monday",
+      "name": "monday.com",
+      "domain": "monday.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "figma",
+      "name": "Figma",
+      "domain": "figma.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "miro",
+      "name": "Miro",
+      "domain": "miro.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "evernote",
+      "name": "Evernote",
+      "domain": "evernote.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "todoist",
+      "name": "Todoist",
+      "domain": "todoist.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "box",
+      "name": "Box",
+      "domain": "box.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "adobe",
+      "name": "Adobe",
+      "domain": "adobe.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "docusign",
+      "name": "DocuSign",
+      "domain": "docusign.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "grammarly",
+      "name": "Grammarly",
+      "domain": "grammarly.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "calendly",
+      "name": "Calendly",
+      "domain": "calendly.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "chatgpt",
+      "name": "ChatGPT",
+      "domain": "chatgpt.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "claude",
+      "name": "Claude",
+      "domain": "claude.ai",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "perplexity",
+      "name": "Perplexity",
+      "domain": "perplexity.ai",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "gemini",
+      "name": "Google Gemini",
+      "domain": "gemini.google.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "expedia",
+      "name": "Expedia",
+      "domain": "expedia.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "agoda",
+      "name": "Agoda",
+      "domain": "agoda.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "hotelscom",
+      "name": "Hotels.com",
+      "domain": "hotels.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "kayak",
+      "name": "KAYAK",
+      "domain": "kayak.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "skyscanner",
+      "name": "Skyscanner",
+      "domain": "skyscanner.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "tripadvisor",
+      "name": "Tripadvisor",
+      "domain": "tripadvisor.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "lyft",
+      "name": "Lyft",
+      "domain": "lyft.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "grab",
+      "name": "Grab",
+      "domain": "grab.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "bolt",
+      "name": "Bolt",
+      "domain": "bolt.eu",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "turo",
+      "name": "Turo",
+      "domain": "turo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "klook",
+      "name": "Klook",
+      "domain": "klook.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "myrealtrip",
+      "name": "마이리얼트립",
+      "domain": "myrealtrip.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "yeogi",
+      "name": "여기어때",
+      "domain": "yeogi.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "yanolja",
+      "name": "야놀자",
+      "domain": "yanolja.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "korail",
+      "name": "코레일",
+      "domain": "letskorail.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "steam",
+      "name": "Steam",
+      "domain": "steampowered.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "epicgames",
+      "name": "Epic Games",
+      "domain": "epicgames.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "playstation",
+      "name": "PlayStation",
+      "domain": "playstation.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "xbox",
+      "name": "Xbox",
+      "domain": "xbox.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "nintendo",
+      "name": "Nintendo",
+      "domain": "nintendo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "roblox",
+      "name": "Roblox",
+      "domain": "roblox.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "riotgames",
+      "name": "Riot Games",
+      "domain": "riotgames.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "battlenet",
+      "name": "Battle.net",
+      "domain": "battle.net",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ea",
+      "name": "Electronic Arts",
+      "domain": "ea.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ubisoft",
+      "name": "Ubisoft",
+      "domain": "ubisoft.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "nexon",
+      "name": "넥슨",
+      "domain": "nexon.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "duolingo",
+      "name": "Duolingo",
+      "domain": "duolingo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "coursera",
+      "name": "Coursera",
+      "domain": "coursera.org",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "udemy",
+      "name": "Udemy",
+      "domain": "udemy.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "quizlet",
+      "name": "Quizlet",
+      "domain": "quizlet.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "whatsapp",
+      "name": "WhatsApp",
+      "domain": "whatsapp.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "messenger",
+      "name": "Messenger",
+      "domain": "messenger.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wechat",
+      "name": "WeChat",
+      "domain": "wechat.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "qq",
+      "name": "QQ",
+      "domain": "im.qq.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "viber",
+      "name": "Viber",
+      "domain": "viber.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "imo",
+      "name": "imo",
+      "domain": "imo.im",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "meetup",
+      "name": "Meetup",
+      "domain": "meetup.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "vk",
+      "name": "VK",
+      "domain": "vk.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "okru",
+      "name": "OK",
+      "domain": "ok.ru",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "truthsocial",
+      "name": "Truth Social",
+      "domain": "truthsocial.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "parler",
+      "name": "Parler",
+      "domain": "parler.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "gab",
+      "name": "Gab",
+      "domain": "gab.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "lemmy",
+      "name": "Lemmy",
+      "domain": "join-lemmy.org",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "fivehundredpx",
+      "name": "500px",
+      "domain": "500px.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "imgur",
+      "name": "Imgur",
+      "domain": "imgur.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "giphy",
+      "name": "GIPHY",
+      "domain": "giphy.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "dribbble",
+      "name": "Dribbble",
+      "domain": "dribbble.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "artstation",
+      "name": "ArtStation",
+      "domain": "artstation.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "patreon",
+      "name": "Patreon",
+      "domain": "patreon.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "kofi",
+      "name": "Ko-fi",
+      "domain": "ko-fi.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "buymeacoffee",
+      "name": "Buy Me a Coffee",
+      "domain": "buymeacoffee.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "substack",
+      "name": "Substack",
+      "domain": "substack.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wordpress",
+      "name": "WordPress.com",
+      "domain": "wordpress.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "blogger",
+      "name": "Blogger",
+      "domain": "blogger.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "disqus",
+      "name": "Disqus",
+      "domain": "disqus.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "youtubemusic",
+      "name": "YouTube Music",
+      "domain": "music.youtube.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "pandora",
+      "name": "Pandora",
+      "domain": "pandora.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "iheartradio",
+      "name": "iHeartRadio",
+      "domain": "iheart.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "tunein",
+      "name": "TuneIn",
+      "domain": "tunein.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "plex",
+      "name": "Plex",
+      "domain": "plex.tv",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "roku",
+      "name": "Roku",
+      "domain": "roku.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "tubi",
+      "name": "Tubi",
+      "domain": "tubitv.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "plutotv",
+      "name": "Pluto TV",
+      "domain": "pluto.tv",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "mubi",
+      "name": "MUBI",
+      "domain": "mubi.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "criterion",
+      "name": "Criterion Channel",
+      "domain": "criterionchannel.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "discoveryplus",
+      "name": "discovery+",
+      "domain": "discoveryplus.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "espnplus",
+      "name": "ESPN+",
+      "domain": "plus.espn.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "sling",
+      "name": "Sling TV",
+      "domain": "sling.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "fubotv",
+      "name": "Fubo",
+      "domain": "fubo.tv",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "dazn",
+      "name": "DAZN",
+      "domain": "dazn.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "soop",
+      "name": "SOOP",
+      "domain": "sooplive.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "chzzk",
+      "name": "CHZZK",
+      "domain": "chzzk.naver.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "kick",
+      "name": "Kick",
+      "domain": "kick.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "storytel",
+      "name": "Storytel",
+      "domain": "storytel.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "scribd",
+      "name": "Everand",
+      "domain": "everand.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "podbean",
+      "name": "Podbean",
+      "domain": "podbean.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "pocketcasts",
+      "name": "Pocket Casts",
+      "domain": "pocketcasts.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "castbox",
+      "name": "Castbox",
+      "domain": "castbox.fm",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "qobuz",
+      "name": "Qobuz",
+      "domain": "qobuz.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "bandcamp",
+      "name": "Bandcamp",
+      "domain": "bandcamp.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "bestbuy",
+      "name": "Best Buy",
+      "domain": "bestbuy.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "homedepot",
+      "name": "The Home Depot",
+      "domain": "homedepot.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wayfair",
+      "name": "Wayfair",
+      "domain": "wayfair.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wish",
+      "name": "Wish",
+      "domain": "wish.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "zalando",
+      "name": "Zalando",
+      "domain": "zalando.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "asos",
+      "name": "ASOS",
+      "domain": "asos.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "farfetch",
+      "name": "FARFETCH",
+      "domain": "farfetch.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "uniqlo",
+      "name": "UNIQLO",
+      "domain": "uniqlo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "hm",
+      "name": "H&M",
+      "domain": "hm.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ably",
+      "name": "에이블리",
+      "domain": "a-bly.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "queenit",
+      "name": "퀸잇",
+      "domain": "queenit.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "karrot",
+      "name": "당근",
+      "domain": "daangn.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "bunjang",
+      "name": "번개장터",
+      "domain": "bunjang.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "auction",
+      "name": "옥션",
+      "domain": "auction.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "coupangeats",
+      "name": "쿠팡이츠",
+      "domain": "coupangeats.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "doordash",
+      "name": "DoorDash",
+      "domain": "doordash.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "instacart",
+      "name": "Instacart",
+      "domain": "instacart.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "deliveroo",
+      "name": "Deliveroo",
+      "domain": "deliveroo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "foodpanda",
+      "name": "foodpanda",
+      "domain": "foodpanda.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ubereats",
+      "name": "Uber Eats",
+      "domain": "ubereats.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "costco",
+      "name": "Costco",
+      "domain": "costco.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "macys",
+      "name": "Macy’s",
+      "domain": "macys.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "nordstrom",
+      "name": "Nordstrom",
+      "domain": "nordstrom.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "iherb",
+      "name": "iHerb",
+      "domain": "iherb.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "samsungshop",
+      "name": "Samsung Shop",
+      "domain": "samsung.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "onedrive",
+      "name": "OneDrive",
+      "domain": "onedrive.live.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "googleworkspace",
+      "name": "Google Workspace",
+      "domain": "workspace.google.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "gmail",
+      "name": "Gmail",
+      "domain": "mail.google.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "outlook",
+      "name": "Outlook",
+      "domain": "outlook.live.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "yahoomail",
+      "name": "Yahoo Mail",
+      "domain": "mail.yahoo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "protonmail",
+      "name": "Proton Mail",
+      "domain": "proton.me",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "protondrive",
+      "name": "Proton Drive",
+      "domain": "drive.proton.me",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wetransfer",
+      "name": "WeTransfer",
+      "domain": "wetransfer.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "mega",
+      "name": "MEGA",
+      "domain": "mega.io",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "pcloud",
+      "name": "pCloud",
+      "domain": "pcloud.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "linear",
+      "name": "Linear",
+      "domain": "linear.app",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "airtable",
+      "name": "Airtable",
+      "domain": "airtable.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "basecamp",
+      "name": "Basecamp",
+      "domain": "basecamp.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "smartsheet",
+      "name": "Smartsheet",
+      "domain": "smartsheet.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wrike",
+      "name": "Wrike",
+      "domain": "wrike.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "zoho",
+      "name": "Zoho",
+      "domain": "zoho.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "hubspot",
+      "name": "HubSpot",
+      "domain": "hubspot.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "salesforce",
+      "name": "Salesforce",
+      "domain": "salesforce.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "zendesk",
+      "name": "Zendesk",
+      "domain": "zendesk.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "intercom",
+      "name": "Intercom",
+      "domain": "intercom.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "mailchimp",
+      "name": "Mailchimp",
+      "domain": "mailchimp.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "typeform",
+      "name": "Typeform",
+      "domain": "typeform.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "jotform",
+      "name": "Jotform",
+      "domain": "jotform.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "surveymonkey",
+      "name": "SurveyMonkey",
+      "domain": "surveymonkey.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "loom",
+      "name": "Loom",
+      "domain": "loom.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "webex",
+      "name": "Webex",
+      "domain": "webex.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "teams",
+      "name": "Microsoft Teams",
+      "domain": "teams.microsoft.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "googlemeet",
+      "name": "Google Meet",
+      "domain": "meet.google.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "obsidian",
+      "name": "Obsidian",
+      "domain": "obsidian.md",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "replit",
+      "name": "Replit",
+      "domain": "replit.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "codesandbox",
+      "name": "CodeSandbox",
+      "domain": "codesandbox.io",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "vercel",
+      "name": "Vercel",
+      "domain": "vercel.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "netlify",
+      "name": "Netlify",
+      "domain": "netlify.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "cloudflare",
+      "name": "Cloudflare",
+      "domain": "cloudflare.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "digitalocean",
+      "name": "DigitalOcean",
+      "domain": "digitalocean.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "googlemaps",
+      "name": "Google Maps",
+      "domain": "maps.google.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "waze",
+      "name": "Waze",
+      "domain": "waze.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "citymapper",
+      "name": "Citymapper",
+      "domain": "citymapper.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "moovit",
+      "name": "Moovit",
+      "domain": "moovitapp.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "lime",
+      "name": "Lime",
+      "domain": "li.me",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "bird",
+      "name": "Bird",
+      "domain": "bird.co",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "getaround",
+      "name": "Getaround",
+      "domain": "getaround.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "sixt",
+      "name": "SIXT",
+      "domain": "sixt.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "hertz",
+      "name": "Hertz",
+      "domain": "hertz.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "avis",
+      "name": "Avis",
+      "domain": "avis.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "rentalcars",
+      "name": "Rentalcars.com",
+      "domain": "rentalcars.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "hopper",
+      "name": "Hopper",
+      "domain": "hopper.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "traveloka",
+      "name": "Traveloka",
+      "domain": "traveloka.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "omio",
+      "name": "Omio",
+      "domain": "omio.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "trainline",
+      "name": "Trainline",
+      "domain": "thetrainline.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "paypal",
+      "name": "PayPal",
+      "domain": "paypal.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "venmo",
+      "name": "Venmo",
+      "domain": "venmo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "cashapp",
+      "name": "Cash App",
+      "domain": "cash.app",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wise",
+      "name": "Wise",
+      "domain": "wise.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "revolut",
+      "name": "Revolut",
+      "domain": "revolut.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "coinbase",
+      "name": "Coinbase",
+      "domain": "coinbase.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "binance",
+      "name": "Binance",
+      "domain": "binance.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "robinhood",
+      "name": "Robinhood",
+      "domain": "robinhood.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "tinder",
+      "name": "Tinder",
+      "domain": "tinder.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "bumble",
+      "name": "Bumble",
+      "domain": "bumble.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "hinge",
+      "name": "Hinge",
+      "domain": "hinge.co",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "okcupid",
+      "name": "OkCupid",
+      "domain": "okcupid.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "match",
+      "name": "Match",
+      "domain": "match.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "strava",
+      "name": "Strava",
+      "domain": "strava.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "fitbit",
+      "name": "Fitbit",
+      "domain": "fitbit.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "myfitnesspal",
+      "name": "MyFitnessPal",
+      "domain": "myfitnesspal.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "calm",
+      "name": "Calm",
+      "domain": "calm.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "indeed",
+      "name": "Indeed",
+      "domain": "indeed.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "glassdoor",
+      "name": "Glassdoor",
+      "domain": "glassdoor.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "upwork",
+      "name": "Upwork",
+      "domain": "upwork.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "fiverr",
+      "name": "Fiverr",
+      "domain": "fiverr.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "khanacademy",
+      "name": "Khan Academy",
+      "domain": "khanacademy.org",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "edx",
+      "name": "edX",
+      "domain": "edx.org",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "skillshare",
+      "name": "Skillshare",
+      "domain": "skillshare.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "codecademy",
+      "name": "Codecademy",
+      "domain": "codecademy.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "grok",
+      "name": "Grok",
+      "domain": "x.ai",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "midjourney",
+      "name": "Midjourney",
+      "domain": "midjourney.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "runway",
+      "name": "Runway",
+      "domain": "runwayml.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "leonardoai",
+      "name": "Leonardo AI",
+      "domain": "leonardo.ai",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "stabilityai",
+      "name": "Stability AI",
+      "domain": "stability.ai",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "huggingface",
+      "name": "Hugging Face",
+      "domain": "huggingface.co",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "replicate",
+      "name": "Replicate",
+      "domain": "replicate.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "poe",
+      "name": "Poe",
+      "domain": "poe.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "characterai",
+      "name": "Character.AI",
+      "domain": "character.ai",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "civitai",
+      "name": "Civitai",
+      "domain": "civitai.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "cursor",
+      "name": "Cursor",
+      "domain": "cursor.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "windsurf",
+      "name": "Windsurf",
+      "domain": "windsurf.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "lovable",
+      "name": "Lovable",
+      "domain": "lovable.dev",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "boltnew",
+      "name": "Bolt.new",
+      "domain": "bolt.new",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "v0",
+      "name": "v0",
+      "domain": "v0.dev",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "stackoverflow",
+      "name": "Stack Overflow",
+      "domain": "stackoverflow.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "npm",
+      "name": "npm",
+      "domain": "npmjs.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "pypi",
+      "name": "PyPI",
+      "domain": "pypi.org",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "dockerhub",
+      "name": "Docker Hub",
+      "domain": "hub.docker.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "docker",
+      "name": "Docker",
+      "domain": "docker.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "jetbrains",
+      "name": "JetBrains",
+      "domain": "jetbrains.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "vscode_market",
+      "name": "Visual Studio Marketplace",
+      "domain": "marketplace.visualstudio.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "unity",
+      "name": "Unity",
+      "domain": "unity.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "unrealengine",
+      "name": "Unreal Engine",
+      "domain": "unrealengine.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "sentry",
+      "name": "Sentry",
+      "domain": "sentry.io",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "datadog",
+      "name": "Datadog",
+      "domain": "datadoghq.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "newrelic",
+      "name": "New Relic",
+      "domain": "newrelic.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "grafana",
+      "name": "Grafana Cloud",
+      "domain": "grafana.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "mongodb",
+      "name": "MongoDB Atlas",
+      "domain": "mongodb.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "supabase",
+      "name": "Supabase",
+      "domain": "supabase.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "firebase",
+      "name": "Firebase",
+      "domain": "firebase.google.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "rendercloud",
+      "name": "Render",
+      "domain": "render.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "railway",
+      "name": "Railway",
+      "domain": "railway.app",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "flyio",
+      "name": "Fly.io",
+      "domain": "fly.io",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "heroku",
+      "name": "Heroku",
+      "domain": "heroku.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "linode",
+      "name": "Linode",
+      "domain": "linode.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "vultr",
+      "name": "Vultr",
+      "domain": "vultr.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ovhcloud",
+      "name": "OVHcloud",
+      "domain": "ovhcloud.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "namecheap",
+      "name": "Namecheap",
+      "domain": "namecheap.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "godaddy",
+      "name": "GoDaddy",
+      "domain": "godaddy.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "squarespace",
+      "name": "Squarespace",
+      "domain": "squarespace.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wix",
+      "name": "Wix",
+      "domain": "wix.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "shopify",
+      "name": "Shopify",
+      "domain": "shopify.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "woocommerce",
+      "name": "WooCommerce",
+      "domain": "woocommerce.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "dropboxsign",
+      "name": "Dropbox Sign",
+      "domain": "sign.dropbox.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "pandadoc",
+      "name": "PandaDoc",
+      "domain": "pandadoc.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "notability",
+      "name": "Notability",
+      "domain": "notability.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "goodnotes",
+      "name": "Goodnotes",
+      "domain": "goodnotes.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "bearnotes",
+      "name": "Bear",
+      "domain": "bear.app",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "craft",
+      "name": "Craft",
+      "domain": "craft.do",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "coda",
+      "name": "Coda",
+      "domain": "coda.io",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "roam",
+      "name": "Roam Research",
+      "domain": "roamresearch.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "tana",
+      "name": "Tana",
+      "domain": "tana.inc",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "anytype",
+      "name": "Anytype",
+      "domain": "anytype.io",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ticktick",
+      "name": "TickTick",
+      "domain": "ticktick.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "things",
+      "name": "Things",
+      "domain": "culturedcode.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "sunsama",
+      "name": "Sunsama",
+      "domain": "sunsama.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "motion",
+      "name": "Motion",
+      "domain": "usemotion.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "akiflow",
+      "name": "Akiflow",
+      "domain": "akiflow.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "fantastical",
+      "name": "Fantastical",
+      "domain": "flexibits.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "onepassword",
+      "name": "1Password",
+      "domain": "1password.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "bitwarden",
+      "name": "Bitwarden",
+      "domain": "bitwarden.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "lastpass",
+      "name": "LastPass",
+      "domain": "lastpass.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "dashlane",
+      "name": "Dashlane",
+      "domain": "dashlane.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "nordpass",
+      "name": "NordPass",
+      "domain": "nordpass.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "nordvpn",
+      "name": "NordVPN",
+      "domain": "nordvpn.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "expressvpn",
+      "name": "ExpressVPN",
+      "domain": "expressvpn.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "surfshark",
+      "name": "Surfshark",
+      "domain": "surfshark.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "mullvad",
+      "name": "Mullvad",
+      "domain": "mullvad.net",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "protonvpn",
+      "name": "Proton VPN",
+      "domain": "protonvpn.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "zapier",
+      "name": "Zapier",
+      "domain": "zapier.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "make",
+      "name": "Make",
+      "domain": "make.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ifttt",
+      "name": "IFTTT",
+      "domain": "ifttt.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "n8n",
+      "name": "n8n",
+      "domain": "n8n.io",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "buffer",
+      "name": "Buffer",
+      "domain": "buffer.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "hootsuite",
+      "name": "Hootsuite",
+      "domain": "hootsuite.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "later",
+      "name": "Later",
+      "domain": "later.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "sproutsocial",
+      "name": "Sprout Social",
+      "domain": "sproutsocial.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "klaviyo",
+      "name": "Klaviyo",
+      "domain": "klaviyo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "constantcontact",
+      "name": "Constant Contact",
+      "domain": "constantcontact.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "brevo",
+      "name": "Brevo",
+      "domain": "brevo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "kit",
+      "name": "Kit",
+      "domain": "kit.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ghost",
+      "name": "Ghost",
+      "domain": "ghost.org",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "freshworks",
+      "name": "Freshworks",
+      "domain": "freshworks.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "nebula",
+      "name": "Nebula",
+      "domain": "nebula.tv",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "curiositystream",
+      "name": "Curiosity Stream",
+      "domain": "curiositystream.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "britbox",
+      "name": "BritBox",
+      "domain": "britbox.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "shudder",
+      "name": "Shudder",
+      "domain": "shudder.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "acorntv",
+      "name": "Acorn TV",
+      "domain": "acorn.tv",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "viu",
+      "name": "Viu",
+      "domain": "viu.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "iqiyi",
+      "name": "iQIYI",
+      "domain": "iq.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wetv",
+      "name": "WeTV",
+      "domain": "wetv.vip",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "bilibili",
+      "name": "Bilibili",
+      "domain": "bilibili.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "niconico",
+      "name": "Niconico",
+      "domain": "nicovideo.jp",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "dailymotion",
+      "name": "Dailymotion",
+      "domain": "dailymotion.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "rumble",
+      "name": "Rumble",
+      "domain": "rumble.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wattpad",
+      "name": "Wattpad",
+      "domain": "wattpad.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ao3",
+      "name": "Archive of Our Own",
+      "domain": "archiveofourown.org",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "goodreads",
+      "name": "Goodreads",
+      "domain": "goodreads.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "scribdbooks",
+      "name": "Scribd",
+      "domain": "scribd.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "kobo",
+      "name": "Kobo",
+      "domain": "kobo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "googleplaybooks",
+      "name": "Google Play Books",
+      "domain": "play.google.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "applebooks",
+      "name": "Apple Books",
+      "domain": "books.apple.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "feedly",
+      "name": "Feedly",
+      "domain": "feedly.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "flipboard",
+      "name": "Flipboard",
+      "domain": "flipboard.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "inoreader",
+      "name": "Inoreader",
+      "domain": "inoreader.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "newsbreak",
+      "name": "NewsBreak",
+      "domain": "newsbreak.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "groundnews",
+      "name": "Ground News",
+      "domain": "ground.news",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "nytimes",
+      "name": "The New York Times",
+      "domain": "nytimes.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "washingtonpost",
+      "name": "The Washington Post",
+      "domain": "washingtonpost.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "guardian",
+      "name": "The Guardian",
+      "domain": "theguardian.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "financialtimes",
+      "name": "Financial Times",
+      "domain": "ft.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "bloomberg",
+      "name": "Bloomberg",
+      "domain": "bloomberg.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ted",
+      "name": "TED",
+      "domain": "ted.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "masterclass",
+      "name": "MasterClass",
+      "domain": "masterclass.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "brilliant",
+      "name": "Brilliant",
+      "domain": "brilliant.org",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "domestika",
+      "name": "Domestika",
+      "domain": "domestika.org",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "teachable",
+      "name": "Teachable",
+      "domain": "teachable.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "thinkific",
+      "name": "Thinkific",
+      "domain": "thinkific.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "naversmartstore",
+      "name": "네이버 스마트스토어",
+      "domain": "smartstore.naver.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "kakaoshopping",
+      "name": "카카오 쇼핑",
+      "domain": "shoppinghow.kakao.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ohouse",
+      "name": "오늘의집",
+      "domain": "ohou.se",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wconcept",
+      "name": "W Concept",
+      "domain": "wconcept.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "twentyninecm",
+      "name": "29CM",
+      "domain": "29cm.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "eql",
+      "name": "EQL",
+      "domain": "eqlstore.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "lfmall",
+      "name": "LFmall",
+      "domain": "lfmall.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "lottehomeshopping",
+      "name": "롯데홈쇼핑",
+      "domain": "lotteimall.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "gsshop",
+      "name": "GS SHOP",
+      "domain": "gsshop.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "cjonstyle",
+      "name": "CJ온스타일",
+      "domain": "cjonstyle.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "nsmall",
+      "name": "NS홈쇼핑",
+      "domain": "nsmall.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "akmall",
+      "name": "AK몰",
+      "domain": "akmall.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "hmall",
+      "name": "현대Hmall",
+      "domain": "hmall.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "interparkshopping",
+      "name": "인터파크 쇼핑",
+      "domain": "shopping.interpark.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "tenbyten",
+      "name": "텐바이텐",
+      "domain": "10x10.co.kr",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "idus",
+      "name": "아이디어스",
+      "domain": "idus.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "mercari",
+      "name": "Mercari",
+      "domain": "mercari.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "carousell",
+      "name": "Carousell",
+      "domain": "carousell.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "offerup",
+      "name": "OfferUp",
+      "domain": "offerup.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "vinted",
+      "name": "Vinted",
+      "domain": "vinted.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "grailed",
+      "name": "Grailed",
+      "domain": "grailed.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "goat",
+      "name": "GOAT",
+      "domain": "goat.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "therealreal",
+      "name": "The RealReal",
+      "domain": "therealreal.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "vestiaire",
+      "name": "Vestiaire Collective",
+      "domain": "vestiairecollective.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "newegg",
+      "name": "Newegg",
+      "domain": "newegg.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "bhphoto",
+      "name": "B&H Photo",
+      "domain": "bhphotovideo.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "microcenter",
+      "name": "Micro Center",
+      "domain": "microcenter.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "lowes",
+      "name": "Lowe’s",
+      "domain": "lowes.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "acehardware",
+      "name": "Ace Hardware",
+      "domain": "acehardware.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "walgreens",
+      "name": "Walgreens",
+      "domain": "walgreens.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "cvs",
+      "name": "CVS",
+      "domain": "cvs.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "boots",
+      "name": "Boots",
+      "domain": "boots.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "zalora",
+      "name": "Zalora",
+      "domain": "zalora.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "lazada",
+      "name": "Lazada",
+      "domain": "lazada.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "shopee",
+      "name": "Shopee",
+      "domain": "shopee.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "stripe",
+      "name": "Stripe",
+      "domain": "stripe.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "square",
+      "name": "Square",
+      "domain": "squareup.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "adyen",
+      "name": "Adyen",
+      "domain": "adyen.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "klarna",
+      "name": "Klarna",
+      "domain": "klarna.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "afterpay",
+      "name": "Afterpay",
+      "domain": "afterpay.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "affirm",
+      "name": "Affirm",
+      "domain": "affirm.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "remitly",
+      "name": "Remitly",
+      "domain": "remitly.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "westernunion",
+      "name": "Western Union",
+      "domain": "westernunion.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "moneygram",
+      "name": "MoneyGram",
+      "domain": "moneygram.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "skrill",
+      "name": "Skrill",
+      "domain": "skrill.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "neteller",
+      "name": "Neteller",
+      "domain": "neteller.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "payoneer",
+      "name": "Payoneer",
+      "domain": "payoneer.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "kakaopay",
+      "name": "카카오페이",
+      "domain": "kakaopay.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "naverpay",
+      "name": "네이버페이",
+      "domain": "pay.naver.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "toss",
+      "name": "토스",
+      "domain": "toss.im",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "samsungpay",
+      "name": "Samsung Wallet",
+      "domain": "samsungwallet.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "googlepay",
+      "name": "Google Pay",
+      "domain": "pay.google.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "applepay",
+      "name": "Apple Pay",
+      "domain": "apple.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "sofi",
+      "name": "SoFi",
+      "domain": "sofi.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wealthfront",
+      "name": "Wealthfront",
+      "domain": "wealthfront.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "alltrails",
+      "name": "AllTrails",
+      "domain": "alltrails.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "komoot",
+      "name": "Komoot",
+      "domain": "komoot.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "wikiloc",
+      "name": "Wikiloc",
+      "domain": "wikiloc.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "classpass",
+      "name": "ClassPass",
+      "domain": "classpass.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "headspace",
+      "name": "Headspace",
+      "domain": "headspace.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "betterhelp",
+      "name": "BetterHelp",
+      "domain": "betterhelp.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "noom",
+      "name": "Noom",
+      "domain": "noom.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "flohealth",
+      "name": "Flo",
+      "domain": "flo.health",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "sleepcycle",
+      "name": "Sleep Cycle",
+      "domain": "sleepcycle.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "garminconnect",
+      "name": "Garmin Connect",
+      "domain": "connect.garmin.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "peloton",
+      "name": "Peloton",
+      "domain": "onepeloton.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "nikeclub",
+      "name": "Nike Run Club",
+      "domain": "nike.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "adidasrunning",
+      "name": "adidas Running",
+      "domain": "adidas.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "lululemon",
+      "name": "lululemon",
+      "domain": "lululemon.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "choiceprivileges",
+      "name": "Choice Privileges",
+      "domain": "choicehotels.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "hilton",
+      "name": "Hilton Honors",
+      "domain": "hilton.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "marriott",
+      "name": "Marriott Bonvoy",
+      "domain": "marriott.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "hyatt",
+      "name": "World of Hyatt",
+      "domain": "hyatt.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ihg",
+      "name": "IHG One Rewards",
+      "domain": "ihg.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "accor",
+      "name": "ALL Accor",
+      "domain": "all.accor.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "airasia",
+      "name": "AirAsia",
+      "domain": "airasia.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "ryanair",
+      "name": "Ryanair",
+      "domain": "ryanair.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "easyjet",
+      "name": "easyJet",
+      "domain": "easyjet.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "emirates",
+      "name": "Emirates",
+      "domain": "emirates.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "qatarairways",
+      "name": "Qatar Airways",
+      "domain": "qatarairways.com",
+      "status": "pending-not-published",
+      "reviewScope": null
+    },
+    {
+      "key": "naver",
+      "name": "네이버",
+      "domain": "naver.com",
+      "status": "partial-items-reviewed",
+      "reviewScope": "2026년 10월 1일 시행 공통 이용약관 중 아래 3개 항목 확인"
+    }
+  ],
+  "pendingCases": [
+    {
+      "service": "coupang",
+      "title": "배달원·주문자 개인정보 유출 제재",
+      "year": "2024",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "youtube",
+      "title": "아동 이용자 정보 수집 문제",
+      "year": "2019",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "tiktok",
+      "title": "아동 계정의 공개 기본 설정 문제",
+      "year": "2023",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "facebook",
+      "title": "개인정보 통제 약속 위반",
+      "year": "2019",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "x",
+      "title": "보안용 연락처를 맞춤 광고에 이용",
+      "year": "2022",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "snapchat",
+      "title": "사라지는 메시지 설명과 실제 기능의 차이",
+      "year": "2014",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "zoom",
+      "title": "화상회의 보안 수준을 과장한 문제",
+      "year": "2020",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "primevideo",
+      "title": "원치 않은 Prime 가입과 어려운 해지",
+      "year": "2025",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "uber",
+      "title": "대규모 정보 유출 사실을 늦게 공개",
+      "year": "2018",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "airbnb",
+      "title": "처음 본 가격과 최종 비용의 차이",
+      "year": "2019",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "linkedin",
+      "title": "맞춤 광고를 위한 개인정보 처리 문제",
+      "year": "2024",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "discord",
+      "title": "외부 고객지원 업체에서 발생한 정보 유출",
+      "year": "2025",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "twitch",
+      "title": "서버 설정 오류로 인한 데이터 노출",
+      "year": "2021",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "reddit",
+      "title": "직원 대상 피싱으로 내부 정보 접근",
+      "year": "2023",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "kakaotalk",
+      "title": "오픈채팅 이용자 정보 유출",
+      "year": "2024",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "aliexpress",
+      "title": "개인정보 국외 이전 고지 문제",
+      "year": "2024",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "adobe",
+      "title": "중도해지 수수료 고지와 해지 절차 문제",
+      "year": "2024",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "epicgames",
+      "title": "의도하지 않은 게임 내 결제",
+      "year": "2023",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "instagram",
+      "title": "아동 계정의 연락처 공개와 기본 공개 설정",
+      "year": "2022",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "netflix",
+      "title": "일방적 요금 변경 등 불공정 약관 시정",
+      "year": "2020",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "spotify",
+      "title": "개인정보 열람 답변의 투명성 부족",
+      "year": "2023",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "google",
+      "title": "이용자 행태정보 수집·맞춤광고 제재",
+      "year": "2022",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "xbox",
+      "title": "아동 계정 개인정보 수집 문제",
+      "year": "2023",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "canva",
+      "title": "계정 정보가 포함된 보안 사고",
+      "year": "2019",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "dropbox",
+      "title": "2012년 유출 계정 정보 재확인",
+      "year": "2016",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "slack",
+      "title": "사용자 데이터베이스 무단 접근",
+      "year": "2015",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "shein",
+      "title": "고객 계정 정보가 포함된 사이버 공격",
+      "year": "2018",
+      "status": "pending-not-published"
+    },
+    {
+      "service": "line",
+      "title": "LINE 공식 계정 정보의 오표시·노출",
+      "year": "2025",
+      "status": "pending-not-published"
+    }
+  ]
+}
