@@ -3,7 +3,302 @@
   "total": 500,
   "reviewed": 17,
   "linked": 2,
-  "pending": [
+  "pending": 481,
+  "items": 44,
+  "complete": false,
+  "changes": [
+    {
+      "key": "youtube",
+      "name": "YouTube",
+      "status": "reviewed",
+      "oldSource": "https://www.youtube.com/static?template=terms",
+      "documents": [
+        {
+          "url": "https://policies.google.com/privacy?hl=ko",
+          "title": "Google 개인정보처리방침",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "bodyChecked": true
+        },
+        {
+          "url": "https://www.youtube.com/static?template=terms&gl=KR&hl=ko",
+          "title": "YouTube 한국 지역 이용약관 · 공식 영문 번역",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "netflix",
+      "name": "Netflix",
+      "status": "reviewed",
+      "oldSource": "https://help.netflix.com/legal/termsofuse",
+      "documents": [
+        {
+          "url": "https://help.netflix.com/ko/node/407",
+          "title": "넷플릭스 한국어 공식 고객센터 · 멤버십 해지 방법",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "bodyChecked": true
+        },
+        {
+          "url": "https://help.netflix.com/ko/node/633853347904100",
+          "title": "넷플릭스 한국어 공식 고객센터 · 콘텐츠의 상업적 이용",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "temu",
+      "name": "Temu",
+      "status": "reviewed",
+      "oldSource": "https://www.temu.com/terms-of-use.html",
+      "documents": [
+        {
+          "url": "https://www.temu.com/kr/terms-of-use.html",
+          "title": "Temu 한국 이용약관",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "discord",
+      "name": "Discord",
+      "status": "reviewed",
+      "oldSource": "https://discord.com/terms",
+      "documents": [
+        {
+          "url": "https://discord.com/terms",
+          "title": "Discord Terms of Service",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "bodyChecked": true
+        },
+        {
+          "url": "https://discord.com/privacy",
+          "title": "Discord Privacy Policy",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "spotify",
+      "name": "Spotify",
+      "status": "reviewed",
+      "oldSource": "https://www.spotify.com/legal/end-user-agreement/plain/",
+      "documents": [
+        {
+          "url": "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
+          "title": "한국 이용약관",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "coupang",
+      "name": "쿠팡",
+      "status": "reviewed",
+      "oldSource": "https://www.coupang.com/np/policies/terms",
+      "documents": [
+        {
+          "url": "https://privacy.coupang.com/ko/center/coupang/",
+          "title": "쿠팡 개인정보처리방침",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "kakaotalk",
+      "name": "카카오톡",
+      "status": "reviewed",
+      "oldSource": "https://www.kakao.com/policy/terms?lang=ko",
+      "documents": [
+        {
+          "url": "https://www.kakao.com/policy/terms?lang=ko",
+          "title": "카카오계정 약관",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "appletv",
+      "name": "Apple TV+",
+      "status": "reviewed",
+      "oldSource": "https://www.apple.com/legal/internet-services/itunes/ww/",
+      "documents": [
+        {
+          "url": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+          "title": "한국 Apple 미디어 서비스 이용약관",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "applemusic",
+      "name": "Apple Music",
+      "status": "reviewed",
+      "oldSource": "https://www.apple.com/legal/internet-services/itunes/ww/",
+      "documents": [
+        {
+          "url": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+          "title": "한국 Apple 미디어 서비스 이용약관",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "zigzag",
+      "name": "지그재그",
+      "status": "linked",
+      "oldSource": "https://zigzag.kr/terms/user-terms",
+      "documents": [
+        {
+          "url": "https://cf.res.s.zigzag.kr/terms/user/service.html",
+          "title": "지그재그 이용약관",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": false
+        },
+        {
+          "url": "https://cf.res.s.zigzag.kr/terms/user/privacy.html",
+          "title": "지그재그 개인정보처리방침",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": false
+        }
+      ]
+    },
+    {
+      "key": "google",
+      "name": "Google",
+      "status": "reviewed",
+      "oldSource": "https://policies.google.com/terms",
+      "documents": [
+        {
+          "url": "https://policies.google.com/privacy?hl=ko",
+          "title": "Google 개인정보처리방침",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "dropbox",
+      "name": "Dropbox",
+      "status": "reviewed",
+      "oldSource": "https://www.dropbox.com/terms",
+      "documents": [
+        {
+          "url": "https://www.dropbox.com/terms",
+          "title": "Dropbox Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "calendly",
+      "name": "Calendly",
+      "status": "reviewed",
+      "oldSource": "https://calendly.com/legal/terms",
+      "documents": [
+        {
+          "url": "https://calendly.com/legal/customer-terms-conditions",
+          "title": "Calendly Customer Terms and Conditions",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "airtable",
+      "name": "Airtable",
+      "status": "reviewed",
+      "oldSource": "https://www.airtable.com/company/terms",
+      "documents": [
+        {
+          "url": "https://www.airtable.com/company/tos",
+          "title": "Airtable Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "craft",
+      "name": "Craft",
+      "status": "linked",
+      "oldSource": "https://www.craft.do/terms",
+      "documents": [
+        {
+          "url": "https://www.craft.do/terms",
+          "title": "Craft Terms and Conditions",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": false
+        }
+      ]
+    },
+    {
+      "key": "coda",
+      "name": "Coda / Superhuman Docs",
+      "status": "reviewed",
+      "oldSource": "https://coda.io/terms",
+      "documents": [
+        {
+          "url": "https://superhuman.com/legal/terms",
+          "title": "Superhuman Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "buffer",
+      "name": "Buffer",
+      "status": "reviewed",
+      "oldSource": "https://buffer.com/legal/terms-of-use",
+      "documents": [
+        {
+          "url": "https://buffer.com/legal",
+          "title": "Buffer Current Terms of Use",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "ohouse",
+      "name": "오늘의집",
+      "status": "reviewed",
+      "oldSource": "https://www.bucketplace.com/terms/terms-of-service",
+      "documents": [
+        {
+          "url": "https://ohou.se/usepolicy",
+          "title": "오늘의집 이용약관",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "naver",
+      "name": "네이버",
+      "status": "reviewed",
+      "oldSource": "https://policy.naver.com/policy/service.html",
+      "documents": [
+        {
+          "url": "https://policy.naver.com/policy/service.html",
+          "title": "네이버 공통 이용약관",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    }
+  ],
+  "pendingServices": [
     {
       "key": "instagram",
       "name": "Instagram",
@@ -2408,300 +2703,6 @@
       "key": "qatarairways",
       "name": "Qatar Airways",
       "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    }
-  ],
-  "items": 44,
-  "complete": false,
-  "changes": [
-    {
-      "key": "youtube",
-      "name": "YouTube",
-      "status": "reviewed",
-      "oldSource": "https://www.youtube.com/static?template=terms",
-      "documents": [
-        {
-          "url": "https://policies.google.com/privacy?hl=ko",
-          "title": "Google 개인정보처리방침",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "bodyChecked": true
-        },
-        {
-          "url": "https://www.youtube.com/static?template=terms&gl=KR&hl=ko",
-          "title": "YouTube 한국 지역 이용약관 · 공식 영문 번역",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "netflix",
-      "name": "Netflix",
-      "status": "reviewed",
-      "oldSource": "https://help.netflix.com/legal/termsofuse",
-      "documents": [
-        {
-          "url": "https://help.netflix.com/ko/node/407",
-          "title": "넷플릭스 한국어 공식 고객센터 · 멤버십 해지 방법",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "bodyChecked": true
-        },
-        {
-          "url": "https://help.netflix.com/ko/node/633853347904100",
-          "title": "넷플릭스 한국어 공식 고객센터 · 콘텐츠의 상업적 이용",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "temu",
-      "name": "Temu",
-      "status": "reviewed",
-      "oldSource": "https://www.temu.com/terms-of-use.html",
-      "documents": [
-        {
-          "url": "https://www.temu.com/kr/terms-of-use.html",
-          "title": "Temu 한국 이용약관",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "discord",
-      "name": "Discord",
-      "status": "reviewed",
-      "oldSource": "https://discord.com/terms",
-      "documents": [
-        {
-          "url": "https://discord.com/terms",
-          "title": "Discord Terms of Service",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "bodyChecked": true
-        },
-        {
-          "url": "https://discord.com/privacy",
-          "title": "Discord Privacy Policy",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "spotify",
-      "name": "Spotify",
-      "status": "reviewed",
-      "oldSource": "https://www.spotify.com/legal/end-user-agreement/plain/",
-      "documents": [
-        {
-          "url": "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
-          "title": "한국 이용약관",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "coupang",
-      "name": "쿠팡",
-      "status": "reviewed",
-      "oldSource": "https://www.coupang.com/np/policies/terms",
-      "documents": [
-        {
-          "url": "https://privacy.coupang.com/ko/center/coupang/",
-          "title": "쿠팡 개인정보처리방침",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "kakaotalk",
-      "name": "카카오톡",
-      "status": "reviewed",
-      "oldSource": "https://www.kakao.com/policy/terms?lang=ko",
-      "documents": [
-        {
-          "url": "https://www.kakao.com/policy/terms?lang=ko",
-          "title": "카카오계정 약관",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "appletv",
-      "name": "Apple TV+",
-      "status": "reviewed",
-      "oldSource": "https://www.apple.com/legal/internet-services/itunes/ww/",
-      "documents": [
-        {
-          "url": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
-          "title": "한국 Apple 미디어 서비스 이용약관",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "applemusic",
-      "name": "Apple Music",
-      "status": "reviewed",
-      "oldSource": "https://www.apple.com/legal/internet-services/itunes/ww/",
-      "documents": [
-        {
-          "url": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
-          "title": "한국 Apple 미디어 서비스 이용약관",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "zigzag",
-      "name": "지그재그",
-      "status": "linked",
-      "oldSource": "https://zigzag.kr/terms/user-terms",
-      "documents": [
-        {
-          "url": "https://cf.res.s.zigzag.kr/terms/user/service.html",
-          "title": "지그재그 이용약관",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "bodyChecked": false
-        },
-        {
-          "url": "https://cf.res.s.zigzag.kr/terms/user/privacy.html",
-          "title": "지그재그 개인정보처리방침",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "bodyChecked": false
-        }
-      ]
-    },
-    {
-      "key": "google",
-      "name": "Google",
-      "status": "reviewed",
-      "oldSource": "https://policies.google.com/terms",
-      "documents": [
-        {
-          "url": "https://policies.google.com/privacy?hl=ko",
-          "title": "Google 개인정보처리방침",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "dropbox",
-      "name": "Dropbox",
-      "status": "reviewed",
-      "oldSource": "https://www.dropbox.com/terms",
-      "documents": [
-        {
-          "url": "https://www.dropbox.com/terms",
-          "title": "Dropbox Terms of Service",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "calendly",
-      "name": "Calendly",
-      "status": "reviewed",
-      "oldSource": "https://calendly.com/legal/terms",
-      "documents": [
-        {
-          "url": "https://calendly.com/legal/customer-terms-conditions",
-          "title": "Calendly Customer Terms and Conditions",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "airtable",
-      "name": "Airtable",
-      "status": "reviewed",
-      "oldSource": "https://www.airtable.com/company/terms",
-      "documents": [
-        {
-          "url": "https://www.airtable.com/company/tos",
-          "title": "Airtable Terms of Service",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "craft",
-      "name": "Craft",
-      "status": "linked",
-      "oldSource": "https://www.craft.do/terms",
-      "documents": [
-        {
-          "url": "https://www.craft.do/terms",
-          "title": "Craft Terms and Conditions",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "bodyChecked": false
-        }
-      ]
-    },
-    {
-      "key": "coda",
-      "name": "Coda / Superhuman Docs",
-      "status": "reviewed",
-      "oldSource": "https://coda.io/terms",
-      "documents": [
-        {
-          "url": "https://superhuman.com/legal/terms",
-          "title": "Superhuman Terms of Service",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "buffer",
-      "name": "Buffer",
-      "status": "reviewed",
-      "oldSource": "https://buffer.com/legal/terms-of-use",
-      "documents": [
-        {
-          "url": "https://buffer.com/legal",
-          "title": "Buffer Current Terms of Use",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "ohouse",
-      "name": "오늘의집",
-      "status": "reviewed",
-      "oldSource": "https://www.bucketplace.com/terms/terms-of-service",
-      "documents": [
-        {
-          "url": "https://ohou.se/usepolicy",
-          "title": "오늘의집 이용약관",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
-    },
-    {
-      "key": "naver",
-      "name": "네이버",
-      "status": "reviewed",
-      "oldSource": "https://policy.naver.com/policy/service.html",
-      "documents": [
-        {
-          "url": "https://policy.naver.com/policy/service.html",
-          "title": "네이버 공통 이용약관",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "bodyChecked": true
-        }
-      ]
     }
   ]
 }
