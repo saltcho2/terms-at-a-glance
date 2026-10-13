@@ -1,10 +1,10 @@
 {
   "checkedAt": "2026. 10. 13. (한국 시간)",
   "total": 500,
-  "reviewed": 69,
+  "reviewed": 141,
   "linked": 2,
-  "pending": 429,
-  "items": 100,
+  "pending": 357,
+  "items": 180,
   "complete": false,
   "linkChecks": {
     "storedUrls": 925,
@@ -19,7 +19,7 @@
       "not-found-page": 1
     }
   },
-  "newReviewedServices": 52,
+  "newReviewedServices": 124,
   "scope": "기존 주소 접속 점검과 표시 항목의 원문 대조를 구분합니다. 본문 수집만으로 내용 검증 완료를 뜻하지 않습니다.",
   "results": [
     {
