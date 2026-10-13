@@ -1,0 +1,909 @@
+[
+  {
+    "key": "reddit",
+    "url": "https://redditinc.com/policies/user-agreement",
+    "document": "Reddit User Agreement",
+    "region": "미국 및 EEA·영국·스위스 외 지역",
+    "version": "2026. 7. 1. 시행",
+    "scope": "콘텐츠 이용 허락 조항 확인",
+    "items": [
+      [
+        "content",
+        "게시물은 AI 학습과 제휴사 배포에 활용될 수 있음",
+        "게시물의 소유권은 이용자에게 남지만, Reddit에 영구적·철회 불가·무상 이용권을 부여합니다. 약관은 AI·머신러닝 학습과 제휴사의 배포에 활용할 권리도 명시합니다.",
+        "5. Your Content",
+        "공개 게시물에 민감한 정보나 외부 활용을 원하지 않는 원본을 넣지 마세요."
+      ]
+    ]
+  },
+  {
+    "key": "apple",
+    "url": "https://www.apple.com/legal/internet-services/icloud/kr/terms.html",
+    "document": "iCloud 이용약관",
+    "region": "대한민국 한국어 약관",
+    "version": "2026. 9. 14. 최종 수정",
+    "scope": "저장 용량 및 백업 삭제 조건 확인",
+    "items": [
+      [
+        "content",
+        "180일 동안 백업하지 않으면 기존 백업 삭제 가능",
+        "기기가 180일 동안 iCloud에 백업하지 않으면 Apple은 해당 기기의 백업을 삭제할 수 있습니다. 저장 공간을 초과한 데이터도 30일 전 통지 후 삭제할 수 있어 별도 백업이 필요합니다.",
+        "I.C 사용상 제한 · II.O 백업",
+        "오랫동안 쓰지 않은 기기의 마지막 백업일과 저장 공간을 확인하고 중요한 파일은 따로 저장하세요."
+      ]
+    ]
+  },
+  {
+    "key": "line",
+    "url": "https://terms.line.me/line_terms?lang=ko",
+    "document": "LY Corporation 공통이용약관",
+    "region": "한국어 공통 약관 · 개별 이용 조건 우선",
+    "scope": "공개 콘텐츠 권리·미사용 계정 조항 확인",
+    "items": [
+      [
+        "content",
+        "친구 외에 공개한 콘텐츠에는 넓은 이용권 부여",
+        "불특정 다수가 볼 수 있거나 LINE 친구가 아닌 사람에게 공개한 콘텐츠에는 회사가 무상으로 복제·배포·번역 등을 할 수 있는 기한 없는 이용권이 적용됩니다. 모든 비공개 대화에 같은 조건을 적용한다는 뜻은 아닙니다.",
+        "9.2 업로드 콘텐츠",
+        "게시하기 전에 친구 공개인지 전체 공개인지 확인하세요."
+      ],
+      [
+        "other",
+        "1년 이상 미사용하면 계정 삭제 대상이 될 수 있음",
+        "개별 조건에서 달리 정하지 않으면 계정이나 특정 서비스를 1년 이상 사용하지 않을 때 사전 통지 없이 이용 제한·계정 삭제 등의 조치를 할 수 있습니다.",
+        "17.1(4)",
+        "보관할 대화와 자료는 따로 저장하고 계속 사용할 계정은 정기적으로 접속하세요."
+      ]
+    ]
+  },
+  {
+    "key": "microsoft",
+    "url": "https://www.microsoft.com/ko-kr/servicesagreement",
+    "document": "Microsoft 서비스 계약",
+    "region": "대한민국 한국어 · 개인 소비자 서비스",
+    "scope": "미사용 계정과 요금 변경 조건 확인",
+    "items": [
+      [
+        "other",
+        "Microsoft 계정과 메일·클라우드의 미사용 기준이 다름",
+        "계정은 원칙적으로 2년마다 로그인해야 합니다. Outlook 받은 편지함과 OneDrive는 각각 1년에 한 번 접속해야 하며, 서비스별 예외 조건도 확인해야 합니다.",
+        "4.a.ii 계정 사용",
+        "계정 로그인 외에 Outlook과 OneDrive에도 각각 접속하세요."
+      ],
+      [
+        "payment",
+        "반복 결제 가격 변경은 최소 15일 전 통지",
+        "반복 구매의 요금 변경은 최소 15일 전 통지합니다. 정해진 기간·요금이 있는 경우 남은 기간에는 기존 요금이 적용되며, 변경에 동의하지 않으면 적용 전에 취소해야 합니다.",
+        "9.j 요금 변경",
+        "계정 이메일의 가격 변경 안내와 적용일을 확인하세요."
+      ]
+    ],
+    "version": "2026. 9. 30. 적용"
+  },
+  {
+    "key": "onedrive",
+    "url": "https://www.microsoft.com/ko-kr/servicesagreement",
+    "document": "Microsoft 서비스 계약",
+    "region": "개인용 OneDrive · 대한민국 한국어 약관",
+    "scope": "OneDrive 미사용 조건 확인 · 업무용 계약 제외",
+    "items": [
+      [
+        "other",
+        "1년간 OneDrive에 접속하지 않으면 해지 대상",
+        "Microsoft 계정과 별개로 OneDrive에도 최소 1년에 한 번 로그인해야 합니다. 약관은 이를 지키지 않으면 OneDrive를 해지한다고 정합니다.",
+        "4.a.ii 계정 사용",
+        "파일이 보관된 OneDrive에 직접 접속하고 별도 사본을 보관하세요."
+      ]
+    ],
+    "version": "2026. 9. 30. 적용"
+  },
+  {
+    "key": "outlook",
+    "url": "https://www.microsoft.com/ko-kr/servicesagreement",
+    "document": "Microsoft 서비스 계약",
+    "region": "개인용 Outlook.com · 대한민국 한국어 약관",
+    "scope": "받은 편지함 미사용 조건 확인 · 업무용 계약 제외",
+    "items": [
+      [
+        "other",
+        "받은 편지함도 1년에 한 번 접속해야 함",
+        "다른 Microsoft 서비스를 사용하더라도 Outlook.com 받은 편지함을 1년 이상 사용하지 않으면 해지될 수 있습니다.",
+        "4.a.ii 계정 사용",
+        "보관할 메일을 내려받고 받은 편지함에도 정기적으로 접속하세요."
+      ]
+    ],
+    "version": "2026. 9. 30. 적용"
+  },
+  {
+    "key": "x",
+    "url": "https://x.com/en/tos",
+    "document": "X Terms of Service",
+    "region": "국제 영문 약관 · 지역별 조건 별도",
+    "scope": "콘텐츠 이용 허락 조항 확인",
+    "items": [
+      [
+        "content",
+        "게시물 이용권에 AI 학습과 제3자 배포가 포함됨",
+        "게시물의 권리는 이용자에게 남지만 X에 무상 이용권을 부여합니다. 약관은 AI 모델 학습, 다른 회사에 대한 콘텐츠 제공 및 배포를 포함하며 이에 대한 별도 보상은 약속하지 않습니다.",
+        "3. Content on the Services — Your Rights and Grant of Rights",
+        "공개할 자료의 권리와 공개 범위를 확인하고 AI 관련 개인정보 설정도 살펴보세요."
+      ]
+    ]
+  },
+  {
+    "key": "linkedin",
+    "url": "https://www.linkedin.com/legal/user-agreement",
+    "document": "LinkedIn User Agreement",
+    "region": "국제 영문 약관 · 현지법 우선",
+    "scope": "구독 갱신 및 삭제 후 콘텐츠 이용권 조항 확인",
+    "items": [
+      [
+        "payment",
+        "다음 결제일 전에 구독을 취소해야 함",
+        "유료 구독은 기간이 시작될 때 결제수단으로 요금과 세금이 청구됩니다. 이후 청구를 막으려면 갱신일 전에 취소해야 하며, 환불은 별도 환불 정책을 따릅니다.",
+        "2.3 Payment",
+        "구독 갱신일과 결제한 경로의 취소 메뉴를 확인하세요."
+      ],
+      [
+        "content",
+        "탈퇴해도 공유본·기존 재허락·백업에는 예외가 있음",
+        "삭제나 탈퇴로 콘텐츠 이용 허락을 종료할 수 있지만, 타인이 복사·재공유·저장한 내용, 이미 제3자에게 허락한 이용, 법적 보관, 백업 삭제에 필요한 기간은 예외입니다.",
+        "3.1 Your License to LinkedIn",
+        "민감한 프로필과 게시물은 공개 범위를 줄이고 외부 공유본도 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "gmarket",
+    "url": "https://policy.gmarket.co.kr/terms-policy/buyer-use",
+    "document": "G마켓 구매회원 약관",
+    "region": "대한민국 구매회원",
+    "scope": "반품·환불 절차 조항 확인",
+    "items": [
+      [
+        "cancel",
+        "반품 사유와 배송비 확인 전에는 환불이 지연될 수 있음",
+        "단순 변심 반품 비용은 일반적으로 구매자가, 상품 하자는 판매자가 부담합니다. 반품 송장번호나 사유를 정확히 전달하지 않거나 부담할 배송비를 결제하지 않으면 환불이 늦어질 수 있습니다.",
+        "제16조 반품 3~6항",
+        "반품 사유·상품 상태·송장번호를 기록하고 배송비 부담자를 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "bluesky",
+    "url": "https://bsky.social/about/support/tos",
+    "document": "Bluesky Terms of Service",
+    "region": "국제 영문 약관 · EU/EEA 추가 구제절차 별도",
+    "scope": "이용 제한 이의신청 기한 확인",
+    "items": [
+      [
+        "other",
+        "계정 제한에 대한 내부 이의신청은 2주 이내",
+        "계정 정지·종료·제한에 이의를 제기하려면 조치 후 2주 이내에 근거 자료를 갖춰 신청해야 합니다. 기한을 넘기거나 설명이 부족하면 재검토 대상에서 제외될 수 있습니다.",
+        "6. Content Moderation — Appeals",
+        "제한 안내를 받으면 날짜와 사유를 저장하고 앱 또는 안내된 이메일로 기한 안에 신청하세요."
+      ]
+    ]
+  },
+  {
+    "key": "signal",
+    "url": "https://signal.org/legal/",
+    "document": "Signal Terms of Service & Privacy Policy",
+    "region": "국제 영문 약관",
+    "version": "문서 표시 갱신일 2018. 5. 25.",
+    "scope": "계정 보안·메시지 보관 조건 확인",
+    "items": [
+      [
+        "privacy",
+        "메시지 복구와 기기 보안은 직접 관리해야 함",
+        "Signal은 메시지 내용을 복호화하거나 열람할 수 없으며 메시지 기록은 이용자 기기에 저장된다고 설명합니다. 새 기기로 번호를 등록하면 이전 기기는 메시지와 전화를 받지 못합니다.",
+        "Keeping Your Account Secure · Privacy Policy: Messages",
+        "기기 변경 전 공식 이전·백업 절차를 확인하고 기기 잠금과 등록 잠금을 설정하세요."
+      ]
+    ]
+  },
+  {
+    "key": "watcha",
+    "url": "https://watcha.com/ko-KR/legals/play_agreement",
+    "document": "왓챠 이용약관",
+    "region": "대한민국 · 결제 경로별 정책 확인",
+    "scope": "정기결제·중도해지 조건 확인",
+    "items": [
+      [
+        "payment",
+        "무료 체험 후 유료 전환에 동의하면 정기결제",
+        "무료 체험이 포함된 유료 상품은 유료 전환과 정기결제에 대한 명시적 동의를 받도록 정합니다. 체험 중 해지하면 요금이 청구되지 않지만, 유지하면 정기결제가 이어집니다.",
+        "제8조 3~4항",
+        "첫 결제일과 체험 중 해지 방법을 확인하세요."
+      ],
+      [
+        "cancel",
+        "정기결제 해지와 즉시 중도해지는 환불 방식이 다름",
+        "정기결제 해지는 현재 결제주기가 끝날 때 적용됩니다. 중도해지는 이용대금과 결제금액의 10% 위약금을 공제하며, 장기 할인 구독은 할인 전 요금 기준 정산도 적용됩니다.",
+        "제15조 1~2항",
+        "미이용 7일 이내 청약철회 가능 여부와 중도해지 예상 환불액을 확인하세요."
+      ]
+    ],
+    "version": "2026. 8. 9. 시행 · 미래 개정 예고와 구분"
+  },
+  {
+    "key": "steam",
+    "url": "https://store.steampowered.com/subscriber_agreement/",
+    "document": "Steam Subscriber Agreement",
+    "region": "국제 영문 약관",
+    "scope": "지역 우회 구매 조건 확인",
+    "items": [
+      [
+        "other",
+        "지역 가격을 우회하면 계정 이용이 종료될 수 있음",
+        "거주 지역을 숨겨 다른 지역 가격으로 구매하거나 콘텐츠의 지역 제한을 우회하는 행위를 금지합니다. 위반하면 계정 접근이 종료될 수 있습니다.",
+        "3.A Payment Authorization",
+        "구매 지역과 거주 정보를 정확히 설정하고 지역 우회 구매를 하지 마세요."
+      ]
+    ],
+    "version": null
+  },
+  {
+    "key": "github",
+    "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "document": "GitHub Terms of Service",
+    "region": "일반 서비스 영문 약관 · 별도 기업계약 제외",
+    "scope": "월·연간 요금제 환불 조건 확인",
+    "items": [
+      [
+        "cancel",
+        "요금제 하향·미사용 기간의 환불이 제한됨",
+        "월·연간 요금제는 선불 청구하며 부분 사용 기간, 요금제 하향, 계정을 열어 둔 채 사용하지 않은 기간에 대한 환불·크레딧을 제공하지 않는다고 정합니다. 유료 기간까지 서비스는 유지됩니다.",
+        "K. Payment — 3. Billing Schedule; No Refunds",
+        "다음 청구 전에 요금제와 계정 설정을 확인하고 필요한 자료를 백업하세요."
+      ]
+    ],
+    "version": "2026. 4. 27. 시행"
+  },
+  {
+    "key": "coursera",
+    "url": "https://www.coursera.org/about/terms",
+    "document": "Coursera Terms of Use",
+    "region": "국제 영문 약관 · 상품별 환불 정책 별도",
+    "scope": "구독 갱신 조건 확인",
+    "items": [
+      [
+        "payment",
+        "구독은 같은 길이의 기간으로 자동 갱신",
+        "구매 시 선택한 구독 기간이 끝나면 같은 길이로 자동 갱신됩니다. 직접 취소하거나 Coursera가 중단할 때까지 이어지며, 환불 조건은 상품 유형별로 다릅니다.",
+        "Refund and Cancellation Policy — General",
+        "단일 강좌·전문과정·Coursera Plus 중 구매 상품과 갱신일을 확인하세요."
+      ]
+    ],
+    "version": "2026. 1. 1. 시행"
+  },
+  {
+    "key": "tumblr",
+    "url": "https://www.tumblr.com/policy/en/terms-of-service",
+    "document": "Tumblr Terms of Service",
+    "region": "국제 영문 약관",
+    "scope": "유료 기능 환불 및 계정 정지 영향 확인",
+    "items": [
+      [
+        "cancel",
+        "유료 기능 구매는 원칙적으로 환불되지 않음",
+        "유료 기능 구매는 원칙적으로 최종 거래이며 회사 재량이나 각 기능의 규칙에 따른 경우를 제외하면 환불하지 않습니다. 계정 정지 시 구매한 프리미엄 테마의 이용권 등을 잃을 수 있습니다.",
+        "Paid Services",
+        "유료 기능별 환불 규칙과 계정 제재 조건을 결제 전에 확인하세요."
+      ]
+    ],
+    "version": "2026. 1. 16. 최종 수정"
+  },
+  {
+    "key": "vimeo",
+    "url": "https://vimeo.com/legal/",
+    "document": "Vimeo Terms of Service",
+    "region": "영문 Self-Serve 요금제 · 기업계약 별도",
+    "scope": "갱신 취소 기한 확인",
+    "items": [
+      [
+        "payment",
+        "자동 갱신을 막으려면 최소 하루 전에 취소",
+        "Self-Serve 구독은 현지법이 허용하는 범위에서 자동 갱신됩니다. 청구 설정에 표시된 갱신일 최소 하루 전에 취소해야 하며, 취소해도 현재 구독 기간에는 영향이 없습니다.",
+        "Subscription Plans — Automatic Renewal / How to Cancel Renewal",
+        "청구 설정의 갱신일보다 최소 하루 앞서 자동 갱신을 해제하세요."
+      ]
+    ],
+    "version": "2024. 7. 8. 최종 수정 표시"
+  },
+  {
+    "key": "flickr",
+    "url": "https://www.flickr.com/help/terms",
+    "document": "Flickr Terms of Use",
+    "region": "국제 영문 약관",
+    "scope": "업로드 콘텐츠 이용권 범위 확인",
+    "items": [
+      [
+        "content",
+        "사진 소유권은 남지만 서비스 제공을 위한 이용권 부여",
+        "사진을 올리면 서비스 표시·운영과 법적 요구 이행 등에 합리적으로 필요한 범위에서 회사에 영구적·비독점적·무상 이용권을 줍니다. 아무 목적으로나 사진을 판매할 수 있다는 조항으로 해석해서는 안 됩니다.",
+        "User Content — License",
+        "사진의 공개 범위와 위치정보를 확인하고 원본 파일을 따로 보관하세요."
+      ]
+    ],
+    "version": null
+  },
+  {
+    "key": "patreon",
+    "url": "https://www.patreon.com/policy/legal",
+    "document": "Patreon Terms of Use",
+    "region": "국제 영문 약관 · 회원 결제",
+    "scope": "설정된 예비 결제수단 청구 확인",
+    "items": [
+      [
+        "payment",
+        "기본 카드 결제가 실패하면 예비 결제수단 청구",
+        "회원 결제는 표시된 방식에 따라 일회성 또는 자동 갱신으로 진행됩니다. 기본 결제가 실패하고 예비 결제수단을 설정해 두었다면 그 설정에 따라 다른 결제수단에 청구합니다.",
+        "Being a Member",
+        "구독 내역과 예비 결제수단 설정을 함께 확인하세요."
+      ]
+    ],
+    "version": "2026. 5. 27. 최종 수정"
+  },
+  {
+    "key": "wordpress",
+    "url": "https://wordpress.com/tos/",
+    "document": "WordPress.com Terms of Service",
+    "region": "국제 영문 약관 · 해당 구독 조건 확인",
+    "scope": "자동 갱신 취소 기한 확인",
+    "items": [
+      [
+        "payment",
+        "연간 구독은 종료 한 달 전 취소 기한 명시",
+        "약관은 연간 구독을 예정 종료일 최소 한 달 전, 더 짧은 구독은 최소 24시간 전에 취소하도록 정합니다. 할인·체험 기간이 끝나면 정상 요금으로 자동 갱신될 수 있습니다.",
+        "Fees, Payment, and Renewal — Automatic Renewal",
+        "계정에 표시된 실제 갱신일과 취소 기한을 확인하세요."
+      ]
+    ],
+    "version": "2026. 10. 6. 최종 수정"
+  },
+  {
+    "key": "canva",
+    "url": "https://www.canva.com/policies/terms-of-use/",
+    "document": "Canva Terms of Use",
+    "region": "국제 영문 약관",
+    "scope": "공유 디자인 속 업로드 콘텐츠 이용권 확인",
+    "items": [
+      [
+        "content",
+        "공유한 디자인을 계속 제공하기 위한 이용권은 남음",
+        "업로드한 자료의 권리는 이용자에게 남습니다. 다만 다른 사람과 공유한 디자인에 포함된 자료에는 해당 디자인을 계속 제공하는 데 필요한 영구적·무상 이용권을 Canva에 부여합니다.",
+        "4.a User Content",
+        "민감한 자료가 든 디자인의 공유 대상과 링크 권한을 확인하세요."
+      ]
+    ],
+    "version": "2026. 8. 19. 시행"
+  },
+  {
+    "key": "pinterest",
+    "url": "https://policy.pinterest.com/en/terms-of-service",
+    "document": "Pinterest Terms of Service",
+    "region": "국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "version": null,
+    "scope": "표시된 조항의 원문 대조 완료",
+    "items": [
+      [
+        "content",
+        "계정 삭제 후에도 다른 사람이 저장한 콘텐츠는 남을 수 있음",
+        "계정이나 게시물을 삭제해도 백업·보관·감사 목적으로 합리적인 기간 동안 사본을 보관할 수 있습니다. 다른 이용자가 저장하거나 공유한 콘텐츠는 계속 사용·배포될 수 있습니다.",
+        "3.c How long we keep your User Content",
+        "처음 올릴 때 공개 범위를 확인하고 민감한 이미지는 게시하지 마세요."
+      ]
+    ]
+  },
+  {
+    "key": "obsidian",
+    "url": "https://obsidian.md/terms",
+    "document": "Obsidian Terms of Service",
+    "region": "국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "version": "2025. 2. 20. 갱신",
+    "scope": "Commercial Use 라이선스 조항만 확인 · 개인 노트 전체에 적용되는 조건 아님",
+    "items": [
+      [
+        "content",
+        "상업용 라이선스 구매 시 회사 로고의 홍보 사용 허락",
+        "Commercial Use 라이선스를 구매하면 회사 이름과 로고를 홍보·마케팅에 사용할 수 있도록 허락합니다. 이 사용을 원하지 않으면 지원팀에 제외를 요청할 수 있습니다.",
+        "Logo Usage",
+        "회사 명의로 구매한다면 로고 사용 여부를 확인하고 필요하면 제외 요청을 보내세요."
+      ]
+    ]
+  },
+  {
+    "key": "linear",
+    "url": "https://linear.app/terms",
+    "document": "Linear Terms of Service",
+    "region": "국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "version": "2026. 6. 9. 시행",
+    "scope": "표시된 조항의 원문 대조 완료",
+    "items": [
+      [
+        "content",
+        "서비스 개선 의견에 영구적 이용권 부여",
+        "서비스에 관해 제출한 개선 의견은 회사가 무상으로 수정·배포·활용할 수 있습니다. 약관은 이 피드백과 사용자 정보·제출 자료를 구분하므로 프로젝트 데이터 전체가 같은 조건으로 제공되는 것은 아닙니다.",
+        "Feedback",
+        "기밀인 아이디어를 개선 의견으로 보내기 전에 공개 가능한 범위를 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "wrike",
+    "url": "https://www.wrike.com/security/terms/",
+    "document": "Wrike Terms of Service",
+    "region": "국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "version": "2025. 4. 8. 개정 · 해당일 이후 신규·갱신 주문",
+    "scope": "표시된 조항의 원문 대조 완료",
+    "items": [
+      [
+        "payment",
+        "구독 갱신 전 서면으로 갱신 거절 의사를 알려야 함",
+        "구독은 당시 요금으로 자동 갱신되며, 현재 기간이 끝나기 전에 갱신하지 않겠다는 서면 통지를 해야 합니다. 요금제를 낮추면 일부 데이터나 부가기능을 잃을 수도 있습니다.",
+        "3.2 General Terms and Billing",
+        "갱신 전에 취소 의사를 서면으로 남기고 요금제 변경 전에 자료를 백업하세요."
+      ]
+    ]
+  },
+  {
+    "key": "zoho",
+    "url": "https://www.zoho.com/terms.html",
+    "document": "Zoho Terms of Service",
+    "region": "국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "version": "2022. 3. 2. 최종 수정 표시",
+    "scope": "표시된 조항의 원문 대조 완료",
+    "items": [
+      [
+        "payment",
+        "갱신하지 않으려면 최소 7일 전에 알려야 함",
+        "구독은 기간 종료 때 자동 갱신됩니다. 무료 요금제로 낮추거나 갱신을 원하지 않는다고 알려야 하며, 약관은 갱신일 최소 7일 전 통지를 요구합니다.",
+        "Fees and Payments",
+        "갱신일 일주일보다 앞서 요금제를 변경하거나 갱신 거절을 신청하세요."
+      ]
+    ]
+  },
+  {
+    "key": "jotform",
+    "url": "https://www.jotform.com/terms/",
+    "document": "Jotform Terms of Use",
+    "region": "국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "version": null,
+    "scope": "표시된 조항의 원문 대조 완료",
+    "items": [
+      [
+        "payment",
+        "취소하거나 무료 요금제로 낮추기 전까지 자동 갱신",
+        "구독료는 주기마다 선불로 청구됩니다. 구독을 취소하거나 무료 Starter 요금제로 변경하면 다음 결제나 다음 청구서 발행을 막을 수 있습니다.",
+        "Automatic Renewal",
+        "계정의 Billing에서 자동 갱신 상태와 Starter 전환 완료 여부를 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "surveymonkey",
+    "url": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
+    "document": "SurveyMonkey Terms of Use",
+    "region": "국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "version": "2025. 12. 27. 시행",
+    "scope": "표시된 조항의 원문 대조 완료",
+    "items": [
+      [
+        "cancel",
+        "자동 갱신 해제와 이미 낸 요금 환불은 다름",
+        "자동 갱신을 끄면 현재 결제주기가 끝날 때 구독이 종료됩니다. 납부한 요금은 약관의 예외나 법에서 요구하는 경우를 제외하면 환불하지 않습니다.",
+        "1.1 Fees · 1.2 Subscriptions",
+        "갱신 해제 완료 화면을 저장하고 환불이 필요한 경우 별도 예외 조건을 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "replit",
+    "url": "https://replit.com/terms-of-service",
+    "document": "Replit Terms of Service",
+    "region": "국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "version": "2026. 8. 3. 최종 수정",
+    "scope": "표시된 조항의 원문 대조 완료",
+    "items": [
+      [
+        "cancel",
+        "구독료 환불과 사용량 요금 환불 조건이 다름",
+        "구독료는 구매 후 30일 이내 전액 환불을 요청할 수 있으나 가장 최근 구독 청구에 한정됩니다. 이미 발생한 사용량 기반 요금은 환불 대상이 아니며 과거 결제주기나 부분 사용 환불도 제외됩니다.",
+        "c. Refunds",
+        "청구서에서 구독료와 사용량 요금을 구분하고 환불 요청 시 계정 정보와 청구서 번호를 준비하세요."
+      ]
+    ]
+  },
+  {
+    "key": "vercel",
+    "url": "https://vercel.com/legal/terms",
+    "document": "Vercel Terms of Service",
+    "region": "국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "version": "2026. 6. 1. 최종 수정",
+    "scope": "표시된 조항의 원문 대조 완료",
+    "items": [
+      [
+        "content",
+        "업로드한 코드·자료의 서비스 개선 이용권 부여",
+        "서비스에 제출한 콘텐츠는 제공·개선, 새 제품 개발, 보안과 악용 방지를 위해 회사가 복제·수정·저장·파생물 작성 등을 할 수 있도록 허락합니다. 이 조항만으로 기밀 자료의 모든 사용 목적을 판단하지 마세요.",
+        "Your Content",
+        "비공개 코드와 고객 자료를 올리기 전 기밀유지·개인정보 관련 계약도 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "cloudflare",
+    "url": "https://www.cloudflare.com/terms/",
+    "document": "Cloudflare Self-Serve Subscription Agreement",
+    "region": "국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "version": "2025. 9. 12. 최종 수정",
+    "scope": "표시된 조항의 원문 대조 완료",
+    "items": [
+      [
+        "payment",
+        "같은 기간으로 갱신되며 당시 요금이 적용됨",
+        "유료 구독은 처음 선택한 기간과 같은 길이로 자동 갱신되고 당시 요금으로 청구됩니다. 다음 예정 결제일 전 계정 대시보드에서 취소해야 합니다.",
+        "2.4 Subscription Terms, Renewals, and Cancellations",
+        "다음 청구일과 활성화된 유료 서비스를 대시보드에서 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "protonmail",
+    "url": "https://proton.me/legal/terms",
+    "document": "Proton Terms of Service",
+    "region": "국제 영문 약관 · 무료 Proton 계정",
+    "version": "2026. 10. 9. 최종 수정",
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "other",
+        "무료 계정은 12개월 미사용 시 데이터 삭제 가능",
+        "무료 계정을 12개월 연속 사용하지 않으면 계정과 이메일 등 연결된 자료를 삭제할 수 있습니다. 조치 30·15·7일 전에 복구 이메일로 안내하며, 활성 유료 구독에는 이 미사용 규정이 적용되지 않습니다.",
+        "3. Inactive Accounts",
+        "복구 이메일을 최신 상태로 유지하고 1년에 한 번 이상 로그인해 서비스를 사용하세요."
+      ]
+    ]
+  },
+  {
+    "key": "protondrive",
+    "url": "https://proton.me/legal/terms",
+    "document": "Proton Terms of Service",
+    "region": "국제 영문 약관 · 무료 Proton 계정",
+    "version": "2026. 10. 9. 최종 수정",
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "other",
+        "무료 계정은 12개월 미사용 시 데이터 삭제 가능",
+        "무료 계정을 12개월 연속 사용하지 않으면 계정과 파일 등 연결된 자료를 삭제할 수 있습니다. 조치 30·15·7일 전에 복구 이메일로 안내하며, 활성 유료 구독에는 이 미사용 규정이 적용되지 않습니다.",
+        "3. Inactive Accounts",
+        "복구 이메일을 최신 상태로 유지하고 1년에 한 번 이상 로그인해 서비스를 사용하세요."
+      ]
+    ]
+  },
+  {
+    "key": "snapchat",
+    "url": "https://www.snap.com/terms",
+    "document": "Snap Group Limited Terms of Service",
+    "region": "미국 외 지역 · Snap Group Limited 약관",
+    "version": "2026. 9. 21. 시행",
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "content",
+        "공개 스토리에는 더 넓은 무상 이용권이 적용됨",
+        "공개 프로필·Spotlight·Snap Map 등 공개 서비스에 올린 콘텐츠에는 회사·제휴사·다른 이용자가 복제·편집·배포 등을 할 수 있는 철회 불가 이용권을 부여합니다. 사진·영상 속 이름과 모습도 포함되며 별도 보상이 보장되지 않습니다.",
+        "3. Rights You Grant Us — Public Content",
+        "친구에게 보내는 내용과 전체 공개로 게시하는 내용을 구분하세요."
+      ]
+    ]
+  },
+  {
+    "key": "basecamp",
+    "url": "https://37signals.com/policies/terms",
+    "document": "37signals Terms of Service",
+    "region": "Basecamp 공통 서비스 약관 · 국제 영문",
+    "version": "2026. 9. 16. 최종 수정",
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "cancel",
+        "계정 취소 즉시 자료에 접근할 수 없게 됨",
+        "계정을 취소하면 콘텐츠 접근이 즉시 중단됩니다. 운영 시스템·로그에서는 30일 이내, 백업에서는 60일 이내 영구 삭제한다고 정하며 삭제 후에는 복구할 수 없습니다.",
+        "Cancellation and Termination",
+        "계정 취소 전에 프로젝트·첨부파일을 내보내고 취소 완료 여부를 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "skyscanner",
+    "url": "https://www.skyscanner.com/terms-of-service",
+    "document": "Skyscanner Terms of Service",
+    "region": "국제 영문 · 제휴 여행사 예약",
+    "version": null,
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "cancel",
+        "환불·변경은 실제 예약 업체의 조건 확인 필요",
+        "검색된 항공·숙박 상품은 독립된 여행 제공업체가 공급하며 그 업체의 예약 조건이 적용됩니다. Skyscanner 자체 Travel Service에서 예약한 경우에는 별도 약관이 적용됩니다.",
+        "Making travel bookings via Skyscanner",
+        "결제 전 실제 판매업체와 취소·변경 수수료를 확인하고 예약 확인서를 저장하세요."
+      ]
+    ]
+  },
+  {
+    "key": "tripcom",
+    "url": "https://www.trip.com/contents/service-guideline/terms.html",
+    "document": "Trip.com Terms and Conditions",
+    "region": "국제 영문 약관",
+    "version": null,
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "content",
+        "후기·사진에 영구적 홍보 이용권 부여",
+        "후기나 사진을 게시하면 서비스 제공과 홍보를 위해 회사가 무상으로 복제·편집·번역·배포할 수 있는 영구적·철회 불가 이용권을 부여합니다. 이름 표시나 추가 통지 없이 이용될 수도 있습니다.",
+        "Rights You Are Giving Us to Use Material You Upload",
+        "여행 후기 사진에 얼굴·예약번호·위치 등 민감한 정보가 보이지 않는지 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "expedia",
+    "url": "https://www.expedia.com/lp/b/terms-of-service",
+    "document": "Expedia Terms of Service",
+    "region": "미국 사이트 영문 약관 · 한국 사이트와 별도",
+    "version": "2026. 8. 10. 개정 표시",
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "other",
+        "같은 숙소에 8개 초과 객실을 나눠 예약해도 취소 가능",
+        "같은 숙박일·숙소에 8개를 초과하는 객실을 별도 예약으로 나눠 잡으면 예약이 취소될 수 있습니다. 취소 수수료나 환불 불가 보증금 손실도 발생할 수 있어 단체 예약 경로를 이용해야 합니다.",
+        "Group bookings",
+        "9개 이상 객실이 필요하면 Groups and Meetings 경로의 조건을 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "hotelscom",
+    "url": "https://www.hotels.com/lp/b/terms-of-service",
+    "document": "Hotels.com Terms of Service",
+    "region": "미국 사이트 영문 약관 · 지역별 조건 별도",
+    "version": "2026. 3. 26. 개정 표시",
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "other",
+        "단체 예약을 여러 건으로 나눠도 객실 수 제한 적용",
+        "같은 숙소·기간에 8개 초과 객실을 나누어 예약하면 회사가 취소할 수 있으며 수수료나 환불 불가 보증금 손실이 발생할 수 있습니다.",
+        "Group bookings",
+        "단체 숙박은 일반 예약을 나누기 전에 전용 예약 경로를 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "kayak",
+    "url": "https://www.kayak.com/terms-of-use",
+    "document": "KAYAK Terms of Use",
+    "region": "국제 영문 약관",
+    "version": "2026. 8. 17. 최종 수정",
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "content",
+        "후기 속 이름·사진도 콘텐츠 이용에 포함될 수 있음",
+        "후기를 올리면 사이트와 관련해 회사가 무상으로 수정·배포할 수 있는 영구적·철회 불가 이용권을 줍니다. 후기 속 이름·이미지·음성 등 개인적 속성도 해당 콘텐츠 이용과 함께 사용하도록 허락합니다.",
+        "6.2 Your Content",
+        "실명이나 얼굴이 포함된 후기의 공개 범위를 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "turo",
+    "url": "https://turo.com/us/en/policies/terms",
+    "document": "Turo Terms of Service",
+    "region": "미국 사이트 영문 약관 · 지역별 조건 별도",
+    "version": "2026. 6. 24. 개정",
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "content",
+        "차량 사진과 후기는 서비스 홍보에 활용될 수 있음",
+        "이용자가 게시한 차량 사진·후기 등에는 서비스 운영과 홍보를 위한 무상·철회 불가·영구적 이용권이 부여됩니다. 소유권을 넘긴다는 의미는 아니지만 회사가 편집하거나 재배포할 수 있습니다.",
+        "User Content",
+        "차량 사진에 집 주소·얼굴·문서 등 불필요한 개인정보가 없는지 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "ea",
+    "url": "https://www.ea.com/legal/user-agreement",
+    "document": "EA User Agreement",
+    "region": "국제 영문 약관 · 현지법 및 판매약관 예외 적용",
+    "version": "2026. 5. 14. 최종 수정",
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "payment",
+        "게임 가상화폐는 현금 교환과 환불이 제한됨",
+        "EA 가상화폐는 서비스 밖의 금전 가치가 없으며 현금으로 교환하거나 양도할 수 없습니다. 판매약관의 예외를 제외하면 남은 가상화폐의 환불도 제한됩니다.",
+        "Virtual Currency",
+        "필요한 양만 구매하고 실제 결제 경로의 환불 예외를 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "ubisoft",
+    "url": "https://www.ubisoft.com/legal/documents/termsofuse/en-US",
+    "document": "Ubisoft Terms of Use",
+    "region": "미국 영어 버전 · 현지법상 권리 우선",
+    "version": null,
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "payment",
+        "남은 가상화폐는 법정 예외 외 환불 제한",
+        "가상화폐는 Ubisoft 서비스 밖에서 현금 가치가 없고 판매·양도·현금 교환이 불가합니다. 법에서 요구하는 경우를 제외하면 미사용 가상화폐도 환불하지 않는다고 정합니다.",
+        "4.3 Credits, virtual currency",
+        "충전 전 사용할 상품과 환불 가능 조건을 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "riotgames",
+    "url": "https://www.riotgames.com/en/terms-of-service",
+    "document": "Riot Games Terms of Service",
+    "region": "국제 영문 약관 · 한국 개별 게임 약관 별도",
+    "version": "2024. 12. 1. 최종 수정",
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "content",
+        "요청받지 않은 아이디어에는 무상 이용권 부여",
+        "회사에 자발적으로 제출한 아이디어를 수정·배포·상품화하거나 다른 사람에게 제공할 수 있도록 광범위한 무상 이용권을 줍니다. 아이디어 제공에 대한 보상을 약속하지 않습니다.",
+        "Unsolicited Ideas",
+        "공개를 원하지 않는 게임 기획이나 발명은 제안으로 보내지 마세요."
+      ]
+    ]
+  },
+  {
+    "key": "webtoon",
+    "url": "https://www.webtoons.com/en/terms",
+    "document": "WEBTOON Terms of Use",
+    "region": "글로벌 영어 서비스 · 한국 네이버웹툰 약관과 별도",
+    "version": "2024. 9. 24. 최종 수정",
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "content",
+        "게시물 이용권이 넓지만 CANVAS의 편집·파생물에는 제한이 있음",
+        "이용자 게시물에는 서비스 유지·개선·홍보를 위한 무상 이용권을 부여합니다. CANVAS 만화의 수정·파생물 작성 권한은 해당 만화와 서비스의 마케팅·홍보 목적에 한정한다고 별도로 정합니다.",
+        "User Postings — License to WEBTOON",
+        "작품을 올리는 서비스 지역과 CANVAS 관련 계약을 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "playstation",
+    "url": "https://www.playstation.com/ko-kr/legal/terms-of-service/",
+    "document": "PlayStation 이용약관",
+    "region": "대한민국",
+    "version": null,
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "payment",
+        "PS Plus는 갱신 취소 전까지 같은 기간으로 자동 연장",
+        "PS Plus 갱신을 취소하지 않으면 구매한 기간만큼 자동 연장되며 지갑·등록 카드·승인된 결제수단에서 요금이 차감됩니다. 결제 가능한 금액이 부족하면 해당 정기 서비스는 자동 취소됩니다.",
+        "13.2 비용 차감",
+        "계정의 PS Plus 갱신일과 자동 갱신 상태를 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "bunjang",
+    "url": "https://terms.bunjang.co.kr/terms/service.html",
+    "document": "번개장터 서비스 이용약관",
+    "region": "대한민국",
+    "version": null,
+    "scope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
+    "items": [
+      [
+        "cancel",
+        "탈퇴 전에 진행 중인 거래를 정리해야 함",
+        "진행 중인 거래는 탈퇴 전에 완료·철회·취소해야 합니다. 거래를 정리하지 않은 데 따른 불이익은 해당 회원이 부담한다고 정합니다.",
+        "회원 탈퇴 조항",
+        "배송·정산·반품 진행 상태를 확인하고 필요한 거래 기록을 보관하세요."
+      ]
+    ]
+  },
+  {
+    "key": "viber",
+    "url": "https://www.viber.com/en/terms/viber-terms-use/",
+    "document": "Viber Terms of Service",
+    "region": "국제 영문 약관 · 공개 콘텐츠에 한정",
+    "version": "2026. 8. 18. 최종 수정",
+    "scope": "공개 커뮤니티·채널 콘텐츠의 이용권 확인",
+    "items": [
+      [
+        "content",
+        "공개 채널의 사진·영상에는 영구적 이용권 부여",
+        "누구나 볼 수 있는 커뮤니티·채널·챗봇 콘텐츠에는 Viber와 제휴사 등이 영구적·철회 불가·무상으로 활용할 수 있는 이용권을 받습니다. 등장인물의 이름·모습·목소리도 상업적 목적으로 이용할 수 있으며 보상 의무는 없다고 정합니다.",
+        "8. Content and Public Content",
+        "비공개 대화와 공개 채널을 구분하고, 사진 속 다른 사람의 공개 동의도 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "quizlet",
+    "url": "https://quizlet.com/tos",
+    "document": "Quizlet Terms of Service",
+    "region": "국제 영문 약관 · 현지 법정 환불 권리 우선",
+    "version": "2026. 5. 28. 최종 수정",
+    "scope": "구독 취소 기한과 결제 경로별 환불 조건 확인",
+    "items": [
+      [
+        "cancel",
+        "자동 갱신을 막으려면 만료 최소 하루 전 취소",
+        "자동 갱신 구독은 만료 최소 1일 전에 취소해야 추가 청구를 피할 수 있습니다. Quizlet에서 직접 구매한 구독은 법이 요구하는 경우를 제외하고 환불하지 않으며, 앱스토어 등 다른 플랫폼 구매는 해당 플랫폼의 환불 정책을 따릅니다.",
+        "Upgraded Membership · To Cancel Your Subscription / Refunds",
+        "구독을 구매한 곳과 만료일을 확인하고 취소 완료 기록을 보관하세요."
+      ]
+    ]
+  },
+  {
+    "key": "brilliant",
+    "url": "https://brilliant.org/terms-of-use/",
+    "document": "Brilliant Terms of Use",
+    "region": "국제 영문 약관 · 현지 강행법규 우선",
+    "version": "2026. 2. 9. 시행",
+    "scope": "자동 갱신 취소 요청 기한 확인",
+    "items": [
+      [
+        "payment",
+        "갱신을 피하려면 최소 한 영업일 전 취소 요청",
+        "구독은 취소할 때까지 같은 기간으로 자동 갱신됩니다. 다음 요금 청구를 피하려면 현재 구독 기간이 끝나기 최소 1영업일 전에 취소 요청을 제출해야 한다고 정합니다.",
+        "FEES AND PAYMENT · Automatic Renewal",
+        "주말·휴일을 고려해 미리 취소하고 계정 또는 고객지원에서 접수 여부를 확인하세요."
+      ]
+    ]
+  },
+  {
+    "key": "bandcamp",
+    "url": "https://bandcamp.com/terms_of_use",
+    "document": "Bandcamp Terms of Use",
+    "region": "국제 영문 약관 · 현지 법정 권리 우선",
+    "version": "2026. 5. 7. 시행",
+    "scope": "구매한 디지털 콘텐츠의 접근 중단 조건 확인",
+    "items": [
+      [
+        "content",
+        "구매한 음악도 서비스 안에서 계속 듣지 못할 수 있음",
+        "저작권 침해 신고 등으로 콘텐츠를 제거해야 하면 이전 구매자의 접근도 차단될 수 있습니다. 이 경우 법에서 요구하지 않는 한 환불하지 않는다고 정합니다. 구매가 영구적인 온라인 보관을 보장하지는 않습니다.",
+        "Transactions · Content availability",
+        "구매한 음악은 허용된 다운로드 기능으로 보관하고 결제 내역을 남기세요."
+      ]
+    ]
+  },
+  {
+    "key": "imgur",
+    "url": "https://imgur.com/tos",
+    "document": "Imgur Terms of Service",
+    "region": "국제 영문 약관 · 공개 영역에 올린 콘텐츠",
+    "version": "2026. 10. 2. 시행",
+    "scope": "공개 업로드 이용권과 삭제 후 남는 예외 확인",
+    "items": [
+      [
+        "content",
+        "삭제해도 이미 재허락한 공개 콘텐츠의 이용권은 남음",
+        "공개 영역에 올린 콘텐츠에는 넓은 이용권을 부여합니다. 삭제하면 원칙적으로 이용권이 끝나지만 이미 복제·재허락했거나 재허락 대상으로 지정한 콘텐츠는 예외입니다. 공개 콘텐츠를 다른 이용자가 사용한 경우도 삭제 후 남을 수 있습니다.",
+        "Intellectual Property / Use of Imgur Content",
+        "회수해야 할 사진이나 개인정보는 공개 업로드 전에 제외하세요."
+      ]
+    ]
+  }
+]
