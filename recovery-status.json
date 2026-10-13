@@ -1,11 +1,25 @@
 {
   "checkedAt": "2026. 10. 13. (한국 시간)",
   "total": 500,
-  "reviewed": 17,
+  "reviewed": 69,
   "linked": 2,
-  "pending": 481,
-  "items": 44,
+  "pending": 429,
+  "items": 100,
   "complete": false,
+  "linkChecks": {
+    "storedUrls": 925,
+    "servicesAttempted": 500,
+    "states": {
+      "document-candidate": 606,
+      "body-unavailable": 150,
+      "http-error": 138,
+      "needs-document-check": 13,
+      "connection-error": 5,
+      "pdf-needs-review": 12,
+      "not-found-page": 1
+    }
+  },
+  "newReviewedServices": 52,
   "changes": [
     {
       "key": "youtube",
@@ -110,6 +124,76 @@
       ]
     },
     {
+      "key": "x",
+      "name": "X",
+      "status": "reviewed",
+      "oldSource": "https://x.com/en/tos",
+      "documents": [
+        {
+          "url": "https://x.com/en/tos",
+          "title": "X Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "linkedin",
+      "name": "LinkedIn",
+      "status": "reviewed",
+      "oldSource": "https://www.linkedin.com/legal/user-agreement",
+      "documents": [
+        {
+          "url": "https://www.linkedin.com/legal/user-agreement",
+          "title": "LinkedIn User Agreement",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "reddit",
+      "name": "Reddit",
+      "status": "reviewed",
+      "oldSource": "https://redditinc.com/policies/user-agreement",
+      "documents": [
+        {
+          "url": "https://redditinc.com/policies/user-agreement",
+          "title": "Reddit User Agreement",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "pinterest",
+      "name": "Pinterest",
+      "status": "reviewed",
+      "oldSource": "https://policy.pinterest.com/en/terms-of-service",
+      "documents": [
+        {
+          "url": "https://policy.pinterest.com/en/terms-of-service",
+          "title": "Pinterest Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "snapchat",
+      "name": "Snapchat",
+      "status": "reviewed",
+      "oldSource": "https://www.snap.com/terms",
+      "documents": [
+        {
+          "url": "https://www.snap.com/terms",
+          "title": "Snap Group Limited Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
       "key": "kakaotalk",
       "name": "카카오톡",
       "status": "reviewed",
@@ -118,6 +202,34 @@
         {
           "url": "https://www.kakao.com/policy/terms?lang=ko",
           "title": "카카오계정 약관",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "line",
+      "name": "LINE",
+      "status": "reviewed",
+      "oldSource": "https://terms.line.me/line_terms?lang=ko",
+      "documents": [
+        {
+          "url": "https://terms.line.me/line_terms?lang=ko",
+          "title": "LY Corporation 공통이용약관",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "watcha",
+      "name": "왓챠",
+      "status": "reviewed",
+      "oldSource": "https://watcha.com/terms",
+      "documents": [
+        {
+          "url": "https://watcha.com/ko-KR/legals/play_agreement",
+          "title": "왓챠 이용약관",
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "bodyChecked": true
         }
@@ -172,6 +284,20 @@
       ]
     },
     {
+      "key": "gmarket",
+      "name": "G마켓",
+      "status": "reviewed",
+      "oldSource": "https://member2.gmarket.co.kr/TermsPolicy/BuyerTermsPolicy",
+      "documents": [
+        {
+          "url": "https://policy.gmarket.co.kr/terms-policy/buyer-use",
+          "title": "G마켓 구매회원 약관",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
       "key": "google",
       "name": "Google",
       "status": "reviewed",
@@ -186,6 +312,34 @@
       ]
     },
     {
+      "key": "microsoft",
+      "name": "Microsoft",
+      "status": "reviewed",
+      "oldSource": "https://www.microsoft.com/servicesagreement",
+      "documents": [
+        {
+          "url": "https://www.microsoft.com/ko-kr/servicesagreement",
+          "title": "Microsoft 서비스 계약",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "apple",
+      "name": "Apple iCloud",
+      "status": "reviewed",
+      "oldSource": "https://www.apple.com/legal/internet-services/icloud/en/terms.html",
+      "documents": [
+        {
+          "url": "https://www.apple.com/legal/internet-services/icloud/kr/terms.html",
+          "title": "iCloud 이용약관",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
       "key": "dropbox",
       "name": "Dropbox",
       "status": "reviewed",
@@ -194,6 +348,132 @@
         {
           "url": "https://www.dropbox.com/terms",
           "title": "Dropbox Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "canva",
+      "name": "Canva",
+      "status": "reviewed",
+      "oldSource": "https://www.canva.com/policies/terms-of-use/",
+      "documents": [
+        {
+          "url": "https://www.canva.com/policies/terms-of-use/",
+          "title": "Canva Terms of Use",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "tripcom",
+      "name": "Trip.com",
+      "status": "reviewed",
+      "oldSource": "https://www.trip.com/contents/service-guideline/terms.html",
+      "documents": [
+        {
+          "url": "https://www.trip.com/contents/service-guideline/terms.html",
+          "title": "Trip.com Terms and Conditions",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "bluesky",
+      "name": "Bluesky",
+      "status": "reviewed",
+      "oldSource": "https://bsky.social/about/support/tos",
+      "documents": [
+        {
+          "url": "https://bsky.social/about/support/tos",
+          "title": "Bluesky Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "tumblr",
+      "name": "Tumblr",
+      "status": "reviewed",
+      "oldSource": "https://www.tumblr.com/policy/en/terms-of-service",
+      "documents": [
+        {
+          "url": "https://www.tumblr.com/policy/en/terms-of-service",
+          "title": "Tumblr Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "vimeo",
+      "name": "Vimeo",
+      "status": "reviewed",
+      "oldSource": "https://vimeo.com/terms",
+      "documents": [
+        {
+          "url": "https://vimeo.com/legal/",
+          "title": "Vimeo Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "flickr",
+      "name": "Flickr",
+      "status": "reviewed",
+      "oldSource": "https://www.flickr.com/help/terms",
+      "documents": [
+        {
+          "url": "https://www.flickr.com/help/terms",
+          "title": "Flickr Terms of Use",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "signal",
+      "name": "Signal",
+      "status": "reviewed",
+      "oldSource": "https://signal.org/legal/",
+      "documents": [
+        {
+          "url": "https://signal.org/legal/",
+          "title": "Signal Terms of Service & Privacy Policy",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "webtoon",
+      "name": "WEBTOON",
+      "status": "reviewed",
+      "oldSource": "https://www.webtoons.com/en/terms",
+      "documents": [
+        {
+          "url": "https://www.webtoons.com/en/terms",
+          "title": "WEBTOON Terms of Use",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "github",
+      "name": "GitHub",
+      "status": "reviewed",
+      "oldSource": "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
+      "documents": [
+        {
+          "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+          "title": "GitHub Terms of Service",
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "bodyChecked": true
         }
@@ -214,6 +494,328 @@
       ]
     },
     {
+      "key": "expedia",
+      "name": "Expedia",
+      "status": "reviewed",
+      "oldSource": "https://www.expedia.com/lp/lg-terms",
+      "documents": [
+        {
+          "url": "https://www.expedia.com/lp/b/terms-of-service",
+          "title": "Expedia Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "hotelscom",
+      "name": "Hotels.com",
+      "status": "reviewed",
+      "oldSource": "https://www.hotels.com/lp/b/terms-of-service",
+      "documents": [
+        {
+          "url": "https://www.hotels.com/lp/b/terms-of-service",
+          "title": "Hotels.com Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "kayak",
+      "name": "KAYAK",
+      "status": "reviewed",
+      "oldSource": "https://www.kayak.com/terms-of-use",
+      "documents": [
+        {
+          "url": "https://www.kayak.com/terms-of-use",
+          "title": "KAYAK Terms of Use",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "skyscanner",
+      "name": "Skyscanner",
+      "status": "reviewed",
+      "oldSource": "https://www.skyscanner.com/terms-of-service",
+      "documents": [
+        {
+          "url": "https://www.skyscanner.com/terms-of-service",
+          "title": "Skyscanner Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "turo",
+      "name": "Turo",
+      "status": "reviewed",
+      "oldSource": "https://turo.com/us/en/policies/terms",
+      "documents": [
+        {
+          "url": "https://turo.com/us/en/policies/terms",
+          "title": "Turo Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "steam",
+      "name": "Steam",
+      "status": "reviewed",
+      "oldSource": "https://store.steampowered.com/subscriber_agreement/",
+      "documents": [
+        {
+          "url": "https://store.steampowered.com/subscriber_agreement/",
+          "title": "Steam Subscriber Agreement",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "playstation",
+      "name": "PlayStation",
+      "status": "reviewed",
+      "oldSource": "https://www.playstation.com/legal/psn-terms-of-service/",
+      "documents": [
+        {
+          "url": "https://www.playstation.com/ko-kr/legal/terms-of-service/",
+          "title": "PlayStation 이용약관",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "riotgames",
+      "name": "Riot Games",
+      "status": "reviewed",
+      "oldSource": "https://www.riotgames.com/en/terms-of-service",
+      "documents": [
+        {
+          "url": "https://www.riotgames.com/en/terms-of-service",
+          "title": "Riot Games Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "ea",
+      "name": "Electronic Arts",
+      "status": "reviewed",
+      "oldSource": "https://www.ea.com/legal/user-agreement",
+      "documents": [
+        {
+          "url": "https://www.ea.com/legal/user-agreement",
+          "title": "EA User Agreement",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "ubisoft",
+      "name": "Ubisoft",
+      "status": "reviewed",
+      "oldSource": "https://legal.ubi.com/termsofuse/en-US",
+      "documents": [
+        {
+          "url": "https://www.ubisoft.com/legal/documents/termsofuse/en-US",
+          "title": "Ubisoft Terms of Use",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "coursera",
+      "name": "Coursera",
+      "status": "reviewed",
+      "oldSource": "https://www.coursera.org/about/terms",
+      "documents": [
+        {
+          "url": "https://www.coursera.org/about/terms",
+          "title": "Coursera Terms of Use",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "quizlet",
+      "name": "Quizlet",
+      "status": "reviewed",
+      "oldSource": "https://quizlet.com/tos",
+      "documents": [
+        {
+          "url": "https://quizlet.com/tos",
+          "title": "Quizlet Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "viber",
+      "name": "Viber",
+      "status": "reviewed",
+      "oldSource": "https://www.viber.com/terms/viber-terms-use/",
+      "documents": [
+        {
+          "url": "https://www.viber.com/en/terms/viber-terms-use/",
+          "title": "Viber Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "imgur",
+      "name": "Imgur",
+      "status": "reviewed",
+      "oldSource": "https://imgur.com/tos",
+      "documents": [
+        {
+          "url": "https://imgur.com/tos",
+          "title": "Imgur Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "patreon",
+      "name": "Patreon",
+      "status": "reviewed",
+      "oldSource": "https://www.patreon.com/policy/legal",
+      "documents": [
+        {
+          "url": "https://www.patreon.com/policy/legal",
+          "title": "Patreon Terms of Use",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "wordpress",
+      "name": "WordPress.com",
+      "status": "reviewed",
+      "oldSource": "https://wordpress.com/tos/",
+      "documents": [
+        {
+          "url": "https://wordpress.com/tos/",
+          "title": "WordPress.com Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "bandcamp",
+      "name": "Bandcamp",
+      "status": "reviewed",
+      "oldSource": "https://bandcamp.com/terms_of_use",
+      "documents": [
+        {
+          "url": "https://bandcamp.com/terms_of_use",
+          "title": "Bandcamp Terms of Use",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "bunjang",
+      "name": "번개장터",
+      "status": "reviewed",
+      "oldSource": "https://terms.bunjang.co.kr/terms/service.html",
+      "documents": [
+        {
+          "url": "https://terms.bunjang.co.kr/terms/service.html",
+          "title": "번개장터 서비스 이용약관",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "onedrive",
+      "name": "OneDrive",
+      "status": "reviewed",
+      "oldSource": "https://www.microsoft.com/servicesagreement",
+      "documents": [
+        {
+          "url": "https://www.microsoft.com/ko-kr/servicesagreement",
+          "title": "Microsoft 서비스 계약",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "outlook",
+      "name": "Outlook",
+      "status": "reviewed",
+      "oldSource": "https://www.microsoft.com/servicesagreement",
+      "documents": [
+        {
+          "url": "https://www.microsoft.com/ko-kr/servicesagreement",
+          "title": "Microsoft 서비스 계약",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "protonmail",
+      "name": "Proton Mail",
+      "status": "reviewed",
+      "oldSource": "https://proton.me/legal/terms",
+      "documents": [
+        {
+          "url": "https://proton.me/legal/terms",
+          "title": "Proton Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "protondrive",
+      "name": "Proton Drive",
+      "status": "reviewed",
+      "oldSource": "https://proton.me/legal/terms",
+      "documents": [
+        {
+          "url": "https://proton.me/legal/terms",
+          "title": "Proton Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "linear",
+      "name": "Linear",
+      "status": "reviewed",
+      "oldSource": "https://linear.app/terms",
+      "documents": [
+        {
+          "url": "https://linear.app/terms",
+          "title": "Linear Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
       "key": "airtable",
       "name": "Airtable",
       "status": "reviewed",
@@ -222,6 +824,132 @@
         {
           "url": "https://www.airtable.com/company/tos",
           "title": "Airtable Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "basecamp",
+      "name": "Basecamp",
+      "status": "reviewed",
+      "oldSource": "https://basecamp.com/about/policies/terms",
+      "documents": [
+        {
+          "url": "https://37signals.com/policies/terms",
+          "title": "37signals Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "wrike",
+      "name": "Wrike",
+      "status": "reviewed",
+      "oldSource": "https://www.wrike.com/security/terms/",
+      "documents": [
+        {
+          "url": "https://www.wrike.com/security/terms/",
+          "title": "Wrike Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "zoho",
+      "name": "Zoho",
+      "status": "reviewed",
+      "oldSource": "https://www.zoho.com/terms.html",
+      "documents": [
+        {
+          "url": "https://www.zoho.com/terms.html",
+          "title": "Zoho Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "jotform",
+      "name": "Jotform",
+      "status": "reviewed",
+      "oldSource": "https://www.jotform.com/terms/",
+      "documents": [
+        {
+          "url": "https://www.jotform.com/terms/",
+          "title": "Jotform Terms of Use",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "surveymonkey",
+      "name": "SurveyMonkey",
+      "status": "reviewed",
+      "oldSource": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
+      "documents": [
+        {
+          "url": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
+          "title": "SurveyMonkey Terms of Use",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "obsidian",
+      "name": "Obsidian",
+      "status": "reviewed",
+      "oldSource": "https://obsidian.md/terms",
+      "documents": [
+        {
+          "url": "https://obsidian.md/terms",
+          "title": "Obsidian Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "replit",
+      "name": "Replit",
+      "status": "reviewed",
+      "oldSource": "https://replit.com/site/terms",
+      "documents": [
+        {
+          "url": "https://replit.com/terms-of-service",
+          "title": "Replit Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "vercel",
+      "name": "Vercel",
+      "status": "reviewed",
+      "oldSource": "https://vercel.com/legal/terms",
+      "documents": [
+        {
+          "url": "https://vercel.com/legal/terms",
+          "title": "Vercel Terms of Service",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "cloudflare",
+      "name": "Cloudflare",
+      "status": "reviewed",
+      "oldSource": "https://www.cloudflare.com/terms/",
+      "documents": [
+        {
+          "url": "https://www.cloudflare.com/terms/",
+          "title": "Cloudflare Self-Serve Subscription Agreement",
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "bodyChecked": true
         }
@@ -270,6 +998,20 @@
       ]
     },
     {
+      "key": "brilliant",
+      "name": "Brilliant",
+      "status": "reviewed",
+      "oldSource": "https://brilliant.org/terms-of-use/",
+      "documents": [
+        {
+          "url": "https://brilliant.org/terms-of-use/",
+          "title": "Brilliant Terms of Use",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
       "key": "ohouse",
       "name": "오늘의집",
       "status": "reviewed",
@@ -302,2407 +1044,2147 @@
     {
       "key": "instagram",
       "name": "Instagram",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "공식 약관 페이지에서 로그인 요구가 확인되어 본문을 대조하지 못했습니다. 로그인 화면을 약관 원문으로 표시하지 않습니다."
     },
     {
       "key": "tiktok",
       "name": "TikTok",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "facebook",
       "name": "Facebook",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "공식 약관 페이지에서 로그인 요구·접근 제한이 확인되어 본문을 대조하지 못했습니다."
     },
     {
       "key": "threads",
       "name": "Threads",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "x",
-      "name": "X",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "linkedin",
-      "name": "LinkedIn",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "reddit",
-      "name": "Reddit",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "pinterest",
-      "name": "Pinterest",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "snapchat",
-      "name": "Snapchat",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "line",
-      "name": "LINE",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "공식 약관 페이지에서 요청 제한(HTTP 429)이 발생해 본문을 대조하지 못했습니다."
     },
     {
       "key": "telegram",
       "name": "Telegram",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "twitch",
       "name": "Twitch",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "disneyplus",
       "name": "Disney+",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "watcha",
-      "name": "왓챠",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "tving",
       "name": "TVING",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "wavve",
       "name": "Wavve",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "primevideo",
       "name": "Prime Video",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "melon",
       "name": "멜론",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "soundcloud",
       "name": "SoundCloud",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "aliexpress",
       "name": "AliExpress",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "shein",
       "name": "SHEIN",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "musinsa",
       "name": "무신사",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "elevenst",
       "name": "11번가",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "gmarket",
-      "name": "G마켓",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "ssg",
       "name": "SSG.COM",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "baemin",
       "name": "배달의민족",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "yogiyo",
       "name": "요기요",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "microsoft",
-      "name": "Microsoft",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "apple",
-      "name": "Apple iCloud",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "notion",
       "name": "Notion",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "slack",
       "name": "Slack",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "zoom",
       "name": "Zoom",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "canva",
-      "name": "Canva",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "airbnb",
       "name": "Airbnb",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "booking",
       "name": "Booking.com",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "tripcom",
-      "name": "Trip.com",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "uber",
       "name": "Uber",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "kakaot",
       "name": "카카오 T",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "mastodon",
       "name": "Mastodon",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "bluesky",
-      "name": "Bluesky",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "tumblr",
-      "name": "Tumblr",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "quora",
       "name": "Quora",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "medium",
       "name": "Medium",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "vimeo",
-      "name": "Vimeo",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "flickr",
-      "name": "Flickr",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "weverse",
       "name": "Weverse",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "band",
       "name": "NAVER BAND",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "kakaostory",
       "name": "카카오스토리",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "signal",
-      "name": "Signal",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "nextdoor",
       "name": "Nextdoor",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "clubhouse",
       "name": "Clubhouse",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "behance",
       "name": "Behance",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "deviantart",
       "name": "DeviantArt",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "hulu",
       "name": "Hulu",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "max",
       "name": "Max",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "paramountplus",
       "name": "Paramount+",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "peacock",
       "name": "Peacock",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "crunchyroll",
       "name": "Crunchyroll",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "viki",
       "name": "Rakuten Viki",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "deezer",
       "name": "Deezer",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "tidal",
       "name": "TIDAL",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "amazonmusic",
       "name": "Amazon Music",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "audible",
       "name": "Audible",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "bugs",
       "name": "벅스",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "genie",
       "name": "지니뮤직",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "flo",
       "name": "FLO",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "webtoon",
-      "name": "WEBTOON",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "kakaopage",
       "name": "카카오페이지",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "amazon",
       "name": "Amazon",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "ebay",
       "name": "eBay",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "etsy",
       "name": "Etsy",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "walmart",
       "name": "Walmart",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "target",
       "name": "Target",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "rakuten",
       "name": "Rakuten",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "qoo10",
       "name": "Qoo10",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "mercadolibre",
       "name": "Mercado Libre",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "poshmark",
       "name": "Poshmark",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "depop",
       "name": "Depop",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "stockx",
       "name": "StockX",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "kream",
       "name": "KREAM",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 연결 실패 또는 시간 초과. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "navershopping",
       "name": "네이버쇼핑",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "kurly",
       "name": "마켓컬리",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "lotteon",
       "name": "롯데ON",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "homeplus",
       "name": "홈플러스",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "ikea",
       "name": "IKEA",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "sephora",
       "name": "Sephora",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "oliveyoung",
       "name": "올리브영",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "daiso",
       "name": "다이소몰",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "github",
-      "name": "GitHub",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "gitlab",
       "name": "GitLab",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "atlassian",
       "name": "Atlassian",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "trello",
       "name": "Trello",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "asana",
       "name": "Asana",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "clickup",
       "name": "ClickUp",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "monday",
       "name": "monday.com",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "figma",
       "name": "Figma",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "miro",
       "name": "Miro",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "evernote",
       "name": "Evernote",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "todoist",
       "name": "Todoist",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "box",
       "name": "Box",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "adobe",
       "name": "Adobe",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "docusign",
       "name": "DocuSign",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "grammarly",
       "name": "Grammarly",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "chatgpt",
       "name": "ChatGPT",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "claude",
       "name": "Claude",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "perplexity",
       "name": "Perplexity",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "gemini",
       "name": "Google Gemini",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "expedia",
-      "name": "Expedia",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "agoda",
       "name": "Agoda",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "hotelscom",
-      "name": "Hotels.com",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "kayak",
-      "name": "KAYAK",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "skyscanner",
-      "name": "Skyscanner",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "tripadvisor",
       "name": "Tripadvisor",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "lyft",
       "name": "Lyft",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "grab",
       "name": "Grab",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "bolt",
       "name": "Bolt",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "turo",
-      "name": "Turo",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "klook",
       "name": "Klook",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "myrealtrip",
       "name": "마이리얼트립",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "yeogi",
       "name": "여기어때",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "yanolja",
       "name": "야놀자",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "korail",
       "name": "코레일",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "steam",
-      "name": "Steam",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "epicgames",
       "name": "Epic Games",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "playstation",
-      "name": "PlayStation",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "xbox",
       "name": "Xbox",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "nintendo",
       "name": "Nintendo",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "roblox",
       "name": "Roblox",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "riotgames",
-      "name": "Riot Games",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "공식 페이지에서 2026년 11월 1일 시행 예정 약관이 확인됐습니다. 현재 적용되는 약관을 확보하기 전까지 예정 약관으로 현행 조건을 설명하지 않습니다."
     },
     {
       "key": "battlenet",
       "name": "Battle.net",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "ea",
-      "name": "Electronic Arts",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "ubisoft",
-      "name": "Ubisoft",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 연결 실패 또는 시간 초과. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "nexon",
       "name": "넥슨",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "duolingo",
       "name": "Duolingo",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "coursera",
-      "name": "Coursera",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "udemy",
       "name": "Udemy",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "quizlet",
-      "name": "Quizlet",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "whatsapp",
       "name": "WhatsApp",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "messenger",
       "name": "Messenger",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "wechat",
       "name": "WeChat",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "qq",
       "name": "QQ",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "viber",
-      "name": "Viber",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "imo",
       "name": "imo",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "meetup",
       "name": "Meetup",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "vk",
       "name": "VK",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "okru",
       "name": "OK",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "truthsocial",
       "name": "Truth Social",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "parler",
       "name": "Parler",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "gab",
       "name": "Gab",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "lemmy",
       "name": "Lemmy",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "fivehundredpx",
       "name": "500px",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "imgur",
-      "name": "Imgur",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "giphy",
       "name": "GIPHY",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "dribbble",
       "name": "Dribbble",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "artstation",
       "name": "ArtStation",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "patreon",
-      "name": "Patreon",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "kofi",
       "name": "Ko-fi",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "buymeacoffee",
       "name": "Buy Me a Coffee",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "substack",
       "name": "Substack",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "wordpress",
-      "name": "WordPress.com",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "blogger",
       "name": "Blogger",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "disqus",
       "name": "Disqus",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "youtubemusic",
       "name": "YouTube Music",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "pandora",
       "name": "Pandora",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "iheartradio",
       "name": "iHeartRadio",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "tunein",
       "name": "TuneIn",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "plex",
       "name": "Plex",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "roku",
       "name": "Roku",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "tubi",
       "name": "Tubi",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "plutotv",
       "name": "Pluto TV",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "mubi",
       "name": "MUBI",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "criterion",
       "name": "Criterion Channel",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "discoveryplus",
       "name": "discovery+",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "espnplus",
       "name": "ESPN+",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "sling",
       "name": "Sling TV",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "fubotv",
       "name": "Fubo",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "dazn",
       "name": "DAZN",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "soop",
       "name": "SOOP",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "chzzk",
       "name": "CHZZK",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "kick",
       "name": "Kick",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "storytel",
       "name": "Storytel",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "scribd",
       "name": "Everand",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "podbean",
       "name": "Podbean",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "pocketcasts",
       "name": "Pocket Casts",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "castbox",
       "name": "Castbox",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "qobuz",
       "name": "Qobuz",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "bandcamp",
-      "name": "Bandcamp",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "bestbuy",
       "name": "Best Buy",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "homedepot",
       "name": "The Home Depot",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "wayfair",
       "name": "Wayfair",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "wish",
       "name": "Wish",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "zalando",
       "name": "Zalando",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "asos",
       "name": "ASOS",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "farfetch",
       "name": "FARFETCH",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "uniqlo",
       "name": "UNIQLO",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "hm",
       "name": "H&M",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "ably",
       "name": "에이블리",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "queenit",
       "name": "퀸잇",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "karrot",
       "name": "당근",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "bunjang",
-      "name": "번개장터",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "auction",
       "name": "옥션",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "coupangeats",
       "name": "쿠팡이츠",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "doordash",
       "name": "DoorDash",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "instacart",
       "name": "Instacart",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "deliveroo",
       "name": "Deliveroo",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "foodpanda",
       "name": "foodpanda",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "ubereats",
       "name": "Uber Eats",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "costco",
       "name": "Costco",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "macys",
       "name": "Macy’s",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "nordstrom",
       "name": "Nordstrom",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "iherb",
       "name": "iHerb",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "samsungshop",
       "name": "Samsung Shop",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "onedrive",
-      "name": "OneDrive",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "googleworkspace",
       "name": "Google Workspace",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "gmail",
       "name": "Gmail",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "outlook",
-      "name": "Outlook",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "yahoomail",
       "name": "Yahoo Mail",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "protonmail",
-      "name": "Proton Mail",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "protondrive",
-      "name": "Proton Drive",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "wetransfer",
       "name": "WeTransfer",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "mega",
       "name": "MEGA",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "pcloud",
       "name": "pCloud",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "linear",
-      "name": "Linear",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "basecamp",
-      "name": "Basecamp",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "smartsheet",
       "name": "Smartsheet",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "wrike",
-      "name": "Wrike",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "zoho",
-      "name": "Zoho",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "hubspot",
       "name": "HubSpot",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "salesforce",
       "name": "Salesforce",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "zendesk",
       "name": "Zendesk",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "intercom",
       "name": "Intercom",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "mailchimp",
       "name": "Mailchimp",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "typeform",
       "name": "Typeform",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
-    },
-    {
-      "key": "jotform",
-      "name": "Jotform",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "surveymonkey",
-      "name": "SurveyMonkey",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "loom",
       "name": "Loom",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "webex",
       "name": "Webex",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "teams",
       "name": "Microsoft Teams",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "googlemeet",
       "name": "Google Meet",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "obsidian",
-      "name": "Obsidian",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "replit",
-      "name": "Replit",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "codesandbox",
       "name": "CodeSandbox",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "vercel",
-      "name": "Vercel",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "netlify",
       "name": "Netlify",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "cloudflare",
-      "name": "Cloudflare",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "digitalocean",
       "name": "DigitalOcean",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "googlemaps",
       "name": "Google Maps",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "waze",
       "name": "Waze",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "citymapper",
       "name": "Citymapper",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "moovit",
       "name": "Moovit",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "lime",
       "name": "Lime",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "bird",
       "name": "Bird",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "getaround",
       "name": "Getaround",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "sixt",
       "name": "SIXT",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "hertz",
       "name": "Hertz",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "avis",
       "name": "Avis",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "rentalcars",
       "name": "Rentalcars.com",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "hopper",
       "name": "Hopper",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "traveloka",
       "name": "Traveloka",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "omio",
       "name": "Omio",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "trainline",
       "name": "Trainline",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "paypal",
       "name": "PayPal",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "venmo",
       "name": "Venmo",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "cashapp",
       "name": "Cash App",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "wise",
       "name": "Wise",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "revolut",
       "name": "Revolut",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "coinbase",
       "name": "Coinbase",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "binance",
       "name": "Binance",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "robinhood",
       "name": "Robinhood",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "tinder",
       "name": "Tinder",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "bumble",
       "name": "Bumble",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "hinge",
       "name": "Hinge",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "okcupid",
       "name": "OkCupid",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "match",
       "name": "Match",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "strava",
       "name": "Strava",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "fitbit",
       "name": "Fitbit",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "myfitnesspal",
       "name": "MyFitnessPal",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "calm",
       "name": "Calm",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "indeed",
       "name": "Indeed",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "glassdoor",
       "name": "Glassdoor",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "upwork",
       "name": "Upwork",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "fiverr",
       "name": "Fiverr",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "khanacademy",
       "name": "Khan Academy",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "edx",
       "name": "edX",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "skillshare",
       "name": "Skillshare",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "codecademy",
       "name": "Codecademy",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "grok",
       "name": "Grok",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "midjourney",
       "name": "Midjourney",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "runway",
       "name": "Runway",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "leonardoai",
       "name": "Leonardo AI",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "stabilityai",
       "name": "Stability AI",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "huggingface",
       "name": "Hugging Face",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "replicate",
       "name": "Replicate",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "poe",
       "name": "Poe",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "characterai",
       "name": "Character.AI",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "civitai",
       "name": "Civitai",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "cursor",
       "name": "Cursor",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "windsurf",
       "name": "Windsurf",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "lovable",
       "name": "Lovable",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "boltnew",
       "name": "Bolt.new",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "v0",
       "name": "v0",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "stackoverflow",
       "name": "Stack Overflow",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "npm",
       "name": "npm",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "pypi",
       "name": "PyPI",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "dockerhub",
       "name": "Docker Hub",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "docker",
       "name": "Docker",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "jetbrains",
       "name": "JetBrains",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "vscode_market",
       "name": "Visual Studio Marketplace",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / PDF 본문 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "unity",
       "name": "Unity",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "unrealengine",
       "name": "Unreal Engine",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / PDF 본문 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "sentry",
       "name": "Sentry",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "datadog",
       "name": "Datadog",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "newrelic",
       "name": "New Relic",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "grafana",
       "name": "Grafana Cloud",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "mongodb",
       "name": "MongoDB Atlas",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "supabase",
       "name": "Supabase",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "firebase",
       "name": "Firebase",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "rendercloud",
       "name": "Render",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "railway",
       "name": "Railway",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "flyio",
       "name": "Fly.io",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "heroku",
       "name": "Heroku",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "linode",
       "name": "Linode",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "vultr",
       "name": "Vultr",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "ovhcloud",
       "name": "OVHcloud",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "namecheap",
       "name": "Namecheap",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 문서를 찾을 수 없다는 화면 확인 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "godaddy",
       "name": "GoDaddy",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "squarespace",
       "name": "Squarespace",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "wix",
       "name": "Wix",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "shopify",
       "name": "Shopify",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "woocommerce",
       "name": "WooCommerce",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "dropboxsign",
       "name": "Dropbox Sign",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "pandadoc",
       "name": "PandaDoc",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "notability",
       "name": "Notability",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "goodnotes",
       "name": "Goodnotes",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "bearnotes",
       "name": "Bear",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "roam",
       "name": "Roam Research",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "tana",
       "name": "Tana",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "anytype",
       "name": "Anytype",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "ticktick",
       "name": "TickTick",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "things",
       "name": "Things",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "sunsama",
       "name": "Sunsama",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "motion",
       "name": "Motion",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "akiflow",
       "name": "Akiflow",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "fantastical",
       "name": "Fantastical",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "onepassword",
       "name": "1Password",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "bitwarden",
       "name": "Bitwarden",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "lastpass",
       "name": "LastPass",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "dashlane",
       "name": "Dashlane",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "nordpass",
       "name": "NordPass",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "nordvpn",
       "name": "NordVPN",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "expressvpn",
       "name": "ExpressVPN",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "surfshark",
       "name": "Surfshark",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "mullvad",
       "name": "Mullvad",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "protonvpn",
       "name": "Proton VPN",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "zapier",
       "name": "Zapier",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "make",
       "name": "Make",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "ifttt",
       "name": "IFTTT",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "n8n",
       "name": "n8n",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "hootsuite",
       "name": "Hootsuite",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "later",
       "name": "Later",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "sproutsocial",
       "name": "Sprout Social",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "klaviyo",
       "name": "Klaviyo",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "constantcontact",
       "name": "Constant Contact",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "brevo",
       "name": "Brevo",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "kit",
       "name": "Kit",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "ghost",
       "name": "Ghost",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "freshworks",
       "name": "Freshworks",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "nebula",
       "name": "Nebula",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "curiositystream",
       "name": "Curiosity Stream",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "britbox",
       "name": "BritBox",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "shudder",
       "name": "Shudder",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "acorntv",
       "name": "Acorn TV",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "viu",
       "name": "Viu",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "iqiyi",
       "name": "iQIYI",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "wetv",
       "name": "WeTV",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "bilibili",
       "name": "Bilibili",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "niconico",
       "name": "Niconico",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "dailymotion",
       "name": "Dailymotion",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "rumble",
       "name": "Rumble",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "wattpad",
       "name": "Wattpad",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "ao3",
       "name": "Archive of Our Own",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 연결 실패 또는 시간 초과. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "goodreads",
       "name": "Goodreads",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "scribdbooks",
       "name": "Scribd",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "kobo",
       "name": "Kobo",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "googleplaybooks",
       "name": "Google Play Books",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "applebooks",
       "name": "Apple Books",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "feedly",
       "name": "Feedly",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "flipboard",
       "name": "Flipboard",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "inoreader",
       "name": "Inoreader",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "newsbreak",
       "name": "NewsBreak",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "groundnews",
       "name": "Ground News",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "nytimes",
       "name": "The New York Times",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "washingtonpost",
       "name": "The Washington Post",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "guardian",
       "name": "The Guardian",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "financialtimes",
       "name": "Financial Times",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "bloomberg",
       "name": "Bloomberg",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "ted",
       "name": "TED",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "masterclass",
       "name": "MasterClass",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
-    },
-    {
-      "key": "brilliant",
-      "name": "Brilliant",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "domestika",
       "name": "Domestika",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "teachable",
       "name": "Teachable",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "thinkific",
       "name": "Thinkific",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "naversmartstore",
       "name": "네이버 스마트스토어",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "kakaoshopping",
       "name": "카카오 쇼핑",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "wconcept",
       "name": "W Concept",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "twentyninecm",
       "name": "29CM",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "eql",
       "name": "EQL",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "lfmall",
       "name": "LFmall",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "lottehomeshopping",
       "name": "롯데홈쇼핑",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "gsshop",
       "name": "GS SHOP",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "cjonstyle",
       "name": "CJ온스타일",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "nsmall",
       "name": "NS홈쇼핑",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "akmall",
       "name": "AK몰",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "hmall",
       "name": "현대Hmall",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "interparkshopping",
       "name": "인터파크 쇼핑",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "tenbyten",
       "name": "텐바이텐",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "idus",
       "name": "아이디어스",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "mercari",
       "name": "Mercari",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "carousell",
       "name": "Carousell",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "offerup",
       "name": "OfferUp",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "vinted",
       "name": "Vinted",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "grailed",
       "name": "Grailed",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "goat",
       "name": "GOAT",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "therealreal",
       "name": "The RealReal",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "vestiaire",
       "name": "Vestiaire Collective",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "newegg",
       "name": "Newegg",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "bhphoto",
       "name": "B&H Photo",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "microcenter",
       "name": "Micro Center",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "lowes",
       "name": "Lowe’s",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "acehardware",
       "name": "Ace Hardware",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "walgreens",
       "name": "Walgreens",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "cvs",
       "name": "CVS",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "boots",
       "name": "Boots",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "zalora",
       "name": "Zalora",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "lazada",
       "name": "Lazada",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "shopee",
       "name": "Shopee",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "stripe",
       "name": "Stripe",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "square",
       "name": "Square",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "adyen",
       "name": "Adyen",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "klarna",
       "name": "Klarna",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "afterpay",
       "name": "Afterpay",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "affirm",
       "name": "Affirm",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "remitly",
       "name": "Remitly",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "westernunion",
       "name": "Western Union",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "moneygram",
       "name": "MoneyGram",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "skrill",
       "name": "Skrill",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "neteller",
       "name": "Neteller",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "payoneer",
       "name": "Payoneer",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "kakaopay",
       "name": "카카오페이",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "naverpay",
       "name": "네이버페이",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "toss",
       "name": "토스",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "samsungpay",
       "name": "Samsung Wallet",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "googlepay",
       "name": "Google Pay",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "applepay",
       "name": "Apple Pay",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "sofi",
       "name": "SoFi",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "wealthfront",
       "name": "Wealthfront",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "alltrails",
       "name": "AllTrails",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "komoot",
       "name": "Komoot",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "wikiloc",
       "name": "Wikiloc",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "classpass",
       "name": "ClassPass",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "headspace",
       "name": "Headspace",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "betterhelp",
       "name": "BetterHelp",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "noom",
       "name": "Noom",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "flohealth",
       "name": "Flo",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "sleepcycle",
       "name": "Sleep Cycle",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "garminconnect",
       "name": "Garmin Connect",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "peloton",
       "name": "Peloton",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "nikeclub",
       "name": "Nike Run Club",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "adidasrunning",
       "name": "adidas Running",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "lululemon",
       "name": "lululemon",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "choiceprivileges",
       "name": "Choice Privileges",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "hilton",
       "name": "Hilton Honors",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "marriott",
       "name": "Marriott Bonvoy",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "hyatt",
       "name": "World of Hyatt",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "ihg",
       "name": "IHG One Rewards",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "accor",
       "name": "ALL Accor",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "airasia",
       "name": "AirAsia",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "ryanair",
       "name": "Ryanair",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "easyjet",
       "name": "easyJet",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "emirates",
       "name": "Emirates",
-      "reason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "qatarairways",
       "name": "Qatar Airways",
-      "reason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다."
+      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     }
   ]
 }
