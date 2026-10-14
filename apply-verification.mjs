@@ -4,6 +4,7 @@ const ctx={window:{}};
 vm.runInNewContext(fs.readFileSync('service-catalog.js','utf8'),ctx);
 const catalog=ctx.window.serviceCatalog;
 const additions=JSON.parse(fs.readFileSync('verification-additions.json','utf8'));
+const supplements=fs.existsSync('verification-supplements.json')?JSON.parse(fs.readFileSync('verification-supplements.json','utf8')):[];
 const fetched=JSON.parse(fs.readFileSync(fs.existsSync('verification-20261013/all-results.json')?'verification-20261013/all-results.json':'verification-status.json','utf8'));
 fetched.urlCount??=fetched.linkChecks.storedUrls;
 const original=JSON.parse(fs.readFileSync('audit-original-catalog-20261009.json','utf8'));
@@ -41,23 +42,24 @@ const exceptional={
   roblox:'공식 페이지에서 2026년 11월 1일 시행 예정 약관이 확인됐습니다. 현재 적용되는 약관을 확보하기 전까지 예정 약관으로 현행 조건을 설명하지 않습니다.'
 };
 for(const [key,reason]of Object.entries(exceptional))if(catalog[key]&&!catalog[key].items.length)catalog[key].pendingReason=reason;
-for(const entry of additions){
+for(const entry of [...additions,...supplements.map(e=>({...e,merge:true}))]){
   const s=catalog[entry.key];if(!s)throw Error(`Unknown service: ${entry.key}`);
   const reviewDate=entry.checkedAt||checkedAt;
-  s.items=entry.items.map(([cat,title,body,clause,action])=>{
+  const incoming=entry.items.map(([cat,title,body,clause,action,source={}])=>{
     if(!categories[cat]||!title||!body||!clause||!action)throw Error(`Incomplete item: ${entry.key}`);
-    return [cat,categories[cat],title,'mid',body,body,entry.url,{document:entry.document,clause,region:entry.region,version:entry.version||null,checkedAt:reviewDate,action}];
+    return [cat,categories[cat],title,source.level||'mid',body,body,source.url||entry.url,{document:source.document||entry.document,clause,region:source.region||entry.region,version:source.version===undefined?(entry.version||null):source.version,checkedAt:reviewDate,action}];
   });
+  s.items=entry.merge?[...new Map([...s.items,...incoming].map(item=>[[item[0],item[2],item[6]].join('|'),item])).values()]:incoming;
   s.status='reviewed';s.overall='원문 대조 항목 있음';
-  s.reviewScope=entry.scope+' · '+entry.region;
+  s.reviewScope=entry.merge?`표시 ${s.items.length}개 항목의 출처 조항 확인 · 적용 지역·상품은 각 항목 참고`:entry.scope+' · '+entry.region;
   s.reviewStatus=reviewDate+' · '+entry.scope;
   s.pendingReason='';
-  s.documents=[{url:entry.url,title:entry.document,checkedAt:reviewDate,bodyChecked:true}];
+  s.documents=[...new Map(s.items.map(item=>[item[6],{url:item[6],title:item[7].document,checkedAt:item[7].checkedAt,bodyChecked:true}])).values()];
   s.linkAudit.reviewedItemCount=s.items.length;
 }
 const counts={total:Object.keys(catalog).length,reviewed:Object.values(catalog).filter(s=>s.status==='reviewed').length,linked:Object.values(catalog).filter(s=>s.status==='linked').length,pending:Object.values(catalog).filter(s=>s.status==='pending').length,items:Object.values(catalog).reduce((n,s)=>n+s.items.length,0)};
 const states={};for(const r of fetched.results)states[r.state]=(states[r.state]||0)+1;
-const audit={checkedAt,...counts,complete:false,linkChecks:{storedUrls:fetched.urlCount,servicesAttempted:owners.size,states},newReviewedServices:additions.length};
+const audit={checkedAt,...counts,complete:false,linkChecks:{storedUrls:fetched.urlCount,servicesAttempted:owners.size,states},newReviewedServices:new Set([...additions,...supplements].map(e=>e.key)).size};
 fs.writeFileSync('service-catalog.js','// Each summary is limited to the cited clauses. URL access checks do not certify legal accuracy.\nwindow.serviceCatalog='+JSON.stringify(catalog)+';\nwindow.catalogAudit='+JSON.stringify(audit)+';\n');
 const changes=Object.entries(catalog).filter(([,s])=>s.documents.length).map(([key,s])=>({key,name:s.name,status:s.status,oldSource:original.services[key].source,documents:s.documents}));
 fs.writeFileSync('recovery-status.json',JSON.stringify({...audit,changes,pendingServices:Object.entries(catalog).filter(([,s])=>s.status==='pending').map(([key,s])=>({key,name:s.name,reason:s.pendingReason}))},null,2)+'\n');
