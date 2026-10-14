@@ -24,6 +24,7 @@
   
     select{font:inherit}.intro h1{font-size:clamp(2.2rem,4.5vw,3.7rem);line-height:1.17}.no-signup{display:block;margin-top:13px;color:var(--ink);font-size:.9rem}.catalog-picker{margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}.catalog-picker label{display:block;font-weight:800;font-size:.9rem;margin-bottom:7px}.catalog-picker select{width:100%;padding:12px;border:1px solid #aebbc5;border-radius:10px;background:white;color:var(--ink)}.catalog-picker p{font-size:.79rem;color:var(--muted);margin:8px 0 0}.statusline{background:white;border:1px solid var(--line);border-left:7px solid var(--service-color);border-radius:16px;padding:24px;align-items:center}.service-mark{width:72px;height:72px;flex-shrink:0;border-radius:18px}.service-mark img{width:48px;height:48px}.service-id h2{font-size:2.1rem;line-height:1.2;margin:4px 0}.service-id .service-eyebrow{font-size:.73rem;font-weight:800;color:var(--service-color)}.service-scope{color:var(--muted);font-size:.89rem;margin:0 4px 16px}.document-links{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}.document-links a{background:white;border:1px solid var(--line);border-radius:10px;padding:10px 14px;color:var(--ink);font-size:.85rem;font-weight:750;text-decoration:none}.document-links small{display:block;font-size:.7rem;font-weight:400;color:var(--muted);margin-top:3px}.pending-note{margin-top:14px!important;font-size:.83rem}.notice{margin-bottom:18px}.search-btn:focus-visible,button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #ff6338;outline-offset:3px}
     @media(max-width:800px){.statusline{flex-direction:column;align-items:flex-start;padding:18px;gap:14px}.service-id h2{font-size:1.8rem;overflow-wrap:anywhere}.service-mark{width:60px;height:60px}.service-mark img{width:40px;height:40px}.intro h1{font-size:2.35rem}.service-id{min-width:0}.document-links a{max-width:100%;overflow-wrap:anywhere}}
+  .search-feedback{margin-top:16px;padding:12px 14px;background:#f2f6fa;border-radius:10px;font-size:.9rem;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}.search-feedback[hidden],.search-empty[hidden]{display:none}.search-feedback button{border:0;background:none;color:#1557a0;text-decoration:underline;cursor:pointer;padding:0;font-size:.88rem;overflow-wrap:anywhere}.search-empty{margin-top:16px;padding:20px;border:1px solid var(--line);border-radius:12px;background:#fafbfc;overflow-wrap:anywhere}.search-empty h3{margin:0 0 8px;font-size:1.05rem}.search-empty p{color:var(--muted);font-size:.9rem}.request-link{display:inline-block;background:var(--ink);color:white;border-radius:9px;padding:10px 14px;text-decoration:none;font-weight:700}.request-link[hidden]{display:none}.request-note{font-size:.78rem!important}.search-feedback button:focus-visible,.request-link:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
   </style>
 </head>
 <body>
@@ -39,7 +40,7 @@
       <form class="search-form" id="searchForm">
         <div class="search-wrap">
           <svg width="21" height="21" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          <input class="search-input" id="searchInput" type="search" autocomplete="off" placeholder="공개 서비스 검색 · 예: 네이버, spotify.com" aria-label="서비스명 또는 사이트 주소" aria-controls="suggestions" aria-expanded="false">
+          <input class="search-input" id="searchInput" type="search" autocomplete="off" placeholder="공개 서비스 검색 · 예: 네이버, spotify.com" maxlength="120" aria-label="서비스명 또는 사이트 주소" aria-controls="suggestions" aria-expanded="false">
           <div class="suggestions" id="suggestions" role="listbox" hidden></div>
         </div>
         <button class="search-btn" type="submit">검색하기</button>
@@ -47,7 +48,8 @@
       <div class="quick"><span class="quick-label">추천 검색</span><button class="chip" data-service="youtube">YouTube</button><button class="chip" data-service="netflix">Netflix</button><button class="chip" data-service="naver">네이버</button><button class="chip" data-service="coupang">쿠팡</button><button class="chip" data-service="spotify">Spotify</button></div>
       <div class="quick recent-row" id="recentRow" hidden><span class="quick-label">최근 검색</span><span id="recentList"></span></div>
       <div class="catalog-picker"><label for="serviceSelect">전체 서비스에서 선택</label><select id="serviceSelect"><option value="">서비스 목록 불러오는 중</option></select><p>‘요약 제공’은 표시된 항목을 원문과 대조했다는 뜻입니다. ‘보완 중’인 서비스도 검색과 목록에서 찾을 수 있습니다.</p></div>
-      <p class="search-error" id="searchError" hidden>목록에서 찾지 못했습니다. 서비스 이름이나 주소를 다시 입력해 주세요.</p>
+      <div class="search-feedback" id="searchCorrection" role="status" hidden><span id="correctionText"></span><button type="button" id="originalSearchButton"></button></div>
+      <div class="search-empty" id="searchError" role="status" hidden><h3 id="searchEmptyTitle">검색 결과가 없습니다</h3><p id="searchEmptyText"></p><a class="request-link" id="requestService" href="https://github.com/saltcho2/terms-at-a-glance/issues/new" target="_blank" rel="noopener">서비스 추가 요청하기 ↗</a><p class="request-note" id="requestNote">요청 작성 화면에서 내용을 확인한 뒤 등록해 주세요. GitHub 로그인이 필요합니다.</p></div>
     </section>
 
     <section id="homeContent" aria-label="약관 한눈에 소개">
@@ -83,8 +85,9 @@
   </main>
   <footer><div class="footer-inner"><span>© 2026 약관 한눈에 · 독립 정보 프로젝트</span><span>서비스 명칭과 로고의 권리는 각 권리자에게 있으며, 해당 서비스와 제휴 관계가 없습니다.</span></div></footer>
 
-  <script src="service-catalog.js?v=20261013c"></script>
+  <script src="service-catalog.js?v=20261014a"></script>
   <script src="casebook.js?v=20261009a"></script>
+  <script src="search-engine.js?v=20261014a"></script>
   <script>
     const services=window.serviceCatalog||{};
     const icons={payment:'₩',privacy:'⌁',content:'✦',cancel:'↩',other:'!'};
@@ -149,7 +152,7 @@
       $('#serviceScope').textContent=data.items.length?(data.reviewScope||data.reviewStatus||'아래에 표시된 항목을 공식 원문과 대조했습니다.'):data.pendingReason;
       $('#resultSection').style.setProperty('--service-color',data.color||'#192837');
       $('#serviceSelect').value=current;
-      renderServiceMark(data);$('#overallText').textContent=data.items.length?'일부 항목 요약 제공':data.status==='linked'?'공식 링크 확인 · 요약 보완 중':'자료 보완 중';$('.overall').classList.add('preliminary');
+      renderServiceMark(data);$('#overallText').textContent=data.items.length?'요약 제공':data.status==='linked'?'공식 링크 확인 · 요약 보완 중':'자료 보완 중';$('.overall').classList.add('preliminary');
       $('#documentLinks').innerHTML=(data.documents||[]).map(d=>`<a href="${escapeHtml(d.url)}" target="_blank" rel="noopener">${escapeHtml(d.title)} ↗<small>${d.bodyChecked?'표시 항목 원문 대조':'공식 주소 확인 · 본문 대조 전'}</small></a>`).join('');
       $$('.filter').forEach(btn=>{btn.querySelector('.count').textContent=data.items.filter(item=>btn.dataset.filter==='all'||item[0]===btn.dataset.filter).length;});
       const visible=data.items.filter(item=>activeFilter==='all'||item[0]===activeFilter);
@@ -159,21 +162,36 @@
       $('#empty').innerHTML=data.items.length?'<h3>이 분류의 요약은 아직 없습니다</h3><p>전체 필터에서 확인된 항목을 살펴보세요.</p>':'<h3>이 서비스의 약관 요약을 보완해야 합니다</h3><p>'+escapeHtml(data.pendingReason)+'</p><p class="pending-note">서비스를 목록에서 삭제하지 않고 확인 상태를 남겼습니다. 공식 조항을 확인하기 전에는 기존 공통 요약을 표시하지 않습니다.</p>';$('#results').style.display='grid';$('#incidentPanel').style.display='block';renderServiceCases();
     }
     const RECENT_KEY='terms-recent-v1';
-    const normalize=value=>String(value||'').toLowerCase().trim().replace(/^https?:\/\//,'').replace(/^www\./,'').replace(/\/$/,'');
-    const searchValues=key=>[key,services[key].name,services[key].domain,...(services[key].aliases||[])].map(normalize);
-    function findMatches(query){
-      const q=normalize(query);if(!q)return [];
-      return Object.keys(services).map(key=>{const values=searchValues(key);let score=99;values.forEach(value=>{if(value===q)score=Math.min(score,0);else if(value.startsWith(q))score=Math.min(score,1);else if(q.length>1&&value.includes(q))score=Math.min(score,2);else if(q.includes(value)&&value.length>2)score=Math.min(score,3);});return {key,score};}).filter(x=>x.score<99).sort((a,b)=>a.score-b.score||services[a.key].name.localeCompare(services[b.key].name,'ko')).map(x=>x.key);
+    const serviceSearch=window.TermsSearch.create(services);
+    let submittedQuery='';
+    function findMatches(query){return serviceSearch.matches(query).map(x=>x.key);}
+    function clearSearchFeedback(){$('#searchCorrection').hidden=true;$('#searchError').hidden=true;}
+    function runSearch(query,exactOnly=false){
+      submittedQuery=String(query||'').trim().slice(0,120);$('#searchInput').value=submittedQuery;closeSuggestions();
+      const match=serviceSearch.matches(submittedQuery,{exactOnly})[0];
+      if(match){
+        chooseService(match.key);
+        if(!match.exact){$('#searchCorrection').hidden=false;$('#correctionText').textContent=services[match.key].name+'로 검색한 결과입니다.';$('#originalSearchButton').textContent='“'+submittedQuery+'” 검색 결과 보기';$('#searchCorrection').scrollIntoView({behavior:'smooth',block:'start'});}
+      }else{
+        clearSearchFeedback();$('#resultSection').classList.add('hidden');$('#homeContent').classList.add('hidden');$('#serviceSelect').value='';
+        $('#searchError').hidden=false;$('#searchEmptyTitle').textContent=submittedQuery?'“'+submittedQuery+'” 검색 결과가 없습니다.':'서비스 이름이나 사이트 주소를 입력해 주세요.';
+        $('#searchEmptyText').textContent=submittedQuery?'등록된 서비스 이름·별칭·주소와 정확히 일치하는 결과를 찾지 못했습니다. 원하는 서비스가 없다면 추가를 요청해 주세요.':'';
+        $('#requestService').hidden=!submittedQuery;$('#requestNote').hidden=!submittedQuery;
+        const title='서비스 추가 요청: '+submittedQuery;
+        const body='요청 서비스명 또는 사이트 주소: '+submittedQuery+'\n\n공식 약관 링크(알고 있다면):\n\n추가로 확인하고 싶은 내용:';
+        $('#requestService').href='https://github.com/saltcho2/terms-at-a-glance/issues/new?title='+encodeURIComponent(title)+'&body='+encodeURIComponent(body);
+      }
     }
+    $('#originalSearchButton').addEventListener('click',()=>runSearch(submittedQuery,true));
     function readRecent(){try{return JSON.parse(localStorage.getItem(RECENT_KEY)||'[]').filter(key=>services[key]);}catch{return [];}}
     function renderRecent(){const recent=readRecent().slice(0,6);$('#recentRow').hidden=!recent.length;$('#recentList').innerHTML=recent.map(key=>`<button class="chip recent-chip" type="button" data-recent="${key}">${services[key].name}</button>`).join(' ');$$('[data-recent]').forEach(btn=>btn.addEventListener('click',()=>selectService(btn.dataset.recent)));}
     function saveRecent(key){const recent=[key,...readRecent().filter(x=>x!==key)].slice(0,6);try{localStorage.setItem(RECENT_KEY,JSON.stringify(recent));}catch{}renderRecent();}
     function closeSuggestions(){$('#suggestions').hidden=true;$('#searchInput').setAttribute('aria-expanded','false');suggestionIndex=-1;}
     let suggestionIndex=-1;
     function renderSuggestions(query){const matches=findMatches(query).slice(0,8);const box=$('#suggestions');if(!matches.length){closeSuggestions();return;}box.innerHTML=matches.map(key=>`<button class="suggestion" type="button" role="option" data-suggestion="${key}"><strong>${services[key].name}</strong><span>${services[key].domain}</span></button>`).join('');box.hidden=false;$('#searchInput').setAttribute('aria-expanded','true');suggestionIndex=-1;$$('[data-suggestion]').forEach(btn=>btn.addEventListener('click',()=>selectService(btn.dataset.suggestion)));}
-    function chooseService(key,save=true){if(!services[key])return;current=key;activeFilter='all';if(save)saveRecent(key);$('#homeContent').classList.add('hidden');$('#resultSection').classList.remove('hidden');$('#searchError').hidden=true;$$('.chip[data-service]').forEach(x=>x.classList.toggle('active',x.dataset.service===key));$$('.filter').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));render();$('#resultSection').scrollIntoView({behavior:'smooth',block:'start'});}
-    function selectService(key){$('#searchInput').value=services[key].name;closeSuggestions();chooseService(key);}
-    function showHome(){$('#resultSection').classList.add('hidden');$('#homeContent').classList.remove('hidden');$('#searchError').hidden=true;$('#searchInput').value='';$('#serviceSelect').value='';closeSuggestions();$$('.chip[data-service]').forEach(x=>x.classList.remove('active'));$('#main').scrollIntoView({behavior:'smooth',block:'start'});}
+    function chooseService(key,save=true){if(!services[key])return;current=key;activeFilter='all';if(save)saveRecent(key);$('#homeContent').classList.add('hidden');$('#resultSection').classList.remove('hidden');clearSearchFeedback();$$('.chip[data-service]').forEach(x=>x.classList.toggle('active',x.dataset.service===key));$$('.filter').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));render();$('#resultSection').scrollIntoView({behavior:'smooth',block:'start'});}
+    function selectService(key){runSearch(services[key].name);}
+    function showHome(){$('#resultSection').classList.add('hidden');$('#homeContent').classList.remove('hidden');clearSearchFeedback();$('#searchInput').value='';$('#serviceSelect').value='';closeSuggestions();$$('.chip[data-service]').forEach(x=>x.classList.remove('active'));$('#main').scrollIntoView({behavior:'smooth',block:'start'});}
     $('#homeButton').addEventListener('click',showHome);
     $('#serviceSelect').addEventListener('change',e=>{if(e.target.value)selectService(e.target.value);});
     $$('.chip[data-service]').forEach(btn=>btn.addEventListener('click',()=>selectService(btn.dataset.service)));
@@ -182,7 +200,7 @@
     $('#searchInput').addEventListener('focus',e=>{if(e.target.value.trim())renderSuggestions(e.target.value);});
     $('#searchInput').addEventListener('keydown',e=>{const buttons=$$('[data-suggestion]');if(!buttons.length)return;if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();suggestionIndex=(suggestionIndex+(e.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length;buttons.forEach((btn,i)=>btn.classList.toggle('active',i===suggestionIndex));buttons[suggestionIndex].scrollIntoView({block:'nearest'});}else if(e.key==='Enter'&&suggestionIndex>=0){e.preventDefault();buttons[suggestionIndex].click();}else if(e.key==='Escape'){closeSuggestions();}});
     document.addEventListener('click',e=>{if(!e.target.closest('.search-wrap'))closeSuggestions();});
-    $('#searchForm').addEventListener('submit',e=>{e.preventDefault();const found=findMatches($('#searchInput').value)[0];if(found){selectService(found)}else{closeSuggestions();$('#resultSection').classList.add('hidden');$('#homeContent').classList.remove('hidden');$('#searchError').hidden=false;}});
+    $('#searchForm').addEventListener('submit',e=>{e.preventDefault();runSearch($('#searchInput').value);});
     renderCatalogStats();
     renderHomeCases();
     renderRecent();
