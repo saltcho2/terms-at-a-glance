@@ -43,15 +43,16 @@ const exceptional={
 for(const [key,reason]of Object.entries(exceptional))if(catalog[key]&&!catalog[key].items.length)catalog[key].pendingReason=reason;
 for(const entry of additions){
   const s=catalog[entry.key];if(!s)throw Error(`Unknown service: ${entry.key}`);
+  const reviewDate=entry.checkedAt||checkedAt;
   s.items=entry.items.map(([cat,title,body,clause,action])=>{
     if(!categories[cat]||!title||!body||!clause||!action)throw Error(`Incomplete item: ${entry.key}`);
-    return [cat,categories[cat],title,'mid',body,body,entry.url,{document:entry.document,clause,region:entry.region,version:entry.version||null,checkedAt,action}];
+    return [cat,categories[cat],title,'mid',body,body,entry.url,{document:entry.document,clause,region:entry.region,version:entry.version||null,checkedAt:reviewDate,action}];
   });
   s.status='reviewed';s.overall='원문 대조 항목 있음';
   s.reviewScope=entry.scope+' · '+entry.region;
-  s.reviewStatus=checkedAt+' · '+entry.scope;
+  s.reviewStatus=reviewDate+' · '+entry.scope;
   s.pendingReason='';
-  s.documents=[{url:entry.url,title:entry.document,checkedAt,bodyChecked:true}];
+  s.documents=[{url:entry.url,title:entry.document,checkedAt:reviewDate,bodyChecked:true}];
   s.linkAudit.reviewedItemCount=s.items.length;
 }
 const counts={total:Object.keys(catalog).length,reviewed:Object.values(catalog).filter(s=>s.status==='reviewed').length,linked:Object.values(catalog).filter(s=>s.status==='linked').length,pending:Object.values(catalog).filter(s=>s.status==='pending').length,items:Object.values(catalog).reduce((n,s)=>n+s.items.length,0)};
