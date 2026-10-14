@@ -1,10 +1,10 @@
 {
   "checkedAt": "2026. 10. 13. (한국 시간)",
   "total": 500,
-  "reviewed": 143,
+  "reviewed": 154,
   "linked": 2,
-  "pending": 355,
-  "items": 182,
+  "pending": 344,
+  "items": 251,
   "complete": false,
   "linkChecks": {
     "storedUrls": 925,
@@ -19,7 +19,7 @@
       "not-found-page": 1
     }
   },
-  "newReviewedServices": 126,
+  "newReviewedServices": 139,
   "changes": [
     {
       "key": "youtube",
@@ -91,6 +91,12 @@
           "url": "https://discord.com/privacy",
           "title": "Discord Privacy Policy",
           "checkedAt": "2026. 10. 9. (한국 시간)",
+          "bodyChecked": true
+        },
+        {
+          "url": "https://discord.com/terms/paid-services-terms",
+          "title": "Discord Paid Services Terms",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
           "bodyChecked": true
         }
       ]
@@ -306,6 +312,26 @@
       ]
     },
     {
+      "key": "soundcloud",
+      "name": "SoundCloud",
+      "status": "reviewed",
+      "oldSource": "https://soundcloud.com/terms-of-use",
+      "documents": [
+        {
+          "url": "https://soundcloud.com/terms-of-use",
+          "title": "SoundCloud Terms of Use",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "bodyChecked": true
+        },
+        {
+          "url": "https://soundcloud.com/pages/privacy",
+          "title": "SoundCloud Privacy Policy",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
       "key": "zigzag",
       "name": "지그재그",
       "status": "linked",
@@ -418,7 +444,13 @@
         {
           "url": "https://www.dropbox.com/terms",
           "title": "Dropbox Terms of Service",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "bodyChecked": true
+        },
+        {
+          "url": "https://www.dropbox.com/privacy",
+          "title": "Dropbox Privacy Policy",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
           "bodyChecked": true
         }
       ]
@@ -460,7 +492,7 @@
         {
           "url": "https://www.zoom.com/en/trust/terms/",
           "title": "Zoom Terms of Service",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
           "bodyChecked": true
         }
       ]
@@ -474,7 +506,13 @@
         {
           "url": "https://www.canva.com/policies/terms-of-use/",
           "title": "Canva Terms of Use",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "bodyChecked": true
+        },
+        {
+          "url": "https://www.canva.com/policies/privacy-policy/",
+          "title": "Canva Privacy Policy",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
           "bodyChecked": true
         }
       ]
@@ -522,6 +560,26 @@
       ]
     },
     {
+      "key": "medium",
+      "name": "Medium",
+      "status": "reviewed",
+      "oldSource": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+      "documents": [
+        {
+          "url": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+          "title": "Medium Terms of Service",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "bodyChecked": true
+        },
+        {
+          "url": "https://policy.medium.com/paid-terms-of-service-cc7f8e165178",
+          "title": "Medium Membership Terms of Service",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
       "key": "vimeo",
       "name": "Vimeo",
       "status": "reviewed",
@@ -559,6 +617,20 @@
           "url": "https://signal.org/legal/",
           "title": "Signal Terms of Service & Privacy Policy",
           "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "tidal",
+      "name": "TIDAL",
+      "status": "reviewed",
+      "oldSource": "https://tidal.com/terms",
+      "documents": [
+        {
+          "url": "https://tidal.com/terms",
+          "title": "TIDAL Terms and Conditions of Use",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
           "bodyChecked": true
         }
       ]
@@ -606,6 +678,20 @@
       ]
     },
     {
+      "key": "etsy",
+      "name": "Etsy",
+      "status": "reviewed",
+      "oldSource": "https://www.etsy.com/legal/terms-of-use/",
+      "documents": [
+        {
+          "url": "https://www.etsy.com/legal/terms-of-use/",
+          "title": "Etsy Terms of Use",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
       "key": "depop",
       "name": "Depop",
       "status": "reviewed",
@@ -643,6 +729,20 @@
           "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
           "title": "GitHub Terms of Service",
           "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "gitlab",
+      "name": "GitLab",
+      "status": "reviewed",
+      "oldSource": "https://about.gitlab.com/terms/",
+      "documents": [
+        {
+          "url": "https://handbook.gitlab.com/handbook/legal/subscription-agreement/",
+          "title": "GitLab Subscription Agreement",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
           "bodyChecked": true
         }
       ]
@@ -774,6 +874,34 @@
       ]
     },
     {
+      "key": "adobe",
+      "name": "Adobe",
+      "status": "reviewed",
+      "oldSource": "https://www.adobe.com/legal/terms.html",
+      "documents": [
+        {
+          "url": "https://www.adobe.com/kr/legal/subscription-terms.html",
+          "title": "Adobe 구독 및 취소 약관",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "grammarly",
+      "name": "Grammarly",
+      "status": "reviewed",
+      "oldSource": "https://www.grammarly.com/terms",
+      "documents": [
+        {
+          "url": "https://www.grammarly.com/terms",
+          "title": "Grammarly 공식 페이지의 Superhuman Terms of Service",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
       "key": "calendly",
       "name": "Calendly",
       "status": "reviewed",
@@ -783,6 +911,20 @@
           "url": "https://calendly.com/legal/customer-terms-conditions",
           "title": "Calendly Customer Terms and Conditions",
           "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "claude",
+      "name": "Claude",
+      "status": "reviewed",
+      "oldSource": "https://www.anthropic.com/legal/consumer-terms",
+      "documents": [
+        {
+          "url": "https://www.anthropic.com/legal/consumer-terms",
+          "title": "Anthropic Consumer Terms of Service",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
           "bodyChecked": true
         }
       ]
@@ -872,6 +1014,26 @@
       ]
     },
     {
+      "key": "epicgames",
+      "name": "Epic Games",
+      "status": "reviewed",
+      "oldSource": "https://www.epicgames.com/site/en-US/tos",
+      "documents": [
+        {
+          "url": "https://legal.epicgames.com/epicgames/tos",
+          "title": "Epic Games Terms of Service",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "bodyChecked": true
+        },
+        {
+          "url": "https://legal.epicgames.com/store/refund-policy",
+          "title": "Epic Games Store Refund Policy",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
       "key": "playstation",
       "name": "PlayStation",
       "status": "reviewed",
@@ -881,6 +1043,20 @@
           "url": "https://www.playstation.com/ko-kr/legal/terms-of-service/",
           "title": "PlayStation 이용약관",
           "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "xbox",
+      "name": "Xbox",
+      "status": "reviewed",
+      "oldSource": "https://www.microsoft.com/servicesagreement",
+      "documents": [
+        {
+          "url": "https://www.microsoft.com/ko-kr/servicesagreement",
+          "title": "Microsoft 서비스 계약 · Xbox 서비스 조건",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
           "bodyChecked": true
         }
       ]
@@ -1048,7 +1224,7 @@
         {
           "url": "https://www.patreon.com/policy/legal",
           "title": "Patreon Terms of Use",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
           "bodyChecked": true
         }
       ]
@@ -1077,6 +1253,20 @@
           "url": "https://buymeacoffee.com/terms",
           "title": "Buy Me a Coffee Terms",
           "checkedAt": "2026. 10. 13. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "substack",
+      "name": "Substack",
+      "status": "reviewed",
+      "oldSource": "https://substack.com/tos",
+      "documents": [
+        {
+          "url": "https://substack.com/tos",
+          "title": "Substack Terms of Use",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
           "bodyChecked": true
         }
       ]
@@ -2118,11 +2308,6 @@
       "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
-      "key": "soundcloud",
-      "name": "SoundCloud",
-      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
-    },
-    {
       "key": "aliexpress",
       "name": "AliExpress",
       "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
@@ -2176,11 +2361,6 @@
       "key": "quora",
       "name": "Quora",
       "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
-    },
-    {
-      "key": "medium",
-      "name": "Medium",
-      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "weverse",
@@ -2253,11 +2433,6 @@
       "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
-      "key": "tidal",
-      "name": "TIDAL",
-      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
-    },
-    {
       "key": "amazonmusic",
       "name": "Amazon Music",
       "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
@@ -2286,11 +2461,6 @@
       "key": "ebay",
       "name": "eBay",
       "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
-    },
-    {
-      "key": "etsy",
-      "name": "Etsy",
-      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "walmart",
@@ -2368,19 +2538,9 @@
       "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
-      "key": "gitlab",
-      "name": "GitLab",
-      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
-    },
-    {
       "key": "monday",
       "name": "monday.com",
       "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
-    },
-    {
-      "key": "adobe",
-      "name": "Adobe",
-      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "docusign",
@@ -2388,18 +2548,8 @@
       "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
-      "key": "grammarly",
-      "name": "Grammarly",
-      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
-    },
-    {
       "key": "chatgpt",
       "name": "ChatGPT",
-      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
-    },
-    {
-      "key": "claude",
-      "name": "Claude",
       "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
@@ -2461,16 +2611,6 @@
       "key": "korail",
       "name": "코레일",
       "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
-    },
-    {
-      "key": "epicgames",
-      "name": "Epic Games",
-      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
-    },
-    {
-      "key": "xbox",
-      "name": "Xbox",
-      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
       "key": "nintendo",
@@ -2560,11 +2700,6 @@
     {
       "key": "fivehundredpx",
       "name": "500px",
-      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
-    },
-    {
-      "key": "substack",
-      "name": "Substack",
       "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
