@@ -1,10 +1,10 @@
 {
   "checkedAt": "2026. 10. 13. (한국 시간)",
   "total": 500,
-  "reviewed": 141,
+  "reviewed": 143,
   "linked": 2,
-  "pending": 357,
-  "items": 180,
+  "pending": 355,
+  "items": 182,
   "complete": false,
   "linkChecks": {
     "storedUrls": 925,
@@ -19,7 +19,7 @@
       "not-found-page": 1
     }
   },
-  "newReviewedServices": 124,
+  "newReviewedServices": 126,
   "changes": [
     {
       "key": "youtube",
@@ -1950,6 +1950,34 @@
       ]
     },
     {
+      "key": "teachable",
+      "name": "Teachable",
+      "status": "reviewed",
+      "oldSource": "https://www.teachable.com/legal/terms-of-use",
+      "documents": [
+        {
+          "url": "https://www.teachable.com/legal/terms-of-use",
+          "title": "Teachable Terms of Use",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
+      "key": "thinkific",
+      "name": "Thinkific",
+      "status": "reviewed",
+      "oldSource": "https://www.thinkific.com/terms-of-service/",
+      "documents": [
+        {
+          "url": "https://www.thinkific.com/terms-of-service/",
+          "title": "Thinkific Terms of Service",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "bodyChecked": true
+        }
+      ]
+    },
+    {
       "key": "ohouse",
       "name": "오늘의집",
       "status": "reviewed",
@@ -3452,16 +3480,6 @@
     {
       "key": "ted",
       "name": "TED",
-      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
-    },
-    {
-      "key": "teachable",
-      "name": "Teachable",
-      "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
-    },
-    {
-      "key": "thinkific",
-      "name": "Thinkific",
       "reason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
     },
     {
