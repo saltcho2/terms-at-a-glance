@@ -2185,5 +2185,41 @@
       ]
     ],
     "region": "Loom가 연결한 Atlassian 고객 계약 · 무료·시험·베타 상품에 한정"
+  },
+  {
+    "key": "thinkific",
+    "url": "https://www.thinkific.com/terms-of-service/",
+    "document": "Thinkific Terms of Service",
+    "version": "2026. 6. 30. 최종 수정",
+    "scope": "강의 판매자 유료 플랜의 갱신·초과 사용료 확인",
+    "region": "강의 판매자 계정용 영문 약관 · 수강생의 개별 강좌 환불 정책과 구분",
+    "checkedAt": "2026. 10. 14. (한국 시간)",
+    "items": [
+      [
+        "payment",
+        "연간 플랜 갱신 안내와 초과 사용료는 별도 확인",
+        "유료 플랜은 갱신 전에 취소하지 않으면 당시 가격으로 자동 갱신됩니다. 연간 플랜은 갱신 30~60일 전에 안내 이메일을 보냅니다. 사용량 초과나 상위 플랜 사용에 대한 추가 요금도 청구할 수 있습니다.",
+        "8.2 Payment of Fees and Taxes",
+        "등록 이메일의 갱신 안내를 확인하고 결제일·한도·상위 플랜 전환 조건을 함께 점검하세요."
+      ]
+    ]
+  },
+  {
+    "key": "teachable",
+    "url": "https://www.teachable.com/legal/terms-of-use",
+    "document": "Teachable Terms of Use",
+    "version": null,
+    "scope": "커뮤니티 Posts의 이용권 확인 · 일반 강좌 콘텐츠와 구분",
+    "region": "국제 영문 약관 · 다른 사용자에게 보여주기 위한 Posts에 한정",
+    "checkedAt": "2026. 10. 14. (한국 시간)",
+    "items": [
+      [
+        "content",
+        "커뮤니티 게시물에는 목적 제한 없는 영구 이용권 부여",
+        "Teachable:HQ 등 다른 사용자에게 보여주기 위해 올리는 Posts에는 영구적·철회 불가·무상·재허락 가능한 이용권이 적용됩니다. 어떤 목적으로도 사용할 수 있다고 정하며, 이 Posts는 일반 User Content와 강좌 콘텐츠에서 구분합니다.",
+        "4.3 Your Posts",
+        "재사용을 원하지 않는 원고·자료는 커뮤니티 게시물에 올리기 전에 제외하세요."
+      ]
+    ]
   }
 ]
