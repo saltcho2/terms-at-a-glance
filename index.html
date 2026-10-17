@@ -8,7 +8,7 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23192837'/%3E%3Cpath d='M17 16h30v32H17z' fill='%23fff'/%3E%3Cpath d='M23 25h18M23 32h18M23 39h10' stroke='%23ff6b35' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
   <style>
     :root{--ink:#192837;--muted:#66717d;--line:#dfe4e8;--paper:#f4f6f7;--white:#fff;--accent:#ff6338;--accent-dark:#b93b17;--green:#16794d;--green-bg:#e7f5ed;--yellow:#946200;--yellow-bg:#fff2c7;--red:#b52828;--red-bg:#ffe4e2;--shadow:0 18px 50px rgba(25,40,55,.10)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Pretendard,"Noto Sans KR",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px;line-height:1.55}
+    *{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;background:var(--paper);color:var(--ink);font-family:Pretendard,"Noto Sans KR",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px;line-height:1.55}
     button,input{font:inherit}button,a{touch-action:manipulation}.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:12px;z-index:20;background:#fff;padding:10px 14px;border-radius:8px}
     header{background:var(--ink);color:#fff}.nav{max-width:1180px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:18px 24px}.brand{display:flex;align-items:center;gap:11px;font-weight:850;font-size:1.14rem;letter-spacing:-.03em;background:transparent;border:0;color:#fff;padding:0;cursor:pointer}.logo{width:31px;height:36px;background:#fff;border-radius:5px;position:relative}.logo:after{content:"";position:absolute;left:7px;right:7px;top:10px;height:3px;background:var(--accent);box-shadow:0 7px 0 var(--accent),0 14px 0 var(--accent)}.nav-note{font-size:.88rem;color:#cfd7dd}
     .shell{max-width:1180px;margin:0 auto;padding:38px 24px 70px}.intro{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);gap:34px;align-items:end;margin-bottom:32px}.eyebrow{margin:0 0 10px;color:var(--accent-dark);font-weight:800;font-size:.87rem;letter-spacing:.08em}.intro h1{font-size:clamp(2.3rem,5vw,4.6rem);line-height:1.03;letter-spacing:-.065em;margin:0;max-width:720px}.intro p{color:var(--muted);font-size:1.04rem;margin:0 0 8px;max-width:460px}.highlight{color:var(--accent)}
@@ -201,7 +201,7 @@
     let reportContextName="";
     function openReport(data,item){
       reportContextName=data.name;
-      $('#reportText').value=window.TermsReview.report(data,item);$('#reportStatus').textContent='';$('#reportComposer').hidden=false;$('#reportComposer').scrollIntoView({behavior:'smooth',block:'start'});
+      $('#reportText').value=window.TermsReview.report(data,item);$('#reportStatus').textContent='';$('#reportComposer').hidden=false;$('#reportComposer').scrollIntoView({behavior:'auto',block:'start'});
       $('#submitReport').href='https://github.com/saltcho2/terms-at-a-glance/issues/new?title='+encodeURIComponent('요약 수정 제보: '+data.name)+'&body='+encodeURIComponent($('#reportText').value);
     }
     function render(){
@@ -236,7 +236,7 @@
       const match=serviceSearch.matches(submittedQuery,{exactOnly})[0];
       if(match){
         chooseService(match.key);
-        if(!match.exact){$('#searchCorrection').hidden=false;$('#correctionText').textContent=services[match.key].name+'로 검색한 결과입니다.';$('#originalSearchButton').textContent='“'+submittedQuery+'” 검색 결과 보기';$('#searchCorrection').scrollIntoView({behavior:'smooth',block:'start'});}
+        if(!match.exact){$('#searchCorrection').hidden=false;$('#correctionText').textContent=services[match.key].name+'로 검색한 결과입니다.';$('#originalSearchButton').textContent='“'+submittedQuery+'” 검색 결과 보기';$('#searchCorrection').scrollIntoView({behavior:'auto',block:'start'});}
       }else{
         clearSearchFeedback();document.documentElement.dataset.appState=submittedQuery?'no-results':'empty-query';$('#reportComposer').hidden=true;$('#resultSection').hidden=true;$('#resultSection').classList.add('hidden');$('#homeContent').classList.add('hidden');$('#homeWhy').classList.add('hidden');$('#serviceSelect').value='';
         $('#searchError').hidden=false;$('#searchEmptyTitle').textContent=submittedQuery?'“'+submittedQuery+'” 검색 결과가 없습니다.':'서비스 이름이나 사이트 주소를 입력해 주세요.';
@@ -258,9 +258,9 @@
     function closeSuggestions(){$('#suggestions').hidden=true;$('#searchInput').setAttribute('aria-expanded','false');suggestionIndex=-1;}
     let suggestionIndex=-1;
     function renderSuggestions(query){const matches=findMatches(query).slice(0,8);const box=$('#suggestions');if(!matches.length){closeSuggestions();return;}box.innerHTML=matches.map(key=>`<button class="suggestion" type="button" role="option" data-suggestion="${key}"><strong>${services[key].name}</strong><span>${services[key].domain}</span></button>`).join('');box.hidden=false;$('#searchInput').setAttribute('aria-expanded','true');suggestionIndex=-1;$$('[data-suggestion]').forEach(btn=>btn.addEventListener('click',()=>selectService(btn.dataset.suggestion)));}
-    function chooseService(key,save=true){if(!services[key])return;current=key;activeFilter='all';activeJourney='';if(save)saveRecent(key);$('#homeContent').classList.add('hidden');$('#homeWhy').classList.add('hidden');$('#resultSection').hidden=false;$('#resultSection').classList.remove('hidden');document.documentElement.dataset.appState=services[key].items.length?'result':'pending';$('#reportComposer').hidden=true;clearSearchFeedback();$$('.chip[data-service]').forEach(x=>x.classList.toggle('active',x.dataset.service===key));$$('.filter').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));render();$('#resultSection').scrollIntoView({behavior:'smooth',block:'start'});}
+    function chooseService(key,save=true){if(!services[key])return;current=key;activeFilter='all';activeJourney='';if(save)saveRecent(key);$('#homeContent').classList.add('hidden');$('#homeWhy').classList.add('hidden');$('#resultSection').hidden=false;$('#resultSection').classList.remove('hidden');document.documentElement.dataset.appState=services[key].items.length?'result':'pending';$('#reportComposer').hidden=true;clearSearchFeedback();$$('.chip[data-service]').forEach(x=>x.classList.toggle('active',x.dataset.service===key));$$('.filter').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));render();$('#resultSection').scrollIntoView({behavior:'auto',block:'start'});}
     function selectService(key){runSearch(services[key].name);}
-    function showHome(){document.documentElement.dataset.appState='home';$('#resultSection').hidden=true;$('#resultSection').classList.add('hidden');$('#homeContent').classList.remove('hidden');$('#homeWhy').classList.remove('hidden');$('#reportComposer').hidden=true;clearSearchFeedback();$('#searchInput').value='';$('#serviceSelect').value='';closeSuggestions();$$('.chip[data-service]').forEach(x=>x.classList.remove('active'));$('#main').scrollIntoView({behavior:'smooth',block:'start'});}
+    function showHome(){document.documentElement.dataset.appState='home';$('#resultSection').hidden=true;$('#resultSection').classList.add('hidden');$('#homeContent').classList.remove('hidden');$('#homeWhy').classList.remove('hidden');$('#reportComposer').hidden=true;clearSearchFeedback();$('#searchInput').value='';$('#serviceSelect').value='';closeSuggestions();$$('.chip[data-service]').forEach(x=>x.classList.remove('active'));$('#main').scrollIntoView({behavior:'auto',block:'start'});}
     $('#homeButton').addEventListener('click',showHome);
     $('#serviceSelect').addEventListener('change',e=>{if(e.target.value)selectService(e.target.value);else showHome();});
     $$('.chip[data-service]').forEach(btn=>btn.addEventListener('click',()=>selectService(btn.dataset.service)));
@@ -270,7 +270,7 @@
     $('#searchInput').addEventListener('keydown',e=>{const buttons=$$('[data-suggestion]');if(!buttons.length)return;if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();suggestionIndex=(suggestionIndex+(e.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length;buttons.forEach((btn,i)=>btn.classList.toggle('active',i===suggestionIndex));buttons[suggestionIndex].scrollIntoView({block:'nearest'});}else if(e.key==='Enter'&&suggestionIndex>=0){e.preventDefault();buttons[suggestionIndex].click();}else if(e.key==='Escape'){closeSuggestions();}});
     document.addEventListener('click',e=>{if(!e.target.closest('.search-wrap'))closeSuggestions();});
     $('#searchForm').addEventListener('submit',e=>{e.preventDefault();runSearch($('#searchInput').value);});
-    $('#browseCatalog').addEventListener('click',()=>{$('#catalogTools').open=true;$('#serviceSelect').scrollIntoView({behavior:'smooth',block:'center'});$('#serviceSelect').focus();});
+    $('#browseCatalog').addEventListener('click',()=>{$('#catalogTools').open=true;$('#serviceSelect').scrollIntoView({behavior:'auto',block:'center'});$('#serviceSelect').focus();});
     $$('[data-preview]').forEach(button=>{button.disabled=false;button.addEventListener('click',()=>selectService(button.dataset.preview));});
     $$('[data-journey]').forEach(button=>button.addEventListener('click',()=>{activeJourney=button.dataset.journey;activeFilter='all';$$('.filter').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));render();}));
     $('#serviceReport').addEventListener('click',()=>openReport(services[current]));
