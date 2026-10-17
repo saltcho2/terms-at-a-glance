@@ -1,0 +1,11 @@
+{
+  "testedCommit": "9973f757096d56aab7c9efb8d5ae3a78d5502ee0",
+  "test": "배포 사이트 새로고침 후 YouTube 선택",
+  "observed": [
+    "원문 조건 · 편집 요약에 기존 전체 요약 표시",
+    "이용자 영향 별도 표시",
+    "10월16일 발효·10월17일 대조·이후 변경 여부 미확인"
+  ],
+  "screenshot": "final-deployed-evidence.jpg",
+  "limits": "이 후속 수정에서는 요약 보존 표시만 재검증. 나머지 배포 테스트는 live-tests.json 참조"
+}

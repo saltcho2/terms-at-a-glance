@@ -1,0 +1,880 @@
+{
+  "spotify": {
+    "name": "Spotify",
+    "domain": "spotify.com",
+    "aliases": [
+      "스포티파이"
+    ],
+    "mark": "S",
+    "category": "영상·음악",
+    "color": "#15803d",
+    "items": [
+      [
+        "payment",
+        "결제·구독",
+        "한국 무료 체험은 유료 유지에 별도 동의 필요",
+        "high",
+        "한국 약관은 체험 종료 전 30일 동안 유료 유지에 명시적으로 동의한 경우에만 체험 후 매달 청구한다고 정합니다. 동의하지 않거나 아무 조치도 하지 않으면 무료 버전으로 전환됩니다. 이미 시작한 반복 결제 구독은 해지 전까지 갱신됩니다.",
+        "한국 약관은 체험 종료 전 30일 동안 유료 유지에 명시적으로 동의한 경우에만 체험 후 매달 청구한다고 정합니다. 동의하지 않거나 아무 조치도 하지 않으면 무료 버전으로 전환됩니다. 이미 시작한 반복 결제 구독은 해지 전까지 갱신됩니다.",
+        "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
+        {
+          "document": "한국 이용약관",
+          "clause": "제3장 · 청구 및 취소 / 철회 권리",
+          "region": "한국",
+          "version": null,
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "체험의 유료 유지 동의 여부와 현재 구독의 다음 결제일을 각각 확인하세요."
+        }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "청약철회 기간에도 이용하면 권리가 사라질 수 있음",
+        "high",
+        "체험 없이 처음 유료 구독을 구입하면 14일, 이후 매달 청구는 7일의 청약철회 기간을 정하지만 그 기간에 서비스를 이용하면 철회권을 잃는다고 명시합니다. 일반 해지는 현재 청구 기간 종료 후 적용되며, 약관상 예외 외에 부분 환불은 제공하지 않습니다.",
+        "체험 없이 처음 유료 구독을 구입하면 14일, 이후 매달 청구는 7일의 청약철회 기간을 정하지만 그 기간에 서비스를 이용하면 철회권을 잃는다고 명시합니다. 일반 해지는 현재 청구 기간 종료 후 적용되며, 약관상 예외 외에 부분 환불은 제공하지 않습니다.",
+        "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
+        {
+          "document": "한국 이용약관",
+          "clause": "제3장 · 청구 및 취소 / 철회 권리",
+          "region": "한국",
+          "version": null,
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "환불을 원하면 재생하기 전에 청구일과 청약철회 조건을 확인하고 고객지원에 문의하세요."
+        }
+      ],
+      [
+        "content",
+        "콘텐츠 권리",
+        "저장한 음악도 파일 소유권을 산 것이 아님",
+        "mid",
+        "서비스와 콘텐츠는 개인적·비상업적 이용권으로 제공됩니다. 앱에 설치·저장한 복사본도 소유권이 넘어오지 않으며, 권리자나 Spotify가 특정 콘텐츠를 통지 없이 내릴 수 있다고 정합니다.",
+        "서비스와 콘텐츠는 개인적·비상업적 이용권으로 제공됩니다. 앱에 설치·저장한 복사본도 소유권이 넘어오지 않으며, 권리자나 Spotify가 특정 콘텐츠를 통지 없이 내릴 수 있다고 정합니다.",
+        "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
+        {
+          "document": "한국 이용약관",
+          "clause": "제2장 · 서비스 제한 / 제3장 · Spotify 서비스 이용 권리",
+          "region": "한국",
+          "version": null,
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "오프라인 저장을 영구 보관으로 생각하지 말고 필요한 음악의 별도 구매 가능 여부를 확인하세요."
+        }
+      ],
+      [
+        "other",
+        "기타 주의",
+        "추천 배치에 상업적 고려가 영향을 줄 수 있음",
+        "mid",
+        "콘텐츠의 선택과 배치는 취향뿐 아니라 Spotify와 제3자 사이의 계약을 포함한 상업적 고려의 영향을 받을 수 있다고 정합니다.",
+        "콘텐츠의 선택과 배치는 취향뿐 아니라 Spotify와 제3자 사이의 계약을 포함한 상업적 고려의 영향을 받을 수 있다고 정합니다.",
+        "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
+        {
+          "document": "한국 이용약관",
+          "clause": "제4장 · 콘텐츠 경험",
+          "region": "한국",
+          "version": null,
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "추천 순서를 순수한 취향 일치도 순위로 해석하지 말고 여러 목록을 비교하세요."
+        }
+      ]
+    ],
+    "reviewScope": "한국 이용약관 중 아래 4개 항목 확인",
+    "reviewStatus": "2026. 10. 9. (한국 시간) · 한국 이용약관 중 아래 4개 항목 확인",
+    "status": "reviewed",
+    "overall": "원문 대조 항목 있음",
+    "pendingReason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다.",
+    "documents": [
+      {
+        "url": "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
+        "title": "한국 이용약관",
+        "checkedAt": "2026. 10. 9. (한국 시간)",
+        "bodyChecked": true
+      }
+    ],
+    "linkAudit": {
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "attempted": 2,
+      "contentReviewComplete": false,
+      "states": {
+        "document-candidate": 2
+      }
+    }
+  },
+  "discord": {
+    "name": "Discord",
+    "domain": "discord.com",
+    "aliases": [
+      "디스코드"
+    ],
+    "mark": "D",
+    "category": "SNS·메신저",
+    "color": "#5865f2",
+    "items": [
+      [
+        "content",
+        "콘텐츠 권리",
+        "콘텐츠 이용권은 서비스 제공·개발·개선 목적",
+        "high",
+        "콘텐츠 소유권은 이용자에게 남지만 Discord에 전 세계적·무상·양도 및 재허락 가능한 이용권을 줍니다. 현재 약관은 그 목적을 법이 허용하는 서비스 제공·개발·개선으로 제한합니다. 피드백의 영구적 이용권 조항과 일반 콘텐츠 조항은 서로 다릅니다.",
+        "콘텐츠 소유권은 이용자에게 남지만 Discord에 전 세계적·무상·양도 및 재허락 가능한 이용권을 줍니다. 현재 약관은 그 목적을 법이 허용하는 서비스 제공·개발·개선으로 제한합니다. 피드백의 영구적 이용권 조항과 일반 콘텐츠 조항은 서로 다릅니다.",
+        "https://discord.com/terms",
+        {
+          "document": "Discord Terms of Service",
+          "clause": "Content in Discord’s services · Your content",
+          "region": "국제 영문 원문 · 현지법 예외 적용",
+          "version": "2025. 9. 29. 발효",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "게시물과 서비스 개선 의견의 권리 조건을 구분하고 민감한 자료는 올리지 마세요."
+        }
+      ],
+      [
+        "privacy",
+        "개인정보",
+        "메시지 수집과 음성 통화 저장은 구분해야 함",
+        "high",
+        "메시지·게시물·초안·파일과 기기·이용 기록을 수집합니다. 반면 음성·영상 통화 내용과 화면 공유 스트림은 일반적으로 저장하지 않는다고 설명합니다. 직접 남긴 음성 메시지나 짧은 녹음은 별도 콘텐츠입니다.",
+        "메시지·게시물·초안·파일과 기기·이용 기록을 수집합니다. 반면 음성·영상 통화 내용과 화면 공유 스트림은 일반적으로 저장하지 않는다고 설명합니다. 직접 남긴 음성 메시지나 짧은 녹음은 별도 콘텐츠입니다.",
+        "https://discord.com/privacy",
+        {
+          "document": "Discord Privacy Policy",
+          "clause": "The information we collect · Information you provide to us",
+          "region": "국제 영문 원문 · 현지법 예외 적용",
+          "version": "2025. 9. 29. 발효",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "공개 서버와 채널의 참여 범위를 확인하고 텍스트·파일·녹음에 민감한 정보를 남기지 마세요."
+        }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "계정 비활성화는 계약 종료가 아님",
+        "high",
+        "계정 비활성화는 개인정보 처리 일부를 제한하지만 약관상 계약을 종료하지 않습니다. 계약을 끝내려면 설정에서 계정을 삭제하고 서비스를 그만 이용해야 하며, 일부 조항은 종료 후에도 효력을 유지합니다.",
+        "계정 비활성화는 개인정보 처리 일부를 제한하지만 약관상 계약을 종료하지 않습니다. 계약을 끝내려면 설정에서 계정을 삭제하고 서비스를 그만 이용해야 하며, 일부 조항은 종료 후에도 효력을 유지합니다.",
+        "https://discord.com/terms",
+        {
+          "document": "Discord Terms of Service",
+          "clause": "Term & Termination · Your right to terminate",
+          "region": "국제 영문 원문 · 현지법 예외 적용",
+          "version": "2025. 9. 29. 발효",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "잠시 쉬는 비활성화와 계정 삭제를 구분하고 필요한 자료는 삭제 전에 보관하세요."
+        }
+      ],
+      [
+        "other",
+        "기타 주의",
+        "2년 넘게 미사용하면 계정 종료 사유가 될 수 있음",
+        "high",
+        "약관 위반·위해 방지 등 외에 2년 넘게 비활성인 계정도 정지·종료 사유로 정합니다. 법이 요구하거나 합리적인 경우 사전 안내하고, 정지·삭제 등에 이의 신청할 경로를 제공합니다.",
+        "약관 위반·위해 방지 등 외에 2년 넘게 비활성인 계정도 정지·종료 사유로 정합니다. 법이 요구하거나 합리적인 경우 사전 안내하고, 정지·삭제 등에 이의 신청할 경로를 제공합니다.",
+        "https://discord.com/terms",
+        {
+          "document": "Discord Terms of Service",
+          "clause": "Term & Termination / Appeals",
+          "region": "국제 영문 원문 · 현지법 예외 적용",
+          "version": "2025. 9. 29. 발효",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "복구 연락처를 최신 상태로 유지하고 계정 제한 시 통지와 이의 신청 경로를 확인하세요."
+        }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "Nitro 등 체험·프로모션 종료 뒤 정상 요금으로 갱신",
+        "high",
+        "반복 구독은 체험이나 할인 기간이 끝나면 정상 구독료로 자동 갱신됩니다. 결제수단을 입력하는 선물 구독 체험도 갱신될 수 있어 일반 선물과 조건을 구분해야 합니다.",
+        "반복 구독은 체험이나 할인 기간이 끝나면 정상 구독료로 자동 갱신됩니다. 결제수단을 입력하는 선물 구독 체험도 갱신될 수 있어 일반 선물과 조건을 구분해야 합니다.",
+        "https://discord.com/terms/paid-services-terms",
+        {
+          "document": "Discord Paid Services Terms",
+          "clause": "Subscriptions · Promotions · Gifts",
+          "region": "국제 영문 유료 서비스 약관 · 현지법·별도 환불 정책 우선",
+          "version": "2025. 9. 29. 시행",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "action": "설정의 Subscriptions·Server Boost에서 다음 결제일과 체험 종료일을 확인하세요."
+        }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "구독 취소는 현재 기간 끝에 적용·부분 환불은 예외 확인",
+        "mid",
+        "취소하면 현재 결제 기간 끝까지 유료 기능을 쓸 수 있습니다. 일부 기간·미사용 서비스는 기본적으로 환불하지 않지만 법과 공식 환불 정책의 예외가 우선합니다. iOS·Android 구독은 앱스토어에서 취소할 수 있습니다.",
+        "취소하면 현재 결제 기간 끝까지 유료 기능을 쓸 수 있습니다. 일부 기간·미사용 서비스는 기본적으로 환불하지 않지만 법과 공식 환불 정책의 예외가 우선합니다. iOS·Android 구독은 앱스토어에서 취소할 수 있습니다.",
+        "https://discord.com/terms/paid-services-terms",
+        {
+          "document": "Discord Paid Services Terms",
+          "clause": "Subscriptions · Cancellation · Refunds",
+          "region": "국제 영문 유료 서비스 약관 · 현지법·별도 환불 정책 우선",
+          "version": "2025. 9. 29. 시행",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "action": "가입한 결제 경로에서 취소하고 환불 가능 여부는 공식 환불 정책을 확인하세요."
+        }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "계정이 종료돼도 앱스토어 구독은 직접 취소 확인",
+        "high",
+        "Discord가 계정을 종료하면 가능한 경우 구독도 취소합니다. 그러나 모바일 앱스토어 구독과 결제 취소는 이용자가 확인할 책임이 있다고 명시합니다.",
+        "Discord가 계정을 종료하면 가능한 경우 구독도 취소합니다. 그러나 모바일 앱스토어 구독과 결제 취소는 이용자가 확인할 책임이 있다고 명시합니다.",
+        "https://discord.com/terms/paid-services-terms",
+        {
+          "document": "Discord Paid Services Terms",
+          "clause": "Suspension or termination",
+          "region": "국제 영문 유료 서비스 약관 · 현지법·별도 환불 정책 우선",
+          "version": "2025. 9. 29. 시행",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "action": "계정 삭제·정지 후에도 Apple·Google 구독 목록을 확인하세요."
+        }
+      ],
+      [
+        "content",
+        "콘텐츠 권리",
+        "가상 상품은 계정 안의 이용권·현금 가치 없음",
+        "mid",
+        "구매한 가상 상품은 해당 계정 안에서만 쓰는 제한적 이용권으로 정합니다. 소유 자산이나 현금 가치가 아니며 계정 삭제·종료 시 이용권도 끝날 수 있습니다.",
+        "구매한 가상 상품은 해당 계정 안에서만 쓰는 제한적 이용권으로 정합니다. 소유 자산이나 현금 가치가 아니며 계정 삭제·종료 시 이용권도 끝날 수 있습니다.",
+        "https://discord.com/terms/paid-services-terms",
+        {
+          "document": "Discord Paid Services Terms",
+          "clause": "Virtual Goods",
+          "region": "국제 영문 유료 서비스 약관 · 현지법·별도 환불 정책 우선",
+          "version": "2025. 9. 29. 시행",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "action": "가상 상품을 다시 팔거나 현금으로 환불받을 수 있다고 가정하지 마세요."
+        }
+      ]
+    ],
+    "reviewScope": "표시 8개 항목의 출처 조항 확인 · 적용 지역·상품은 각 항목 참고",
+    "reviewStatus": "2026. 10. 14. (한국 시간) · 유료 구독·환불·앱 결제·가상 상품 추가 확인",
+    "status": "reviewed",
+    "overall": "원문 대조 항목 있음",
+    "pendingReason": "",
+    "documents": [
+      {
+        "url": "https://discord.com/terms",
+        "title": "Discord Terms of Service",
+        "checkedAt": "2026. 10. 9. (한국 시간)",
+        "bodyChecked": true
+      },
+      {
+        "url": "https://discord.com/privacy",
+        "title": "Discord Privacy Policy",
+        "checkedAt": "2026. 10. 9. (한국 시간)",
+        "bodyChecked": true
+      },
+      {
+        "url": "https://discord.com/terms/paid-services-terms",
+        "title": "Discord Paid Services Terms",
+        "checkedAt": "2026. 10. 14. (한국 시간)",
+        "bodyChecked": true
+      }
+    ],
+    "linkAudit": {
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "attempted": 2,
+      "contentReviewComplete": false,
+      "states": {
+        "document-candidate": 2
+      },
+      "reviewedItemCount": 8
+    }
+  },
+  "netflix": {
+    "name": "Netflix",
+    "domain": "netflix.com",
+    "aliases": [
+      "넷플릭스"
+    ],
+    "mark": "N",
+    "category": "영상·음악",
+    "color": "#bf1821",
+    "items": [
+      [
+        "cancel",
+        "해지·환불",
+        "앱 삭제나 로그아웃으로는 멤버십이 해지되지 않음",
+        "high",
+        "멤버십은 계정에서 해지 완료까지 진행해야 합니다. 해지하면 현재 결제 기간 말까지 이용할 수 있으며, 해지 버튼이 없으면 결제 파트너에게 해지해야 합니다. 앱을 지우거나 로그아웃해도 해지되지 않습니다.",
+        "멤버십은 계정에서 해지 완료까지 진행해야 합니다. 해지하면 현재 결제 기간 말까지 이용할 수 있으며, 해지 버튼이 없으면 결제 파트너에게 해지해야 합니다. 앱을 지우거나 로그아웃해도 해지되지 않습니다.",
+        "https://help.netflix.com/ko/node/407",
+        {
+          "document": "넷플릭스 한국어 공식 고객센터 · 멤버십 해지 방법",
+          "clause": "멤버십 해지 / 계정에 해지 옵션이 표시되지 않는 경우",
+          "region": "한국어 공식 안내",
+          "version": null,
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "해지 완료 이메일과 계정의 종료일을 확인하고 파트너 결제라면 해당 업체에서 해지하세요."
+        }
+      ],
+      [
+        "content",
+        "콘텐츠 권리",
+        "일반 멤버십은 공개 상영 허가를 뜻하지 않음",
+        "mid",
+        "넷플릭스는 일반 계정으로 이용하는 콘텐츠를 개인적·비상업적 이용으로 제한한다고 안내합니다. 특정 교육용 일회성 상영 등 예외는 별도 조건을 따라야 하므로 가입만으로 단체 상영권이 생기지는 않습니다.",
+        "넷플릭스는 일반 계정으로 이용하는 콘텐츠를 개인적·비상업적 이용으로 제한한다고 안내합니다. 특정 교육용 일회성 상영 등 예외는 별도 조건을 따라야 하므로 가입만으로 단체 상영권이 생기지는 않습니다.",
+        "https://help.netflix.com/ko/node/633853347904100",
+        {
+          "document": "넷플릭스 한국어 공식 고객센터 · 콘텐츠의 상업적 이용",
+          "clause": "콘텐츠의 상업적 이용",
+          "region": "한국어 공식 안내",
+          "version": null,
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "학교·행사·가게에서 틀기 전에 해당 작품의 상영 허용 조건을 확인하세요."
+        }
+      ]
+    ],
+    "reviewScope": "한국어 공식 고객센터 중 해지·이용 목적 2개 항목 확인 · 전체 약관은 미검수",
+    "reviewStatus": "2026. 10. 9. (한국 시간) · 한국어 공식 고객센터 중 해지·이용 목적 2개 항목 확인 · 전체 약관은 미검수",
+    "status": "reviewed",
+    "overall": "원문 대조 항목 있음",
+    "pendingReason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다.",
+    "documents": [
+      {
+        "url": "https://help.netflix.com/ko/node/407",
+        "title": "넷플릭스 한국어 공식 고객센터 · 멤버십 해지 방법",
+        "checkedAt": "2026. 10. 9. (한국 시간)",
+        "bodyChecked": true
+      },
+      {
+        "url": "https://help.netflix.com/ko/node/633853347904100",
+        "title": "넷플릭스 한국어 공식 고객센터 · 콘텐츠의 상업적 이용",
+        "checkedAt": "2026. 10. 9. (한국 시간)",
+        "bodyChecked": true
+      }
+    ],
+    "linkAudit": {
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "attempted": 2,
+      "contentReviewComplete": false,
+      "states": {
+        "document-candidate": 2
+      }
+    }
+  },
+  "naver": {
+    "name": "네이버",
+    "domain": "naver.com",
+    "aliases": [
+      "NAVER",
+      "네이버 검색",
+      "네이버 포털"
+    ],
+    "mark": "N",
+    "category": "디지털 서비스",
+    "color": "#03a85b",
+    "items": [
+      [
+        "content",
+        "콘텐츠 권리",
+        "게시물이 AI 연구 개발에 사용될 수 있음",
+        "high",
+        "게시물 권리는 이용자에게 남지만 네이버는 운영·홍보·개선 등의 목적에 기한·지역 제한 없는 무상 이용권을 받습니다. 네이버와 위탁받은 계열사의 AI 연구 개발에도 콘텐츠가 쓰일 수 있습니다. 삭제·비공개 이후에는 연구에 사용하지 않지만, 이미 기술적으로 구분하기 어렵게 처리된 자료는 예외입니다.",
+        "게시물 권리는 이용자에게 남지만 네이버는 운영·홍보·개선 등의 목적에 기한·지역 제한 없는 무상 이용권을 받습니다. 네이버와 위탁받은 계열사의 AI 연구 개발에도 콘텐츠가 쓰일 수 있습니다. 삭제·비공개 이후에는 연구에 사용하지 않지만, 이미 기술적으로 구분하기 어렵게 처리된 자료는 예외입니다.",
+        "https://policy.naver.com/policy/service.html",
+        {
+          "document": "네이버 공통 이용약관",
+          "clause": "여러분이 제공한 콘텐츠를 소중히 다룰 것입니다",
+          "region": "한국",
+          "version": "2026. 10. 1. 시행",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "민감한 자료를 올리기 전에 공개 범위를 확인하고, 이미 연구용으로 처리된 자료의 회수가 가능한지 따로 확인하세요."
+        }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "탈퇴로 내 게시물과 계정 자료가 소멸할 수 있음",
+        "high",
+        "탈퇴하면 법령·개인정보처리방침에 따라 보관할 수 있는 정보를 제외한 계정 데이터와 부속 게시물이 소멸합니다. 다른 사람이 담아 간 게시물, 공유 공간이나 타인의 게시물에 붙인 댓글 등은 남을 수 있으므로 탈퇴 전에 삭제해야 한다고 안내합니다.",
+        "탈퇴하면 법령·개인정보처리방침에 따라 보관할 수 있는 정보를 제외한 계정 데이터와 부속 게시물이 소멸합니다. 다른 사람이 담아 간 게시물, 공유 공간이나 타인의 게시물에 붙인 댓글 등은 남을 수 있으므로 탈퇴 전에 삭제해야 한다고 안내합니다.",
+        "https://policy.naver.com/policy/service.html",
+        {
+          "document": "네이버 공통 이용약관",
+          "clause": "언제든지 네이버 서비스 이용계약을 해지하실 수 있습니다",
+          "region": "한국",
+          "version": "2026. 10. 1. 시행",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "메일·파일·게시물을 먼저 보관하고 공유 공간의 글과 댓글은 탈퇴 전에 직접 삭제하세요."
+        }
+      ],
+      [
+        "other",
+        "기타 주의",
+        "이 공통 약관만으로 모든 네이버 서비스를 판단할 수 없음",
+        "mid",
+        "네이버페이 등 일부 서비스에는 별도 약관과 운영정책이 적용되고, LINE·SNOW 같은 계열사 서비스는 운영 회사의 고유 약관을 따를 수 있습니다. 공통 약관의 포인트 설명을 모든 유료 포인트에 그대로 적용해서는 안 됩니다.",
+        "네이버페이 등 일부 서비스에는 별도 약관과 운영정책이 적용되고, LINE·SNOW 같은 계열사 서비스는 운영 회사의 고유 약관을 따를 수 있습니다. 공통 약관의 포인트 설명을 모든 유료 포인트에 그대로 적용해서는 안 됩니다.",
+        "https://policy.naver.com/policy/service.html",
+        {
+          "document": "네이버 공통 이용약관",
+          "clause": "다양한 네이버 서비스를 즐겨보세요 / 다양한 포인트",
+          "region": "한국",
+          "version": "2026. 10. 1. 시행",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "실제로 가입·결제하는 서비스의 별도 약관도 확인하세요."
+        }
+      ]
+    ],
+    "reviewScope": "2026년 10월 1일 시행 공통 이용약관 중 아래 3개 항목 확인",
+    "reviewStatus": "2026. 10. 9. (한국 시간) · 2026년 10월 1일 시행 공통 이용약관 중 아래 3개 항목 확인",
+    "status": "reviewed",
+    "overall": "원문 대조 항목 있음",
+    "pendingReason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다.",
+    "documents": [
+      {
+        "url": "https://policy.naver.com/policy/service.html",
+        "title": "네이버 공통 이용약관",
+        "checkedAt": "2026. 10. 9. (한국 시간)",
+        "bodyChecked": true
+      }
+    ],
+    "linkAudit": {
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "attempted": 2,
+      "contentReviewComplete": false,
+      "states": {
+        "document-candidate": 2
+      }
+    }
+  },
+  "youtube": {
+    "name": "YouTube",
+    "domain": "youtube.com",
+    "aliases": [
+      "유튜브"
+    ],
+    "mark": "YT",
+    "category": "영상·음악",
+    "color": "#d62620",
+    "items": [
+      [
+        "privacy",
+        "개인정보",
+        "시청 기록 설정과 광고 설정은 따로 확인",
+        "high",
+        "시청·검색 활동은 기록 설정에 따라 계정에 저장되고 추천에 쓰입니다. 계정 설정에 따라 YouTube 시청 활동이 Google 광고 제품을 이용하는 다른 사이트의 광고에 반영될 수도 있습니다. 기록 저장과 맞춤 광고 설정을 각각 관리해야 합니다.",
+        "시청·검색 활동은 기록 설정에 따라 계정에 저장되고 추천에 쓰입니다. 계정 설정에 따라 YouTube 시청 활동이 Google 광고 제품을 이용하는 다른 사이트의 광고에 반영될 수도 있습니다. 기록 저장과 맞춤 광고 설정을 각각 관리해야 합니다.",
+        "https://policies.google.com/privacy?hl=ko",
+        {
+          "document": "Google 개인정보처리방침",
+          "clause": "콘텐츠와 광고를 포함한 맞춤 서비스 제공 / 맞춤설정 및 활동 제어",
+          "region": "한국어 원문",
+          "version": "2026. 10. 1. 발효",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "YouTube 기록 설정과 내 광고 센터 설정을 각각 확인하세요."
+        }
+      ],
+      [
+        "content",
+        "콘텐츠 권리",
+        "영상 이용권은 운영·홍보·개선 목적으로 부여",
+        "high",
+        "영상 권리는 이용자에게 남지만 서비스 운영·홍보·개선 목적의 전 세계적·무상·양도 및 재허락 가능한 이용권을 줍니다. 삭제하면 원칙적으로 이용권도 끝나지만, 기존 홍보 자료·허용된 오프라인 이용·법적 보관 등 예외가 있습니다.",
+        "영상 권리는 이용자에게 남지만 서비스 운영·홍보·개선 목적의 전 세계적·무상·양도 및 재허락 가능한 이용권을 줍니다. 삭제하면 원칙적으로 이용권도 끝나지만, 기존 홍보 자료·허용된 오프라인 이용·법적 보관 등 예외가 있습니다.",
+        "https://www.youtube.com/static?template=terms&gl=KR&hl=ko",
+        {
+          "document": "YouTube 한국 지역 이용약관 · 공식 영문 번역",
+          "clause": "Your Content and Conduct · Rights you Grant / Duration of License",
+          "region": "한국 지역(KR) · 영문 번역",
+          "version": "2022. 1. 5. 문서 표시일",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "영상 삭제만으로 이미 배포된 자료가 모두 회수된다고 생각하지 말고 공개할 자료를 신중히 고르세요."
+        }
+      ],
+      [
+        "other",
+        "기타 주의",
+        "내 영상에 광고가 붙어도 수익 지급이 자동 보장되지 않음",
+        "high",
+        "한국 지역 약관은 YouTube가 콘텐츠로 수익을 창출할 권리를 받지만, 이 약관만으로 이용자에게 대가 지급 권리가 생기지는 않는다고 정합니다. 파트너 프로그램 등의 지급은 별도 계약에 따릅니다.",
+        "한국 지역 약관은 YouTube가 콘텐츠로 수익을 창출할 권리를 받지만, 이 약관만으로 이용자에게 대가 지급 권리가 생기지는 않는다고 정합니다. 파트너 프로그램 등의 지급은 별도 계약에 따릅니다.",
+        "https://www.youtube.com/static?template=terms&gl=KR&hl=ko",
+        {
+          "document": "YouTube 한국 지역 이용약관 · 공식 영문 번역",
+          "clause": "Your Content and Conduct · Right to Monetize",
+          "region": "한국 지역(KR) · 영문 번역",
+          "version": "2022. 1. 5. 문서 표시일",
+          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "action": "광고 표시 여부와 내 수익 창출 자격을 구분하고 파트너 프로그램 계약을 별도로 확인하세요."
+        }
+      ]
+    ],
+    "reviewScope": "한국 지역 이용약관·Google 개인정보처리방침 중 아래 3개 항목 확인 · 유료 약관은 미검수",
+    "reviewStatus": "2026. 10. 9. (한국 시간) · 한국 지역 이용약관·Google 개인정보처리방침 중 아래 3개 항목 확인 · 유료 약관은 미검수",
+    "status": "reviewed",
+    "overall": "원문 대조 항목 있음",
+    "pendingReason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다.",
+    "documents": [
+      {
+        "url": "https://policies.google.com/privacy?hl=ko",
+        "title": "Google 개인정보처리방침",
+        "checkedAt": "2026. 10. 9. (한국 시간)",
+        "bodyChecked": true
+      },
+      {
+        "url": "https://www.youtube.com/static?template=terms&gl=KR&hl=ko",
+        "title": "YouTube 한국 지역 이용약관 · 공식 영문 번역",
+        "checkedAt": "2026. 10. 9. (한국 시간)",
+        "bodyChecked": true
+      }
+    ],
+    "linkAudit": {
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "attempted": 3,
+      "contentReviewComplete": false,
+      "states": {
+        "document-candidate": 3
+      }
+    }
+  },
+  "steam": {
+    "name": "Steam",
+    "domain": "steampowered.com",
+    "aliases": [
+      "스팀"
+    ],
+    "mark": "St",
+    "category": "게임",
+    "color": "#314b68",
+    "items": [
+      [
+        "other",
+        "기타 주의",
+        "지역 가격을 우회하면 계정 이용이 종료될 수 있음",
+        "mid",
+        "거주 지역을 숨겨 다른 지역 가격으로 구매하거나 콘텐츠의 지역 제한을 우회하는 행위를 금지합니다. 위반하면 계정 접근이 종료될 수 있습니다.",
+        "거주 지역을 숨겨 다른 지역 가격으로 구매하거나 콘텐츠의 지역 제한을 우회하는 행위를 금지합니다. 위반하면 계정 접근이 종료될 수 있습니다.",
+        "https://store.steampowered.com/subscriber_agreement/",
+        {
+          "document": "Steam Subscriber Agreement",
+          "clause": "3.A Payment Authorization",
+          "region": "국제 영문 약관",
+          "version": null,
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "action": "구매 지역과 거주 정보를 정확히 설정하고 지역 우회 구매를 하지 마세요."
+        }
+      ]
+    ],
+    "reviewScope": "지역 우회 구매 조건 확인 · 국제 영문 약관",
+    "reviewStatus": "2026. 10. 13. (한국 시간) · 지역 우회 구매 조건 확인",
+    "status": "reviewed",
+    "overall": "원문 대조 항목 있음",
+    "pendingReason": "",
+    "documents": [
+      {
+        "url": "https://store.steampowered.com/subscriber_agreement/",
+        "title": "Steam Subscriber Agreement",
+        "checkedAt": "2026. 10. 13. (한국 시간)",
+        "bodyChecked": true
+      }
+    ],
+    "linkAudit": {
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "attempted": 2,
+      "contentReviewComplete": false,
+      "states": {
+        "document-candidate": 2
+      },
+      "reviewedItemCount": 1
+    }
+  },
+  "dropbox": {
+    "name": "Dropbox",
+    "domain": "dropbox.com",
+    "aliases": [
+      "드롭박스"
+    ],
+    "mark": "DB",
+    "category": "업무·생산성",
+    "color": "#0061ff",
+    "items": [
+      [
+        "payment",
+        "결제·구독",
+        "유료 계정은 취소 전까지 반복 청구",
+        "high",
+        "유료 계정으로 전환한 날부터 주기적으로 결제됩니다. 일반 환불은 법이 요구하는 경우로 제한하며, 갱신 요금 변경은 최소 30일 전에 알립니다. 현지법의 취소 권리는 우선합니다.",
+        "유료 계정으로 전환한 날부터 주기적으로 결제됩니다. 일반 환불은 법이 요구하는 경우로 제한하며, 갱신 요금 변경은 최소 30일 전에 알립니다. 현지법의 취소 권리는 우선합니다.",
+        "https://www.dropbox.com/terms",
+        {
+          "document": "Dropbox Terms of Service",
+          "clause": "Paid Accounts",
+          "region": "국제 영문 약관 · 현지 강행법규 우선",
+          "version": "2025. 1. 7. 시행 · 2027년 개정 예고와 구분",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "action": "다음 결제일과 취소 완료 상태를 확인하세요."
+        }
+      ],
+      [
+        "privacy",
+        "개인정보",
+        "팀 관리자가 파일 접근과 계정 이용을 통제",
+        "high",
+        "Dropbox Team에 들어가면 조직 관리자가 계정 정보에 접근·공개·제한·삭제하거나 계정 접근을 종료할 수 있습니다. 개인 계정을 팀에 편입한 뒤 다시 분리하는 것도 관리자가 막을 수 있습니다.",
+        "Dropbox Team에 들어가면 조직 관리자가 계정 정보에 접근·공개·제한·삭제하거나 계정 접근을 종료할 수 있습니다. 개인 계정을 팀에 편입한 뒤 다시 분리하는 것도 관리자가 막을 수 있습니다.",
+        "https://www.dropbox.com/terms",
+        {
+          "document": "Dropbox Terms of Service",
+          "clause": "Dropbox Teams",
+          "region": "국제 영문 약관 · 현지 강행법규 우선",
+          "version": "2025. 1. 7. 시행",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "action": "개인 파일은 팀 계정과 분리하고 조직 가입 전 관리 권한을 확인하세요."
+        }
+      ],
+      [
+        "other",
+        "기타 주의",
+        "무료 계정은 12개월 미접속 시 종료 대상",
+        "high",
+        "무료 계정으로 12개월 연속 접속하지 않으면 정지·종료 대상이 될 수 있습니다. 원칙적으로 이메일 안내와 자료 반출 기회를 제공하지만 중대한 위반·법적 사유 등은 예외입니다.",
+        "무료 계정으로 12개월 연속 접속하지 않으면 정지·종료 대상이 될 수 있습니다. 원칙적으로 이메일 안내와 자료 반출 기회를 제공하지만 중대한 위반·법적 사유 등은 예외입니다.",
+        "https://www.dropbox.com/terms",
+        {
+          "document": "Dropbox Terms of Service",
+          "clause": "Termination",
+          "region": "국제 영문 약관 · 현지 강행법규 우선",
+          "version": "2025. 1. 7. 시행",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "action": "연락 이메일을 유지하고 중요한 파일은 별도로 백업하세요."
+        }
+      ],
+      [
+        "content",
+        "콘텐츠 권리",
+        "파일은 이용자 소유지만 서비스 기능을 위해 분석 가능",
+        "mid",
+        "파일의 소유권은 이용자에게 남습니다. 저장·백업·검색·미리보기·OCR 등 기능을 제공하기 위해 파일에 접근·저장·스캔할 권한을 줍니다. 이 권한은 협력 계열사·신뢰하는 업체에도 적용됩니다.",
+        "파일의 소유권은 이용자에게 남습니다. 저장·백업·검색·미리보기·OCR 등 기능을 제공하기 위해 파일에 접근·저장·스캔할 권한을 줍니다. 이 권한은 협력 계열사·신뢰하는 업체에도 적용됩니다.",
+        "https://www.dropbox.com/terms",
+        {
+          "document": "Dropbox Terms of Service",
+          "clause": "Your Stuff & Your Permissions",
+          "region": "국제 영문 약관 · 현지 강행법규 우선",
+          "version": "2025. 1. 7. 시행 · 2027. 1. 1. 예정 약관과 구분",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "action": "민감한 파일의 업로드·공유 범위를 정하고 별도 암호화 필요성을 확인하세요."
+        }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "유료 취소와 이미 낸 요금의 반환은 별도",
+        "mid",
+        "유료 계정은 언제든 취소할 수 있지만 환불은 법에서 요구하는 경우에만 제공한다고 정합니다. EU의 14일 취소·환불권을 별도 예로 안내하며 이를 모든 국가의 조건으로 적용하지 않습니다.",
+        "유료 계정은 언제든 취소할 수 있지만 환불은 법에서 요구하는 경우에만 제공한다고 정합니다. EU의 14일 취소·환불권을 별도 예로 안내하며 이를 모든 국가의 조건으로 적용하지 않습니다.",
+        "https://www.dropbox.com/terms",
+        {
+          "document": "Dropbox Terms of Service",
+          "clause": "Paid Accounts · Cancellation",
+          "region": "국제 영문 약관 · 현지 강행법규 우선",
+          "version": "2025. 1. 7. 시행 · 2027. 1. 1. 예정 약관과 구분",
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "action": "거주 지역의 환불 조건과 취소 완료 상태를 확인하세요."
+        }
+      ],
+      [
+        "privacy",
+        "개인정보",
+        "탈퇴 30일 뒤 삭제 시작·백업과 법적 보관은 예외",
+        "mid",
+        "계정을 삭제하면 30일 뒤 정보 삭제를 시작한다고 안내합니다. 서버·백업 삭제에는 지연이 있을 수 있고 법적 의무·분쟁 해결·계약 집행에 필요한 정보는 보관할 수 있습니다.",
+        "계정을 삭제하면 30일 뒤 정보 삭제를 시작한다고 안내합니다. 서버·백업 삭제에는 지연이 있을 수 있고 법적 의무·분쟁 해결·계약 집행에 필요한 정보는 보관할 수 있습니다.",
+        "https://www.dropbox.com/privacy",
+        {
+          "document": "Dropbox Privacy Policy",
+          "clause": "Privacy Policy · Retention",
+          "region": "국제 영문 약관 · 현지 강행법규 우선",
+          "version": null,
+          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "action": "탈퇴 전 필요한 자료를 내려받고 삭제 요청과 완료 안내를 보관하세요."
+        }
+      ]
+    ],
+    "reviewScope": "표시 6개 항목의 출처 조항 확인 · 적용 지역·상품은 각 항목 참고",
+    "reviewStatus": "2026. 10. 14. (한국 시간) · 파일 처리 권한·환불·탈퇴 후 삭제 추가 확인",
+    "status": "reviewed",
+    "overall": "원문 대조 항목 있음",
+    "pendingReason": "",
+    "documents": [
+      {
+        "url": "https://www.dropbox.com/terms",
+        "title": "Dropbox Terms of Service",
+        "checkedAt": "2026. 10. 14. (한국 시간)",
+        "bodyChecked": true
+      },
+      {
+        "url": "https://www.dropbox.com/privacy",
+        "title": "Dropbox Privacy Policy",
+        "checkedAt": "2026. 10. 14. (한국 시간)",
+        "bodyChecked": true
+      }
+    ],
+    "linkAudit": {
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "attempted": 2,
+      "contentReviewComplete": false,
+      "states": {
+        "document-candidate": 2
+      },
+      "reviewedItemCount": 6
+    }
+  },
+  "github": {
+    "name": "GitHub",
+    "domain": "github.com",
+    "aliases": [
+      "깃허브"
+    ],
+    "mark": "GH",
+    "category": "업무·생산성",
+    "color": "#314b68",
+    "items": [
+      [
+        "cancel",
+        "해지·환불",
+        "요금제 하향·미사용 기간의 환불이 제한됨",
+        "mid",
+        "월·연간 요금제는 선불 청구하며 부분 사용 기간, 요금제 하향, 계정을 열어 둔 채 사용하지 않은 기간에 대한 환불·크레딧을 제공하지 않는다고 정합니다. 유료 기간까지 서비스는 유지됩니다.",
+        "월·연간 요금제는 선불 청구하며 부분 사용 기간, 요금제 하향, 계정을 열어 둔 채 사용하지 않은 기간에 대한 환불·크레딧을 제공하지 않는다고 정합니다. 유료 기간까지 서비스는 유지됩니다.",
+        "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+        {
+          "document": "GitHub Terms of Service",
+          "clause": "K. Payment — 3. Billing Schedule; No Refunds",
+          "region": "일반 서비스 영문 약관 · 별도 기업계약 제외",
+          "version": "2026. 4. 27. 시행",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "action": "다음 청구 전에 요금제와 계정 설정을 확인하고 필요한 자료를 백업하세요."
+        }
+      ]
+    ],
+    "reviewScope": "월·연간 요금제 환불 조건 확인 · 일반 서비스 영문 약관 · 별도 기업계약 제외",
+    "reviewStatus": "2026. 10. 13. (한국 시간) · 월·연간 요금제 환불 조건 확인",
+    "status": "reviewed",
+    "overall": "원문 대조 항목 있음",
+    "pendingReason": "",
+    "documents": [
+      {
+        "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+        "title": "GitHub Terms of Service",
+        "checkedAt": "2026. 10. 13. (한국 시간)",
+        "bodyChecked": true
+      }
+    ],
+    "linkAudit": {
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "attempted": 2,
+      "contentReviewComplete": false,
+      "states": {
+        "document-candidate": 2
+      },
+      "reviewedItemCount": 1
+    }
+  },
+  "signal": {
+    "name": "Signal",
+    "domain": "signal.org",
+    "aliases": [
+      "시그널"
+    ],
+    "mark": "S",
+    "category": "SNS·메신저",
+    "color": "#314b68",
+    "items": [
+      [
+        "privacy",
+        "개인정보",
+        "메시지 복구와 기기 보안은 직접 관리해야 함",
+        "mid",
+        "Signal은 메시지 내용을 복호화하거나 열람할 수 없으며 메시지 기록은 이용자 기기에 저장된다고 설명합니다. 새 기기로 번호를 등록하면 이전 기기는 메시지와 전화를 받지 못합니다.",
+        "Signal은 메시지 내용을 복호화하거나 열람할 수 없으며 메시지 기록은 이용자 기기에 저장된다고 설명합니다. 새 기기로 번호를 등록하면 이전 기기는 메시지와 전화를 받지 못합니다.",
+        "https://signal.org/legal/",
+        {
+          "document": "Signal Terms of Service & Privacy Policy",
+          "clause": "Keeping Your Account Secure · Privacy Policy: Messages",
+          "region": "국제 영문 약관",
+          "version": "문서 표시 갱신일 2018. 5. 25.",
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "action": "기기 변경 전 공식 이전·백업 절차를 확인하고 기기 잠금과 등록 잠금을 설정하세요."
+        }
+      ]
+    ],
+    "reviewScope": "계정 보안·메시지 보관 조건 확인 · 국제 영문 약관",
+    "reviewStatus": "2026. 10. 13. (한국 시간) · 계정 보안·메시지 보관 조건 확인",
+    "status": "reviewed",
+    "overall": "원문 대조 항목 있음",
+    "pendingReason": "",
+    "documents": [
+      {
+        "url": "https://signal.org/legal/",
+        "title": "Signal Terms of Service & Privacy Policy",
+        "checkedAt": "2026. 10. 13. (한국 시간)",
+        "bodyChecked": true
+      }
+    ],
+    "linkAudit": {
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "attempted": 1,
+      "contentReviewComplete": false,
+      "states": {
+        "document-candidate": 1
+      },
+      "reviewedItemCount": 1
+    }
+  },
+  "notion": {
+    "name": "Notion",
+    "domain": "notion.so",
+    "aliases": [
+      "노션"
+    ],
+    "mark": "N",
+    "category": "업무·생산성",
+    "color": "#314b68",
+    "items": [
+      [
+        "privacy",
+        "개인정보",
+        "일반·Enterprise 요금제의 AI 제공자 보관 기간이 다름",
+        "mid",
+        "공식 도움말은 기본값으로 Enterprise 워크스페이스의 LLM 제공자가 데이터를 보관하지 않고, 그 외 워크스페이스는 30일 이하 보관한다고 안내합니다. 관리자가 자료를 보관하는 모델을 켜는 기능과 External Agents는 별도 조건이므로 모든 AI 기능에 동일하게 적용되지는 않습니다.",
+        "공식 도움말은 기본값으로 Enterprise 워크스페이스의 LLM 제공자가 데이터를 보관하지 않고, 그 외 워크스페이스는 30일 이하 보관한다고 안내합니다. 관리자가 자료를 보관하는 모델을 켜는 기능과 External Agents는 별도 조건이므로 모든 AI 기능에 동일하게 적용되지는 않습니다.",
+        "https://www.notion.com/help/notion-ai-security-practices",
+        {
+          "document": "Notion 공식 고객센터 · AI 보안·개인정보 안내",
+          "clause": "What are the data retention obligations of third-party AI providers?",
+          "region": "공식 영문 도움말 · 약관 대체 문서가 아닌 표시 항목의 보조 근거",
+          "version": null,
+          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "action": "요금제와 관리자의 데이터 보관 모델 설정, 사용하는 AI 기능의 추가 조건을 확인하세요."
+        }
+      ]
+    ],
+    "reviewScope": "AI 공식 도움말의 데이터 보관 항목만 확인 · 개인용 이용약관 본문 대조는 미완료 · 공식 영문 도움말 · 약관 대체 문서가 아닌 표시 항목의 보조 근거",
+    "reviewStatus": "2026. 10. 13. (한국 시간) · AI 공식 도움말의 데이터 보관 항목만 확인 · 개인용 이용약관 본문 대조는 미완료",
+    "status": "reviewed",
+    "overall": "원문 대조 항목 있음",
+    "pendingReason": "",
+    "documents": [
+      {
+        "url": "https://www.notion.com/help/notion-ai-security-practices",
+        "title": "Notion 공식 고객센터 · AI 보안·개인정보 안내",
+        "checkedAt": "2026. 10. 13. (한국 시간)",
+        "bodyChecked": true
+      }
+    ],
+    "linkAudit": {
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "attempted": 2,
+      "contentReviewComplete": false,
+      "states": {
+        "body-unavailable": 2
+      },
+      "reviewedItemCount": 1
+    }
+  }
+}

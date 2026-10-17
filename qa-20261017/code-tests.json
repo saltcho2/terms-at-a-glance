@@ -1,0 +1,108 @@
+{
+  "fixedTestTime": "2026-10-17T12:00:00Z",
+  "tests": [
+    {
+      "label": "当日",
+      "input": "2026. 10. 17.",
+      "result": {
+        "state": "recent",
+        "ageDays": 0,
+        "label": "대조일로부터 30일 이내 · 이후 변경 여부는 미확인"
+      },
+      "pass": true
+    },
+    {
+      "label": "30일 이내",
+      "input": "2026. 10. 1.",
+      "result": {
+        "state": "recent",
+        "ageDays": 16,
+        "label": "대조일로부터 30일 이내 · 이후 변경 여부는 미확인"
+      },
+      "pass": true
+    },
+    {
+      "label": "정확히 30일",
+      "input": "2026. 9. 17.",
+      "result": {
+        "state": "recent",
+        "ageDays": 30,
+        "label": "대조일로부터 30일 이내 · 이후 변경 여부는 미확인"
+      },
+      "pass": true
+    },
+    {
+      "label": "31일 경과",
+      "input": "2026. 9. 16.",
+      "result": {
+        "state": "stale",
+        "ageDays": 31,
+        "label": "최신성 재확인 필요"
+      },
+      "pass": true
+    },
+    {
+      "label": "대조일 없음",
+      "input": null,
+      "result": {
+        "state": "unknown",
+        "label": "최신성 판단 자료 없음"
+      },
+      "pass": true
+    },
+    {
+      "label": "잘못된 날짜",
+      "input": "2026. 2. 30.",
+      "result": {
+        "state": "unknown",
+        "label": "최신성 판단 자료 없음"
+      },
+      "pass": true
+    },
+    {
+      "label": "미래 날짜",
+      "input": "2026. 10. 18.",
+      "result": {
+        "state": "unknown",
+        "label": "대조일 기록 재확인 필요"
+      },
+      "pass": true
+    },
+    {
+      "label": "한국 자정 경계: 2026-10-17 15:00 UTC는 한국 18일",
+      "pass": true
+    },
+    {
+      "label": "모든 표시 항목 evidence/report 렌더링 undefined 검사",
+      "items": 251,
+      "pass": true
+    },
+    {
+      "label": "catalog 누락",
+      "scope": "Node VM에서 실제 배포 스크립트의 초기화 실패 분기 실행. 브라우저 네트워크 차단 테스트 아님.",
+      "pass": true
+    },
+    {
+      "label": "search 모듈 누락",
+      "scope": "Node VM에서 실제 배포 스크립트의 초기화 실패 분기 실행. 브라우저 네트워크 차단 테스트 아님.",
+      "pass": true
+    },
+    {
+      "label": "review 모듈 누락",
+      "scope": "Node VM에서 실제 배포 스크립트의 초기화 실패 분기 실행. 브라우저 네트워크 차단 테스트 아님.",
+      "pass": true
+    },
+    {
+      "label": "10개 표본 서비스의 선택하지 않은 항목은 원본과 동일",
+      "pass": true
+    },
+    {
+      "label": "검색 버튼·강조 링크 대비",
+      "beforeSearchButton": 2.9603145132997195,
+      "beforeLink": 4.402540890000806,
+      "after": 5.674424577007242,
+      "scope": "색상 쌍 계산, 전체 접근성 적합 인증 아님",
+      "pass": true
+    }
+  ]
+}
