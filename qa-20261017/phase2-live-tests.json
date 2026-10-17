@@ -1,0 +1,242 @@
+{
+  "initialBefore": {
+    "detailVisible": false,
+    "loadErrorVisible": false,
+    "noscriptVisible": false,
+    "scripts": [
+      "https://saltcho2.github.io/terms-at-a-glance/service-catalog.js?v=20261017qa",
+      "https://saltcho2.github.io/terms-at-a-glance/casebook.js?v=20261017c",
+      "https://saltcho2.github.io/terms-at-a-glance/search-engine.js?v=20261014a",
+      "https://saltcho2.github.io/terms-at-a-glance/review-ui.js?v=20261017qa"
+    ],
+    "searchEmptyVisible": false,
+    "stats": [
+      "500개 서비스 목록\n검색 또는 전체 목록에서 선택",
+      "19건\n서비스별 실제 사례",
+      "154개 서비스 · 251개 항목\n표시된 조항의 요약 제공 · 전체 약관 검수는 진행 중"
+    ],
+    "url": "https://saltcho2.github.io/terms-at-a-glance/"
+  },
+  "initialAfter": {
+    "assets": [
+      "https://saltcho2.github.io/terms-at-a-glance/service-catalog.js?v=20261017p2",
+      "https://saltcho2.github.io/terms-at-a-glance/casebook.js?v=20261017c",
+      "https://saltcho2.github.io/terms-at-a-glance/search-engine.js?v=20261014a",
+      "https://saltcho2.github.io/terms-at-a-glance/review-ui.js?v=20261017p2"
+    ],
+    "caseCaption": "최근 사례 3건 · 전체 19건",
+    "catalogOpen": false,
+    "defaultService": "",
+    "detailHidden": true,
+    "errorHidden": true,
+    "searchEmptyHidden": true,
+    "searchEnabled": true,
+    "state": "home",
+    "stats": [
+      "500개\n목록에 등록된 서비스",
+      "154개\n1개 이상 요약을 볼 수 있는 서비스",
+      "251개\n원문 대조 기록이 있는 항목 · 전체 검수 아님",
+      "0개 항목\n대조 후 30일 경과 또는 대조일 확인 필요",
+      "346개\n등록됐으나 요약이 없는 서비스",
+      "19건\n등록된 실제 사례 · 출처·대조일은 개별 확인"
+    ]
+  },
+  "finalHome": {
+    "caseCaption": "최근 사례 3건 · 전체 19건",
+    "detailHidden": true,
+    "errorHidden": true,
+    "state": "home",
+    "stats": [
+      "500개\n목록에 등록된 서비스",
+      "154개\n1개 이상 요약을 볼 수 있는 서비스",
+      "251개\n원문 대조 기록이 있는 항목 · 전체 검수 아님",
+      "0개 항목\n대조 후 30일 경과 또는 대조일 확인 필요",
+      "346개\n등록됐으나 요약이 없는 서비스",
+      "19건\n등록된 실제 사례 · 출처·대조일은 개별 확인"
+    ]
+  },
+  "recommendationsInitial": [
+    {
+      "cards": 3,
+      "input": "YouTube",
+      "name": "YouTube",
+      "state": "result"
+    },
+    {
+      "cards": 3,
+      "input": "YouTube",
+      "name": "YouTube",
+      "state": "result"
+    },
+    {
+      "cards": 3,
+      "input": "네이버",
+      "name": "네이버",
+      "state": "result"
+    },
+    {
+      "cards": 3,
+      "input": "쿠팡",
+      "name": "쿠팡",
+      "state": "result"
+    },
+    {
+      "cards": 4,
+      "input": "Spotify",
+      "name": "Spotify",
+      "state": "result"
+    }
+  ],
+  "rapidAfterScrollFix": [
+    {
+      "cards": 3,
+      "input": "YouTube",
+      "name": "YouTube"
+    },
+    {
+      "cards": 2,
+      "input": "Netflix",
+      "name": "Netflix"
+    },
+    {
+      "cards": 3,
+      "input": "네이버",
+      "name": "네이버"
+    },
+    {
+      "cards": 3,
+      "input": "쿠팡",
+      "name": "쿠팡"
+    },
+    {
+      "cards": 4,
+      "input": "Spotify",
+      "name": "Spotify"
+    }
+  ],
+  "recentSearch": "Spotify",
+  "journeys": [
+    {
+      "categories": [
+        "payment",
+        "cancel",
+        "cancel",
+        "cancel",
+        "privacy",
+        "content",
+        "content",
+        "other"
+      ],
+      "note": "가입·결제 전: 관련 4개 항목을 앞에 배치했습니다. 나머지 항목도 아래에서 모두 볼 수 있습니다.",
+      "pressed": [
+        "payment"
+      ]
+    },
+    {
+      "categories": [
+        "content",
+        "content",
+        "privacy",
+        "cancel",
+        "cancel",
+        "cancel",
+        "payment",
+        "other"
+      ],
+      "note": "자료 게시 전: 관련 3개 항목을 앞에 배치했습니다. 나머지 항목도 아래에서 모두 볼 수 있습니다.",
+      "pressed": [
+        "content"
+      ]
+    },
+    {
+      "categories": [
+        "cancel",
+        "cancel",
+        "cancel",
+        "payment",
+        "privacy",
+        "content",
+        "content",
+        "other"
+      ],
+      "note": "해지 전: 관련 4개 항목을 앞에 배치했습니다. 나머지 항목도 아래에서 모두 볼 수 있습니다.",
+      "pressed": [
+        "cancel"
+      ]
+    }
+  ],
+  "searchStates": [
+    {
+      "detailHidden": false,
+      "emptyHidden": true,
+      "query": "youtube.com",
+      "service": "YouTube",
+      "state": "result",
+      "title": "검색 안내"
+    },
+    {
+      "detailHidden": false,
+      "emptyHidden": true,
+      "query": "dbxbqm",
+      "service": "YouTube",
+      "state": "result",
+      "title": "검색 안내"
+    },
+    {
+      "detailHidden": true,
+      "emptyHidden": false,
+      "query": "zzzzzzzzzz",
+      "service": "YouTube",
+      "state": "no-results",
+      "title": "“zzzzzzzzzz” 검색 결과가 없습니다."
+    },
+    {
+      "detailHidden": false,
+      "emptyHidden": true,
+      "query": "TikTok",
+      "service": "TikTok",
+      "state": "pending",
+      "title": "“zzzzzzzzzz” 검색 결과가 없습니다."
+    },
+    {
+      "detailHidden": true,
+      "emptyHidden": false,
+      "query": "",
+      "service": "TikTok",
+      "state": "empty-query",
+      "title": "서비스 이름이나 사이트 주소를 입력해 주세요."
+    }
+  ],
+  "missingPurpose": {
+    "note": "가입·결제 전에 해당하는 검수된 요약은 아직 없습니다. 확인된 다른 항목은 그대로 표시합니다.",
+    "count": 3
+  },
+  "scope": {
+    "naver": "원문 근거 · 편집 요약과 구분\n\n네이버 공통 이용약관\n여러분이 제공한 콘텐츠를 소중히 다룰 것입니다 · 적용 지역: 한국\n\n원문 인용: 인공지능 분야 기술 등의 연구 개발 목적으로 네이버에서 사용되거나\n\n적용 범위 확인\n네이버 공통 이용약관의 게시물 조항. 개별 서비스의 추가 약관·운영정책이 다르게 정하면 해당 정책이 우선할 수 있습니다. 네이버페이·계열사 서비스까지 같은 조건으로 판단하지 마세요.\n\n원문 조건 · 편집 요약\n\n게시물 권리는 이용자에게 남지만 네이버는 운영·홍보·개선 등의 목적에 기한·지역 제한 없는 무상 이용권을 받습니다. 네이버와 위탁받은 계열사의 AI 연구 개발에도 콘텐츠가 쓰일 수 있습니다. 삭제·비공개 이후에는 연구에 사용하지 않지만, 이미 기술적으로 구분하기 어렵게 처리된 자료는 예외입니다.\n\n표시 항목 원문 대조 기록 있음 · 2026. 10. 17. (한국 시간) · 대조일로부터 30일 이내 · 이후 변경 여부는 미확인",
+    "netflix": "원문 근거 · 편집 요약과 구분\n\n넷플릭스 한국어 공식 고객센터 · 멤버십 해지 방법\n멤버십 해지 / 계정에 해지 옵션이 표시되지 않는 경우 · 적용 지역: 한국어 공식 도움말 · 국가별 세부 조건은 선택 국가·결제 경로에 따라 확인 필요\n\n원문 인용: 계정에서 로그아웃하거나 넷플릭스 앱을 삭제한다고 해서 계정이 해지되지는 않습니다.\n\n적용 범위 확인\n한국어 공식 해지 도움말의 공통 절차를 확인했습니다. 국가별 세부 조건은 확정하지 않았으며, 계정에 해지 옵션이 없으면 실제 결제 파트너의 안내를 확인해야 합니다.\n\n원문 조건 · 편집 요약\n\n멤버십은 계정에서 해지 완료까지 진행해야 합니다. 해지하면 현재 결제 기간 말까지 이용할 수 있으며, 해지 버튼이 없으면 결제 파트너에게 해지해야 합니다. 앱을 지우거나 로그아웃해도 해지되지 않습니다.\n\n표시 항목 원문 대조 기록 있음 · 2026. 10. 17. (한국 시간) · 대조일로부터 30일 이내 · 이후 변경 여부는 미확인"
+  },
+  "fixtures": {
+    "catalogFailure": "자료를 불러오지 못했습니다. 아래 미리보기의 공식 원문 링크는 이용할 수 있습니다.\n\n오류 정보\n자료 다시 불러오기",
+    "cause": "불러오지 못한 파일: service-catalog.js",
+    "retry": {
+      "before": {
+        "cause": "불러오지 못한 파일: service-catalog.js",
+        "detailsOpen": true
+      },
+      "after": {
+        "cause": "불러오지 못한 파일: service-catalog.js",
+        "detailsOpen": false
+      },
+      "note": "오류 정보의 펼침 상태가 초기화되고 동일 원인이 다시 표시됨. 프레임 새로고침 확인. HTTP 요청 수·캐시·상태 코드는 계측하지 않음."
+    },
+    "caseFailure": "500개\n목록에 등록된 서비스\n154개\n1개 이상 요약을 볼 수 있는 서비스\n251개\n원문 대조 기록이 있는 항목 · 전체 검수 아님\n0개 항목\n대조 후 30일 경과 또는 대조일 확인 필요\n346개\n등록됐으나 요약이 없는 서비스\n집계 불가\n등록된 실제 사례 · 출처·대조일은 개별 확인",
+    "caseDetailFailure": "사례 목록을 불러오지 못했습니다.",
+    "zeroCases": "0건",
+    "recovered": "19건"
+  },
+  "limits": {
+    "loadingTiming": "초기 HTML과 완료 상태 확인. 느린 회선에서 로딩 중 화면의 시간 경과는 미검증",
+    "mobile": "실기기 미검증",
+    "humanParticipants": 0
+  }
+}
