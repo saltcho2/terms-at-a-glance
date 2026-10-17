@@ -33,8 +33,8 @@
   <header><div class="nav"><button class="brand" id="homeButton" type="button" aria-label="약관 한눈에 홈으로"><span class="logo" aria-hidden="true"></span>약관 한눈에</button><div class="nav-note" id="navNote">서비스와 핵심 항목을 불러오는 중</div></div></header>
   <main id="main" class="shell">
     <section class="intro" aria-labelledby="page-title">
-      <div><p class="eyebrow">서비스별 약관 안내</p><h1 id="page-title">여러 서비스의 약관,<br><span class="highlight">한눈에</span> 확인하세요.</h1></div>
-      <p>네이버·쿠팡·YouTube 등 이용하는 서비스의 결제, 개인정보, 해지 조건을 쉽게 살펴보세요.<br><strong class="no-signup">약관 한눈에는 회원가입 없이 이용할 수 있습니다.</strong></p>
+      <div><p class="eyebrow">서비스별 약관 안내</p><h1 id="page-title">서비스 약관,<br><span class="highlight">중요한 조건</span>부터 확인하세요.</h1></div>
+      <p>약관 한눈에는 여러 서비스의 이용약관과 개인정보처리방침을 쉽게 정리한 안내 사이트입니다.<br>서비스를 검색하면 결제·개인정보·콘텐츠 권리·해지 조건과 실제 사례를 함께 볼 수 있습니다.<br><strong class="no-signup">회원가입 없이 이용할 수 있습니다.</strong></p>
     </section>
 
     <section class="search-panel" aria-label="서비스 검색">
@@ -55,10 +55,10 @@
 
     <section id="homeContent" aria-label="약관 한눈에 소개">
       <p class="notice" id="reviewProgress" role="status"></p>
-      <div class="home-stats"><div class="stat"><strong id="catalogTotal">500개 서비스 목록</strong><span>검색 또는 전체 목록에서 선택</span></div><div class="stat"><strong id="verifiedCaseStat">0건</strong><span>출처와 요약을 대조한 사건 기록</span></div><div class="stat"><strong id="auditDateStat">검수 집계 중</strong><span>표시된 조항의 요약 제공 · 전체 약관 검수는 진행 중</span></div></div>
+      <div class="home-stats"><div class="stat"><strong id="catalogTotal">500개 서비스 목록</strong><span>검색 또는 전체 목록에서 선택</span></div><div class="stat"><strong id="verifiedCaseStat">0건</strong><span>서비스별 실제 사례</span></div><div class="stat"><strong id="auditDateStat">검수 집계 중</strong><span>표시된 조항의 요약 제공 · 전체 약관 검수는 진행 중</span></div></div>
       <div class="home-grid">
-        <section class="home-panel latest-panel" aria-labelledby="latestTitle"><div class="home-panel-head"><div><p class="home-kicker">RECENT CASES</p><h2 id="latestTitle">출처를 확인한 사건 기록</h2></div><span>서비스별 공식·보도 출처 기준</span></div><div class="home-cases" id="homeCases"></div></section>
-        <aside class="home-panel why-panel" aria-labelledby="whyTitle"><p class="home-kicker">BEFORE YOU AGREE</p><h2 id="whyTitle">다른 서비스에 가입할 때, 무엇을 봐야 할까요?</h2><p class="why-intro">가입 버튼 한 번으로 결제, 개인정보, 해지 조건까지 함께 동의하게 됩니다.</p><div class="why-list"><div class="why-item"><span class="why-num">1</span><strong>무료 체험이 유료 결제로 바뀔 수 있어요</strong><p>서비스와 적용 지역에 따라 유료 전환 동의 방식이 다릅니다. 체험 유지 동의, 다음 결제일과 환불 조건을 각각 확인하세요.</p></div><div class="why-item"><span class="why-num">2</span><strong>내 이용 기록이 생각보다 넓게 쓰일 수 있어요</strong><p>검색·시청·구매 기록과 위치·기기 정보가 맞춤 추천, 광고, 서비스 분석에 활용될 수 있습니다.</p></div><div class="why-item"><span class="why-num">3</span><strong>탈퇴해도 모든 것이 바로 끝나지는 않아요</strong><p>구독 해지와 계정 삭제는 서로 다르며, 거래 기록·백업·공유된 자료는 일정 기간 남을 수 있습니다.</p></div></div></aside>
+        <section class="home-panel latest-panel" aria-labelledby="latestTitle"><div class="home-panel-head"><div><p class="home-kicker">RECENT CASES</p><h2 id="latestTitle">실제 사례</h2></div><span>서비스별 공식·보도 출처 기준</span></div><div class="home-cases" id="homeCases"></div></section>
+        <aside class="home-panel why-panel" aria-labelledby="whyTitle"><p class="home-kicker">BEFORE YOU AGREE</p><h2 id="whyTitle">왜 약관을 확인해야 하나요?</h2><p class="why-intro">약관에는 요금 청구, 개인정보 활용, 환불 등 서비스 이용에 직접 영향을 주는 조건이 담겨 있습니다.</p><div class="why-list"><div class="why-item"><span class="why-num" aria-hidden="true">1</span> <strong>결제·구독 조건</strong><p>무료 체험 이후의 요금, 자동 갱신 여부, 추가 비용이 발생하는 조건을 확인합니다.</p></div><div class="why-item"><span class="why-num" aria-hidden="true">2</span> <strong>개인정보의 수집과 활용</strong><p>어떤 정보를 수집하고 어디에 사용하는지, 다른 업체에 제공하는 조건은 무엇인지 살펴봅니다.</p></div><div class="why-item"><span class="why-num" aria-hidden="true">3</span> <strong>해지·환불 기준</strong><p>구독을 해지하는 방법과 환불 범위, 탈퇴 후에도 보관되는 정보를 확인합니다.</p></div></div></aside>
       </div>
       <section class="method-panel" aria-labelledby="methodTitle"><div class="method-head"><div><p class="home-kicker">EDITORIAL STANDARD</p><h2 id="methodTitle">어떻게 정리했나요?</h2></div><p>요약문은 이해를 돕기 위한 설명이며 약관 원문을 대신하지 않습니다.</p></div><div class="method-grid"><div class="method-item"><strong>1. 공식 자료부터 확인</strong><p>서비스 약관, 개인정보처리방침과 정부·감독기관 발표를 우선 확인합니다.</p></div><div class="method-item"><strong>2. 이용자에게 불리한 조건 분리</strong><p>자동결제, 데이터 활용, 콘텐츠 권리, 환불과 탈퇴 조건을 따로 정리합니다.</p></div><div class="method-item"><strong>3. 출처와 점검일 표시</strong><p>내용을 직접 다시 확인할 수 있도록 원문 링크와 마지막 점검일을 함께 표시합니다.</p></div></div></section>
     </section>
