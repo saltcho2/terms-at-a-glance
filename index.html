@@ -29,6 +29,8 @@
   
     .home-grid{display:block;margin:22px 0}.why-panel{margin-bottom:22px;padding:32px;background:#fff6ed;border:1px solid #f0d6c3}.why-panel h2{font-size:2rem;letter-spacing:-.04em}.why-intro{font-size:1rem;max-width:720px;margin:12px 0 26px}.why-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.why-item,.why-item:first-child{border:1px solid #efdfd0;border-radius:14px;background:#fff;padding:22px}.why-item strong{font-size:1.06rem}.why-item p{font-size:.9rem;line-height:1.75;margin:12px 0 0}.why-num{width:29px;height:29px}.latest-panel{background:#fff;color:var(--ink);border:1px solid var(--line);padding:22px}.latest-panel h2{font-size:1.18rem}.latest-panel .home-kicker{color:var(--muted)}.latest-panel .home-panel-head>span{color:var(--muted)}.home-cases{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.home-case{padding:0;border-radius:0;background:transparent}.home-case-title{font-size:.91rem}.home-case-meta{font-size:.72rem}.home-case-text{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;font-size:.8rem}.home-case-service{font-size:.8rem}.home-stats{margin-top:22px}
     @media(max-width:800px){.why-panel{padding:24px 20px}.why-panel h2{font-size:1.65rem}.why-list,.home-cases{grid-template-columns:1fr}.why-item,.why-item:first-child{padding:18px}.home-panel-head{align-items:flex-start;flex-direction:column;gap:8px}.home-case+.home-case{border-top:1px solid var(--line);padding-top:16px}}
+   .preview-panel{margin-top:24px}.preview-panel h2{font-size:1.3rem;margin:0}.preview-intro{color:var(--muted);font-size:.87rem}.preview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.preview-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px}.preview-card h3{font-size:1rem;margin:8px 0}.preview-card p{font-size:.86rem;line-height:1.7}.preview-card small{display:block;color:var(--muted);font-size:.76rem}.preview-card a,.preview-card button,.report-open{display:block;margin-top:12px;color:var(--accent-dark);font-weight:750;font-size:.8rem}.preview-card button,.report-open{background:none;border:0;padding:0;text-align:left;cursor:pointer}.review-details,.editorial-policy{border:1px solid var(--line);border-radius:10px;padding:14px;margin-top:16px;font-size:.85rem;background:#fff}.review-details summary,.editorial-policy summary{cursor:pointer;font-weight:800}.review-details dt{font-weight:800;margin-top:10px}.review-details dd{margin:4px 0;color:var(--muted)}.editorial-policy p{line-height:1.8}.journey{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:16px 0}.journey button,#browseCatalog{border:1px solid var(--line);background:#fff;border-radius:8px;padding:9px 12px;cursor:pointer}.journey span{font-size:.86rem;font-weight:750}#reportText{width:100%;box-sizing:border-box;font:inherit;padding:14px;border:1px solid var(--line);border-radius:10px}#reportComposer[hidden]{display:none}
+    @media(max-width:800px){.preview-grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -42,6 +44,7 @@
 
       <section id="homeWhy" class="home-panel why-panel" aria-labelledby="whyTitle"><p class="home-kicker">BEFORE YOU AGREE</p><h2 id="whyTitle">왜 약관을 확인해야 하나요?</h2><p class="why-intro">약관에는 요금 청구, 개인정보 활용, 환불 등 서비스 이용에 직접 영향을 주는 조건이 담겨 있습니다.</p><div class="why-list"><div class="why-item"><span class="why-num" aria-hidden="true">1</span> <strong>결제·구독 조건</strong><p>무료 체험 이후의 요금, 자동 갱신 여부, 추가 비용이 발생하는 조건을 확인합니다.</p></div><div class="why-item"><span class="why-num" aria-hidden="true">2</span> <strong>개인정보의 수집과 활용</strong><p>어떤 정보를 수집하고 어디에 사용하는지, 다른 업체에 제공하는 조건은 무엇인지 살펴봅니다.</p></div><div class="why-item"><span class="why-num" aria-hidden="true">3</span> <strong>해지·환불 기준</strong><p>구독을 해지하는 방법과 환불 범위, 탈퇴 후에도 보관되는 정보를 확인합니다.</p></div></div></section>
 
+    <div id="dataLoadError" class="notice" role="alert" hidden>자료를 불러오지 못했습니다. 현재 화면의 미리보기 원문 링크는 이용할 수 있습니다. <button type="button" onclick="location.reload()">새로고침</button></div><noscript><p class="notice">검색과 필터에는 JavaScript가 필요합니다. 아래 미리보기와 공식 원문 링크는 바로 확인할 수 있습니다.</p></noscript>
     <section class="search-panel" aria-label="서비스 검색">
       <form class="search-form" id="searchForm">
         <div class="search-wrap">
@@ -55,17 +58,19 @@
       <div class="quick recent-row" id="recentRow" hidden><span class="quick-label">최근 검색</span><span id="recentList"></span></div>
       <div class="catalog-picker"><label for="serviceSelect">전체 서비스에서 선택</label><select id="serviceSelect"><option value="">서비스 목록 불러오는 중</option></select><p>‘요약 제공’은 표시된 항목을 원문과 대조했다는 뜻입니다. ‘보완 중’인 서비스도 검색과 목록에서 찾을 수 있습니다.</p></div>
       <div class="search-feedback" id="searchCorrection" role="status" hidden><span id="correctionText"></span><button type="button" id="originalSearchButton"></button></div>
-      <div class="search-empty" id="searchError" role="status" hidden><h3 id="searchEmptyTitle">검색 결과가 없습니다</h3><p id="searchEmptyText"></p><a class="request-link" id="requestService" href="https://github.com/saltcho2/terms-at-a-glance/issues/new" target="_blank" rel="noopener">서비스 추가 요청하기 ↗</a><p class="request-note" id="requestNote">요청 작성 화면에서 내용을 확인한 뒤 등록해 주세요. GitHub 로그인이 필요합니다.</p></div>
+      <div class="search-empty" id="searchError" role="status" hidden><h3 id="searchEmptyTitle">검색 안내</h3><p id="searchEmptyText"></p><a class="request-link" id="requestService" href="https://github.com/saltcho2/terms-at-a-glance/issues/new" target="_blank" rel="noopener">서비스 추가 요청하기 ↗</a><div id="searchAlternatives"></div><button type="button" id="browseCatalog">전체 서비스 목록 보기</button><p>등록되지 않은 서비스와, 등록됐지만 요약이 없는 서비스는 구분해 안내합니다.</p><p class="request-note" id="requestNote">요청 작성 화면에서 내용을 확인한 뒤 등록해 주세요. GitHub 로그인이 필요합니다.</p></div>
     </section>
 
     <section id="homeContent" aria-label="약관 한눈에 소개">
+<section class="preview-panel" aria-labelledby="previewTitle"><p class="home-kicker">SUMMARY PREVIEW</p><h2 id="previewTitle">어떤 내용을 확인할 수 있나요?</h2><p class="preview-intro">실제로 원문과 대조한 항목입니다. 서비스마다 확인한 범위와 날짜가 다릅니다.</p><div class="preview-grid"><article class="preview-card"><p class="home-case-meta">Netflix · 해지·환불</p><h3>앱 삭제나 로그아웃으로는 멤버십이 해지되지 않음</h3><p>멤버십은 계정에서 해지 완료까지 진행해야 합니다. 해지하면 현재 결제 기간 말까지 이용할 수 있으며, 해지 버튼이 없으면 결제 파트너에게 해지해야 합니다. 앱을 지우거나 로그아웃해도 해지되지 않습니다.</p><small>2026. 10. 9. (한국 시간) 해당 항목 대조</small><a href="https://help.netflix.com/ko/node/407" target="_blank" rel="noopener">공식 원문 확인 ↗</a><button type="button" data-preview="netflix" disabled>Netflix 상세 요약 보기 →</button></article><article class="preview-card"><p class="home-case-meta">네이버 · 콘텐츠 권리</p><h3>게시물이 AI 연구 개발에 사용될 수 있음</h3><p>게시물 권리는 이용자에게 남지만 네이버는 운영·홍보·개선 등의 목적에 기한·지역 제한 없는 무상 이용권을 받습니다. 네이버와 위탁받은 계열사의 AI 연구 개발에도 콘텐츠가 쓰일 수 있습니다. 삭제·비공개 이후에는 연구에 사용하지 않지만, 이미 기술적으로 구분하기 어렵게 처리된 자료는 예외입니다.</p><small>2026. 10. 9. (한국 시간) 해당 항목 대조</small><a href="https://policy.naver.com/policy/service.html" target="_blank" rel="noopener">공식 원문 확인 ↗</a><button type="button" data-preview="naver" disabled>네이버 상세 요약 보기 →</button></article><article class="preview-card"><p class="home-case-meta">YouTube · 개인정보</p><h3>시청 기록 설정과 광고 설정은 따로 확인</h3><p>시청·검색 활동은 기록 설정에 따라 계정에 저장되고 추천에 쓰입니다. 계정 설정에 따라 YouTube 시청 활동이 Google 광고 제품을 이용하는 다른 사이트의 광고에 반영될 수도 있습니다. 기록 저장과 맞춤 광고 설정을 각각 관리해야 합니다.</p><small>2026. 10. 9. (한국 시간) 해당 항목 대조</small><a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener">공식 원문 확인 ↗</a><button type="button" data-preview="youtube" disabled>YouTube 상세 요약 보기 →</button></article></div></section>
       <div class="home-grid">
         <section class="home-panel latest-panel" aria-labelledby="latestTitle"><div class="home-panel-head"><div><p class="home-kicker">RECENT CASES</p><h2 id="latestTitle">실제 사례</h2></div><span>등록된 사례 중 최근 3건 · 자세한 내용은 서비스별 페이지에서 확인</span></div><div class="home-cases" id="homeCases"></div></section>
 
       </div>
-      <div class="home-stats"><div class="stat"><strong id="catalogTotal">500개 서비스 목록</strong><span>검색 또는 전체 목록에서 선택</span></div><div class="stat"><strong id="verifiedCaseStat">0건</strong><span>서비스별 실제 사례</span></div><div class="stat"><strong id="auditDateStat">검수 집계 중</strong><span>표시된 조항의 요약 제공 · 전체 약관 검수는 진행 중</span></div></div>
+      <div class="home-stats"><div class="stat"><strong id="catalogTotal">500개 서비스 목록</strong><span>검색 또는 전체 목록에서 선택</span></div><div class="stat"><strong id="verifiedCaseStat">사례 집계 중</strong><span>서비스별 실제 사례</span></div><div class="stat"><strong id="auditDateStat">검수 집계 중</strong><span>표시된 조항의 요약 제공 · 전체 약관 검수는 진행 중</span></div></div>
       <p class="notice" id="reviewProgress" role="status"></p>
       <section class="method-panel" aria-labelledby="methodTitle"><div class="method-head"><div><p class="home-kicker">EDITORIAL STANDARD</p><h2 id="methodTitle">어떻게 정리했나요?</h2></div><p>요약문은 이해를 돕기 위한 설명이며 약관 원문을 대신하지 않습니다.</p></div><div class="method-grid"><div class="method-item"><strong>1. 공식 자료부터 확인</strong><p>서비스 약관, 개인정보처리방침과 정부·감독기관 발표를 우선 확인합니다.</p></div><div class="method-item"><strong>2. 이용자에게 불리한 조건 분리</strong><p>자동결제, 데이터 활용, 콘텐츠 권리, 환불과 탈퇴 조건을 따로 정리합니다.</p></div><div class="method-item"><strong>3. 출처와 점검일 표시</strong><p>내용을 직접 다시 확인할 수 있도록 원문 링크와 마지막 점검일을 함께 표시합니다.</p></div></div></section>
+<details class="editorial-policy"><summary>검수 범위와 확인 순서는 어떻게 정하나요?</summary><p>요약 제공은 화면에 표시한 항목만 원문과 대조했다는 뜻입니다. URL 접속 점검·항목 대조·약관 전체 검수는 서로 다릅니다. 이 사이트는 전체 약관 검수 완료를 표시하지 않습니다.</p><p><strong>먼저 확인:</strong> 결제·구독, 개인정보, 해지·환불 항목, 또는 삭제 후 권한·사본이 남을 수 있다고 설명한 콘텐츠 항목입니다. 그 밖의 콘텐츠 권리와 기타 조건은 <strong>함께 확인</strong>으로 안내합니다. 이는 항목 유형에 따른 읽기 순서이며, 위험 점수·위법성 판정·서비스 간 안전 등급이 아닙니다.</p><p>각 항목에서 원문 문서·조항명·버전·대조일을 확인할 수 있습니다. 원문에 명시되지 않은 날짜는 추정하지 않습니다. 원문과 요약이 다르면 적용되는 공식 원문을 확인해야 합니다.</p><p>별도 법률 전문가 검토 기록과 확정된 다음 검수 일정은 등록되어 있지 않습니다. 재검토 권장일은 대조일에서 30일 뒤로 계산한 참고일이며 실제 검수 예약이나 원문 변경 감지 결과가 아닙니다.</p></details>
     </section>
 
     <section id="resultSection" class="hidden" aria-live="polite">
@@ -73,7 +78,7 @@
         <div class="service-id"><div class="service-mark" id="serviceMark">YT</div><div><p class="service-eyebrow">지금 확인하는 서비스</p><h2 id="serviceName">YouTube</h2><p id="serviceMeta">youtube.com · 5개 핵심 항목</p></div></div>
         <div class="overall"><span class="dot"></span><span id="overallText">가입 전 확인 필요</span></div>
       </div>
-      <p id="serviceScope" class="service-scope"></p><div id="documentLinks" class="document-links"></div><div class="content">
+      <p id="serviceScope" class="service-scope"></p><div id="documentLinks" class="document-links"></div><button type="button" class="report-open" id="serviceReport">서비스 정보의 오류·수정 제보문 작성</button><div class="journey" aria-label="상황별 바로 보기"><span>무엇을 확인하려고 하나요?</span><button type="button" data-journey="payment">결제 전</button><button type="button" data-journey="content">자료 게시 전</button><button type="button" data-journey="cancel">해지 전</button></div><div class="content">
         <aside class="sidebar" aria-label="약관 분류 필터">
           <h3>확인 항목</h3>
           <button class="filter active" data-filter="all">전체 <span class="count">5</span></button>
@@ -82,22 +87,25 @@
           <button class="filter" data-filter="content">콘텐츠 권리 <span class="count">1</span></button>
           <button class="filter" data-filter="cancel">해지·환불 <span class="count">1</span></button>
           <button class="filter" data-filter="other">기타 주의 <span class="count">1</span></button>
-          <div class="legend"><h3>주의 수준</h3><p><span class="dot" style="color:#d79400"></span>주의해서 보기</p><p><span class="dot" style="color:#db3b3b"></span>반드시 확인</p></div>
+          <div class="legend"><h3>확인 순서</h3><p><span class="dot" style="color:#d79400"></span>함께 확인</p><p><span class="dot" style="color:#db3b3b"></span>먼저 확인</p></div>
         </aside>
-        <div><div class="results" id="results"></div><div class="empty" id="empty"><h3>검색 결과가 없습니다</h3><p>서비스명, 한글 이름 또는 사이트 주소로 다시 검색해 주세요.</p></div><section class="incident-panel" id="incidentPanel" aria-labelledby="incidentTitle"><div class="incident-head"><div><p class="incident-kicker">SOURCED INCIDENT</p><h3 id="incidentTitle">이 서비스에서 실제로 있었던 사례</h3></div><span class="incident-count" id="incidentCount"></span></div><div class="incident-list" id="incidentList"></div></section></div>
+        <div><div class="results" id="results"></div><div class="empty" id="empty"><h3>서비스를 선택하면 요약을 볼 수 있습니다</h3><p>서비스명이나 주소로 검색하거나 전체 목록에서 선택하세요.</p></div><section class="incident-panel" id="incidentPanel" aria-labelledby="incidentTitle"><div class="incident-head"><div><p class="incident-kicker">SOURCED INCIDENT</p><h3 id="incidentTitle">이 서비스에서 실제로 있었던 사례</h3></div><span class="incident-count" id="incidentCount"></span></div><div class="incident-list" id="incidentList"></div></section></div>
       </div>
       <div class="notice"><strong>안내</strong> 요약은 법률 자문이나 약관 원문이 아닙니다. 원문을 대조한 항목과 사례만 공개하며, 서비스의 모든 조건을 검수했다는 뜻은 아닙니다. 주의 태그는 편집상 확인 우선순위이며 위법성 판정이 아닙니다. 가입·결제 전에는 연결된 공식 문서의 최신 내용과 적용 지역을 확인하세요.</div>
     </section>
+    <section id="reportComposer" class="method-panel" aria-labelledby="reportTitle" hidden><h2 id="reportTitle">오류·수정 제보문 작성</h2><p>로그인 없이 작성·복사·파일 저장할 수 있습니다. 이 작업만으로 제보가 전송되거나 접수되지는 않습니다. 실제 등록은 GitHub에서 진행하며 로그인이 필요합니다. 개인정보는 입력하지 마세요.</p><label for="reportText">제보 내용</label><textarea id="reportText" rows="12"></textarea><div class="journey"><button type="button" id="copyReport">제보문 복사</button><button type="button" id="saveReport">텍스트 파일 저장</button><a id="submitReport" target="_blank" rel="noopener">GitHub에서 제보 등록 ↗</a><button type="button" id="closeReport">닫기</button></div><p id="reportStatus" role="status"></p></section>
   </main>
   <footer><div class="footer-inner"><span>© 2026 약관 한눈에 · 독립 정보 프로젝트</span><span>서비스 명칭과 로고의 권리는 각 권리자에게 있으며, 해당 서비스와 제휴 관계가 없습니다.</span></div></footer>
 
   <script src="service-catalog.js?v=20261014b"></script>
   <script src="casebook.js?v=20261017c"></script>
   <script src="search-engine.js?v=20261014a"></script>
+  <script src="review-ui.js?v=20261017a"></script>
   <script>
-    const services=window.serviceCatalog||{};
+    if(!window.serviceCatalog||!Object.keys(window.serviceCatalog).length||!window.TermsSearch||!window.TermsReview){document.querySelector('#dataLoadError').hidden=false;}else{
+    const services=window.serviceCatalog;
     const icons={payment:'₩',privacy:'⌁',content:'✦',cancel:'↩',other:'!'};
-    const labels={mid:'주의해서 보기',high:'반드시 확인'};
+    const labels={mid:'함께 확인',high:'먼저 확인'};
     const audit=window.catalogAudit||{};
     const auditDate=audit.checkedAt||'확인일 미등록';
     const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -115,6 +123,7 @@
     }
     function renderHomeCases(){
       const allCases=Object.entries(window.serviceCases||{}).flatMap(([key,cases])=>cases.map(c=>({key,...c})));
+      if(!window.serviceCases){$('#verifiedCaseStat').textContent='불러오기 실패';$('#homeCases').textContent='사례를 불러오지 못했습니다. 새로고침 후 다시 확인하세요.';return;}
       $('#verifiedCaseStat').textContent=`${allCases.length}건`;
       const recent=allCases.sort((a,b)=>(b.publishedAt||b.year).localeCompare(a.publishedAt||a.year)).slice(0,3);
       const container=$('#homeCases');container.classList.remove('expanded');
@@ -156,6 +165,16 @@
       const parts=[evidence.document,evidence.clause,evidence.region,evidence.version||'원문에서 버전 날짜를 확인하지 못함',`${evidence.checkedAt} 해당 항목 대조`];
       return {url:item[6],note:`<strong>${escapeHtml(parts[0])}</strong>${parts.slice(1).map(escapeHtml).join(' · ')}`,label:evidence.document.includes('고객센터')?'공식 고객센터 원문 확인':'공식 약관·방침 원문 확인'};
     }
+    function reviewDetails(data,item){
+      const e=item[7]||{},priority=window.TermsReview.priority(item),recommended=window.TermsReview.reviewDate(e.checkedAt);
+      return '<details class="review-details"><summary>검수 기록·확인 순서의 근거</summary><dl><dt>확인 순서</dt><dd>'+escapeHtml(labels[priority.level])+' · '+escapeHtml(priority.reason)+'</dd><dt>대조 범위</dt><dd>이 화면의 해당 항목과 기재한 조항에 한정 · 전체 약관 검수 완료 아님</dd><dt>원문 버전</dt><dd>'+escapeHtml(e.version||'문서에서 버전 날짜를 확인하지 못함')+'</dd><dt>대조일</dt><dd>'+escapeHtml(e.checkedAt||'대조일 기록 없음')+'</dd><dt>재검토 권장일</dt><dd>'+escapeHtml(recommended||'대조일 기록이 없어 계산하지 않음')+' · 실제 검수 일정은 미정</dd></dl><p>주의 표시는 위법성 판정이 아닙니다. 원문 변경은 아직 자동 감지하지 않습니다.</p></details>';
+    }
+    let reportContextName="";
+    function openReport(data,item){
+      reportContextName=data.name;
+      $('#reportText').value=window.TermsReview.report(data,item);$('#reportStatus').textContent='';$('#reportComposer').hidden=false;$('#reportComposer').scrollIntoView({behavior:'smooth',block:'start'});
+      $('#submitReport').href='https://github.com/saltcho2/terms-at-a-glance/issues/new?title='+encodeURIComponent('요약 수정 제보: '+data.name)+'&body='+encodeURIComponent($('#reportText').value);
+    }
     function render(){
       const data=services[current];
       $('#serviceName').textContent=data.name;
@@ -167,8 +186,9 @@
       $('#documentLinks').innerHTML=(data.documents||[]).map(d=>`<a href="${escapeHtml(d.url)}" target="_blank" rel="noopener">${escapeHtml(d.title)} ↗<small>${d.bodyChecked?'표시 항목 원문 대조':'공식 주소 확인 · 본문 대조 전'}</small></a>`).join('');
       $$('.filter').forEach(btn=>{btn.querySelector('.count').textContent=data.items.filter(item=>btn.dataset.filter==='all'||item[0]===btn.dataset.filter).length;});
       const visible=data.items.filter(item=>activeFilter==='all'||item[0]===activeFilter);
-      $('#results').innerHTML=visible.map((item,i)=>{const source=sourceInfo(data,item);return `<article class="card ${i===0?'open':''}" data-category="${item[0]}"><button class="card-head" type="button" aria-expanded="${i===0}" aria-label="${item[2]} 상세 내용 열기"><span class="icon" aria-hidden="true">${icons[item[0]]}</span><span><span class="card-title"><h3>${item[1]} · ${item[2]}</h3><span class="badge risk-${item[3]}">${labels[item[3]]}</span></span></span><span class="chev" aria-hidden="true">⌄</span></button><div class="detail"><div class="detail-grid"><div class="detail-box warning"><p class="detail-label">주의사항 · 실제로 생길 수 있는 일</p><p>${item[5]}</p></div><div class="detail-box action"><p class="detail-label">가입 전 확인 · 지금 할 일</p><p>${actionFor(item)}</p></div></div><div class="source-row"><span class="source-note">${source.note}</span>${source.url?`<a class="source-link" href="${source.url}" target="_blank" rel="noopener">${source.label}</a>`:`<span class="source-pending">${source.label}</span>`}</div></div></article>`}).join('');
-      $$('.card-head').forEach(btn=>btn.addEventListener('click',()=>{const card=btn.closest('.card');card.classList.toggle('open');btn.setAttribute('aria-expanded',card.classList.contains('open'));}));
+      $('#results').innerHTML=visible.map((item,i)=>{const source=sourceInfo(data,item),priority=window.TermsReview.priority(item);return `<article class="card ${i===0?'open':''}" data-category="${item[0]}"><button class="card-head" type="button" aria-expanded="${i===0}" aria-label="${item[2]} 상세 내용 열기"><span class="icon" aria-hidden="true">${icons[item[0]]}</span><span><span class="card-title"><h3>${item[1]} · ${item[2]}</h3><span class="badge risk-${priority.level}">${labels[priority.level]}</span></span></span><span class="chev" aria-hidden="true">⌄</span></button><div class="detail"><div class="detail-grid"><div class="detail-box warning"><p class="detail-label">주의사항 · 실제로 생길 수 있는 일</p><p>${item[5]}</p></div><div class="detail-box action"><p class="detail-label">지금 확인할 일</p><p>${actionFor(item)}</p></div></div><div class="source-row"><span class="source-note">${source.note}</span>${source.url?`<a class="source-link" href="${source.url}" target="_blank" rel="noopener">${source.label}</a>`:`<span class="source-pending">${source.label}</span>`}</div>${reviewDetails(data,item)}<button class="report-open" type="button" data-report-title="${escapeHtml(item[2])}">이 요약의 오류·수정 제보문 작성</button></div></article>`}).join('');
+      $('[data-report-title]').forEach(btn=>btn.addEventListener('click',()=>openReport(data,data.items.find(item=>item[2]===btn.dataset.reportTitle))));
+      $('.card-head').forEach(btn=>btn.addEventListener('click',()=>{const card=btn.closest('.card');card.classList.toggle('open');btn.setAttribute('aria-expanded',card.classList.contains('open'));}));
       $('#empty').style.display=visible.length?'none':'block';
       $('#empty').innerHTML=data.items.length?'<h3>이 분류의 요약은 아직 없습니다</h3><p>전체 필터에서 확인된 항목을 살펴보세요.</p>':'<h3>이 서비스의 약관 요약을 보완해야 합니다</h3><p>'+escapeHtml(data.pendingReason)+'</p><p class="pending-note">서비스를 목록에서 삭제하지 않고 확인 상태를 남겼습니다. 공식 조항을 확인하기 전에는 기존 공통 요약을 표시하지 않습니다.</p>';$('#results').style.display='grid';$('#incidentPanel').style.display='block';renderServiceCases();
     }
@@ -186,7 +206,11 @@
       }else{
         clearSearchFeedback();$('#resultSection').classList.add('hidden');$('#homeContent').classList.add('hidden');$('#homeWhy').classList.add('hidden');$('#serviceSelect').value='';
         $('#searchError').hidden=false;$('#searchEmptyTitle').textContent=submittedQuery?'“'+submittedQuery+'” 검색 결과가 없습니다.':'서비스 이름이나 사이트 주소를 입력해 주세요.';
-        $('#searchEmptyText').textContent=submittedQuery?'등록된 서비스 이름·별칭·주소와 정확히 일치하는 결과를 찾지 못했습니다. 원하는 서비스가 없다면 추가를 요청해 주세요.':'';
+        $('#searchEmptyText').textContent=submittedQuery?'등록된 서비스 이름·별칭·주소에서 결과를 찾지 못했습니다. 등록된 서비스의 요약이 없는 경우에는 상세 페이지에서 보완 상태를 따로 안내합니다.':'';
+        const alternatives=exactOnly?serviceSearch.matches(submittedQuery).slice(0,3).map(x=>x.key):[];
+        const available=alternatives.length?alternatives:['youtube','netflix','naver'];
+        $('#searchAlternatives').innerHTML=submittedQuery?'<p>'+(alternatives.length?'비슷한 이름의 등록 서비스':'현재 요약을 볼 수 있는 서비스')+'</p>'+available.map(key=>'<button type="button" class="chip" data-alternative="'+escapeHtml(key)+'">'+escapeHtml(services[key].name)+'</button>').join(''):'';
+        $('[data-alternative]').forEach(button=>button.addEventListener('click',()=>selectService(button.dataset.alternative)));
         $('#requestService').hidden=!submittedQuery;$('#requestNote').hidden=!submittedQuery;
         const title='서비스 추가 요청: '+submittedQuery;
         const body='요청 서비스명 또는 사이트 주소: '+submittedQuery+'\n\n공식 약관 링크(알고 있다면):\n\n추가로 확인하고 싶은 내용:';
@@ -200,9 +224,9 @@
     function closeSuggestions(){$('#suggestions').hidden=true;$('#searchInput').setAttribute('aria-expanded','false');suggestionIndex=-1;}
     let suggestionIndex=-1;
     function renderSuggestions(query){const matches=findMatches(query).slice(0,8);const box=$('#suggestions');if(!matches.length){closeSuggestions();return;}box.innerHTML=matches.map(key=>`<button class="suggestion" type="button" role="option" data-suggestion="${key}"><strong>${services[key].name}</strong><span>${services[key].domain}</span></button>`).join('');box.hidden=false;$('#searchInput').setAttribute('aria-expanded','true');suggestionIndex=-1;$$('[data-suggestion]').forEach(btn=>btn.addEventListener('click',()=>selectService(btn.dataset.suggestion)));}
-    function chooseService(key,save=true){if(!services[key])return;current=key;activeFilter='all';if(save)saveRecent(key);$('#homeContent').classList.add('hidden');$('#homeWhy').classList.add('hidden');$('#resultSection').classList.remove('hidden');clearSearchFeedback();$$('.chip[data-service]').forEach(x=>x.classList.toggle('active',x.dataset.service===key));$$('.filter').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));render();$('#resultSection').scrollIntoView({behavior:'smooth',block:'start'});}
+    function chooseService(key,save=true){if(!services[key])return;current=key;activeFilter='all';if(save)saveRecent(key);$('#homeContent').classList.add('hidden');$('#homeWhy').classList.add('hidden');$('#resultSection').classList.remove('hidden');$('#reportComposer').hidden=true;clearSearchFeedback();$$('.chip[data-service]').forEach(x=>x.classList.toggle('active',x.dataset.service===key));$$('.filter').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));render();$('#resultSection').scrollIntoView({behavior:'smooth',block:'start'});}
     function selectService(key){runSearch(services[key].name);}
-    function showHome(){$('#resultSection').classList.add('hidden');$('#homeContent').classList.remove('hidden');$('#homeWhy').classList.remove('hidden');clearSearchFeedback();$('#searchInput').value='';$('#serviceSelect').value='';closeSuggestions();$$('.chip[data-service]').forEach(x=>x.classList.remove('active'));$('#main').scrollIntoView({behavior:'smooth',block:'start'});}
+    function showHome(){$('#resultSection').classList.add('hidden');$('#homeContent').classList.remove('hidden');$('#homeWhy').classList.remove('hidden');$('#reportComposer').hidden=true;clearSearchFeedback();$('#searchInput').value='';$('#serviceSelect').value='';closeSuggestions();$$('.chip[data-service]').forEach(x=>x.classList.remove('active'));$('#main').scrollIntoView({behavior:'smooth',block:'start'});}
     $('#homeButton').addEventListener('click',showHome);
     $('#serviceSelect').addEventListener('change',e=>{if(e.target.value)selectService(e.target.value);});
     $$('.chip[data-service]').forEach(btn=>btn.addEventListener('click',()=>selectService(btn.dataset.service)));
@@ -212,10 +236,19 @@
     $('#searchInput').addEventListener('keydown',e=>{const buttons=$$('[data-suggestion]');if(!buttons.length)return;if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();suggestionIndex=(suggestionIndex+(e.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length;buttons.forEach((btn,i)=>btn.classList.toggle('active',i===suggestionIndex));buttons[suggestionIndex].scrollIntoView({block:'nearest'});}else if(e.key==='Enter'&&suggestionIndex>=0){e.preventDefault();buttons[suggestionIndex].click();}else if(e.key==='Escape'){closeSuggestions();}});
     document.addEventListener('click',e=>{if(!e.target.closest('.search-wrap'))closeSuggestions();});
     $('#searchForm').addEventListener('submit',e=>{e.preventDefault();runSearch($('#searchInput').value);});
+    $('#browseCatalog').addEventListener('click',()=>{$('#serviceSelect').scrollIntoView({behavior:'smooth',block:'center'});$('#serviceSelect').focus();});
+    $('[data-preview]').forEach(button=>{button.disabled=false;button.addEventListener('click',()=>selectService(button.dataset.preview));});
+    $('[data-journey]').forEach(button=>button.addEventListener('click',()=>document.querySelector('.filter[data-filter="'+button.dataset.journey+'"]').click()));
+    $('#serviceReport').addEventListener('click',()=>openReport(services[current]));
+    $('#closeReport').addEventListener('click',()=>{$('#reportComposer').hidden=true;});
+    $('#reportText').addEventListener('input',()=>{$('#submitReport').href='https://github.com/saltcho2/terms-at-a-glance/issues/new?title='+encodeURIComponent('요약 수정 제보: '+reportContextName)+'&body='+encodeURIComponent($('#reportText').value);});
+    $('#copyReport').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('#reportText').value);$('#reportStatus').textContent='복사했습니다. 아직 전송·접수되지 않았습니다.';}catch{$('#reportStatus').textContent='자동 복사가 되지 않았습니다. 위 내용을 직접 선택해 복사해 주세요.';}});
+    $('#saveReport').addEventListener('click',()=>{const url=URL.createObjectURL(new Blob([$('#reportText').value],{type:'text/plain;charset=utf-8'})),link=document.createElement('a');link.href=url;link.download='terms-correction-report.txt';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);$('#reportStatus').textContent='파일을 저장합니다. 아직 전송·접수되지 않았습니다.';});
     renderCatalogStats();
     renderHomeCases();
     renderRecent();
     render();
+    }
   </script>
 </body>
 </html>
