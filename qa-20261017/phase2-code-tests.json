@@ -1,0 +1,109 @@
+{
+  "tests": [
+    {
+      "name": "Inline JavaScript 문법",
+      "pass": true
+    },
+    {
+      "name": "실제 데이터 집계",
+      "pass": true
+    },
+    {
+      "name": "집계 metadata does not override actual catalog",
+      "pass": true
+    },
+    {
+      "name": "Malformed catalog is error, never count 0",
+      "pass": true
+    },
+    {
+      "name": "Recheck includes stale and unknown dates",
+      "pass": true
+    },
+    {
+      "name": "Cases actual 19",
+      "pass": true
+    },
+    {
+      "name": "Cases 0 distinguishes valid empty from failure",
+      "pass": true
+    },
+    {
+      "name": "Cases count 1",
+      "pass": true
+    },
+    {
+      "name": "Cases count 2",
+      "pass": true
+    },
+    {
+      "name": "Cases count 3",
+      "pass": true
+    },
+    {
+      "name": "Cases count 4",
+      "pass": true
+    },
+    {
+      "name": "Missing/malformed case data does not mean zero",
+      "pass": true
+    },
+    {
+      "name": "Missing/malformed case data does not mean zero",
+      "pass": true
+    },
+    {
+      "name": "Missing/malformed case data does not mean zero",
+      "pass": true
+    },
+    {
+      "name": "Missing/malformed case data does not mean zero",
+      "pass": true
+    },
+    {
+      "name": "Missing/malformed case data does not mean zero",
+      "pass": true
+    },
+    {
+      "name": "Journey payment reorders without hiding items",
+      "pass": true
+    },
+    {
+      "name": "Journey content reorders without hiding items",
+      "pass": true
+    },
+    {
+      "name": "Journey cancel reorders without hiding items",
+      "pass": true
+    },
+    {
+      "name": "Initial markup contains no YouTube five-item placeholder",
+      "pass": true
+    },
+    {
+      "name": "Data URLs resolve within project path",
+      "pass": true
+    },
+    {
+      "name": "Purpose UI does not trigger category filtering",
+      "pass": true
+    },
+    {
+      "name": "missing catalog failure isolates search and keeps previews",
+      "pass": true
+    },
+    {
+      "name": "missing search failure isolates search and keeps previews",
+      "pass": true
+    },
+    {
+      "name": "missing review failure isolates search and keeps previews",
+      "pass": true
+    },
+    {
+      "name": "Source scope is explicit and review dates preserved",
+      "pass": true
+    }
+  ],
+  "scope": "Node code tests; deployed UI tests are recorded separately"
+}

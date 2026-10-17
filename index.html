@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ko">
+<html lang="ko" data-app-state="loading">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,6 +32,7 @@
    .evidence-panel{background:#f5f7fa;border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:16px;font-size:.86rem;line-height:1.7}.evidence-panel p{margin:6px 0}.review-state{font-weight:750} .preview-panel{margin-top:24px}.preview-panel h2{font-size:1.3rem;margin:0}.preview-intro{color:var(--muted);font-size:.87rem}.preview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.preview-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px}.preview-card h3{font-size:1rem;margin:8px 0}.preview-card p{font-size:.86rem;line-height:1.7}.preview-card small{display:block;color:var(--muted);font-size:.76rem}.preview-card a,.preview-card button,.report-open{display:block;margin-top:12px;color:var(--accent-dark);font-weight:750;font-size:.8rem}.preview-card button,.report-open{background:none;border:0;padding:0;text-align:left;cursor:pointer}.review-details,.editorial-policy{border:1px solid var(--line);border-radius:10px;padding:14px;margin-top:16px;font-size:.85rem;background:#fff}.review-details summary,.editorial-policy summary{cursor:pointer;font-weight:800}.review-details dt{font-weight:800;margin-top:10px}.review-details dd{margin:4px 0;color:var(--muted)}.editorial-policy p{line-height:1.8}.journey{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:16px 0}.journey button,#browseCatalog{border:1px solid var(--line);background:#fff;border-radius:8px;padding:9px 12px;cursor:pointer}.journey span{font-size:.86rem;font-weight:750}#reportText{width:100%;box-sizing:border-box;font:inherit;padding:14px;border:1px solid var(--line);border-radius:10px}#reportComposer[hidden]{display:none}
     @media(max-width:800px){.preview-grid{grid-template-columns:1fr}}
       .search-btn,.why-num{background:var(--accent-dark)}.highlight{color:var(--accent-dark)}
+      [hidden]{display:none!important}.catalog-picker summary{cursor:pointer;font-weight:750}.journey button[aria-pressed="true"]{background:var(--ink);color:#fff}#dataLoadStatus{font-size:.85rem;color:var(--muted)}
   </style>
 </head>
 <body>
@@ -45,19 +46,19 @@
 
       <section id="homeWhy" class="home-panel why-panel" aria-labelledby="whyTitle"><p class="home-kicker">BEFORE YOU AGREE</p><h2 id="whyTitle">왜 약관을 확인해야 하나요?</h2><p class="why-intro">약관에는 요금 청구, 개인정보 활용, 환불 등 서비스 이용에 직접 영향을 주는 조건이 담겨 있습니다.</p><div class="why-list"><div class="why-item"><span class="why-num" aria-hidden="true">1</span> <strong>결제·구독 조건</strong><p>무료 체험 이후의 요금, 자동 갱신 여부, 추가 비용이 발생하는 조건을 확인합니다.</p></div><div class="why-item"><span class="why-num" aria-hidden="true">2</span> <strong>개인정보의 수집과 활용</strong><p>어떤 정보를 수집하고 어디에 사용하는지, 다른 업체에 제공하는 조건은 무엇인지 살펴봅니다.</p></div><div class="why-item"><span class="why-num" aria-hidden="true">3</span> <strong>해지·환불 기준</strong><p>구독을 해지하는 방법과 환불 범위, 탈퇴 후에도 보관되는 정보를 확인합니다.</p></div></div></section>
 
-    <div id="dataLoadError" class="notice" role="alert" hidden>자료를 불러오지 못했습니다. 현재 화면의 미리보기 원문 링크는 이용할 수 있습니다. <button type="button" onclick="location.reload()">새로고침</button></div><noscript><p class="notice">검색과 필터에는 JavaScript가 필요합니다. 아래 미리보기와 공식 원문 링크는 바로 확인할 수 있습니다.</p></noscript>
-    <section class="search-panel" aria-label="서비스 검색">
+    <p id="dataLoadStatus" role="status">검색 자료를 준비하고 있습니다.</p><div id="dataLoadError" class="notice" role="alert" hidden><p id="loadFailureText"></p><details><summary>오류 정보</summary><p id="loadFailureDetail"></p></details><button type="button" onclick="location.reload()">자료 다시 불러오기</button></div><noscript><p class="notice">검색과 필터에는 JavaScript가 필요합니다. 아래 미리보기와 공식 원문 링크는 바로 확인할 수 있습니다.</p></noscript>
+    <section class="search-panel" aria-label="서비스 검색" aria-busy="true">
       <form class="search-form" id="searchForm">
         <div class="search-wrap">
           <svg width="21" height="21" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          <input class="search-input" id="searchInput" type="search" autocomplete="off" placeholder="공개 서비스 검색 · 예: 네이버, spotify.com" maxlength="120" aria-label="서비스명 또는 사이트 주소" aria-controls="suggestions" aria-expanded="false">
+          <input class="search-input" id="searchInput" disabled type="search" autocomplete="off" placeholder="공개 서비스 검색 · 예: 네이버, spotify.com" maxlength="120" aria-label="서비스명 또는 사이트 주소" aria-controls="suggestions" aria-expanded="false">
           <div class="suggestions" id="suggestions" role="listbox" hidden></div>
         </div>
-        <button class="search-btn" type="submit">검색하기</button>
+        <button class="search-btn" disabled type="submit">검색하기</button>
       </form>
-      <div class="quick"><span class="quick-label">추천 검색</span><button class="chip" data-service="youtube">YouTube</button><button class="chip" data-service="netflix">Netflix</button><button class="chip" data-service="naver">네이버</button><button class="chip" data-service="coupang">쿠팡</button><button class="chip" data-service="spotify">Spotify</button></div>
+      <div class="quick"><span class="quick-label">추천 검색</span><button class="chip" data-service="youtube" disabled>YouTube</button><button class="chip" data-service="netflix" disabled>Netflix</button><button class="chip" data-service="naver" disabled>네이버</button><button class="chip" data-service="coupang" disabled>쿠팡</button><button class="chip" data-service="spotify" disabled>Spotify</button></div>
       <div class="quick recent-row" id="recentRow" hidden><span class="quick-label">최근 검색</span><span id="recentList"></span></div>
-      <div class="catalog-picker"><label for="serviceSelect">전체 서비스에서 선택</label><select id="serviceSelect"><option value="">서비스 목록 불러오는 중</option></select><p>‘요약 제공’은 표시된 항목을 원문과 대조했다는 뜻입니다. ‘보완 중’인 서비스도 검색과 목록에서 찾을 수 있습니다.</p></div>
+      <details class="catalog-picker" id="catalogTools"><summary>전체 목록에서 찾아보기</summary><label for="serviceSelect">전체 서비스에서 선택</label><select id="serviceSelect" disabled><option value="">서비스 목록 불러오는 중</option></select><p>‘요약 제공’은 표시된 항목을 원문과 대조했다는 뜻입니다. ‘보완 중’인 서비스도 검색과 목록에서 찾을 수 있습니다.</p></details>
       <div class="search-feedback" id="searchCorrection" role="status" hidden><span id="correctionText"></span><button type="button" id="originalSearchButton"></button></div>
       <div class="search-empty" id="searchError" role="status" hidden><h3 id="searchEmptyTitle">검색 안내</h3><p id="searchEmptyText"></p><a class="request-link" id="requestService" href="https://github.com/saltcho2/terms-at-a-glance/issues/new" target="_blank" rel="noopener">서비스 추가 요청하기 ↗</a><div id="searchAlternatives"></div><button type="button" id="browseCatalog">전체 서비스 목록 보기</button><p>등록되지 않은 서비스와, 등록됐지만 요약이 없는 서비스는 구분해 안내합니다.</p><p class="request-note" id="requestNote">요청 작성 화면에서 내용을 확인한 뒤 등록해 주세요. GitHub 로그인이 필요합니다.</p></div>
     </section>
@@ -65,30 +66,30 @@
     <section id="homeContent" aria-label="약관 한눈에 소개">
 <section class="preview-panel" aria-labelledby="previewTitle"><p class="home-kicker">SUMMARY PREVIEW</p><h2 id="previewTitle">어떤 내용을 확인할 수 있나요?</h2><p class="preview-intro">실제로 원문과 대조한 항목입니다. 서비스마다 확인한 범위와 날짜가 다릅니다.</p><div class="preview-grid"><article class="preview-card"><p class="home-case-meta">Netflix · 해지·환불</p><h3>앱 삭제나 로그아웃으로는 멤버십이 해지되지 않음</h3><p>멤버십은 계정에서 해지 완료까지 진행해야 합니다. 해지하면 현재 결제 기간 말까지 이용할 수 있으며, 해지 버튼이 없으면 결제 파트너에게 해지해야 합니다. 앱을 지우거나 로그아웃해도 해지되지 않습니다.</p><small>2026. 10. 17. (한국 시간) 해당 항목 대조</small><a href="https://help.netflix.com/ko/node/407" target="_blank" rel="noopener">공식 원문 확인 ↗</a><button type="button" data-preview="netflix" disabled>Netflix 상세 요약 보기 →</button></article><article class="preview-card"><p class="home-case-meta">네이버 · 콘텐츠 권리</p><h3>게시물이 AI 연구 개발에 사용될 수 있음</h3><p>게시물 권리는 이용자에게 남지만 네이버는 운영·홍보·개선 등의 목적에 기한·지역 제한 없는 무상 이용권을 받습니다. 네이버와 위탁받은 계열사의 AI 연구 개발에도 콘텐츠가 쓰일 수 있습니다. 삭제·비공개 이후에는 연구에 사용하지 않지만, 이미 기술적으로 구분하기 어렵게 처리된 자료는 예외입니다.</p><small>2026. 10. 17. (한국 시간) 해당 항목 대조</small><a href="https://policy.naver.com/policy/service.html" target="_blank" rel="noopener">공식 원문 확인 ↗</a><button type="button" data-preview="naver" disabled>네이버 상세 요약 보기 →</button></article><article class="preview-card"><p class="home-case-meta">YouTube · 개인정보</p><h3>시청 기록 설정과 광고 설정은 따로 확인</h3><p>시청·검색 활동은 기록 설정에 따라 계정에 저장되고 추천에 쓰입니다. 계정 설정에 따라 YouTube 시청 활동이 Google 광고 제품을 이용하는 다른 사이트의 광고에 반영될 수도 있습니다. 기록 저장과 맞춤 광고 설정을 각각 관리해야 합니다.</p><small>2026. 10. 17. (한국 시간) 해당 항목 대조</small><a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener">공식 원문 확인 ↗</a><button type="button" data-preview="youtube" disabled>YouTube 상세 요약 보기 →</button></article></div></section>
       <div class="home-grid">
-        <section class="home-panel latest-panel" aria-labelledby="latestTitle"><div class="home-panel-head"><div><p class="home-kicker">RECENT CASES</p><h2 id="latestTitle">실제 사례</h2></div><span>등록된 사례 중 최근 3건 · 자세한 내용은 서비스별 페이지에서 확인</span></div><div class="home-cases" id="homeCases"></div></section>
+        <section class="home-panel latest-panel" aria-labelledby="latestTitle"><div class="home-panel-head"><div><p class="home-kicker">RECENT CASES</p><h2 id="latestTitle">실제 사례</h2></div><span id="homeCaseCaption">사례 자료를 준비하고 있습니다.</span></div><div class="home-cases" id="homeCases"></div></section>
 
       </div>
-      <div class="home-stats"><div class="stat"><strong id="catalogTotal">500개 서비스 목록</strong><span>검색 또는 전체 목록에서 선택</span></div><div class="stat"><strong id="verifiedCaseStat">사례 집계 중</strong><span>서비스별 실제 사례</span></div><div class="stat"><strong id="auditDateStat">검수 집계 중</strong><span>표시된 조항의 요약 제공 · 전체 약관 검수는 진행 중</span></div></div>
+      <div class="home-stats" id="homeStats"><div class="stat"><strong id="catalogTotal">자료 준비 중</strong><span>목록에 등록된 서비스</span></div><div class="stat"><strong id="summaryServiceStat">자료 준비 중</strong><span>1개 이상 요약을 볼 수 있는 서비스</span></div><div class="stat"><strong id="auditDateStat">자료 준비 중</strong><span>원문 대조 기록이 있는 항목 · 전체 검수 아님</span></div><div class="stat"><strong id="recheckStat">자료 준비 중</strong><span>대조 후 30일 경과 또는 대조일 확인 필요</span></div><div class="stat"><strong id="pendingServiceStat">자료 준비 중</strong><span>등록됐으나 요약이 없는 서비스</span></div><div class="stat"><strong id="verifiedCaseStat">자료 준비 중</strong><span>등록된 실제 사례 · 출처·대조일은 개별 확인</span></div></div>
       <p class="notice" id="reviewProgress" role="status"></p>
       <section class="method-panel" aria-labelledby="methodTitle"><div class="method-head"><div><p class="home-kicker">EDITORIAL STANDARD</p><h2 id="methodTitle">어떻게 정리했나요?</h2></div><p>요약문은 이해를 돕기 위한 설명이며 약관 원문을 대신하지 않습니다.</p></div><div class="method-grid"><div class="method-item"><strong>1. 공식 자료부터 확인</strong><p>서비스 약관, 개인정보처리방침과 정부·감독기관 발표를 우선 확인합니다.</p></div><div class="method-item"><strong>2. 이용자에게 불리한 조건 분리</strong><p>자동결제, 데이터 활용, 콘텐츠 권리, 환불과 탈퇴 조건을 따로 정리합니다.</p></div><div class="method-item"><strong>3. 출처와 점검일 표시</strong><p>내용을 직접 다시 확인할 수 있도록 원문 링크와 마지막 점검일을 함께 표시합니다.</p></div></div></section>
-<details class="editorial-policy"><summary>검수 범위와 확인 순서는 어떻게 정하나요?</summary><p>요약 제공은 화면에 표시한 항목만 원문과 대조했다는 뜻입니다. URL 접속 점검·항목 대조·약관 전체 검수는 서로 다릅니다. 이 사이트는 전체 약관 검수 완료를 표시하지 않습니다.</p><p><strong>먼저 확인:</strong> 결제·구독, 개인정보, 해지·환불 항목, 또는 삭제 후 권한·사본이 남을 수 있다고 설명한 콘텐츠 항목입니다. 그 밖의 콘텐츠 권리와 기타 조건은 <strong>함께 확인</strong>으로 안내합니다. 이는 항목 유형에 따른 읽기 순서이며, 위험 점수·위법성 판정·서비스 간 안전 등급이 아닙니다.</p><p>각 항목에서 원문 문서·조항명·버전·대조일을 확인할 수 있습니다. 원문에 명시되지 않은 날짜는 추정하지 않습니다. 원문과 요약이 다르면 적용되는 공식 원문을 확인해야 합니다.</p><p>별도 법률 전문가 검토 기록과 확정된 다음 검수 일정은 등록되어 있지 않습니다. 재검토 권장일은 대조일에서 30일 뒤로 계산한 참고일이며 실제 검수 예약이나 원문 변경 감지 결과가 아닙니다.</p></details>
+<details class="editorial-policy"><summary>검수 범위와 확인 순서는 어떻게 정하나요?</summary><p>요약 제공은 화면에 표시한 항목만 원문과 대조했다는 뜻입니다. URL 접속 점검·항목 대조·약관 전체 검수는 서로 다릅니다. 이 사이트는 전체 약관 검수 완료를 표시하지 않습니다.</p><p><strong>가입 전에 확인할 조건:</strong> 결제·구독, 개인정보, 해지·환불 항목, 또는 삭제 후 권한·사본이 남을 수 있다고 설명한 콘텐츠 항목입니다. 그 밖의 콘텐츠 권리와 기타 조건은 <strong>추가로 알아둘 조건</strong>으로 안내합니다. 이는 항목 유형에 따른 읽기 순서이며, 위험 점수·위법성 판정·서비스 간 안전 등급이 아닙니다.</p><p>각 항목에서 원문 문서·조항명·버전·대조일을 확인할 수 있습니다. 원문에 명시되지 않은 날짜는 추정하지 않습니다. 원문과 요약이 다르면 적용되는 공식 원문을 확인해야 합니다.</p><p>별도 법률 전문가 검토 기록과 확정된 다음 검수 일정은 등록되어 있지 않습니다. 재검토 권장일은 대조일에서 30일 뒤로 계산한 참고일이며 실제 검수 예약이나 원문 변경 감지 결과가 아닙니다.</p></details>
     </section>
 
-    <section id="resultSection" class="hidden" aria-live="polite">
+    <section id="resultSection" class="hidden" hidden aria-live="polite">
       <div class="statusline">
-        <div class="service-id"><div class="service-mark" id="serviceMark">YT</div><div><p class="service-eyebrow">지금 확인하는 서비스</p><h2 id="serviceName">YouTube</h2><p id="serviceMeta">youtube.com · 5개 핵심 항목</p></div></div>
-        <div class="overall"><span class="dot"></span><span id="overallText">가입 전 확인 필요</span></div>
+        <div class="service-id"><div class="service-mark" id="serviceMark"></div><div><p class="service-eyebrow">지금 확인하는 서비스</p><h2 id="serviceName"></h2><p id="serviceMeta"></p></div></div>
+        <div class="overall"><span class="dot"></span><span id="overallText"></span></div>
       </div>
-      <p id="serviceScope" class="service-scope"></p><div id="documentLinks" class="document-links"></div><button type="button" class="report-open" id="serviceReport">서비스 정보의 오류·수정 제보문 작성</button><div class="journey" aria-label="상황별 바로 보기"><span>무엇을 확인하려고 하나요?</span><button type="button" data-journey="payment">결제 전</button><button type="button" data-journey="content">자료 게시 전</button><button type="button" data-journey="cancel">해지 전</button></div><div class="content">
+      <p id="serviceScope" class="service-scope"></p><div id="documentLinks" class="document-links"></div><button type="button" class="report-open" id="serviceReport">서비스 정보의 오류·수정 제보문 작성</button><div class="journey" aria-label="상황별 바로 보기"><span>무엇을 확인하려고 하나요?</span><button type="button" data-journey="payment" aria-pressed="false">가입·결제 전</button><button type="button" data-journey="content" aria-pressed="false">자료 게시 전</button><button type="button" data-journey="cancel" aria-pressed="false">해지 전</button></div><p id="journeyNote" class="notice" role="status" hidden></p><div class="content">
         <aside class="sidebar" aria-label="약관 분류 필터">
           <h3>확인 항목</h3>
-          <button class="filter active" data-filter="all">전체 <span class="count">5</span></button>
-          <button class="filter" data-filter="payment">결제·구독 <span class="count">1</span></button>
-          <button class="filter" data-filter="privacy">개인정보 <span class="count">1</span></button>
-          <button class="filter" data-filter="content">콘텐츠 권리 <span class="count">1</span></button>
-          <button class="filter" data-filter="cancel">해지·환불 <span class="count">1</span></button>
-          <button class="filter" data-filter="other">기타 주의 <span class="count">1</span></button>
-          <div class="legend"><h3>확인 순서</h3><p><span class="dot" style="color:#d79400"></span>함께 확인</p><p><span class="dot" style="color:#db3b3b"></span>먼저 확인</p></div>
+          <button class="filter active" data-filter="all">전체 <span class="count">—</span></button>
+          <button class="filter" data-filter="payment">결제·구독 <span class="count">—</span></button>
+          <button class="filter" data-filter="privacy">개인정보 <span class="count">—</span></button>
+          <button class="filter" data-filter="content">콘텐츠 권리 <span class="count">—</span></button>
+          <button class="filter" data-filter="cancel">해지·환불 <span class="count">—</span></button>
+          <button class="filter" data-filter="other">기타 주의 <span class="count">—</span></button>
+          <div class="legend"><h3>확인 순서</h3><p><span class="dot" style="color:#d79400"></span>추가로 알아둘 조건</p><p><span class="dot" style="color:#db3b3b"></span>가입 전에 확인할 조건</p></div>
         </aside>
         <div><div class="results" id="results"></div><div class="empty" id="empty"><h3>서비스를 선택하면 요약을 볼 수 있습니다</h3><p>서비스명이나 주소로 검색하거나 전체 목록에서 선택하세요.</p></div><section class="incident-panel" id="incidentPanel" aria-labelledby="incidentTitle"><div class="incident-head"><div><p class="incident-kicker">SOURCED INCIDENT</p><h3 id="incidentTitle">이 서비스에서 실제로 있었던 사례</h3></div><span class="incident-count" id="incidentCount"></span></div><div class="incident-list" id="incidentList"></div></section></div>
       </div>
@@ -98,34 +99,54 @@
   </main>
   <footer><div class="footer-inner"><span>© 2026 약관 한눈에 · 독립 정보 프로젝트</span><span>서비스 명칭과 로고의 권리는 각 권리자에게 있으며, 해당 서비스와 제휴 관계가 없습니다.</span></div></footer>
 
-  <script src="service-catalog.js?v=20261017qa"></script>
-  <script src="casebook.js?v=20261017c"></script>
-  <script src="search-engine.js?v=20261014a"></script>
-  <script src="review-ui.js?v=20261017qa"></script>
+  <script>window.termsAssetErrors=[];</script>
+  <script src="service-catalog.js?v=20261017p2" onerror="window.termsAssetErrors.push('service-catalog.js')"></script>
+  <script src="casebook.js?v=20261017c" onerror="window.termsAssetErrors.push('casebook.js')"></script>
+  <script src="search-engine.js?v=20261014a" onerror="window.termsAssetErrors.push('search-engine.js')"></script>
+  <script src="review-ui.js?v=20261017p2" onerror="window.termsAssetErrors.push('review-ui.js')"></script>
   <script>
-    if(!window.serviceCatalog||!Object.keys(window.serviceCatalog).length||!window.TermsSearch||!window.TermsReview){document.querySelector('#dataLoadError').hidden=false;}else{
+    function showLoadFailure(reason){
+      document.documentElement.dataset.appState='failed';
+      document.querySelector('#dataLoadStatus').textContent='검색 자료를 사용할 수 없습니다.';
+      document.querySelector('#dataLoadError').hidden=false;
+      document.querySelector('#loadFailureText').textContent='자료를 불러오지 못했습니다. 아래 미리보기의 공식 원문 링크는 이용할 수 있습니다.';
+      document.querySelector('#loadFailureDetail').textContent=reason;
+      document.querySelector('.search-panel').hidden=true;
+      document.querySelector('#resultSection').hidden=true;
+      document.querySelector('#resultSection').classList.add('hidden');
+      document.querySelector('#homeStats').hidden=true;
+      document.querySelector('.latest-panel').hidden=true;
+    }
+    try{
+    if(!window.serviceCatalog||!Object.keys(window.serviceCatalog).length||!window.TermsSearch||!window.TermsReview){showLoadFailure(window.termsAssetErrors?.length?'불러오지 못한 파일: '+window.termsAssetErrors.join(', '):'검색에 필요한 자료 또는 모듈을 확인하지 못했습니다.');}else{
     const services=window.serviceCatalog;
     const icons={payment:'₩',privacy:'⌁',content:'✦',cancel:'↩',other:'!'};
-    const labels={mid:'함께 확인',high:'먼저 확인'};
+    const labels={mid:'추가로 알아둘 조건',high:'가입 전에 확인할 조건'};
     const audit=window.catalogAudit||{};
     const auditDate=audit.checkedAt||'확인일 미등록';
     const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-    let current='youtube',activeFilter='all';
+    let current='youtube',activeFilter='all',activeJourney='';
     const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
     function renderCatalogStats(){
-      const serviceCount=Object.keys(services).length;
-      $('#catalogTotal').textContent=`${serviceCount}개 서비스 목록`;
-      $('#auditDateStat').textContent=`${audit.reviewed}개 서비스 · ${audit.items}개 항목`;
-      $('#reviewProgress').textContent=`${audit.linkChecks?.servicesAttempted||serviceCount}개 서비스의 기존 저장 주소 ${audit.linkChecks?.storedUrls||0}개를 접속 점검했습니다. 원문과 대조한 요약은 ${audit.reviewed}개 서비스 · ${audit.items}개 항목입니다. ${audit.linked}개는 공식 링크 확인 후 요약 보완 중이며, ${audit.pending}개는 내용 대조가 필요합니다. 접속 성공이 약관 내용 검증 완료를 뜻하지는 않습니다. 각 항목의 확인일과 적용 범위를 확인하세요.`;
+      const stats=window.TermsReview.catalogStats(services);
+      const serviceCount=stats.registered;
+      $('#catalogTotal').textContent=`${serviceCount}개`;
+      $('#summaryServiceStat').textContent=`${stats.summaryServices}개`;
+      $('#auditDateStat').textContent=`${stats.compared}개`;
+      $('#recheckStat').textContent=`${stats.recheck}개 항목`;
+      $('#pendingServiceStat').textContent=`${stats.pendingServices}개`;
+      $('#reviewProgress').textContent=`목록 ${serviceCount}개 중 요약 제공 ${stats.summaryServices}개 서비스 · ${stats.items}개 항목입니다. 원문 대조 기록이 있는 항목은 ${stats.compared}개이며 서비스 전체 검수 완료 수가 아닙니다. 재확인 안내 ${stats.recheck}개는 대조일 기준이며 약관 변경 감지 결과가 아닙니다. 기존 URL 접속 점검 기록은 ${auditDate} 기준으로, 이번 집계와 별개입니다.`;
       $('#navNote').textContent='서비스 약관을 쉽게 찾고 이해하는 곳';
-      $('#searchInput').placeholder=`${serviceCount}개 서비스 검색 · 예: 네이버, spotify.com`;
-      const statuses={reviewed:'요약 제공',linked:'공식 링크 확인 · 요약 보완 중',pending:'자료 보완 중'};
-      $('#serviceSelect').innerHTML='<option value="">전체 '+serviceCount+'개 서비스 보기</option>'+Object.entries(services).sort((a,b)=>a[1].name.localeCompare(b[1].name,'ko')).map(([key,s])=>`<option value="${escapeHtml(key)}">${escapeHtml(s.name)} · ${statuses[s.status]}</option>`).join('');
+      $('#searchInput').placeholder='서비스 검색 · 예: 네이버, spotify.com';
+      $('#serviceSelect').innerHTML='<option value="">전체 '+serviceCount+'개 서비스 보기</option>'+Object.entries(services).sort((a,b)=>a[1].name.localeCompare(b[1].name,'ko')).map(([key,s])=>`<option value="${escapeHtml(key)}">${escapeHtml(s.name)} · ${s.items.length?'요약 제공':s.status==='linked'?'공식 링크 확인 · 요약 보완 중':'자료 보완 중'}</option>`).join('');
     }
     function renderHomeCases(){
-      const allCases=Object.entries(window.serviceCases||{}).flatMap(([key,cases])=>cases.map(c=>({key,...c})));
-      if(!window.serviceCases){$('#verifiedCaseStat').textContent='불러오기 실패';$('#homeCases').textContent='사례를 불러오지 못했습니다. 새로고침 후 다시 확인하세요.';return;}
-      $('#verifiedCaseStat').textContent=`${allCases.length}건`;
+      const state=window.TermsReview.caseState(window.serviceCases),allCases=state.items;
+      $('#homeCaseCaption').textContent=state.caption;
+      document.documentElement.dataset.caseState=state.state;
+      if(state.state==='failed'){$('#verifiedCaseStat').textContent='집계 불가';$('#homeCases').textContent=state.caption;return;}
+      $('#verifiedCaseStat').textContent=`${state.total}건`;
+      if(!state.total){$('#homeCases').textContent=state.caption;return;}
       const recent=allCases.sort((a,b)=>(b.publishedAt||b.year).localeCompare(a.publishedAt||a.year)).slice(0,3);
       const container=$('#homeCases');container.classList.remove('expanded');
       container.innerHTML=recent.map((c,i)=>`<article class="home-case"><p class="home-case-meta">${escapeHtml(c.publishedAt||c.year)} · ${escapeHtml(services[c.key]?.name||c.serviceName||c.key)} · ${escapeHtml(c.org)}</p><p class="home-case-title">${escapeHtml(c.title)}</p><p class="home-case-meta">${escapeHtml([c.region,c.stage].filter(Boolean).join(' · '))}</p><p class="home-case-text">${escapeHtml(c.text)}</p>${caseSourceLinks(c,'home-case-link')}<button class="home-case-service" type="button" data-case-service="${escapeHtml(c.key)}">이 서비스 약관 보기 →</button></article>`).join('');
@@ -135,7 +156,9 @@
       return [{label:'사례 출처 확인',url:record.url},...(record.sources||[])].map(source=>`<a class="${className}" href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.label)}</a>`).join(' ');
     }
     function renderServiceCases(){
-      const cases=window.serviceCases?.[current]||[];
+      const state=window.TermsReview.caseState(window.serviceCases);
+      if(state.state==='failed'){$('#incidentCount').textContent='집계 불가';$('#incidentList').textContent=state.caption;return;}
+      const cases=window.serviceCases[current]||[];
       $('#incidentCount').textContent=cases.length?`${cases.length}건 등록`:'등록 사례 없음';
       const list=$('#incidentList');list.classList.remove('expanded');
       if(!cases.length){list.innerHTML=`<div class="incident-empty"><strong>현재 등록된 출처 확인 사례가 없습니다</strong><p>공개된 사건이 없다는 뜻은 아닙니다. 출처와 요약의 대조가 끝난 사례만 공개합니다.</p></div>`;return;}
@@ -169,7 +192,7 @@
     function evidencePanel(item){
       const e=item[7]||{},esc=escapeHtml;
       const freshness=window.TermsReview.freshness(e.checkedAt),stale=freshness.state==='stale';
-      return `<section class="evidence-panel" aria-label="원문 근거"><p class="detail-label">원문 근거 · 편집 요약과 구분</p><p><strong>${esc(e.document||'문서 기록 없음')}</strong><br>${esc(e.clause||'조항 위치 기록 없음')} · 적용 지역: ${esc(e.region||'확인 기록 없음')}</p><p>${e.quote?'원문 인용: '+esc(e.quote):'원문 직접 인용은 등록되어 있지 않습니다. 아래 설명은 편집 요약이며, 조항의 정확한 문구는 공식 원문에서 확인하세요.'}</p><p class="detail-label">원문 조건 · 편집 요약</p><p>${esc(item[5])}</p><p class="review-state">${e.checkedAt?'표시 항목 원문 대조 기록 있음 · '+esc(e.checkedAt):'원문 대조 기록 확인 필요'} · ${esc(freshness.label)}</p>${stale?'<p role="note">대조일로부터 30일이 지났습니다. 약관이 변경되었다는 뜻은 아니며, 현재 조건은 공식 원문에서 다시 확인하세요.</p>':''}</section>`;
+      return `<section class="evidence-panel" aria-label="원문 근거"><p class="detail-label">원문 근거 · 편집 요약과 구분</p><p><strong>${esc(e.document||'문서 기록 없음')}</strong><br>${esc(e.clause||'조항 위치 기록 없음')} · 적용 지역: ${esc(e.region||'확인 기록 없음')}</p><p>${e.quote?'원문 인용: '+esc(e.quote):'원문 직접 인용은 등록되어 있지 않습니다. 아래 설명은 편집 요약이며, 조항의 정확한 문구는 공식 원문에서 확인하세요.'}</p>${e.applicability?`<p><strong>적용 범위 확인</strong><br>${esc(e.applicability)}</p>`:''}<p class="detail-label">원문 조건 · 편집 요약</p><p>${esc(item[5])}</p><p class="review-state">${e.checkedAt?'표시 항목 원문 대조 기록 있음 · '+esc(e.checkedAt):'원문 대조 기록 확인 필요'} · ${esc(freshness.label)}</p>${stale?'<p role="note">대조일로부터 30일이 지났습니다. 약관이 변경되었다는 뜻은 아니며, 현재 조건은 공식 원문에서 다시 확인하세요.</p>':''}</section>`;
     }
     function reviewDetails(data,item){
       const e=item[7]||{},priority=window.TermsReview.priority(item),recommended=window.TermsReview.reviewDate(e.checkedAt);
@@ -191,7 +214,12 @@
       renderServiceMark(data);$('#overallText').textContent=data.items.length?'요약 제공':data.status==='linked'?'공식 링크 확인 · 요약 보완 중':'자료 보완 중';$('.overall').classList.add('preliminary');
       $('#documentLinks').innerHTML=(data.documents||[]).map(d=>`<a href="${escapeHtml(d.url)}" target="_blank" rel="noopener">${escapeHtml(d.title)} ↗<small>${d.bodyChecked?'표시 항목 원문 대조':'공식 주소 확인 · 본문 대조 전'}</small></a>`).join('');
       $$('.filter').forEach(btn=>{btn.querySelector('.count').textContent=data.items.filter(item=>btn.dataset.filter==='all'||item[0]===btn.dataset.filter).length;});
-      const visible=data.items.filter(item=>activeFilter==='all'||item[0]===activeFilter);
+      const visible=window.TermsReview.journey(data.items.filter(item=>activeFilter==='all'||item[0]===activeFilter),activeJourney);
+      $$('[data-journey]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.journey===activeJourney)));
+      const purposeNames={payment:'가입·결제 전',content:'자료 게시 전',cancel:'해지 전'},groups={payment:['payment','cancel'],content:['content','privacy'],cancel:['cancel','payment']};
+      $('#journeyNote').hidden=!activeJourney;
+      if(activeJourney){const relevant=data.items.filter(i=>groups[activeJourney].includes(i[0])).length;$('#journeyNote').textContent=relevant?`${purposeNames[activeJourney]}: 관련 ${relevant}개 항목을 앞에 배치했습니다. 나머지 항목도 아래에서 모두 볼 수 있습니다.`:`${purposeNames[activeJourney]}에 해당하는 검수된 요약은 아직 없습니다. 확인된 다른 항목은 그대로 표시합니다.`;}
+
       $('#results').innerHTML=visible.map((item,i)=>{const source=sourceInfo(data,item),priority=window.TermsReview.priority(item);return `<article class="card ${i===0?'open':''}" data-category="${item[0]}"><button class="card-head" type="button" aria-expanded="${i===0}" aria-label="${item[2]} 상세 내용 열기"><span class="icon" aria-hidden="true">${icons[item[0]]}</span><span><span class="card-title"><h3>${item[1]} · ${item[2]}</h3><span class="badge risk-${priority.level}">${labels[priority.level]}</span></span></span><span class="chev" aria-hidden="true">⌄</span></button><div class="detail">${evidencePanel(item)}<div class="detail-grid"><div class="detail-box warning"><p class="detail-label">이용자에게 미치는 영향 · 편집 요약</p><p>${escapeHtml(item[7]?.impact||item[5])}</p></div><div class="detail-box action"><p class="detail-label">지금 확인할 일</p><p>${actionFor(item)}</p></div></div><div class="source-row"><span class="source-note">${source.note}</span>${source.url?`<a class="source-link" href="${source.url}" target="_blank" rel="noopener">${source.label}</a>`:`<span class="source-pending">${source.label}</span>`}</div>${reviewDetails(data,item)}<button class="report-open" type="button" data-report-title="${escapeHtml(item[2])}">이 요약의 오류·수정 제보문 작성</button></div></article>`}).join('');
       $$('[data-report-title]').forEach(btn=>btn.addEventListener('click',()=>openReport(data,data.items.find(item=>item[2]===btn.dataset.reportTitle))));
       $$('.card-head').forEach(btn=>btn.addEventListener('click',()=>{const card=btn.closest('.card');card.classList.toggle('open');btn.setAttribute('aria-expanded',card.classList.contains('open'));}));
@@ -210,7 +238,7 @@
         chooseService(match.key);
         if(!match.exact){$('#searchCorrection').hidden=false;$('#correctionText').textContent=services[match.key].name+'로 검색한 결과입니다.';$('#originalSearchButton').textContent='“'+submittedQuery+'” 검색 결과 보기';$('#searchCorrection').scrollIntoView({behavior:'smooth',block:'start'});}
       }else{
-        clearSearchFeedback();$('#resultSection').classList.add('hidden');$('#homeContent').classList.add('hidden');$('#homeWhy').classList.add('hidden');$('#serviceSelect').value='';
+        clearSearchFeedback();document.documentElement.dataset.appState=submittedQuery?'no-results':'empty-query';$('#reportComposer').hidden=true;$('#resultSection').hidden=true;$('#resultSection').classList.add('hidden');$('#homeContent').classList.add('hidden');$('#homeWhy').classList.add('hidden');$('#serviceSelect').value='';
         $('#searchError').hidden=false;$('#searchEmptyTitle').textContent=submittedQuery?'“'+submittedQuery+'” 검색 결과가 없습니다.':'서비스 이름이나 사이트 주소를 입력해 주세요.';
         $('#searchEmptyText').textContent=submittedQuery?'등록된 서비스 이름·별칭·주소에서 결과를 찾지 못했습니다. 등록된 서비스의 요약이 없는 경우에는 상세 페이지에서 보완 상태를 따로 안내합니다.':'';
         const alternatives=exactOnly?serviceSearch.matches(submittedQuery).slice(0,3).map(x=>x.key):[];
@@ -230,21 +258,21 @@
     function closeSuggestions(){$('#suggestions').hidden=true;$('#searchInput').setAttribute('aria-expanded','false');suggestionIndex=-1;}
     let suggestionIndex=-1;
     function renderSuggestions(query){const matches=findMatches(query).slice(0,8);const box=$('#suggestions');if(!matches.length){closeSuggestions();return;}box.innerHTML=matches.map(key=>`<button class="suggestion" type="button" role="option" data-suggestion="${key}"><strong>${services[key].name}</strong><span>${services[key].domain}</span></button>`).join('');box.hidden=false;$('#searchInput').setAttribute('aria-expanded','true');suggestionIndex=-1;$$('[data-suggestion]').forEach(btn=>btn.addEventListener('click',()=>selectService(btn.dataset.suggestion)));}
-    function chooseService(key,save=true){if(!services[key])return;current=key;activeFilter='all';if(save)saveRecent(key);$('#homeContent').classList.add('hidden');$('#homeWhy').classList.add('hidden');$('#resultSection').classList.remove('hidden');$('#reportComposer').hidden=true;clearSearchFeedback();$$('.chip[data-service]').forEach(x=>x.classList.toggle('active',x.dataset.service===key));$$('.filter').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));render();$('#resultSection').scrollIntoView({behavior:'smooth',block:'start'});}
+    function chooseService(key,save=true){if(!services[key])return;current=key;activeFilter='all';activeJourney='';if(save)saveRecent(key);$('#homeContent').classList.add('hidden');$('#homeWhy').classList.add('hidden');$('#resultSection').hidden=false;$('#resultSection').classList.remove('hidden');document.documentElement.dataset.appState=services[key].items.length?'result':'pending';$('#reportComposer').hidden=true;clearSearchFeedback();$$('.chip[data-service]').forEach(x=>x.classList.toggle('active',x.dataset.service===key));$$('.filter').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));render();$('#resultSection').scrollIntoView({behavior:'smooth',block:'start'});}
     function selectService(key){runSearch(services[key].name);}
-    function showHome(){$('#resultSection').classList.add('hidden');$('#homeContent').classList.remove('hidden');$('#homeWhy').classList.remove('hidden');$('#reportComposer').hidden=true;clearSearchFeedback();$('#searchInput').value='';$('#serviceSelect').value='';closeSuggestions();$$('.chip[data-service]').forEach(x=>x.classList.remove('active'));$('#main').scrollIntoView({behavior:'smooth',block:'start'});}
+    function showHome(){document.documentElement.dataset.appState='home';$('#resultSection').hidden=true;$('#resultSection').classList.add('hidden');$('#homeContent').classList.remove('hidden');$('#homeWhy').classList.remove('hidden');$('#reportComposer').hidden=true;clearSearchFeedback();$('#searchInput').value='';$('#serviceSelect').value='';closeSuggestions();$$('.chip[data-service]').forEach(x=>x.classList.remove('active'));$('#main').scrollIntoView({behavior:'smooth',block:'start'});}
     $('#homeButton').addEventListener('click',showHome);
-    $('#serviceSelect').addEventListener('change',e=>{if(e.target.value)selectService(e.target.value);});
+    $('#serviceSelect').addEventListener('change',e=>{if(e.target.value)selectService(e.target.value);else showHome();});
     $$('.chip[data-service]').forEach(btn=>btn.addEventListener('click',()=>selectService(btn.dataset.service)));
-    $$('.filter').forEach(btn=>btn.addEventListener('click',()=>{activeFilter=btn.dataset.filter;$$('.filter').forEach(x=>x.classList.toggle('active',x===btn));render();}));
+    $$('.filter').forEach(btn=>btn.addEventListener('click',()=>{activeFilter=btn.dataset.filter;activeJourney='';$$('.filter').forEach(x=>x.classList.toggle('active',x===btn));render();}));
     $('#searchInput').addEventListener('input',e=>renderSuggestions(e.target.value));
     $('#searchInput').addEventListener('focus',e=>{if(e.target.value.trim())renderSuggestions(e.target.value);});
     $('#searchInput').addEventListener('keydown',e=>{const buttons=$$('[data-suggestion]');if(!buttons.length)return;if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();suggestionIndex=(suggestionIndex+(e.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length;buttons.forEach((btn,i)=>btn.classList.toggle('active',i===suggestionIndex));buttons[suggestionIndex].scrollIntoView({block:'nearest'});}else if(e.key==='Enter'&&suggestionIndex>=0){e.preventDefault();buttons[suggestionIndex].click();}else if(e.key==='Escape'){closeSuggestions();}});
     document.addEventListener('click',e=>{if(!e.target.closest('.search-wrap'))closeSuggestions();});
     $('#searchForm').addEventListener('submit',e=>{e.preventDefault();runSearch($('#searchInput').value);});
-    $('#browseCatalog').addEventListener('click',()=>{$('#serviceSelect').scrollIntoView({behavior:'smooth',block:'center'});$('#serviceSelect').focus();});
+    $('#browseCatalog').addEventListener('click',()=>{$('#catalogTools').open=true;$('#serviceSelect').scrollIntoView({behavior:'smooth',block:'center'});$('#serviceSelect').focus();});
     $$('[data-preview]').forEach(button=>{button.disabled=false;button.addEventListener('click',()=>selectService(button.dataset.preview));});
-    $$('[data-journey]').forEach(button=>button.addEventListener('click',()=>document.querySelector('.filter[data-filter="'+button.dataset.journey+'"]').click()));
+    $$('[data-journey]').forEach(button=>button.addEventListener('click',()=>{activeJourney=button.dataset.journey;activeFilter='all';$$('.filter').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));render();}));
     $('#serviceReport').addEventListener('click',()=>openReport(services[current]));
     $('#closeReport').addEventListener('click',()=>{$('#reportComposer').hidden=true;});
     $('#reportText').addEventListener('input',()=>{$('#submitReport').href='https://github.com/saltcho2/terms-at-a-glance/issues/new?title='+encodeURIComponent('요약 수정 제보: '+reportContextName)+'&body='+encodeURIComponent($('#reportText').value);});
@@ -253,8 +281,12 @@
     renderCatalogStats();
     renderHomeCases();
     renderRecent();
-    render();
+    $$('.search-panel input,.search-panel button,.search-panel select').forEach(el=>el.disabled=false);
+    $('.search-panel').setAttribute('aria-busy','false');
+    $('#dataLoadStatus').textContent='서비스 이름이나 주소를 검색하세요. 전체 목록과 최근 검색도 이용할 수 있습니다.';
+    document.documentElement.dataset.appState='home';
     }
+    }catch(error){showLoadFailure('초기화 오류: '+String(error?.message||error));}
   </script>
 </body>
 </html>

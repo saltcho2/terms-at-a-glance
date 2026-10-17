@@ -25,6 +25,26 @@ window.TermsReview={
     const ageDays=(today-checked)/86400000;
     return {state:ageDays>30?'stale':'recent',ageDays,label:ageDays>30?'최신성 재확인 필요':'대조일로부터 30일 이내 · 이후 변경 여부는 미확인'};
   },
+  catalogStats(catalog,now=new Date()){
+    if(!catalog||typeof catalog!=='object'||Array.isArray(catalog)||!Object.keys(catalog).length)throw new Error('서비스 자료가 비어 있거나 형식이 올바르지 않습니다.');
+    const services=Object.values(catalog);
+    if(services.some(s=>!s||!s.name||!Array.isArray(s.items)))throw new Error('서비스 항목 형식을 확인하지 못했습니다.');
+    const items=services.flatMap(s=>s.items);
+    if(items.some(i=>!Array.isArray(i)||typeof i[5]!=='string'))throw new Error('요약 항목 형식을 확인하지 못했습니다.');
+    const compared=items.filter(i=>i[6]&&i[7]?.document&&i[7]?.clause&&i[7]?.region&&i[7]?.checkedAt);
+    const summaryServices=services.filter(s=>s.items.length).length;
+    return {registered:services.length,summaryServices,items:items.length,compared:compared.length,pendingServices:services.length-summaryServices,recheck:items.filter(i=>this.freshness(i[7]?.checkedAt,now).state!=='recent').length};
+  },
+  caseState(book){
+    if(!book||typeof book!=='object'||Array.isArray(book)||Object.values(book).some(list=>!Array.isArray(list)||list.some(c=>!c||typeof c.title!=='string'||typeof c.url!=='string')))return {state:'failed',total:null,items:[],caption:'사례 목록을 불러오지 못했습니다.'};
+    const items=Object.entries(book).flatMap(([key,list])=>list.map(c=>({key,...c})));
+    return {state:items.length?'ready':'empty',total:items.length,items,caption:items.length>3?`최근 사례 3건 · 전체 ${items.length}건`:items.length?`등록된 사례 ${items.length}건`:'아직 등록된 사례가 없습니다.'};
+  },
+  journey(items,purpose){
+    const orders={payment:['payment','cancel','privacy','content','other'],content:['content','privacy','cancel','payment','other'],cancel:['cancel','payment','privacy','content','other']};
+    if(!orders[purpose])return [...items];
+    return items.map((item,index)=>({item,index})).sort((a,b)=>orders[purpose].indexOf(a.item[0])-orders[purpose].indexOf(b.item[0])||a.index-b.index).map(x=>x.item);
+  },
   report(service,item){
     const evidence=item?.[7];
     return ['약관 한눈에 오류·수정 제보',`서비스: ${service.name} (${service.domain})`,item?`항목: ${item[2]}`:'항목: 서비스 자료 전반',`원문: ${item?.[6]||service.documents?.[0]?.url||'알고 있는 공식 원문 주소를 입력해 주세요.'}`,`대조 기록: ${evidence?.checkedAt||service.reviewStatus||'등록 기록 없음'}`,'','수정이 필요한 내용:','','확인한 공식 자료와 적용 지역:',''].join('\n');
