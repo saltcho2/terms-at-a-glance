@@ -187,8 +187,8 @@
       $$('.filter').forEach(btn=>{btn.querySelector('.count').textContent=data.items.filter(item=>btn.dataset.filter==='all'||item[0]===btn.dataset.filter).length;});
       const visible=data.items.filter(item=>activeFilter==='all'||item[0]===activeFilter);
       $('#results').innerHTML=visible.map((item,i)=>{const source=sourceInfo(data,item),priority=window.TermsReview.priority(item);return `<article class="card ${i===0?'open':''}" data-category="${item[0]}"><button class="card-head" type="button" aria-expanded="${i===0}" aria-label="${item[2]} 상세 내용 열기"><span class="icon" aria-hidden="true">${icons[item[0]]}</span><span><span class="card-title"><h3>${item[1]} · ${item[2]}</h3><span class="badge risk-${priority.level}">${labels[priority.level]}</span></span></span><span class="chev" aria-hidden="true">⌄</span></button><div class="detail"><div class="detail-grid"><div class="detail-box warning"><p class="detail-label">주의사항 · 실제로 생길 수 있는 일</p><p>${item[5]}</p></div><div class="detail-box action"><p class="detail-label">지금 확인할 일</p><p>${actionFor(item)}</p></div></div><div class="source-row"><span class="source-note">${source.note}</span>${source.url?`<a class="source-link" href="${source.url}" target="_blank" rel="noopener">${source.label}</a>`:`<span class="source-pending">${source.label}</span>`}</div>${reviewDetails(data,item)}<button class="report-open" type="button" data-report-title="${escapeHtml(item[2])}">이 요약의 오류·수정 제보문 작성</button></div></article>`}).join('');
-      $('[data-report-title]').forEach(btn=>btn.addEventListener('click',()=>openReport(data,data.items.find(item=>item[2]===btn.dataset.reportTitle))));
-      $('.card-head').forEach(btn=>btn.addEventListener('click',()=>{const card=btn.closest('.card');card.classList.toggle('open');btn.setAttribute('aria-expanded',card.classList.contains('open'));}));
+      $$('[data-report-title]').forEach(btn=>btn.addEventListener('click',()=>openReport(data,data.items.find(item=>item[2]===btn.dataset.reportTitle))));
+      $$('.card-head').forEach(btn=>btn.addEventListener('click',()=>{const card=btn.closest('.card');card.classList.toggle('open');btn.setAttribute('aria-expanded',card.classList.contains('open'));}));
       $('#empty').style.display=visible.length?'none':'block';
       $('#empty').innerHTML=data.items.length?'<h3>이 분류의 요약은 아직 없습니다</h3><p>전체 필터에서 확인된 항목을 살펴보세요.</p>':'<h3>이 서비스의 약관 요약을 보완해야 합니다</h3><p>'+escapeHtml(data.pendingReason)+'</p><p class="pending-note">서비스를 목록에서 삭제하지 않고 확인 상태를 남겼습니다. 공식 조항을 확인하기 전에는 기존 공통 요약을 표시하지 않습니다.</p>';$('#results').style.display='grid';$('#incidentPanel').style.display='block';renderServiceCases();
     }
@@ -210,7 +210,7 @@
         const alternatives=exactOnly?serviceSearch.matches(submittedQuery).slice(0,3).map(x=>x.key):[];
         const available=alternatives.length?alternatives:['youtube','netflix','naver'];
         $('#searchAlternatives').innerHTML=submittedQuery?'<p>'+(alternatives.length?'비슷한 이름의 등록 서비스':'현재 요약을 볼 수 있는 서비스')+'</p>'+available.map(key=>'<button type="button" class="chip" data-alternative="'+escapeHtml(key)+'">'+escapeHtml(services[key].name)+'</button>').join(''):'';
-        $('[data-alternative]').forEach(button=>button.addEventListener('click',()=>selectService(button.dataset.alternative)));
+        $$('[data-alternative]').forEach(button=>button.addEventListener('click',()=>selectService(button.dataset.alternative)));
         $('#requestService').hidden=!submittedQuery;$('#requestNote').hidden=!submittedQuery;
         const title='서비스 추가 요청: '+submittedQuery;
         const body='요청 서비스명 또는 사이트 주소: '+submittedQuery+'\n\n공식 약관 링크(알고 있다면):\n\n추가로 확인하고 싶은 내용:';
@@ -237,8 +237,8 @@
     document.addEventListener('click',e=>{if(!e.target.closest('.search-wrap'))closeSuggestions();});
     $('#searchForm').addEventListener('submit',e=>{e.preventDefault();runSearch($('#searchInput').value);});
     $('#browseCatalog').addEventListener('click',()=>{$('#serviceSelect').scrollIntoView({behavior:'smooth',block:'center'});$('#serviceSelect').focus();});
-    $('[data-preview]').forEach(button=>{button.disabled=false;button.addEventListener('click',()=>selectService(button.dataset.preview));});
-    $('[data-journey]').forEach(button=>button.addEventListener('click',()=>document.querySelector('.filter[data-filter="'+button.dataset.journey+'"]').click()));
+    $$('[data-preview]').forEach(button=>{button.disabled=false;button.addEventListener('click',()=>selectService(button.dataset.preview));});
+    $$('[data-journey]').forEach(button=>button.addEventListener('click',()=>document.querySelector('.filter[data-filter="'+button.dataset.journey+'"]').click()));
     $('#serviceReport').addEventListener('click',()=>openReport(services[current]));
     $('#closeReport').addEventListener('click',()=>{$('#reportComposer').hidden=true;});
     $('#reportText').addEventListener('input',()=>{$('#submitReport').href='https://github.com/saltcho2/terms-at-a-glance/issues/new?title='+encodeURIComponent('요약 수정 제보: '+reportContextName)+'&body='+encodeURIComponent($('#reportText').value);});
