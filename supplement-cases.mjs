@@ -8,7 +8,7 @@ function add(key,serviceName,year,publishedAt,region,stage,title,text,url,scope,
   const record={year,publishedAt,region,stage,org:region.startsWith('유럽')?'아일랜드 개인정보보호위원회(DPC)':key==='discord'?'Discord 공식 발표':key==='adobe'?'미국 법무부':'미국 연방거래위원회(FTC)',title,text,url,serviceName,checkedAt,scope,sources};
   book[key]=[record,...(book[key]||[]).filter(c=>c.url!==url)].sort((a,b)=>(b.publishedAt||b.year).localeCompare(a.publishedAt||a.year));
 }
-add('amazon','Amazon','2026','2026-09','미국 · Amazon Prime','합의 후 환불 지급',
+add('amazon','Amazon','2026','2026-09-17','미국 · Amazon Prime','합의 후 환불 지급',
   '동의 없는 Prime 가입·복잡한 해지 절차와 추가 환불',
   'FTC는 Prime 가입·해지 관행에 관한 2025년 합의 후 2026년 9월까지 8억 4,500만 달러 이상의 환불이 지급됐다고 발표했습니다. 법원은 추가 자동 환불과 대상 확대를 승인했습니다. 미국 합의 대상의 지급 절차로, 모든 국가의 Prime 이용자에게 동일한 환불권이 생기는 것은 아닙니다.',
   'https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-announces-additional-payments-consumers-stemming-ftcs-amazon-prime-settlement',
