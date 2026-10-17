@@ -15,6 +15,16 @@ window.TermsReview={
     day.setUTCDate(day.getUTCDate()+30);
     return `${day.getUTCFullYear()}. ${day.getUTCMonth()+1}. ${day.getUTCDate()}.`;
   },
+  freshness(text,now=new Date()){
+    const deadline=this.reviewDate(text);
+    if(!deadline)return {state:'unknown',label:'최신성 판단 자료 없음'};
+    const m=String(text).match(/(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})/);
+    const parts=Object.fromEntries(new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now).map(p=>[p.type,p.value]));
+    const today=Date.UTC(+parts.year,+parts.month-1,+parts.day),checked=Date.UTC(+m[1],+m[2]-1,+m[3]);
+    if(checked>today)return {state:'unknown',label:'대조일 기록 재확인 필요'};
+    const ageDays=(today-checked)/86400000;
+    return {state:ageDays>30?'stale':'recent',ageDays,label:ageDays>30?'최신성 재확인 필요':'대조일로부터 30일 이내 · 이후 변경 여부는 미확인'};
+  },
   report(service,item){
     const evidence=item?.[7];
     return ['약관 한눈에 오류·수정 제보',`서비스: ${service.name} (${service.domain})`,item?`항목: ${item[2]}`:'항목: 서비스 자료 전반',`원문: ${item?.[6]||service.documents?.[0]?.url||'알고 있는 공식 원문 주소를 입력해 주세요.'}`,`대조 기록: ${evidence?.checkedAt||service.reviewStatus||'등록 기록 없음'}`,'','수정이 필요한 내용:','','확인한 공식 자료와 적용 지역:',''].join('\n');
