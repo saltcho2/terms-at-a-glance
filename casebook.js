@@ -8,7 +8,8 @@ window.serviceCases={
       "url": "https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=D010030000&nttId=12171",
       "serviceName": "쿠팡",
       "checkedAt": "2026. 10. 9. (한국 시간)",
-      "scope": "아래 사건의 출처와 요약 대조 · 이후 절차 전체 검수 아님"
+      "scope": "아래 사건의 출처와 요약 대조 · 이후 절차 전체 검수 아님",
+      "publishedAt": "2026-06-11"
     }
   ],
   "disneyplus": [
@@ -20,7 +21,8 @@ window.serviceCases={
       "url": "https://oag.ca.gov/news/press-releases/california-wont-let-it-go-attorney-general-bonta-announces-275-million",
       "serviceName": "Disney+",
       "checkedAt": "2026. 10. 9. (한국 시간)",
-      "scope": "아래 사건의 출처와 요약 대조 · 이후 절차 전체 검수 아님"
+      "scope": "아래 사건의 출처와 요약 대조 · 이후 절차 전체 검수 아님",
+      "publishedAt": "2026-02-11"
     }
   ],
   "tving": [
@@ -32,7 +34,8 @@ window.serviceCases={
       "url": "https://nwww.newsis.com/view/NISX20260906_0003778177",
       "serviceName": "TVING",
       "checkedAt": "2026. 10. 9. (한국 시간)",
-      "scope": "아래 사건의 출처와 요약 대조 · 이후 절차 전체 검수 아님"
+      "scope": "아래 사건의 출처와 요약 대조 · 이후 절차 전체 검수 아님",
+      "publishedAt": "2026-09-07"
     }
   ],
   "temu": [
@@ -44,13 +47,14 @@ window.serviceCases={
       "url": "https://www.reuters.com/world/china/temu-fined-232-million-breaching-eu-rules-sale-illegal-products-2026-05-28/",
       "serviceName": "Temu",
       "checkedAt": "2026. 10. 9. (한국 시간)",
-      "scope": "아래 사건의 출처와 요약 대조 · 이후 절차 전체 검수 아님"
+      "scope": "아래 사건의 출처와 요약 대조 · 이후 절차 전체 검수 아님",
+      "publishedAt": "2026-05-28"
     }
   ],
   "amazon": [
     {
       "year": "2026",
-      "publishedAt": "2026-09",
+      "publishedAt": "2026-09-17",
       "region": "미국 · Amazon Prime",
       "stage": "합의 후 환불 지급",
       "org": "미국 연방거래위원회(FTC)",
