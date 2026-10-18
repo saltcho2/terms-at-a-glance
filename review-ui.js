@@ -38,7 +38,7 @@ window.TermsReview={
   sourceState(item,report=window.policySourceStatus){
     const r=report?.documents?.[item[6]];
     if(!r)return {state:'unknown',label:'원문 스냅샷 비교 기록 없음'};
-    const labels={baseline:'변경 비교 기준 생성 · 요약 검수 아님',same:'저장 기준과 같은 스냅샷 · 조항 검수 아님',changed:'원문 스냅샷 차이 감지 · 요약 재대조 필요',unavailable:'원문 수집 실패 · 최신성 확인 필요'};
+    const labels={baseline:'변경 비교 기준 생성 · 요약 검수 아님',same:'저장 기준과 같은 스냅샷 · 조항 검수 아님',changed:'자동 비교에서 원문 응답 차이 관측 · 변경 범위 확인 필요',unavailable:'자동 수집 실패 · 자동 최신성 확인 불가'};
     return {state:r.state,label:(labels[r.state]||'비교 상태 확인 필요')+(r.comparisonKind==='pdf-bytes'?' (PDF 파일 비교)':''),checkedAt:r.lastCheckedAt,reason:r.reason};
   },
   caseDate(record){
