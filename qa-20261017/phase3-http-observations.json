@@ -1,0 +1,140 @@
+{
+  "normal": {
+    "type": "qa-metrics",
+    "documentStartedAt": 1792327488912.3,
+    "viewport": 390,
+    "scrollWidth": 375,
+    "resourceCount": 5,
+    "htmlFetches": 1,
+    "resources": [
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/service-catalog.js?v=20261018p3",
+        "type": "script",
+        "transferSize": 0,
+        "encodedBodySize": 86073,
+        "responseStatus": 200
+      },
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/casebook.js?v=20261017c",
+        "type": "script",
+        "transferSize": 0,
+        "encodedBodySize": 5792,
+        "responseStatus": 200
+      },
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/search-engine.js?v=20261014a",
+        "type": "script",
+        "transferSize": 0,
+        "encodedBodySize": 1314,
+        "responseStatus": 200
+      },
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/source-status.js?v=20261018p3",
+        "type": "script",
+        "transferSize": 0,
+        "encodedBodySize": 14488,
+        "responseStatus": 200
+      },
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/review-ui.js?v=20261018p3",
+        "type": "script",
+        "transferSize": 0,
+        "encodedBodySize": 2690,
+        "responseStatus": 200
+      }
+    ],
+    "note": "브라우저 Resource Timing 관측. 캐시 포함; 서버 로그 요청 수·모바일 실기기 검증 아님"
+  },
+  "retryBefore": {
+    "type": "qa-metrics",
+    "documentStartedAt": 1792327466757,
+    "viewport": 1308,
+    "scrollWidth": 1293,
+    "resourceCount": 5,
+    "htmlFetches": 1,
+    "resources": [
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/qa-20261017/intentional-missing-catalog.js",
+        "type": "script",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "responseStatus": 404
+      },
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/casebook.js?v=20261017c",
+        "type": "script",
+        "transferSize": 0,
+        "encodedBodySize": 5792,
+        "responseStatus": 200
+      },
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/search-engine.js?v=20261014a",
+        "type": "script",
+        "transferSize": 0,
+        "encodedBodySize": 1314,
+        "responseStatus": 200
+      },
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/source-status.js?v=20261018p3",
+        "type": "script",
+        "transferSize": 0,
+        "encodedBodySize": 14488,
+        "responseStatus": 200
+      },
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/review-ui.js?v=20261018p3",
+        "type": "script",
+        "transferSize": 0,
+        "encodedBodySize": 2690,
+        "responseStatus": 200
+      }
+    ],
+    "note": "브라우저 Resource Timing 관측. 캐시 포함; 서버 로그 요청 수·모바일 실기기 검증 아님"
+  },
+  "retryAfter": {
+    "type": "qa-metrics",
+    "documentStartedAt": 1792327479583.6,
+    "viewport": 1308,
+    "scrollWidth": 1293,
+    "resourceCount": 5,
+    "htmlFetches": 1,
+    "resources": [
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/qa-20261017/intentional-missing-catalog.js",
+        "type": "script",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "responseStatus": 404
+      },
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/casebook.js?v=20261017c",
+        "type": "script",
+        "transferSize": 0,
+        "encodedBodySize": 5792,
+        "responseStatus": 200
+      },
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/search-engine.js?v=20261014a",
+        "type": "script",
+        "transferSize": 0,
+        "encodedBodySize": 1314,
+        "responseStatus": 200
+      },
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/source-status.js?v=20261018p3",
+        "type": "script",
+        "transferSize": 0,
+        "encodedBodySize": 14488,
+        "responseStatus": 200
+      },
+      {
+        "url": "https://saltcho2.github.io/terms-at-a-glance/review-ui.js?v=20261018p3",
+        "type": "script",
+        "transferSize": 0,
+        "encodedBodySize": 2690,
+        "responseStatus": 200
+      }
+    ],
+    "note": "브라우저 Resource Timing 관측. 캐시 포함; 서버 로그 요청 수·모바일 실기기 검증 아님"
+  }
+}

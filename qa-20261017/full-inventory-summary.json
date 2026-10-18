@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-18T12:28:02+00:00",
+  "complete": true,
+  "scope": "등록 서비스 전체의 기존 저장 후보 주소 접속·본문 수집 점검. 공식성 또는 약관 내용 검수 완료가 아님.",
+  "registeredServices": 500,
+  "uniqueCandidateUrls": 972,
+  "states": {
+    "baseline": 633,
+    "unavailable": 339
+  },
+  "attemptedInitialUrls": 954,
+  "skippedAfterHostRestriction": 18,
+  "limits": [
+    "후보 주소가 공식 원문임을 전부 확인한 결과가 아님",
+    "수집 성공이 조항 내용 검수 완료를 뜻하지 않음",
+    "리다이렉트와 하위 리소스를 포함한 서버 HTTP 요청 수가 아님"
+  ]
+}

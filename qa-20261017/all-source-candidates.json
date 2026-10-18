@@ -1,0 +1,3538 @@
+{
+  "youtube": {
+    "name": "YouTube",
+    "urls": [
+      "https://policies.google.com/privacy",
+      "https://policies.google.com/privacy?hl=ko",
+      "https://www.youtube.com/static?template=terms",
+      "https://www.youtube.com/static?template=terms&gl=KR&hl=ko",
+      "https://www.youtube.com/t/terms_paidservice"
+    ]
+  },
+  "netflix": {
+    "name": "Netflix",
+    "urls": [
+      "https://help.netflix.com/ko/node/407",
+      "https://help.netflix.com/ko/node/633853347904100",
+      "https://help.netflix.com/legal/privacy",
+      "https://help.netflix.com/legal/termsofuse"
+    ]
+  },
+  "temu": {
+    "name": "Temu",
+    "urls": [
+      "https://www.temu.com/kr/terms-of-use.html",
+      "https://www.temu.com/privacy-and-cookie-policy.html",
+      "https://www.temu.com/terms-of-use.html"
+    ]
+  },
+  "instagram": {
+    "name": "Instagram",
+    "urls": [
+      "https://help.instagram.com/581066165581870",
+      "https://privacycenter.instagram.com/policy/"
+    ]
+  },
+  "tiktok": {
+    "name": "TikTok",
+    "urls": [
+      "https://www.tiktok.com/legal/page/row/privacy-policy/en",
+      "https://www.tiktok.com/legal/page/row/terms-of-service/en"
+    ]
+  },
+  "discord": {
+    "name": "Discord",
+    "urls": [
+      "https://discord.com/privacy",
+      "https://discord.com/terms",
+      "https://discord.com/terms/paid-services-terms"
+    ]
+  },
+  "spotify": {
+    "name": "Spotify",
+    "urls": [
+      "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
+      "https://www.spotify.com/legal/end-user-agreement/plain/",
+      "https://www.spotify.com/legal/privacy-policy/"
+    ]
+  },
+  "coupang": {
+    "name": "쿠팡",
+    "urls": [
+      "https://privacy.coupang.com/ko/center/coupang/",
+      "https://www.coupang.com/np/policies/terms"
+    ]
+  },
+  "facebook": {
+    "name": "Facebook",
+    "urls": [
+      "https://www.facebook.com/legal/terms",
+      "https://www.facebook.com/privacy/policy/"
+    ]
+  },
+  "threads": {
+    "name": "Threads",
+    "urls": [
+      "https://help.instagram.com/769983657850450",
+      "https://privacycenter.instagram.com/policy/"
+    ]
+  },
+  "x": {
+    "name": "X",
+    "urls": [
+      "https://x.com/en/privacy",
+      "https://x.com/en/tos"
+    ]
+  },
+  "linkedin": {
+    "name": "LinkedIn",
+    "urls": [
+      "https://www.linkedin.com/legal/privacy-policy",
+      "https://www.linkedin.com/legal/user-agreement"
+    ]
+  },
+  "reddit": {
+    "name": "Reddit",
+    "urls": [
+      "https://redditinc.com/policies/privacy-policy",
+      "https://redditinc.com/policies/user-agreement"
+    ]
+  },
+  "pinterest": {
+    "name": "Pinterest",
+    "urls": [
+      "https://policy.pinterest.com/en/privacy-policy",
+      "https://policy.pinterest.com/en/terms-of-service"
+    ]
+  },
+  "snapchat": {
+    "name": "Snapchat",
+    "urls": [
+      "https://values.snap.com/privacy/privacy-policy",
+      "https://www.snap.com/terms"
+    ]
+  },
+  "kakaotalk": {
+    "name": "카카오톡",
+    "urls": [
+      "https://www.kakao.com/policy/privacy?lang=ko",
+      "https://www.kakao.com/policy/terms?lang=ko"
+    ]
+  },
+  "line": {
+    "name": "LINE",
+    "urls": [
+      "https://terms.line.me/line_rules?lang=ko",
+      "https://terms.line.me/line_terms?lang=ko"
+    ]
+  },
+  "telegram": {
+    "name": "Telegram",
+    "urls": [
+      "https://telegram.org/privacy",
+      "https://telegram.org/tos"
+    ]
+  },
+  "twitch": {
+    "name": "Twitch",
+    "urls": [
+      "https://legal.twitch.com/en/legal/terms-of-service/",
+      "https://www.twitch.tv/p/en/legal/privacy-notice/",
+      "https://www.twitch.tv/p/en/legal/terms-of-service/"
+    ]
+  },
+  "disneyplus": {
+    "name": "Disney+",
+    "urls": [
+      "https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/",
+      "https://www.disneyplus.com/legal/subscriber-agreement"
+    ]
+  },
+  "watcha": {
+    "name": "왓챠",
+    "urls": [
+      "https://watcha.com/ko-KR/legals/play_agreement",
+      "https://watcha.com/privacy",
+      "https://watcha.com/terms"
+    ]
+  },
+  "tving": {
+    "name": "TVING",
+    "urls": [
+      "https://www.tving.com/policy/privacy",
+      "https://www.tving.com/policy/terms"
+    ]
+  },
+  "wavve": {
+    "name": "Wavve",
+    "urls": [
+      "https://www.wavve.com/customer/agreement/privacy",
+      "https://www.wavve.com/customer/agreement/terms"
+    ]
+  },
+  "appletv": {
+    "name": "Apple TV+",
+    "urls": [
+      "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+      "https://www.apple.com/legal/internet-services/itunes/ww/",
+      "https://www.apple.com/legal/privacy/"
+    ]
+  },
+  "primevideo": {
+    "name": "Prime Video",
+    "urls": [
+      "https://www.amazon.com/privacy",
+      "https://www.primevideo.com/help?nodeId=202095490"
+    ]
+  },
+  "applemusic": {
+    "name": "Apple Music",
+    "urls": [
+      "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+      "https://www.apple.com/legal/internet-services/itunes/ww/",
+      "https://www.apple.com/legal/privacy/"
+    ]
+  },
+  "melon": {
+    "name": "멜론",
+    "urls": [
+      "https://info.melon.com/terms/web/terms1_1.html",
+      "https://info.melon.com/terms/web/terms3.html"
+    ]
+  },
+  "soundcloud": {
+    "name": "SoundCloud",
+    "urls": [
+      "https://soundcloud.com/pages/privacy",
+      "https://soundcloud.com/terms-of-use"
+    ]
+  },
+  "aliexpress": {
+    "name": "AliExpress",
+    "urls": [
+      "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress202102181141_56155.html",
+      "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress202109291856_35940.html"
+    ]
+  },
+  "shein": {
+    "name": "SHEIN",
+    "urls": [
+      "https://www.shein.com/Privacy-Security-Policy-a-282.html",
+      "https://www.shein.com/Terms-and-Conditions-a-399.html"
+    ]
+  },
+  "musinsa": {
+    "name": "무신사",
+    "urls": [
+      "https://www.musinsa.com/app/company/terms?termsNo=1",
+      "https://www.musinsa.com/app/company/terms?termsNo=2"
+    ]
+  },
+  "zigzag": {
+    "name": "지그재그",
+    "urls": [
+      "https://cf.res.s.zigzag.kr/terms/user/privacy.html",
+      "https://cf.res.s.zigzag.kr/terms/user/service.html",
+      "https://zigzag.kr/terms/privacy-policy",
+      "https://zigzag.kr/terms/user-terms"
+    ]
+  },
+  "elevenst": {
+    "name": "11번가",
+    "urls": [
+      "https://privacy.11st.co.kr/",
+      "https://www.11st.co.kr/browsing/MallshopInfo.tmall?method=terms"
+    ]
+  },
+  "gmarket": {
+    "name": "G마켓",
+    "urls": [
+      "https://member2.gmarket.co.kr/TermsPolicy/BuyerTermsPolicy",
+      "https://member2.gmarket.co.kr/TermsPolicy/PrivacyPolicy",
+      "https://policy.gmarket.co.kr/terms-policy/buyer-use"
+    ]
+  },
+  "ssg": {
+    "name": "SSG.COM",
+    "urls": [
+      "https://www.ssg.com/customer/policies/privacy.ssg",
+      "https://www.ssg.com/customer/policies/terms.ssg"
+    ]
+  },
+  "baemin": {
+    "name": "배달의민족",
+    "urls": [
+      "https://terms.baemin.com/terms/2026/9/2725_20260930033022606.html",
+      "https://www.baemin.com/service-policy/privacy",
+      "https://www.baemin.com/service-policy/terms"
+    ]
+  },
+  "yogiyo": {
+    "name": "요기요",
+    "urls": [
+      "https://www.yogiyo.co.kr/mobile/#/policy/privacy",
+      "https://www.yogiyo.co.kr/mobile/#/policy/terms"
+    ]
+  },
+  "google": {
+    "name": "Google",
+    "urls": [
+      "https://policies.google.com/privacy",
+      "https://policies.google.com/privacy?hl=ko",
+      "https://policies.google.com/terms"
+    ]
+  },
+  "microsoft": {
+    "name": "Microsoft",
+    "urls": [
+      "https://privacy.microsoft.com/privacystatement",
+      "https://www.microsoft.com/ko-kr/servicesagreement",
+      "https://www.microsoft.com/servicesagreement"
+    ]
+  },
+  "apple": {
+    "name": "Apple iCloud",
+    "urls": [
+      "https://www.apple.com/legal/internet-services/icloud/en/terms.html",
+      "https://www.apple.com/legal/internet-services/icloud/kr/terms.html",
+      "https://www.apple.com/legal/privacy/"
+    ]
+  },
+  "dropbox": {
+    "name": "Dropbox",
+    "urls": [
+      "https://www.dropbox.com/privacy",
+      "https://www.dropbox.com/terms"
+    ]
+  },
+  "notion": {
+    "name": "Notion",
+    "urls": [
+      "https://www.notion.com/help/notion-ai-security-practices",
+      "https://www.notion.so/privacy",
+      "https://www.notion.so/terms"
+    ]
+  },
+  "slack": {
+    "name": "Slack",
+    "urls": [
+      "https://slack.com/intl/ko-kr/terms-of-service/user",
+      "https://slack.com/terms-of-service",
+      "https://slack.com/trust/privacy/privacy-policy"
+    ]
+  },
+  "zoom": {
+    "name": "Zoom",
+    "urls": [
+      "https://www.zoom.com/en/trust/privacy/privacy-statement/",
+      "https://www.zoom.com/en/trust/terms/"
+    ]
+  },
+  "canva": {
+    "name": "Canva",
+    "urls": [
+      "https://www.canva.com/policies/privacy-policy/",
+      "https://www.canva.com/policies/terms-of-use/"
+    ]
+  },
+  "airbnb": {
+    "name": "Airbnb",
+    "urls": [
+      "https://www.airbnb.com/help/article/2855",
+      "https://www.airbnb.com/help/article/2908"
+    ]
+  },
+  "booking": {
+    "name": "Booking.com",
+    "urls": [
+      "https://www.booking.com/content/privacy.html",
+      "https://www.booking.com/content/terms.html"
+    ]
+  },
+  "tripcom": {
+    "name": "Trip.com",
+    "urls": [
+      "https://www.trip.com/contents/service-guideline/privacy-policy.html",
+      "https://www.trip.com/contents/service-guideline/terms.html"
+    ]
+  },
+  "uber": {
+    "name": "Uber",
+    "urls": [
+      "https://www.uber.com/legal/privacy/users/kr/",
+      "https://www.uber.com/legal/terms/kr/"
+    ]
+  },
+  "kakaot": {
+    "name": "카카오 T",
+    "urls": [
+      "https://service.kakaomobility.com/terms?type=privacy",
+      "https://service.kakaomobility.com/terms?type=service"
+    ]
+  },
+  "mastodon": {
+    "name": "Mastodon",
+    "urls": [
+      "https://mastodon.social/privacy-policy",
+      "https://mastodon.social/terms"
+    ]
+  },
+  "bluesky": {
+    "name": "Bluesky",
+    "urls": [
+      "https://bsky.social/about/support/privacy-policy",
+      "https://bsky.social/about/support/tos"
+    ]
+  },
+  "tumblr": {
+    "name": "Tumblr",
+    "urls": [
+      "https://www.tumblr.com/policy/en/terms-of-service",
+      "https://www.tumblr.com/privacy/en"
+    ]
+  },
+  "quora": {
+    "name": "Quora",
+    "urls": [
+      "https://www.quora.com/about/privacy",
+      "https://www.quora.com/about/tos"
+    ]
+  },
+  "medium": {
+    "name": "Medium",
+    "urls": [
+      "https://policy.medium.com/medium-privacy-policy-f03bf92035c9",
+      "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+      "https://policy.medium.com/paid-terms-of-service-cc7f8e165178"
+    ]
+  },
+  "vimeo": {
+    "name": "Vimeo",
+    "urls": [
+      "https://vimeo.com/legal/",
+      "https://vimeo.com/privacy",
+      "https://vimeo.com/terms"
+    ]
+  },
+  "flickr": {
+    "name": "Flickr",
+    "urls": [
+      "https://www.flickr.com/help/privacy",
+      "https://www.flickr.com/help/terms"
+    ]
+  },
+  "weverse": {
+    "name": "Weverse",
+    "urls": [
+      "https://weverse.io/policies/privacy",
+      "https://weverse.io/policies/terms"
+    ]
+  },
+  "band": {
+    "name": "NAVER BAND",
+    "urls": [
+      "https://band.us/policy/privacy",
+      "https://band.us/policy/terms"
+    ]
+  },
+  "kakaostory": {
+    "name": "카카오스토리",
+    "urls": [
+      "https://www.kakao.com/policy/privacy?lang=ko",
+      "https://www.kakao.com/policy/terms?lang=ko"
+    ]
+  },
+  "signal": {
+    "name": "Signal",
+    "urls": [
+      "https://signal.org/legal/"
+    ]
+  },
+  "nextdoor": {
+    "name": "Nextdoor",
+    "urls": [
+      "https://help.nextdoor.com/s/article/Privacy-Policy",
+      "https://help.nextdoor.com/s/article/Terms-of-Service"
+    ]
+  },
+  "clubhouse": {
+    "name": "Clubhouse",
+    "urls": [
+      "https://www.clubhouse.com/privacy",
+      "https://www.clubhouse.com/terms"
+    ]
+  },
+  "behance": {
+    "name": "Behance",
+    "urls": [
+      "https://www.adobe.com/legal/terms.html",
+      "https://www.adobe.com/privacy/policy.html"
+    ]
+  },
+  "deviantart": {
+    "name": "DeviantArt",
+    "urls": [
+      "https://www.deviantart.com/about/policy/privacy",
+      "https://www.deviantart.com/about/policy/service"
+    ]
+  },
+  "hulu": {
+    "name": "Hulu",
+    "urls": [
+      "https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/",
+      "https://www.hulu.com/terms"
+    ]
+  },
+  "max": {
+    "name": "Max",
+    "urls": [
+      "https://www.max.com/terms-of-use",
+      "https://www.warnermediaprivacy.com/policycenter/b2c/"
+    ]
+  },
+  "paramountplus": {
+    "name": "Paramount+",
+    "urls": [
+      "https://privacy.paramount.com/policy",
+      "https://www.paramountplus.com/legal/terms-of-use/"
+    ]
+  },
+  "peacock": {
+    "name": "Peacock",
+    "urls": [
+      "https://www.nbcuniversal.com/privacy",
+      "https://www.peacocktv.com/terms"
+    ]
+  },
+  "crunchyroll": {
+    "name": "Crunchyroll",
+    "urls": [
+      "https://www.crunchyroll.com/privacy",
+      "https://www.crunchyroll.com/tos"
+    ]
+  },
+  "viki": {
+    "name": "Rakuten Viki",
+    "urls": [
+      "https://www.viki.com/privacy",
+      "https://www.viki.com/terms_of_use"
+    ]
+  },
+  "deezer": {
+    "name": "Deezer",
+    "urls": [
+      "https://www.deezer.com/legal/cgu",
+      "https://www.deezer.com/legal/personal-datas"
+    ]
+  },
+  "tidal": {
+    "name": "TIDAL",
+    "urls": [
+      "https://tidal.com/privacy",
+      "https://tidal.com/terms"
+    ]
+  },
+  "amazonmusic": {
+    "name": "Amazon Music",
+    "urls": [
+      "https://www.amazon.com/gp/help/customer/display.html?nodeId=201380010",
+      "https://www.amazon.com/privacy"
+    ]
+  },
+  "audible": {
+    "name": "Audible",
+    "urls": [
+      "https://www.audible.com/legal/conditions-of-use",
+      "https://www.audible.com/legal/privacy-notice"
+    ]
+  },
+  "bugs": {
+    "name": "벅스",
+    "urls": [
+      "https://music.bugs.co.kr/rules/privacy",
+      "https://music.bugs.co.kr/rules/use"
+    ]
+  },
+  "genie": {
+    "name": "지니뮤직",
+    "urls": [
+      "https://www.genie.co.kr/guide/privacy",
+      "https://www.genie.co.kr/guide/userAgreement"
+    ]
+  },
+  "flo": {
+    "name": "FLO",
+    "urls": [
+      "https://www.music-flo.com/policy/privacy",
+      "https://www.music-flo.com/policy/terms"
+    ]
+  },
+  "webtoon": {
+    "name": "WEBTOON",
+    "urls": [
+      "https://www.webtoons.com/en/terms",
+      "https://www.webtoons.com/en/terms/privacyPolicy"
+    ]
+  },
+  "kakaopage": {
+    "name": "카카오페이지",
+    "urls": [
+      "https://policy.kakao.com/terms?type=service",
+      "https://www.kakao.com/policy/privacy?lang=ko"
+    ]
+  },
+  "amazon": {
+    "name": "Amazon",
+    "urls": [
+      "https://www.amazon.com/gp/help/customer/display.html?nodeId=GLSBYFE9MGKKQXXM",
+      "https://www.amazon.com/privacy"
+    ]
+  },
+  "ebay": {
+    "name": "eBay",
+    "urls": [
+      "https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement",
+      "https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy"
+    ]
+  },
+  "etsy": {
+    "name": "Etsy",
+    "urls": [
+      "https://www.etsy.com/legal/privacy/",
+      "https://www.etsy.com/legal/terms-of-use/"
+    ]
+  },
+  "walmart": {
+    "name": "Walmart",
+    "urls": [
+      "https://corporate.walmart.com/privacy-security/walmart-privacy-notice",
+      "https://www.walmart.com/help/article/walmart-com-terms-of-use/3b75080af40340d6bbd596f116fae5a0"
+    ]
+  },
+  "target": {
+    "name": "Target",
+    "urls": [
+      "https://www.target.com/c/target-privacy-policy/-/N-4sr7p",
+      "https://www.target.com/c/terms-conditions/-/N-4sr7l"
+    ]
+  },
+  "rakuten": {
+    "name": "Rakuten",
+    "urls": [
+      "https://www.rakuten.com/help/article/privacy-policy-360002101608",
+      "https://www.rakuten.com/help/article/terms-conditions-360002101688"
+    ]
+  },
+  "qoo10": {
+    "name": "Qoo10",
+    "urls": [
+      "https://www.qoo10.com/gmkt.inc/Company/PrivacyPolicy.aspx",
+      "https://www.qoo10.com/gmkt.inc/Company/UserAgreement.aspx"
+    ]
+  },
+  "mercadolibre": {
+    "name": "Mercado Libre",
+    "urls": [
+      "https://www.mercadolibre.com/legal/privacy",
+      "https://www.mercadolibre.com/legal/terms-and-conditions"
+    ]
+  },
+  "poshmark": {
+    "name": "Poshmark",
+    "urls": [
+      "https://poshmark.com/privacy",
+      "https://poshmark.com/terms"
+    ]
+  },
+  "depop": {
+    "name": "Depop",
+    "urls": [
+      "https://depophelp.zendesk.com/hc/en-gb/articles/360001773148-Terms-of-Service",
+      "https://depophelp.zendesk.com/hc/en-gb/articles/360001792007-Privacy-Policy"
+    ]
+  },
+  "stockx": {
+    "name": "StockX",
+    "urls": [
+      "https://stockx.com/privacy",
+      "https://stockx.com/terms"
+    ]
+  },
+  "kream": {
+    "name": "KREAM",
+    "urls": [
+      "https://kream.co.kr/agreement",
+      "https://kream.co.kr/privacy"
+    ]
+  },
+  "navershopping": {
+    "name": "네이버쇼핑",
+    "urls": [
+      "https://policy.naver.com/policy/privacy.html",
+      "https://policy.naver.com/rules/service.html"
+    ]
+  },
+  "kurly": {
+    "name": "마켓컬리",
+    "urls": [
+      "https://www.kurly.com/introduce/privacy",
+      "https://www.kurly.com/introduce/terms"
+    ]
+  },
+  "lotteon": {
+    "name": "롯데ON",
+    "urls": [
+      "https://www.lotteon.com/p/display/terms/privacy",
+      "https://www.lotteon.com/p/display/terms/terms"
+    ]
+  },
+  "homeplus": {
+    "name": "홈플러스",
+    "urls": [
+      "https://front.homeplus.co.kr/privacy",
+      "https://front.homeplus.co.kr/terms"
+    ]
+  },
+  "ikea": {
+    "name": "IKEA",
+    "urls": [
+      "https://www.ikea.com/us/en/customer-service/privacy-policy/",
+      "https://www.ikea.com/us/en/customer-service/terms-conditions/"
+    ]
+  },
+  "sephora": {
+    "name": "Sephora",
+    "urls": [
+      "https://www.sephora.com/beauty/privacy-policy",
+      "https://www.sephora.com/beauty/terms-of-use"
+    ]
+  },
+  "oliveyoung": {
+    "name": "올리브영",
+    "urls": [
+      "https://www.oliveyoung.co.kr/store/company/privacy.do",
+      "https://www.oliveyoung.co.kr/store/company/terms.do"
+    ]
+  },
+  "daiso": {
+    "name": "다이소몰",
+    "urls": [
+      "https://www.daisomall.co.kr/terms/privacy",
+      "https://www.daisomall.co.kr/terms/use"
+    ]
+  },
+  "github": {
+    "name": "GitHub",
+    "urls": [
+      "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+      "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
+      "https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
+    ]
+  },
+  "gitlab": {
+    "name": "GitLab",
+    "urls": [
+      "https://about.gitlab.com/privacy/",
+      "https://about.gitlab.com/terms/",
+      "https://handbook.gitlab.com/handbook/legal/subscription-agreement/"
+    ]
+  },
+  "atlassian": {
+    "name": "Atlassian",
+    "urls": [
+      "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "https://www.atlassian.com/legal/cloud-terms-of-service",
+      "https://www.atlassian.com/legal/privacy-policy"
+    ]
+  },
+  "trello": {
+    "name": "Trello",
+    "urls": [
+      "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "https://www.atlassian.com/legal/cloud-terms-of-service",
+      "https://www.atlassian.com/legal/privacy-policy"
+    ]
+  },
+  "asana": {
+    "name": "Asana",
+    "urls": [
+      "https://asana.com/terms",
+      "https://asana.com/terms#privacy-policy"
+    ]
+  },
+  "clickup": {
+    "name": "ClickUp",
+    "urls": [
+      "https://clickup.com/privacy",
+      "https://clickup.com/terms"
+    ]
+  },
+  "monday": {
+    "name": "monday.com",
+    "urls": [
+      "https://monday.com/l/privacy/privacy-policy/",
+      "https://monday.com/l/terms-of-service/"
+    ]
+  },
+  "figma": {
+    "name": "Figma",
+    "urls": [
+      "https://www.figma.com/legal/privacy/",
+      "https://www.figma.com/legal/tos/"
+    ]
+  },
+  "miro": {
+    "name": "Miro",
+    "urls": [
+      "https://miro.com/legal/privacy-policy/",
+      "https://miro.com/legal/terms-of-service/"
+    ]
+  },
+  "evernote": {
+    "name": "Evernote",
+    "urls": [
+      "https://evernote.com/legal/terms-of-service",
+      "https://evernote.com/privacy/policy"
+    ]
+  },
+  "todoist": {
+    "name": "Todoist",
+    "urls": [
+      "https://doist.com/privacy",
+      "https://doist.com/terms-of-service",
+      "https://www.todoist.com/terms-of-service"
+    ]
+  },
+  "box": {
+    "name": "Box",
+    "urls": [
+      "https://www.box.com/legal/privacypolicy",
+      "https://www.box.com/legal/termsofservice"
+    ]
+  },
+  "adobe": {
+    "name": "Adobe",
+    "urls": [
+      "https://www.adobe.com/kr/legal/subscription-terms.html",
+      "https://www.adobe.com/legal/terms.html",
+      "https://www.adobe.com/privacy/policy.html"
+    ]
+  },
+  "docusign": {
+    "name": "DocuSign",
+    "urls": [
+      "https://www.docusign.com/company/terms-and-conditions/web",
+      "https://www.docusign.com/privacy"
+    ]
+  },
+  "grammarly": {
+    "name": "Grammarly",
+    "urls": [
+      "https://www.grammarly.com/privacy-policy",
+      "https://www.grammarly.com/terms"
+    ]
+  },
+  "calendly": {
+    "name": "Calendly",
+    "urls": [
+      "https://calendly.com/legal/customer-terms-conditions",
+      "https://calendly.com/legal/privacy-notice",
+      "https://calendly.com/legal/terms"
+    ]
+  },
+  "chatgpt": {
+    "name": "ChatGPT",
+    "urls": [
+      "https://openai.com/policies/privacy-policy/",
+      "https://openai.com/policies/terms-of-use/"
+    ]
+  },
+  "claude": {
+    "name": "Claude",
+    "urls": [
+      "https://www.anthropic.com/legal/consumer-terms",
+      "https://www.anthropic.com/legal/privacy"
+    ]
+  },
+  "perplexity": {
+    "name": "Perplexity",
+    "urls": [
+      "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "https://www.perplexity.ai/hub/legal/terms-of-service"
+    ]
+  },
+  "gemini": {
+    "name": "Google Gemini",
+    "urls": [
+      "https://policies.google.com/privacy",
+      "https://policies.google.com/terms"
+    ]
+  },
+  "expedia": {
+    "name": "Expedia",
+    "urls": [
+      "https://www.expedia.com/lp/b/terms-of-service",
+      "https://www.expedia.com/lp/lg-privacypolicy",
+      "https://www.expedia.com/lp/lg-terms"
+    ]
+  },
+  "agoda": {
+    "name": "Agoda",
+    "urls": [
+      "https://www.agoda.com/info/privacy.html",
+      "https://www.agoda.com/info/termsofuse.html"
+    ]
+  },
+  "hotelscom": {
+    "name": "Hotels.com",
+    "urls": [
+      "https://www.hotels.com/lp/b/privacy",
+      "https://www.hotels.com/lp/b/terms-of-service"
+    ]
+  },
+  "kayak": {
+    "name": "KAYAK",
+    "urls": [
+      "https://www.kayak.com/privacy",
+      "https://www.kayak.com/terms-of-use"
+    ]
+  },
+  "skyscanner": {
+    "name": "Skyscanner",
+    "urls": [
+      "https://www.skyscanner.com/privacy-policy",
+      "https://www.skyscanner.com/terms-of-service"
+    ]
+  },
+  "tripadvisor": {
+    "name": "Tripadvisor",
+    "urls": [
+      "https://tripadvisor.mediaroom.com/privacy-policy",
+      "https://tripadvisor.mediaroom.com/terms-of-use"
+    ]
+  },
+  "lyft": {
+    "name": "Lyft",
+    "urls": [
+      "https://www.lyft.com/privacy",
+      "https://www.lyft.com/terms"
+    ]
+  },
+  "grab": {
+    "name": "Grab",
+    "urls": [
+      "https://www.grab.com/terms-policies/privacy-policy/",
+      "https://www.grab.com/terms-policies/terms/"
+    ]
+  },
+  "bolt": {
+    "name": "Bolt",
+    "urls": [
+      "https://bolt.eu/en/legal/privacy-for-riders/",
+      "https://bolt.eu/en/legal/terms-for-riders/"
+    ]
+  },
+  "turo": {
+    "name": "Turo",
+    "urls": [
+      "https://turo.com/us/en/policies/privacy",
+      "https://turo.com/us/en/policies/terms"
+    ]
+  },
+  "klook": {
+    "name": "Klook",
+    "urls": [
+      "https://www.klook.com/conditions/",
+      "https://www.klook.com/policy/"
+    ]
+  },
+  "myrealtrip": {
+    "name": "마이리얼트립",
+    "urls": [
+      "https://www.myrealtrip.com/about/privacy",
+      "https://www.myrealtrip.com/about/terms"
+    ]
+  },
+  "yeogi": {
+    "name": "여기어때",
+    "urls": [
+      "https://www.yeogi.com/more/privacy",
+      "https://www.yeogi.com/more/terms"
+    ]
+  },
+  "yanolja": {
+    "name": "야놀자",
+    "urls": [
+      "https://policy.yanolja.com/privacy",
+      "https://policy.yanolja.com/terms"
+    ]
+  },
+  "korail": {
+    "name": "코레일",
+    "urls": [
+      "https://www.letskorail.com/ebizcom/cs/guide/guide/guide11.do",
+      "https://www.letskorail.com/ebizcom/cs/guide/guide/guide12.do"
+    ]
+  },
+  "steam": {
+    "name": "Steam",
+    "urls": [
+      "https://store.steampowered.com/privacy_agreement/",
+      "https://store.steampowered.com/subscriber_agreement/"
+    ]
+  },
+  "epicgames": {
+    "name": "Epic Games",
+    "urls": [
+      "https://legal.epicgames.com/epicgames/tos",
+      "https://legal.epicgames.com/store/refund-policy",
+      "https://www.epicgames.com/site/en-US/privacypolicy",
+      "https://www.epicgames.com/site/en-US/tos"
+    ]
+  },
+  "playstation": {
+    "name": "PlayStation",
+    "urls": [
+      "https://www.playstation.com/ko-kr/legal/terms-of-service/",
+      "https://www.playstation.com/legal/privacy-policy/",
+      "https://www.playstation.com/legal/psn-terms-of-service/"
+    ]
+  },
+  "xbox": {
+    "name": "Xbox",
+    "urls": [
+      "https://privacy.microsoft.com/privacystatement",
+      "https://www.microsoft.com/ko-kr/servicesagreement",
+      "https://www.microsoft.com/servicesagreement"
+    ]
+  },
+  "nintendo": {
+    "name": "Nintendo",
+    "urls": [
+      "https://www.nintendo.com/us/privacy-policy/",
+      "https://www.nintendo.com/us/terms-of-use/"
+    ]
+  },
+  "roblox": {
+    "name": "Roblox",
+    "urls": [
+      "https://en.help.roblox.com/hc/en-us/articles/115004630823-Roblox-Privacy-and-Cookie-Policy",
+      "https://en.help.roblox.com/hc/en-us/articles/115004647846-Roblox-Terms-of-Use"
+    ]
+  },
+  "riotgames": {
+    "name": "Riot Games",
+    "urls": [
+      "https://www.riotgames.com/en/privacy-notice",
+      "https://www.riotgames.com/en/terms-of-service"
+    ]
+  },
+  "battlenet": {
+    "name": "Battle.net",
+    "urls": [
+      "https://www.blizzard.com/legal/a8b9467d-1f22-4f2c-a3fc-35c511b16e7d/blizzard-entertainment-privacy-policy",
+      "https://www.blizzard.com/legal/fba4d00f-c7e4-4883-b8b9-1b4500a402ea/blizzard-end-user-license-agreement"
+    ]
+  },
+  "ea": {
+    "name": "Electronic Arts",
+    "urls": [
+      "https://www.ea.com/legal/privacy-and-cookie-policy",
+      "https://www.ea.com/legal/user-agreement"
+    ]
+  },
+  "ubisoft": {
+    "name": "Ubisoft",
+    "urls": [
+      "https://legal.ubi.com/privacypolicy/en-US",
+      "https://legal.ubi.com/termsofuse/en-US",
+      "https://www.ubisoft.com/legal/documents/termsofuse/en-US"
+    ]
+  },
+  "nexon": {
+    "name": "넥슨",
+    "urls": [
+      "https://member.nexon.com/policy/privacy.aspx",
+      "https://member.nexon.com/policy/stipulation.aspx"
+    ]
+  },
+  "duolingo": {
+    "name": "Duolingo",
+    "urls": [
+      "https://www.duolingo.com/privacy",
+      "https://www.duolingo.com/terms"
+    ]
+  },
+  "coursera": {
+    "name": "Coursera",
+    "urls": [
+      "https://www.coursera.org/about/privacy",
+      "https://www.coursera.org/about/terms"
+    ]
+  },
+  "udemy": {
+    "name": "Udemy",
+    "urls": [
+      "https://www.udemy.com/terms/",
+      "https://www.udemy.com/terms/privacy/"
+    ]
+  },
+  "quizlet": {
+    "name": "Quizlet",
+    "urls": [
+      "https://quizlet.com/privacy",
+      "https://quizlet.com/tos"
+    ]
+  },
+  "whatsapp": {
+    "name": "WhatsApp",
+    "urls": [
+      "https://www.whatsapp.com/legal/privacy-policy",
+      "https://www.whatsapp.com/legal/terms-of-service"
+    ]
+  },
+  "messenger": {
+    "name": "Messenger",
+    "urls": [
+      "https://www.facebook.com/legal/terms",
+      "https://www.facebook.com/privacy/policy/"
+    ]
+  },
+  "wechat": {
+    "name": "WeChat",
+    "urls": [
+      "https://www.wechat.com/en/privacy_policy.html",
+      "https://www.wechat.com/en/service_terms.html"
+    ]
+  },
+  "qq": {
+    "name": "QQ",
+    "urls": [
+      "https://www.tencent.com/en-us/privacy-policy.html",
+      "https://www.tencent.com/en-us/statement.html"
+    ]
+  },
+  "viber": {
+    "name": "Viber",
+    "urls": [
+      "https://www.viber.com/en/terms/viber-terms-use/",
+      "https://www.viber.com/terms/viber-privacy-policy/",
+      "https://www.viber.com/terms/viber-terms-use/"
+    ]
+  },
+  "imo": {
+    "name": "imo",
+    "urls": [
+      "https://imo.im/privacy",
+      "https://imo.im/terms"
+    ]
+  },
+  "meetup": {
+    "name": "Meetup",
+    "urls": [
+      "https://www.meetup.com/privacy/",
+      "https://www.meetup.com/terms/"
+    ]
+  },
+  "vk": {
+    "name": "VK",
+    "urls": [
+      "https://vk.com/privacy",
+      "https://vk.com/terms"
+    ]
+  },
+  "okru": {
+    "name": "OK",
+    "urls": [
+      "https://ok.ru/privacy",
+      "https://ok.ru/regulations"
+    ]
+  },
+  "truthsocial": {
+    "name": "Truth Social",
+    "urls": [
+      "https://truthsocial.com/privacy-policy",
+      "https://truthsocial.com/terms-of-service"
+    ]
+  },
+  "parler": {
+    "name": "Parler",
+    "urls": [
+      "https://parler.com/privacy-policy",
+      "https://parler.com/terms-of-service"
+    ]
+  },
+  "gab": {
+    "name": "Gab",
+    "urls": [
+      "https://gab.com/about/privacy",
+      "https://gab.com/about/tos"
+    ]
+  },
+  "lemmy": {
+    "name": "Lemmy",
+    "urls": [
+      "https://join-lemmy.org/"
+    ]
+  },
+  "fivehundredpx": {
+    "name": "500px",
+    "urls": [
+      "https://500px.com/privacy",
+      "https://500px.com/terms"
+    ]
+  },
+  "imgur": {
+    "name": "Imgur",
+    "urls": [
+      "https://imgur.com/privacy",
+      "https://imgur.com/tos"
+    ]
+  },
+  "giphy": {
+    "name": "GIPHY",
+    "urls": [
+      "https://support.giphy.com/hc/en-us/articles/360020027752-GIPHY-Terms-of-Service",
+      "https://support.giphy.com/hc/en-us/articles/360020027752-GIPHY-User-Terms-of-Service",
+      "https://support.giphy.com/hc/en-us/articles/360032872931-GIPHY-Privacy-Policy"
+    ]
+  },
+  "dribbble": {
+    "name": "Dribbble",
+    "urls": [
+      "https://dribbble.com/privacy",
+      "https://dribbble.com/terms"
+    ]
+  },
+  "artstation": {
+    "name": "ArtStation",
+    "urls": [
+      "https://www.artstation.com/privacy",
+      "https://www.artstation.com/tos"
+    ]
+  },
+  "patreon": {
+    "name": "Patreon",
+    "urls": [
+      "https://privacy.patreon.com/policies",
+      "https://www.patreon.com/policy/legal"
+    ]
+  },
+  "kofi": {
+    "name": "Ko-fi",
+    "urls": [
+      "https://more.ko-fi.com/privacy",
+      "https://more.ko-fi.com/terms"
+    ]
+  },
+  "buymeacoffee": {
+    "name": "Buy Me a Coffee",
+    "urls": [
+      "https://buymeacoffee.com/terms",
+      "https://www.buymeacoffee.com/privacy-policy",
+      "https://www.buymeacoffee.com/terms"
+    ]
+  },
+  "substack": {
+    "name": "Substack",
+    "urls": [
+      "https://substack.com/privacy",
+      "https://substack.com/tos"
+    ]
+  },
+  "wordpress": {
+    "name": "WordPress.com",
+    "urls": [
+      "https://automattic.com/privacy/",
+      "https://wordpress.com/tos/"
+    ]
+  },
+  "blogger": {
+    "name": "Blogger",
+    "urls": [
+      "https://policies.google.com/privacy",
+      "https://policies.google.com/terms"
+    ]
+  },
+  "disqus": {
+    "name": "Disqus",
+    "urls": [
+      "https://help.disqus.com/en/articles/1717102-terms-of-service",
+      "https://help.disqus.com/en/articles/1717103-disqus-privacy-policy"
+    ]
+  },
+  "youtubemusic": {
+    "name": "YouTube Music",
+    "urls": [
+      "https://policies.google.com/privacy",
+      "https://www.youtube.com/static?template=terms"
+    ]
+  },
+  "pandora": {
+    "name": "Pandora",
+    "urls": [
+      "https://www.siriusxm.com/legal",
+      "https://www.siriusxm.com/privacy"
+    ]
+  },
+  "iheartradio": {
+    "name": "iHeartRadio",
+    "urls": [
+      "https://www.iheart.com/privacy/",
+      "https://www.iheart.com/terms/"
+    ]
+  },
+  "tunein": {
+    "name": "TuneIn",
+    "urls": [
+      "https://tunein.com/policies/privacy/",
+      "https://tunein.com/policies/terms/"
+    ]
+  },
+  "plex": {
+    "name": "Plex",
+    "urls": [
+      "https://www.plex.tv/about/privacy-legal/",
+      "https://www.plex.tv/about/privacy-legal/plex-terms-of-service/"
+    ]
+  },
+  "roku": {
+    "name": "Roku",
+    "urls": [
+      "https://docs.roku.com/published/userprivacypolicy",
+      "https://docs.roku.com/published/userterms"
+    ]
+  },
+  "tubi": {
+    "name": "Tubi",
+    "urls": [
+      "https://tubitv.com/static/privacy",
+      "https://tubitv.com/static/terms"
+    ]
+  },
+  "plutotv": {
+    "name": "Pluto TV",
+    "urls": [
+      "https://privacy.paramount.com/policy"
+    ]
+  },
+  "mubi": {
+    "name": "MUBI",
+    "urls": [
+      "https://mubi.com/privacy_policy",
+      "https://mubi.com/terms_of_service"
+    ]
+  },
+  "criterion": {
+    "name": "Criterion Channel",
+    "urls": [
+      "https://www.criterionchannel.com/privacy",
+      "https://www.criterionchannel.com/terms"
+    ]
+  },
+  "discoveryplus": {
+    "name": "discovery+",
+    "urls": [
+      "https://www.discoveryplus.com/terms",
+      "https://www.wbdprivacy.com/policycenter/b2c/"
+    ]
+  },
+  "espnplus": {
+    "name": "ESPN+",
+    "urls": [
+      "https://disneytermsofuse.com/",
+      "https://privacy.thewaltdisneycompany.com/"
+    ]
+  },
+  "sling": {
+    "name": "Sling TV",
+    "urls": [
+      "https://www.sling.com/privacy",
+      "https://www.sling.com/terms-of-use"
+    ]
+  },
+  "fubotv": {
+    "name": "Fubo",
+    "urls": [
+      "https://www.fubo.tv/documents/privacy-policy",
+      "https://www.fubo.tv/documents/terms"
+    ]
+  },
+  "dazn": {
+    "name": "DAZN",
+    "urls": [
+      "https://www.dazn.com/en-US/help/articles/privacy",
+      "https://www.dazn.com/en-US/help/articles/terms"
+    ]
+  },
+  "soop": {
+    "name": "SOOP",
+    "urls": [
+      "https://www.sooplive.co.kr/policy/privacy",
+      "https://www.sooplive.co.kr/policy/terms"
+    ]
+  },
+  "chzzk": {
+    "name": "CHZZK",
+    "urls": [
+      "https://policy.naver.com/policy/privacy.html",
+      "https://policy.naver.com/policy/service.html"
+    ]
+  },
+  "kick": {
+    "name": "Kick",
+    "urls": [
+      "https://kick.com/privacy-policy",
+      "https://kick.com/terms-of-service"
+    ]
+  },
+  "storytel": {
+    "name": "Storytel",
+    "urls": [
+      "https://www.storytel.com/privacy",
+      "https://www.storytel.com/terms"
+    ]
+  },
+  "scribd": {
+    "name": "Everand",
+    "urls": [
+      "https://support.scribd.com/hc/en-us/articles/210129326-Terms-of-Use",
+      "https://support.scribd.com/hc/en-us/articles/210129366-Privacy-Policy"
+    ]
+  },
+  "podbean": {
+    "name": "Podbean",
+    "urls": [
+      "https://www.podbean.com/privacy",
+      "https://www.podbean.com/terms"
+    ]
+  },
+  "pocketcasts": {
+    "name": "Pocket Casts",
+    "urls": [
+      "https://automattic.com/privacy/",
+      "https://support.pocketcasts.com/knowledge-base/terms-of-use/"
+    ]
+  },
+  "castbox": {
+    "name": "Castbox",
+    "urls": [
+      "https://castbox.fm/policy/privacy.html",
+      "https://castbox.fm/policy/terms.html"
+    ]
+  },
+  "qobuz": {
+    "name": "Qobuz",
+    "urls": [
+      "https://www.qobuz.com/gb-en/legal/privacy",
+      "https://www.qobuz.com/gb-en/legal/terms"
+    ]
+  },
+  "bandcamp": {
+    "name": "Bandcamp",
+    "urls": [
+      "https://bandcamp.com/privacy",
+      "https://bandcamp.com/terms_of_use"
+    ]
+  },
+  "bestbuy": {
+    "name": "Best Buy",
+    "urls": [
+      "https://www.bestbuy.com/site/help-topics/privacy-policy/pcmcat204400050062.c",
+      "https://www.bestbuy.com/site/help-topics/terms-and-conditions/pcmcat204400050067.c"
+    ]
+  },
+  "homedepot": {
+    "name": "The Home Depot",
+    "urls": [
+      "https://www.homedepot.com/c/Terms_of_Use",
+      "https://www.homedepot.com/privacy/privacy-and-security-statement"
+    ]
+  },
+  "wayfair": {
+    "name": "Wayfair",
+    "urls": [
+      "https://www.wayfair.com/customerservice/general_info.php#privacy",
+      "https://www.wayfair.com/customerservice/general_info.php#terms"
+    ]
+  },
+  "wish": {
+    "name": "Wish",
+    "urls": [
+      "https://www.wish.com/privacy_policy",
+      "https://www.wish.com/terms"
+    ]
+  },
+  "zalando": {
+    "name": "Zalando",
+    "urls": [
+      "https://www.zalando.com/zalando-privacy-policy/",
+      "https://www.zalando.com/zalando-terms/"
+    ]
+  },
+  "asos": {
+    "name": "ASOS",
+    "urls": [
+      "https://www.asos.com/privacy-policy/",
+      "https://www.asos.com/terms-and-conditions/"
+    ]
+  },
+  "farfetch": {
+    "name": "FARFETCH",
+    "urls": [
+      "https://www.farfetch.com/privacy-policy.aspx",
+      "https://www.farfetch.com/terms-and-conditions.aspx"
+    ]
+  },
+  "uniqlo": {
+    "name": "UNIQLO",
+    "urls": [
+      "https://www.uniqlo.com/us/en/privacy-policy.html",
+      "https://www.uniqlo.com/us/en/terms-of-use.html"
+    ]
+  },
+  "hm": {
+    "name": "H&M",
+    "urls": [
+      "https://www2.hm.com/en_us/customer-service/legal-and-privacy/privacy-link.html",
+      "https://www2.hm.com/en_us/customer-service/legal-and-privacy/terms-and-conditions.html"
+    ]
+  },
+  "ably": {
+    "name": "에이블리",
+    "urls": [
+      "https://a-bly.com/privacy",
+      "https://a-bly.com/terms"
+    ]
+  },
+  "queenit": {
+    "name": "퀸잇",
+    "urls": [
+      "https://www.queenit.kr/privacy",
+      "https://www.queenit.kr/terms"
+    ]
+  },
+  "karrot": {
+    "name": "당근",
+    "urls": [
+      "https://www.daangn.com/policy/privacy",
+      "https://www.daangn.com/policy/terms"
+    ]
+  },
+  "bunjang": {
+    "name": "번개장터",
+    "urls": [
+      "https://terms.bunjang.co.kr/terms/privacy.html",
+      "https://terms.bunjang.co.kr/terms/service.html"
+    ]
+  },
+  "auction": {
+    "name": "옥션",
+    "urls": [
+      "https://member.auction.co.kr/Authenticate/Agreement.aspx",
+      "https://member.auction.co.kr/Authenticate/PrivacyPolicy.aspx"
+    ]
+  },
+  "coupangeats": {
+    "name": "쿠팡이츠",
+    "urls": [
+      "https://privacy.coupang.com/ko/center/coupang/",
+      "https://www.coupangeats.com/terms"
+    ]
+  },
+  "doordash": {
+    "name": "DoorDash",
+    "urls": [
+      "https://help.doordash.com/legal/document?type=dx-privacy-policy",
+      "https://help.doordash.com/legal/document?type=dx-terms-and-conditions"
+    ]
+  },
+  "instacart": {
+    "name": "Instacart",
+    "urls": [
+      "https://www.instacart.com/privacy",
+      "https://www.instacart.com/terms"
+    ]
+  },
+  "deliveroo": {
+    "name": "Deliveroo",
+    "urls": [
+      "https://deliveroo.co.uk/legal",
+      "https://deliveroo.co.uk/privacy"
+    ]
+  },
+  "foodpanda": {
+    "name": "foodpanda",
+    "urls": [
+      "https://www.foodpanda.com/privacy-policy/",
+      "https://www.foodpanda.com/terms-and-conditions/"
+    ]
+  },
+  "ubereats": {
+    "name": "Uber Eats",
+    "urls": [
+      "https://www.uber.com/legal/privacy/",
+      "https://www.uber.com/legal/terms/"
+    ]
+  },
+  "costco": {
+    "name": "Costco",
+    "urls": [
+      "https://www.costco.com/privacy-policy.html",
+      "https://www.costco.com/terms-and-conditions-of-use.html"
+    ]
+  },
+  "macys": {
+    "name": "Macy’s",
+    "urls": [
+      "https://www.macys.com/p/privacy-policy/",
+      "https://www.macys.com/p/terms-of-use/"
+    ]
+  },
+  "nordstrom": {
+    "name": "Nordstrom",
+    "urls": [
+      "https://www.nordstrom.com/browse/customer-service/policy/privacy",
+      "https://www.nordstrom.com/browse/customer-service/policy/terms-conditions"
+    ]
+  },
+  "iherb": {
+    "name": "iHerb",
+    "urls": [
+      "https://www.iherb.com/info/privacy",
+      "https://www.iherb.com/info/terms-of-use"
+    ]
+  },
+  "samsungshop": {
+    "name": "Samsung Shop",
+    "urls": [
+      "https://www.samsung.com/us/account/privacy-policy/",
+      "https://www.samsung.com/us/common/terms-conditions/"
+    ]
+  },
+  "onedrive": {
+    "name": "OneDrive",
+    "urls": [
+      "https://privacy.microsoft.com/privacystatement",
+      "https://www.microsoft.com/ko-kr/servicesagreement",
+      "https://www.microsoft.com/servicesagreement"
+    ]
+  },
+  "googleworkspace": {
+    "name": "Google Workspace",
+    "urls": [
+      "https://policies.google.com/privacy",
+      "https://workspace.google.com/terms/"
+    ]
+  },
+  "gmail": {
+    "name": "Gmail",
+    "urls": [
+      "https://policies.google.com/privacy",
+      "https://policies.google.com/terms"
+    ]
+  },
+  "outlook": {
+    "name": "Outlook",
+    "urls": [
+      "https://privacy.microsoft.com/privacystatement",
+      "https://www.microsoft.com/ko-kr/servicesagreement",
+      "https://www.microsoft.com/servicesagreement"
+    ]
+  },
+  "yahoomail": {
+    "name": "Yahoo Mail",
+    "urls": [
+      "https://legal.yahoo.com/us/en/yahoo/privacy/index.html",
+      "https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html"
+    ]
+  },
+  "protonmail": {
+    "name": "Proton Mail",
+    "urls": [
+      "https://proton.me/legal/privacy",
+      "https://proton.me/legal/terms"
+    ]
+  },
+  "protondrive": {
+    "name": "Proton Drive",
+    "urls": [
+      "https://proton.me/legal/privacy",
+      "https://proton.me/legal/terms"
+    ]
+  },
+  "wetransfer": {
+    "name": "WeTransfer",
+    "urls": [
+      "https://wetransfer.com/privacy",
+      "https://wetransfer.com/terms"
+    ]
+  },
+  "mega": {
+    "name": "MEGA",
+    "urls": [
+      "https://mega.io/privacy",
+      "https://mega.io/terms"
+    ]
+  },
+  "pcloud": {
+    "name": "pCloud",
+    "urls": [
+      "https://www.pcloud.com/privacy_policy.html",
+      "https://www.pcloud.com/terms_and_conditions.html"
+    ]
+  },
+  "linear": {
+    "name": "Linear",
+    "urls": [
+      "https://linear.app/privacy",
+      "https://linear.app/terms"
+    ]
+  },
+  "airtable": {
+    "name": "Airtable",
+    "urls": [
+      "https://www.airtable.com/company/privacy",
+      "https://www.airtable.com/company/terms",
+      "https://www.airtable.com/company/tos"
+    ]
+  },
+  "basecamp": {
+    "name": "Basecamp",
+    "urls": [
+      "https://37signals.com/policies/terms",
+      "https://basecamp.com/about/policies/privacy",
+      "https://basecamp.com/about/policies/terms"
+    ]
+  },
+  "smartsheet": {
+    "name": "Smartsheet",
+    "urls": [
+      "https://www.smartsheet.com/legal/privacy",
+      "https://www.smartsheet.com/legal/terms-of-use"
+    ]
+  },
+  "wrike": {
+    "name": "Wrike",
+    "urls": [
+      "https://www.wrike.com/security/privacy/",
+      "https://www.wrike.com/security/terms/"
+    ]
+  },
+  "zoho": {
+    "name": "Zoho",
+    "urls": [
+      "https://www.zoho.com/privacy.html",
+      "https://www.zoho.com/terms.html"
+    ]
+  },
+  "hubspot": {
+    "name": "HubSpot",
+    "urls": [
+      "https://legal.hubspot.com/legal-stuff",
+      "https://legal.hubspot.com/privacy-policy",
+      "https://legal.hubspot.com/terms-of-service"
+    ]
+  },
+  "salesforce": {
+    "name": "Salesforce",
+    "urls": [
+      "https://www.salesforce.com/company/legal/",
+      "https://www.salesforce.com/company/privacy/"
+    ]
+  },
+  "zendesk": {
+    "name": "Zendesk",
+    "urls": [
+      "https://www.zendesk.com/company/agreements-and-terms/",
+      "https://www.zendesk.com/company/agreements-and-terms/privacy-notice/"
+    ]
+  },
+  "intercom": {
+    "name": "Intercom",
+    "urls": [
+      "https://www.intercom.com/legal/privacy",
+      "https://www.intercom.com/legal/terms-and-policies"
+    ]
+  },
+  "mailchimp": {
+    "name": "Mailchimp",
+    "urls": [
+      "https://mailchimp.com/legal/terms/",
+      "https://www.intuit.com/privacy/statement/"
+    ]
+  },
+  "typeform": {
+    "name": "Typeform",
+    "urls": [
+      "https://admin.typeform.com/to/dwk6gt",
+      "https://www.typeform.com/help/a/terms-and-conditions-360029581691/",
+      "https://www.typeform.com/legal/ai-services"
+    ]
+  },
+  "jotform": {
+    "name": "Jotform",
+    "urls": [
+      "https://www.jotform.com/privacy/",
+      "https://www.jotform.com/terms/"
+    ]
+  },
+  "surveymonkey": {
+    "name": "SurveyMonkey",
+    "urls": [
+      "https://www.surveymonkey.com/mp/legal/privacy/",
+      "https://www.surveymonkey.com/mp/legal/terms-of-use/"
+    ]
+  },
+  "loom": {
+    "name": "Loom",
+    "urls": [
+      "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "https://www.loom.com/privacy-policy",
+      "https://www.loom.com/terms"
+    ]
+  },
+  "webex": {
+    "name": "Webex",
+    "urls": [
+      "https://www.cisco.com/c/en/us/about/legal/privacy-full.html",
+      "https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
+    ]
+  },
+  "teams": {
+    "name": "Microsoft Teams",
+    "urls": [
+      "https://privacy.microsoft.com/privacystatement",
+      "https://www.microsoft.com/servicesagreement"
+    ]
+  },
+  "googlemeet": {
+    "name": "Google Meet",
+    "urls": [
+      "https://policies.google.com/privacy",
+      "https://policies.google.com/terms"
+    ]
+  },
+  "obsidian": {
+    "name": "Obsidian",
+    "urls": [
+      "https://obsidian.md/privacy",
+      "https://obsidian.md/terms"
+    ]
+  },
+  "replit": {
+    "name": "Replit",
+    "urls": [
+      "https://replit.com/site/privacy",
+      "https://replit.com/site/terms",
+      "https://replit.com/terms-of-service"
+    ]
+  },
+  "codesandbox": {
+    "name": "CodeSandbox",
+    "urls": [
+      "https://codesandbox.io/legal/privacy",
+      "https://codesandbox.io/legal/terms"
+    ]
+  },
+  "vercel": {
+    "name": "Vercel",
+    "urls": [
+      "https://vercel.com/legal/privacy-policy",
+      "https://vercel.com/legal/terms"
+    ]
+  },
+  "netlify": {
+    "name": "Netlify",
+    "urls": [
+      "https://www.netlify.com/legal/terms-of-use/",
+      "https://www.netlify.com/pdf/self-serve-subscription-agreement.pdf/",
+      "https://www.netlify.com/privacy/"
+    ]
+  },
+  "cloudflare": {
+    "name": "Cloudflare",
+    "urls": [
+      "https://www.cloudflare.com/privacypolicy/",
+      "https://www.cloudflare.com/terms/"
+    ]
+  },
+  "digitalocean": {
+    "name": "DigitalOcean",
+    "urls": [
+      "https://www.digitalocean.com/legal/privacy-policy",
+      "https://www.digitalocean.com/legal/terms-of-service-agreement"
+    ]
+  },
+  "googlemaps": {
+    "name": "Google Maps",
+    "urls": [
+      "https://maps.google.com/help/terms_maps/",
+      "https://policies.google.com/privacy"
+    ]
+  },
+  "waze": {
+    "name": "Waze",
+    "urls": [
+      "https://www.waze.com/legal/privacy",
+      "https://www.waze.com/legal/tos"
+    ]
+  },
+  "citymapper": {
+    "name": "Citymapper",
+    "urls": [
+      "https://citymapper.com/privacy",
+      "https://citymapper.com/terms"
+    ]
+  },
+  "moovit": {
+    "name": "Moovit",
+    "urls": [
+      "https://moovitapp.com/privacy-policy/",
+      "https://moovitapp.com/terms-of-service/"
+    ]
+  },
+  "lime": {
+    "name": "Lime",
+    "urls": [
+      "https://www.li.me/privacy",
+      "https://www.li.me/user-agreement"
+    ]
+  },
+  "bird": {
+    "name": "Bird",
+    "urls": [
+      "https://www.bird.co/privacy",
+      "https://www.bird.co/terms"
+    ]
+  },
+  "getaround": {
+    "name": "Getaround",
+    "urls": [
+      "https://www.getaround.com/privacy",
+      "https://www.getaround.com/terms"
+    ]
+  },
+  "sixt": {
+    "name": "SIXT",
+    "urls": [
+      "https://www.sixt.com/shared/privacy/",
+      "https://www.sixt.com/shared/t-c/"
+    ]
+  },
+  "hertz": {
+    "name": "Hertz",
+    "urls": [
+      "https://www.hertz.com/rentacar/navigation/templates/legalView.jsp",
+      "https://www.hertz.com/rentacar/privacypolicy/index.jsp"
+    ]
+  },
+  "avis": {
+    "name": "Avis",
+    "urls": [
+      "https://www.avis.com/en/legal-documents/terms-and-conditions",
+      "https://www.avis.com/en/privacy-notice"
+    ]
+  },
+  "rentalcars": {
+    "name": "Rentalcars.com",
+    "urls": [
+      "https://www.rentalcars.com/PrivacyPolicy.do",
+      "https://www.rentalcars.com/TermsAndConditions.do"
+    ]
+  },
+  "hopper": {
+    "name": "Hopper",
+    "urls": [
+      "https://hopper.com/legal/privacy",
+      "https://hopper.com/legal/terms"
+    ]
+  },
+  "traveloka": {
+    "name": "Traveloka",
+    "urls": [
+      "https://www.traveloka.com/en-id/privacynotice",
+      "https://www.traveloka.com/en-id/termsandconditions"
+    ]
+  },
+  "omio": {
+    "name": "Omio",
+    "urls": [
+      "https://www.omio.com/privacy-policy",
+      "https://www.omio.com/terms-of-use"
+    ]
+  },
+  "trainline": {
+    "name": "Trainline",
+    "urls": [
+      "https://www.thetrainline.com/terms",
+      "https://www.thetrainline.com/terms/privacy"
+    ]
+  },
+  "paypal": {
+    "name": "PayPal",
+    "urls": [
+      "https://www.paypal.com/us/legalhub/privacy-full",
+      "https://www.paypal.com/us/legalhub/useragreement-full"
+    ]
+  },
+  "venmo": {
+    "name": "Venmo",
+    "urls": [
+      "https://venmo.com/legal/us-privacy-policy/",
+      "https://venmo.com/legal/us-user-agreement/"
+    ]
+  },
+  "cashapp": {
+    "name": "Cash App",
+    "urls": [
+      "https://cash.app/legal/us/en-us/privacy",
+      "https://cash.app/legal/us/en-us/tos"
+    ]
+  },
+  "wise": {
+    "name": "Wise",
+    "urls": [
+      "https://wise.com/privacy-policy",
+      "https://wise.com/terms-of-use"
+    ]
+  },
+  "revolut": {
+    "name": "Revolut",
+    "urls": [
+      "https://www.revolut.com/legal/privacy/",
+      "https://www.revolut.com/legal/terms/"
+    ]
+  },
+  "coinbase": {
+    "name": "Coinbase",
+    "urls": [
+      "https://www.coinbase.com/legal/privacy",
+      "https://www.coinbase.com/legal/user_agreement"
+    ]
+  },
+  "binance": {
+    "name": "Binance",
+    "urls": [
+      "https://www.binance.com/en/privacy",
+      "https://www.binance.com/en/terms"
+    ]
+  },
+  "robinhood": {
+    "name": "Robinhood",
+    "urls": [
+      "https://robinhood.com/us/en/about/legal/",
+      "https://robinhood.com/us/en/about/legal/privacy/"
+    ]
+  },
+  "tinder": {
+    "name": "Tinder",
+    "urls": [
+      "https://policies.tinder.com/privacy",
+      "https://policies.tinder.com/terms"
+    ]
+  },
+  "bumble": {
+    "name": "Bumble",
+    "urls": [
+      "https://bumble.com/privacy",
+      "https://bumble.com/terms"
+    ]
+  },
+  "hinge": {
+    "name": "Hinge",
+    "urls": [
+      "https://hinge.co/privacy",
+      "https://hinge.co/terms"
+    ]
+  },
+  "okcupid": {
+    "name": "OkCupid",
+    "urls": [
+      "https://www.okcupid.com/legal/privacy",
+      "https://www.okcupid.com/legal/terms"
+    ]
+  },
+  "match": {
+    "name": "Match",
+    "urls": [
+      "https://www.match.com/registration/membagr.aspx",
+      "https://www.match.com/registration/privacystatement.aspx"
+    ]
+  },
+  "strava": {
+    "name": "Strava",
+    "urls": [
+      "https://www.strava.com/legal/privacy",
+      "https://www.strava.com/legal/terms"
+    ]
+  },
+  "fitbit": {
+    "name": "Fitbit",
+    "urls": [
+      "https://support.google.com/product-documentation/answer/14816019",
+      "https://www.fitbit.com/global/us/legal/privacy-policy",
+      "https://www.fitbit.com/global/us/legal/terms-of-service"
+    ]
+  },
+  "myfitnesspal": {
+    "name": "MyFitnessPal",
+    "urls": [
+      "https://www.myfitnesspal.com/privacy-policy",
+      "https://www.myfitnesspal.com/terms-of-service"
+    ]
+  },
+  "calm": {
+    "name": "Calm",
+    "urls": [
+      "https://www.calm.com/privacy-policy",
+      "https://www.calm.com/terms"
+    ]
+  },
+  "indeed": {
+    "name": "Indeed",
+    "urls": [
+      "https://hrtechprivacy.com/brands/indeed#privacypolicy",
+      "https://hrtechprivacy.com/brands/indeed/terms"
+    ]
+  },
+  "glassdoor": {
+    "name": "Glassdoor",
+    "urls": [
+      "https://www.glassdoor.com/about/privacy/",
+      "https://www.glassdoor.com/about/terms/"
+    ]
+  },
+  "upwork": {
+    "name": "Upwork",
+    "urls": [
+      "https://www.upwork.com/legal#privacy",
+      "https://www.upwork.com/legal#terms"
+    ]
+  },
+  "fiverr": {
+    "name": "Fiverr",
+    "urls": [
+      "https://www.fiverr.com/legal-portal/legal-terms/privacy-policy",
+      "https://www.fiverr.com/legal-portal/legal-terms/terms-of-service"
+    ]
+  },
+  "khanacademy": {
+    "name": "Khan Academy",
+    "urls": [
+      "https://www.khanacademy.org/about/privacy-policy",
+      "https://www.khanacademy.org/about/tos"
+    ]
+  },
+  "edx": {
+    "name": "edX",
+    "urls": [
+      "https://www.edx.org/edx-privacy-policy",
+      "https://www.edx.org/edx-terms-service"
+    ]
+  },
+  "skillshare": {
+    "name": "Skillshare",
+    "urls": [
+      "https://legal.skillshare.com/hc/en-us/articles/27194932901645-Skillshare-Terms-of-Service",
+      "https://www.skillshare.com/en/privacy",
+      "https://www.skillshare.com/en/terms"
+    ]
+  },
+  "codecademy": {
+    "name": "Codecademy",
+    "urls": [
+      "https://www.codecademy.com/policy",
+      "https://www.codecademy.com/terms"
+    ]
+  },
+  "grok": {
+    "name": "Grok",
+    "urls": [
+      "https://x.ai/legal/privacy-policy",
+      "https://x.ai/legal/terms-of-service"
+    ]
+  },
+  "midjourney": {
+    "name": "Midjourney",
+    "urls": [
+      "https://docs.midjourney.com/docs/terms-of-service",
+      "https://docs.midjourney.com/hc/en-us/articles/32083472637453-Privacy-Policy"
+    ]
+  },
+  "runway": {
+    "name": "Runway",
+    "urls": [
+      "https://runway.com/privacy-policy",
+      "https://runway.com/terms-of-use"
+    ]
+  },
+  "leonardoai": {
+    "name": "Leonardo AI",
+    "urls": [
+      "https://leonardo.ai/?page_id=2391",
+      "https://www.leonardo.ai/privacy-policy"
+    ]
+  },
+  "stabilityai": {
+    "name": "Stability AI",
+    "urls": [
+      "https://stability.ai/privacypolicy",
+      "https://stability.ai/terms-of-service"
+    ]
+  },
+  "huggingface": {
+    "name": "Hugging Face",
+    "urls": [
+      "https://huggingface.co/privacy",
+      "https://huggingface.co/terms-of-service"
+    ]
+  },
+  "replicate": {
+    "name": "Replicate",
+    "urls": [
+      "https://replicate.com/privacy",
+      "https://replicate.com/terms/"
+    ]
+  },
+  "poe": {
+    "name": "Poe",
+    "urls": [
+      "https://poe.com/pages/privacy",
+      "https://poe.com/pages/tos"
+    ]
+  },
+  "characterai": {
+    "name": "Character.AI",
+    "urls": [
+      "https://support.character.ai/hc/en-us/articles/39030432883099-Privacy-Policy"
+    ]
+  },
+  "civitai": {
+    "name": "Civitai",
+    "urls": [
+      "https://civitai.red/content/privacy",
+      "https://civitai.red/content/tos"
+    ]
+  },
+  "cursor": {
+    "name": "Cursor",
+    "urls": [
+      "https://cursor.com/privacy",
+      "https://cursor.com/terms-of-service"
+    ]
+  },
+  "windsurf": {
+    "name": "Windsurf",
+    "urls": [
+      "https://windsurf.com/msa"
+    ]
+  },
+  "lovable": {
+    "name": "Lovable",
+    "urls": [
+      "https://lovable.dev/privacy",
+      "https://lovable.dev/product-terms"
+    ]
+  },
+  "boltnew": {
+    "name": "Bolt.new",
+    "urls": [
+      "https://stackblitz.com/privacy-policy",
+      "https://stackblitz.com/terms-of-service"
+    ]
+  },
+  "v0": {
+    "name": "v0",
+    "urls": [
+      "https://vercel.com/legal/privacy-policy",
+      "https://vercel.com/legal/terms"
+    ]
+  },
+  "stackoverflow": {
+    "name": "Stack Overflow",
+    "urls": [
+      "https://stackoverflow.com/legal/privacy-policy",
+      "https://stackoverflow.com/legal/terms-of-service/public?ClientSessionId=1fd34108-ef75-4e05-bdb5-3c5c621ad638"
+    ]
+  },
+  "npm": {
+    "name": "npm",
+    "urls": [
+      "https://docs.npmjs.com/policies/privacy/",
+      "https://docs.npmjs.com/policies/terms/"
+    ]
+  },
+  "pypi": {
+    "name": "PyPI",
+    "urls": [
+      "https://policies.python.org/pypi.org/Privacy-Notice/",
+      "https://policies.python.org/pypi.org/Terms-of-Service/"
+    ]
+  },
+  "dockerhub": {
+    "name": "Docker Hub",
+    "urls": [
+      "https://www.docker.com/legal/docker-terms-use/?at_exp=DO105.A-DO106.A",
+      "https://www.docker.com/legal/privacy/"
+    ]
+  },
+  "docker": {
+    "name": "Docker",
+    "urls": [
+      "https://www.docker.com/legal/docker-terms-use/",
+      "https://www.docker.com/legal/docker-terms-use/?at_exp=DO105.A-DO106.A",
+      "https://www.docker.com/legal/privacy/"
+    ]
+  },
+  "jetbrains": {
+    "name": "JetBrains",
+    "urls": [
+      "https://www.jetbrains.com/legal/docs/company/useterms/",
+      "https://www.jetbrains.com/legal/docs/privacy/privacy/"
+    ]
+  },
+  "vscode_market": {
+    "name": "Visual Studio Marketplace",
+    "urls": [
+      "https://cdn.vsassets.io/v/M146_20190123.39/_content/Microsoft-Visual-Studio-Marketplace-Terms-of-Use.pdf",
+      "https://privacy.microsoft.com/privacystatement"
+    ]
+  },
+  "unity": {
+    "name": "Unity",
+    "urls": [
+      "https://unity.com/legal/game-player-and-app-user-privacy-policy",
+      "https://unity.com/pt/legal/terms-of-service"
+    ]
+  },
+  "unrealengine": {
+    "name": "Unreal Engine",
+    "urls": [
+      "https://cdn2.unrealengine.com/privacy-policy-87de68d1a681.pdf",
+      "https://www.unrealengine.com/eula/unreal"
+    ]
+  },
+  "sentry": {
+    "name": "Sentry",
+    "urls": [
+      "https://sentry.io/privacy/",
+      "https://sentry.io/terms/"
+    ]
+  },
+  "datadog": {
+    "name": "Datadog",
+    "urls": [
+      "https://www.datadoghq.com/legal/privacy/",
+      "https://www.datadoghq.com/legal/terms/"
+    ]
+  },
+  "newrelic": {
+    "name": "New Relic",
+    "urls": [
+      "https://newrelic.com/termsandconditions/privacy",
+      "https://newrelic.com/termsandconditions/terms"
+    ]
+  },
+  "grafana": {
+    "name": "Grafana Cloud",
+    "urls": [
+      "https://grafana.com/legal/privacy-policy/?aud=non-cloud-frontend-observability-default&plcmt=general-sidebar&src=post_page---------------------------&tech=target",
+      "https://grafana.com/legal/terms/"
+    ]
+  },
+  "mongodb": {
+    "name": "MongoDB Atlas",
+    "urls": [
+      "https://www.mongodb.com/legal/privacy/privacy-policy",
+      "https://www.mongodb.com/legal/terms-and-conditions/cloud?tck=docs_atlas"
+    ]
+  },
+  "supabase": {
+    "name": "Supabase",
+    "urls": [
+      "https://supabase.com/privacy",
+      "https://supabase.com/terms"
+    ]
+  },
+  "firebase": {
+    "name": "Firebase",
+    "urls": [
+      "https://firebase.google.com/support/privacy/",
+      "https://firebase.google.com/terms/"
+    ]
+  },
+  "rendercloud": {
+    "name": "Render",
+    "urls": [
+      "https://render.com/privacy",
+      "https://render.com/terms"
+    ]
+  },
+  "railway": {
+    "name": "Railway",
+    "urls": [
+      "https://railway.com/legal/privacy",
+      "https://railway.com/legal/terms"
+    ]
+  },
+  "flyio": {
+    "name": "Fly.io",
+    "urls": [
+      "https://fly.io/legal/privacy-policy/",
+      "https://fly.io/legal/terms-of-service/"
+    ]
+  },
+  "heroku": {
+    "name": "Heroku",
+    "urls": [
+      "https://www.heroku.com/policy/",
+      "https://www.heroku.com/policy/privacy/"
+    ]
+  },
+  "linode": {
+    "name": "Linode",
+    "urls": [
+      "https://www.linode.com/legal-privacy/"
+    ]
+  },
+  "vultr": {
+    "name": "Vultr",
+    "urls": [
+      "https://www.vultr.com/legal/privacy/",
+      "https://www.vultr.com/legal/tos/"
+    ]
+  },
+  "ovhcloud": {
+    "name": "OVHcloud",
+    "urls": [
+      "https://us.ovhcloud.com/legal/terms-of-service/",
+      "https://www.ovhcloud.com/en/terms-and-conditions/privacy-policy/"
+    ]
+  },
+  "namecheap": {
+    "name": "Namecheap",
+    "urls": [
+      "https://www.namecheap.com/legal/general/privacy-policy-2/",
+      "https://www.namecheap.com/legal/hosting/tos/"
+    ]
+  },
+  "godaddy": {
+    "name": "GoDaddy",
+    "urls": [
+      "https://www.godaddy.com/legal/agreements/privacy-policy",
+      "https://www.godaddy.com/legal/agreements/universal-terms-of-service-agreement"
+    ]
+  },
+  "squarespace": {
+    "name": "Squarespace",
+    "urls": [
+      "https://www.squarespace.com/privacy/",
+      "https://www.squarespace.com/terms-of-service/"
+    ]
+  },
+  "wix": {
+    "name": "Wix",
+    "urls": [
+      "https://support.wix.com/en/article/wixs-privacy-policy",
+      "https://www.wix.com/about/terms-of-use/onepager"
+    ]
+  },
+  "shopify": {
+    "name": "Shopify",
+    "urls": [
+      "https://www.shopify.com/legal/privacy",
+      "https://www.shopify.com/legal/terms"
+    ]
+  },
+  "woocommerce": {
+    "name": "WooCommerce",
+    "urls": [
+      "https://automattic.com/privacy/",
+      "https://automattic.com/terms-of-service/"
+    ]
+  },
+  "dropboxsign": {
+    "name": "Dropbox Sign",
+    "urls": [
+      "https://sign.dropbox.com/about/privacy",
+      "https://sign.dropbox.com/about/terms"
+    ]
+  },
+  "pandadoc": {
+    "name": "PandaDoc",
+    "urls": [
+      "https://www.pandadoc.com/legal/privacy-notice/",
+      "https://www.pandadoc.com/legal/site-terms/"
+    ]
+  },
+  "notability": {
+    "name": "Notability",
+    "urls": [
+      "https://notability.com/privacy",
+      "https://notability.com/tos.html"
+    ]
+  },
+  "goodnotes": {
+    "name": "Goodnotes",
+    "urls": [
+      "https://www.goodnotes.com/privacy-policy?hsLang=en",
+      "https://www.goodnotes.com/terms-and-conditions?hsLang=en"
+    ]
+  },
+  "bearnotes": {
+    "name": "Bear",
+    "urls": [
+      "https://bear.app/privacy/"
+    ]
+  },
+  "craft": {
+    "name": "Craft",
+    "urls": [
+      "https://www.craft.do/privacy",
+      "https://www.craft.do/terms"
+    ]
+  },
+  "coda": {
+    "name": "Coda / Superhuman Docs",
+    "urls": [
+      "https://coda.io/privacy",
+      "https://coda.io/terms",
+      "https://superhuman.com/legal/terms"
+    ]
+  },
+  "roam": {
+    "name": "Roam Research",
+    "urls": [
+      "https://roamresearch.com/#/app/help/page/MHRK1dgTE",
+      "https://roamresearch.com/#/app/help/page/bnQcAUM0i"
+    ]
+  },
+  "tana": {
+    "name": "Tana",
+    "urls": [
+      "https://tana.inc/terms",
+      "https://tana.inc/tnc-pp/Privacy%20Policy%2C%20Tana%20Labs%2C%20Inc%2C%202023-03-29.pdf"
+    ]
+  },
+  "anytype": {
+    "name": "Anytype",
+    "urls": [
+      "https://anytype.io/terms_of_use",
+      "https://anytype.io/website_privacy"
+    ]
+  },
+  "ticktick": {
+    "name": "TickTick",
+    "urls": [
+      "https://ticktick.com/privacy",
+      "https://ticktick.com/tos"
+    ]
+  },
+  "things": {
+    "name": "Things",
+    "urls": [
+      "https://culturedcode.com/privacy/"
+    ]
+  },
+  "sunsama": {
+    "name": "Sunsama",
+    "urls": [
+      "https://www.sunsama.com/privacy",
+      "https://www.sunsama.com/terms?ClientSessionId=9e033b9f-3179-4183-830b-3978cca1696c"
+    ]
+  },
+  "motion": {
+    "name": "Motion",
+    "urls": [
+      "https://www.usemotion.com/legal/privacy-policy",
+      "https://www.usemotion.com/legal/terms-of-service"
+    ]
+  },
+  "akiflow": {
+    "name": "Akiflow",
+    "urls": [
+      "https://akiflow.com/privacy-policy",
+      "https://akiflow.com/terms-of-service"
+    ]
+  },
+  "fantastical": {
+    "name": "Fantastical",
+    "urls": [
+      "https://flexibits.com/privacy/"
+    ]
+  },
+  "onepassword": {
+    "name": "1Password",
+    "urls": [
+      "https://1password.com/legal/privacy",
+      "https://1password.com/legal/terms-of-service"
+    ]
+  },
+  "bitwarden": {
+    "name": "Bitwarden",
+    "urls": [
+      "https://bitwarden.com/privacy/",
+      "https://bitwarden.com/terms/"
+    ]
+  },
+  "lastpass": {
+    "name": "LastPass",
+    "urls": [
+      "https://www.lastpass.com/legal-center/privacy-notice",
+      "https://www.lastpass.com/legal-center/terms-of-service/personal"
+    ]
+  },
+  "dashlane": {
+    "name": "Dashlane",
+    "urls": [
+      "https://www.dashlane.com/privacy",
+      "https://www.dashlane.com/terms"
+    ]
+  },
+  "nordpass": {
+    "name": "NordPass",
+    "urls": [
+      "https://my.nordaccount.com/legal/terms-of-service/",
+      "https://nordpass.com/privacy-policy/"
+    ]
+  },
+  "nordvpn": {
+    "name": "NordVPN",
+    "urls": [
+      "https://my.nordaccount.com/legal/privacy-policy/",
+      "https://my.nordaccount.com/legal/terms-of-service/"
+    ]
+  },
+  "expressvpn": {
+    "name": "ExpressVPN",
+    "urls": [
+      "https://www.expressvpn.com/privacy-policy",
+      "https://www.expressvpn.com/tos"
+    ]
+  },
+  "surfshark": {
+    "name": "Surfshark",
+    "urls": [
+      "https://surfshark.com/privacy",
+      "https://surfshark.com/terms-of-service"
+    ]
+  },
+  "mullvad": {
+    "name": "Mullvad",
+    "urls": [
+      "https://mullvad.net/en/help/privacy-policy",
+      "https://mullvad.net/en/help/terms-service"
+    ]
+  },
+  "protonvpn": {
+    "name": "Proton VPN",
+    "urls": [
+      "https://proton.me/legal/terms",
+      "https://protonvpn.com/privacy-policy"
+    ]
+  },
+  "zapier": {
+    "name": "Zapier",
+    "urls": [
+      "https://zapier.com/legal/privacy-policy",
+      "https://zapier.com/legal/terms-of-service"
+    ]
+  },
+  "make": {
+    "name": "Make",
+    "urls": [
+      "https://www.make.com/en/master-service-agreement.pdf",
+      "https://www.make.com/en/privacy-notice?tid=113019300"
+    ]
+  },
+  "ifttt": {
+    "name": "IFTTT",
+    "urls": [
+      "https://ifttt.com/terms"
+    ]
+  },
+  "n8n": {
+    "name": "n8n",
+    "urls": [
+      "https://n8n.io/legal/eula/",
+      "https://n8n.io/legal/privacy/"
+    ]
+  },
+  "buffer": {
+    "name": "Buffer",
+    "urls": [
+      "https://buffer.com/legal",
+      "https://buffer.com/legal/privacy-policy",
+      "https://buffer.com/legal/terms-of-use"
+    ]
+  },
+  "hootsuite": {
+    "name": "Hootsuite",
+    "urls": [
+      "https://www.hootsuite.com/legal/privacy",
+      "https://www.hootsuite.com/legal/terms"
+    ]
+  },
+  "later": {
+    "name": "Later",
+    "urls": [
+      "https://later.com/privacy/",
+      "https://later.com/terms/"
+    ]
+  },
+  "sproutsocial": {
+    "name": "Sprout Social",
+    "urls": [
+      "https://sproutsocial.com/legal/privacy-policy/",
+      "https://sproutsocial.com/legal/terms/"
+    ]
+  },
+  "klaviyo": {
+    "name": "Klaviyo",
+    "urls": [
+      "https://www.klaviyo.com/legal/privacy/privacy-notice",
+      "https://www.klaviyo.com/legal/terms-of-service"
+    ]
+  },
+  "constantcontact": {
+    "name": "Constant Contact",
+    "urls": [
+      "https://www.constantcontact.com/legal/privacy",
+      "https://www.constantcontact.com/legal/terms"
+    ]
+  },
+  "brevo": {
+    "name": "Brevo",
+    "urls": [
+      "https://www.brevo.com/legal/privacypolicy/",
+      "https://www.brevo.com/legal/termsofuse/"
+    ]
+  },
+  "kit": {
+    "name": "Kit",
+    "urls": [
+      "https://kit.com/privacy",
+      "https://kit.com/terms"
+    ]
+  },
+  "ghost": {
+    "name": "Ghost",
+    "urls": [
+      "https://ghost.org/privacy/",
+      "https://ghost.org/terms/"
+    ]
+  },
+  "freshworks": {
+    "name": "Freshworks",
+    "urls": [
+      "https://www.freshworks.com/privacy-march-24-2021/",
+      "https://www.freshworks.com/terms/"
+    ]
+  },
+  "nebula": {
+    "name": "Nebula",
+    "urls": [
+      "https://nebula.tv/privacy",
+      "https://nebula.tv/terms"
+    ]
+  },
+  "curiositystream": {
+    "name": "Curiosity Stream",
+    "urls": [
+      "https://curiositystream.com/privacy",
+      "https://curiositystream.com/terms"
+    ]
+  },
+  "britbox": {
+    "name": "BritBox",
+    "urls": [
+      "https://www.britbox.com/us/privacy",
+      "https://www.britbox.com/us/terms-and-conditions?msockid=26883aa9a42f6f61022a2c5da5156e21"
+    ]
+  },
+  "shudder": {
+    "name": "Shudder",
+    "urls": [
+      "https://www.amcnetworks.com/privacy-policy/",
+      "https://www.amcnetworks.com/terms-of-use/"
+    ]
+  },
+  "acorntv": {
+    "name": "Acorn TV",
+    "urls": [
+      "https://acorn.tv/privacy-policy/",
+      "https://acorn.tv/terms-and-conditions/"
+    ]
+  },
+  "viu": {
+    "name": "Viu",
+    "urls": [
+      "https://www.hq.viu.com/legal/",
+      "https://www.viu.com/ott/hk/en-us/copyright-statement/privacy"
+    ]
+  },
+  "iqiyi": {
+    "name": "iQIYI",
+    "urls": [
+      "https://www.iqiyi.com/common/secret.html"
+    ]
+  },
+  "wetv": {
+    "name": "WeTV",
+    "urls": [
+      "https://static.wetvinfo.com/static/policyview/web/old_version/privacy_en_2023_05_17.pdf"
+    ]
+  },
+  "bilibili": {
+    "name": "Bilibili",
+    "urls": [
+      "https://www.bilibili.com/blackboard/era/mLQANTnFGeWAzLQD.html",
+      "https://www.bilibili.com/blackboard/era/privacypolicyweb.html"
+    ]
+  },
+  "niconico": {
+    "name": "Niconico",
+    "urls": [
+      "https://account.nicovideo.jp/rules/account",
+      "https://privacy.dwango.co.jp/"
+    ]
+  },
+  "dailymotion": {
+    "name": "Dailymotion",
+    "urls": [
+      "https://faq.dailymotion.com/hc/en-us/articles/360012597659-Our-Privacy-Policy",
+      "https://legal.dailymotion.com/en/terms-of-use/"
+    ]
+  },
+  "rumble": {
+    "name": "Rumble",
+    "urls": [
+      "https://rumble.com/s/privacy",
+      "https://rumble.com/s/terms"
+    ]
+  },
+  "wattpad": {
+    "name": "Wattpad",
+    "urls": [
+      "https://policies.wattpad.com/privacy",
+      "https://policies.wattpad.com/terms",
+      "https://policies.wattpad.com/terms/"
+    ]
+  },
+  "ao3": {
+    "name": "Archive of Our Own",
+    "urls": [
+      "https://archiveofourown.org/privacy",
+      "https://archiveofourown.org/tos"
+    ]
+  },
+  "goodreads": {
+    "name": "Goodreads",
+    "urls": [
+      "https://www.goodreads.com/about/privacy",
+      "https://www.goodreads.com/about/terms?id=188"
+    ]
+  },
+  "scribdbooks": {
+    "name": "Scribd",
+    "urls": [
+      "https://support.scribd.com/hc/en-us/articles/210129326-Global-Terms-of-Use",
+      "https://support.scribd.com/hc/en-us/articles/210129366-Global-Privacy-Policy"
+    ]
+  },
+  "kobo": {
+    "name": "Kobo",
+    "urls": [
+      "https://help.kobo.com/hc/en-us/articles/360017605274-Kobo-Privacy-Policy",
+      "https://help.kobo.com/hc/en-us/articles/360035547853-Legal-documents"
+    ]
+  },
+  "googleplaybooks": {
+    "name": "Google Play Books",
+    "urls": [
+      "https://play.google.com/intl/en_en/about/play-terms/?hl=en",
+      "https://www.google.com/intl/en/policies/privacy/google_privacy_policy_en.pdf"
+    ]
+  },
+  "applebooks": {
+    "name": "Apple Books",
+    "urls": [
+      "https://www.apple.com/legal/internet-services/itunes/",
+      "https://www.apple.com/legal/privacy/"
+    ]
+  },
+  "feedly": {
+    "name": "Feedly",
+    "urls": [
+      "https://feedly.com/legal"
+    ]
+  },
+  "flipboard": {
+    "name": "Flipboard",
+    "urls": [
+      "https://about.flipboard.com/privacy-policy/",
+      "https://about.flipboard.com/terms-of-service/"
+    ]
+  },
+  "inoreader": {
+    "name": "Inoreader",
+    "urls": [
+      "https://www.inoreader.com/it/privacy_policy",
+      "https://www.inoreader.com/nb/tos"
+    ]
+  },
+  "newsbreak": {
+    "name": "NewsBreak",
+    "urls": [
+      "https://www.newsbreak.com/privacy",
+      "https://www.newsbreak.com/terms"
+    ]
+  },
+  "groundnews": {
+    "name": "Ground News",
+    "urls": [
+      "https://ground.news/privacy-policy",
+      "https://ground.news/terms-and-conditions"
+    ]
+  },
+  "nytimes": {
+    "name": "The New York Times",
+    "urls": [
+      "https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy",
+      "https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service"
+    ]
+  },
+  "washingtonpost": {
+    "name": "The Washington Post",
+    "urls": [
+      "https://store.washingtonpost.com/policies/privacy-policy",
+      "https://www.washingtonpost.com/terms-of-service/"
+    ]
+  },
+  "guardian": {
+    "name": "The Guardian",
+    "urls": [
+      "https://www.theguardian.com/help/privacy-policy",
+      "https://www.theguardian.com/help/terms-of-service"
+    ]
+  },
+  "financialtimes": {
+    "name": "Financial Times",
+    "urls": [
+      "https://help.ft.com/legal-privacy/privacy-policy/",
+      "https://help.ft.com/legal-privacy/terms-conditions/"
+    ]
+  },
+  "bloomberg": {
+    "name": "Bloomberg",
+    "urls": [
+      "https://bloomberg.com/privacy",
+      "https://www.bloomberg.com/tos"
+    ]
+  },
+  "ted": {
+    "name": "TED",
+    "urls": [
+      "https://www.ted.com/about/our-organization/our-policies-terms/privacy-policy",
+      "https://www.ted.com/about/our-organization/our-policies-terms/ted-com-terms-of-use"
+    ]
+  },
+  "masterclass": {
+    "name": "MasterClass",
+    "urls": [
+      "https://privacy.masterclass.com/",
+      "https://www.masterclass.com/terms"
+    ]
+  },
+  "brilliant": {
+    "name": "Brilliant",
+    "urls": [
+      "https://brilliant.org/privacy/",
+      "https://brilliant.org/terms-of-use/"
+    ]
+  },
+  "domestika": {
+    "name": "Domestika",
+    "urls": [
+      "https://www.domestika.org/en/privacy",
+      "https://www.domestika.org/en/terms"
+    ]
+  },
+  "teachable": {
+    "name": "Teachable",
+    "urls": [
+      "https://www.teachable.com/legal/privacy-policy",
+      "https://www.teachable.com/legal/terms-of-use"
+    ]
+  },
+  "thinkific": {
+    "name": "Thinkific",
+    "urls": [
+      "https://www.thinkific.com/privacy-policy/",
+      "https://www.thinkific.com/terms-of-service/"
+    ]
+  },
+  "naversmartstore": {
+    "name": "네이버 스마트스토어",
+    "urls": [
+      "https://policy.naver.com/policy/privacy.html",
+      "https://safety.smartstore.naver.com/main/rules/safety/regulation"
+    ]
+  },
+  "kakaoshopping": {
+    "name": "카카오 쇼핑",
+    "urls": [
+      "https://www.kakao.com/policy/privacy?lang=ko",
+      "https://www.kakao.com/policy/terms?lang=ko"
+    ]
+  },
+  "ohouse": {
+    "name": "오늘의집",
+    "urls": [
+      "https://ohou.se/usepolicy",
+      "https://www.bucketplace.com/terms/privacy-policy",
+      "https://www.bucketplace.com/terms/terms-of-service"
+    ]
+  },
+  "wconcept": {
+    "name": "W Concept",
+    "urls": [
+      "https://www.wconcept.co.kr/CustomerAgreement",
+      "https://www.wconcept.co.kr/CustomerPrivacy"
+    ]
+  },
+  "twentyninecm": {
+    "name": "29CM",
+    "urls": [
+      "https://www.29cm.co.kr/terms/local-member/terms-of-use",
+      "https://www.29cm.co.kr/terms/one-member/privacy-policy"
+    ]
+  },
+  "eql": {
+    "name": "EQL",
+    "urls": [
+      "https://www.eqlstore.com/public/common/information/privacyPolicy"
+    ]
+  },
+  "lfmall": {
+    "name": "LFmall",
+    "urls": [
+      "https://m.lfmall.co.kr/mfront/common/jsp/PrivacyRule_20190923.jsp"
+    ]
+  },
+  "lottehomeshopping": {
+    "name": "롯데홈쇼핑",
+    "urls": [
+      "https://m.lotteimall.com/custcenter/forward.CustomerUserGuideContractsShopping.lotte",
+      "https://securem.lotteimall.com/jsp/custcenter/forward.CustomerUserGuidePersonal.lotte"
+    ]
+  },
+  "gsshop": {
+    "name": "GS SHOP",
+    "urls": [
+      "https://m.gsshop.com/m/mygsshop/articleCafe.gs",
+      "https://m.gsshop.com/m/mygsshop/articleProtect.gs?div=person"
+    ]
+  },
+  "cjonstyle": {
+    "name": "CJ온스타일",
+    "urls": [
+      "https://company.cjonstyle.com/upload/csv/CJ%20%EA%B8%80%EB%A1%9C%EB%B2%8C%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%20%EC%A0%95%EC%B1%85%28%EC%98%81%EB%AC%B8%EB%B3%B8%29_2025.pdf",
+      "https://global.cjonstyle.com/pages/terms-of-service"
+    ]
+  },
+  "nsmall": {
+    "name": "NS홈쇼핑",
+    "urls": [
+      "https://m.nsmall.com/common/policy/privacy-policy"
+    ]
+  },
+  "akmall": {
+    "name": "AK몰",
+    "urls": [
+      "https://m.akmall.com/info/PrsnlTreat.do"
+    ]
+  },
+  "hmall": {
+    "name": "현대Hmall",
+    "urls": [
+      "https://www.hmall.com/mo/cod/hmallGuide",
+      "https://www.hmall.com/mo/cod/psnHndl"
+    ]
+  },
+  "interparkshopping": {
+    "name": "인터파크 쇼핑",
+    "urls": [
+      "https://incorp.interpark.com/member/2017/agreement.html"
+    ]
+  },
+  "tenbyten": {
+    "name": "텐바이텐",
+    "urls": [
+      "https://m.10x10.co.kr/common/private.asp"
+    ]
+  },
+  "idus": {
+    "name": "아이디어스",
+    "urls": [
+      "https://www.idus.com/w/board/terms/privacy",
+      "https://www.idus.com/w/board/terms/use"
+    ]
+  },
+  "mercari": {
+    "name": "Mercari",
+    "urls": [
+      "https://static.jp.mercari.com/us/en/tos_platform",
+      "https://www.mercari.com/us/help_center/topics/account/policies/mercari-privacy-policy/"
+    ]
+  },
+  "carousell": {
+    "name": "Carousell",
+    "urls": [
+      "https://support.carousell.com/hc/en-us/articles/115006700307-Privacy-Policy",
+      "https://support.carousell.com/hc/en-us/articles/115011881808-Terms-of-Service"
+    ]
+  },
+  "offerup": {
+    "name": "OfferUp",
+    "urls": [
+      "https://offerup.com/privacy",
+      "https://offerup.com/terms"
+    ]
+  },
+  "vinted": {
+    "name": "Vinted",
+    "urls": [
+      "https://www.vinted.com/privacy-policy",
+      "https://www.vinted.com/terms-and-conditions"
+    ]
+  },
+  "grailed": {
+    "name": "Grailed",
+    "urls": [
+      "https://www.grailed.com/about/privacy",
+      "https://www.grailed.com/about/terms"
+    ]
+  },
+  "goat": {
+    "name": "GOAT",
+    "urls": [
+      "https://www.goat.com/legal/privacy",
+      "https://www.goat.com/terms"
+    ]
+  },
+  "therealreal": {
+    "name": "The RealReal",
+    "urls": [
+      "https://www.therealreal.com/privacy",
+      "https://www.therealreal.com/terms"
+    ]
+  },
+  "vestiaire": {
+    "name": "Vestiaire Collective",
+    "urls": [
+      "https://faq.vestiairecollective.com/hc/en-us/articles/8996751206929-Website-Terms-of-Use",
+      "https://www.vestiairecollective.com/documents/cgu-personal-data-en.pdf"
+    ]
+  },
+  "newegg": {
+    "name": "Newegg",
+    "urls": [
+      "https://kb.newegg.com/knowledge-base/privacy-policy-newegg?cm_mmc=EMC-Automation093026-usa-_-EMC-093026-Index-_-footer-_-PrivacyPolicy",
+      "https://kb.newegg.com/knowledge-base/terms-and-conditions-south-korea?lang=en"
+    ]
+  },
+  "bhphoto": {
+    "name": "B&H Photo",
+    "urls": [
+      "https://www.bhphotovideo.com/a/privacy/statement",
+      "https://www.bhphotovideo.com/explora/user-agreement-and-disclaimer"
+    ]
+  },
+  "microcenter": {
+    "name": "Micro Center",
+    "urls": [
+      "https://www.microcenter.com/site/customer-support/privacy_policy.aspx",
+      "https://www.microcenter.com/site/service/service-terms-and-conditions.aspx"
+    ]
+  },
+  "lowes": {
+    "name": "Lowe’s",
+    "urls": [
+      "https://www.lowes.com/l/about/terms-and-conditions-of-use?msockid=2b3cc131473c692d0008d7e446a06877",
+      "https://www.lowes.com/pdf/Lowes_Customer_Privacy_Statement_Final.pdf"
+    ]
+  },
+  "acehardware": {
+    "name": "Ace Hardware",
+    "urls": [
+      "https://www.acehardware.com/dispute-resolution-terms",
+      "https://www.acehardware.com/privacy"
+    ]
+  },
+  "walgreens": {
+    "name": "Walgreens",
+    "urls": [
+      "https://www.walgreens.com/privacycenter/privacy-policy",
+      "https://www.walgreens.com/topic/help/generalhelp/termsofuse.jsp"
+    ]
+  },
+  "cvs": {
+    "name": "CVS",
+    "urls": [
+      "https://www.cvs.com/retail/help/privacy_policy",
+      "https://www.cvs.com/retail/help/terms_of_use/"
+    ]
+  },
+  "boots": {
+    "name": "Boots",
+    "urls": [
+      "https://www.boots.com/information/ugc-terms-and-conditions",
+      "https://www.boots.com/privacypolicy"
+    ]
+  },
+  "zalora": {
+    "name": "Zalora",
+    "urls": [
+      "https://corporate.zalora.com/faq/where-can-i-find-terms-and-conditions-my-partnership-zalora",
+      "https://corporate.zalora.com/privacy-policy"
+    ]
+  },
+  "lazada": {
+    "name": "Lazada",
+    "urls": [
+      "https://pages.lazada.com.ph/wow/i/ph/corp/privacy-policy",
+      "https://www.lazada.vn/terms-of-use/"
+    ]
+  },
+  "shopee": {
+    "name": "Shopee",
+    "urls": [
+      "https://help.shopee.ph/portal/4/article/77272-Shopee-Terms-of-Service",
+      "https://help.shopee.ph/portal/4/article/77274-Shopee-Privacy-Policy"
+    ]
+  },
+  "stripe": {
+    "name": "Stripe",
+    "urls": [
+      "https://stripe.com/legal/consumer",
+      "https://stripe.com/privacy"
+    ]
+  },
+  "square": {
+    "name": "Square",
+    "urls": [
+      "https://squareup.com/us/en/legal/general/privacy",
+      "https://squareup.com/us/en/legal/general/ua"
+    ]
+  },
+  "adyen": {
+    "name": "Adyen",
+    "urls": [
+      "https://www.adyen.com/legal/terms-and-conditions",
+      "https://www.adyen.com/policies-and-disclaimer/privacy-policy"
+    ]
+  },
+  "klarna": {
+    "name": "Klarna",
+    "urls": [
+      "https://www.klarna.com/us/privacy/",
+      "https://www.klarna.com/us/terms/"
+    ]
+  },
+  "afterpay": {
+    "name": "Afterpay",
+    "urls": [
+      "https://www.afterpay.com/en-US/terms-of-service?icid2=afterpay+help+center+us+terms",
+      "https://www.afterpay.com/en-au/privacy-policy"
+    ]
+  },
+  "affirm": {
+    "name": "Affirm",
+    "urls": [
+      "https://www.affirm.com/api/legal/v1/disclosures/static_disclosures/en_US/privacy_policy",
+      "https://www.affirm.com/disclosures?hl=en"
+    ]
+  },
+  "remitly": {
+    "name": "Remitly",
+    "urls": [
+      "https://www.remitly.com/pdf/en/mt/08633288-23c2-47b8-9f3d-a798f48ab65d",
+      "https://www.remitly.com/pdf/en/us/5890905c-2db0-479f-8f48-b5445f5ce668"
+    ]
+  },
+  "westernunion": {
+    "name": "Western Union",
+    "urls": [
+      "https://www.westernunion.com/global/en/mywu/terms-conditions.html",
+      "https://www.westernunion.com/global/en/privacy-statement.html?cust_src=organic_search"
+    ]
+  },
+  "moneygram": {
+    "name": "MoneyGram",
+    "urls": [
+      "https://company.moneygram.com/terms-of-use/",
+      "https://www.moneygram.com/intl/privacy-notice"
+    ]
+  },
+  "skrill": {
+    "name": "Skrill",
+    "urls": [
+      "https://www.skrill.com/en/footer/terms-conditions/skrillaccounttermsofuse/pfsl-feb2027/",
+      "https://www.skrill.com/en/support/question/152/what-is-your-privacy-policy/"
+    ]
+  },
+  "neteller": {
+    "name": "Neteller",
+    "urls": [
+      "https://www.neteller.com/en/support/question/141/",
+      "https://www.neteller.com/ko/policies-terms/terms-of-use/"
+    ]
+  },
+  "payoneer": {
+    "name": "Payoneer",
+    "urls": [
+      "https://pubs.payoneer.com/legal/PayoneerTermsAndConditionsINC_Apr2026.htm",
+      "https://www.payoneer.com/legal/privacy-policy/"
+    ]
+  },
+  "kakaopay": {
+    "name": "카카오페이",
+    "urls": [
+      "https://www.kakaopay.com/terms",
+      "https://www.kakaopay.com/terms/privacy"
+    ]
+  },
+  "naverpay": {
+    "name": "네이버페이",
+    "urls": [
+      "https://pay.naver.com/member/terms-policy",
+      "https://pay.naver.com/member/terms-policy/privacy_230101"
+    ]
+  },
+  "toss": {
+    "name": "토스",
+    "urls": [
+      "https://privacy.toss.im/privacy-policy",
+      "https://toss.im/terms"
+    ]
+  },
+  "samsungpay": {
+    "name": "Samsung Wallet",
+    "urls": [
+      "https://www.samsung.com/us/samsung-wallet/privacy-notice/",
+      "https://www.samsung.com/us/samsung-wallet/terms-of-service/"
+    ]
+  },
+  "googlepay": {
+    "name": "Google Pay",
+    "urls": [
+      "https://support.google.com/googlepay/answer/9039712",
+      "https://wallet.google.com/files/privacy.html"
+    ]
+  },
+  "applepay": {
+    "name": "Apple Pay",
+    "urls": [
+      "https://www.apple.com/legal/applepayments/",
+      "https://www.apple.com/legal/privacy/data/ko/apple-pay/"
+    ]
+  },
+  "sofi": {
+    "name": "SoFi",
+    "urls": [
+      "https://tech.sofi.com/privacy-disclosure/",
+      "https://www.sofi.com/terms-of-use/"
+    ]
+  },
+  "wealthfront": {
+    "name": "Wealthfront",
+    "urls": [
+      "https://www.wealthfront.com/legal",
+      "https://www.wealthfront.com/privacy-policy"
+    ]
+  },
+  "alltrails": {
+    "name": "AllTrails",
+    "urls": [
+      "https://www.alltrails.com/privacy",
+      "https://www.alltrails.com/terms"
+    ]
+  },
+  "komoot": {
+    "name": "Komoot",
+    "urls": [
+      "https://www.komoot.com/ko-kr/privacy",
+      "https://www.komoot.com/terms"
+    ]
+  },
+  "wikiloc": {
+    "name": "Wikiloc",
+    "urls": [
+      "https://www.wikiloc.com/wikiloc/privacy.html",
+      "https://www.wikiloc.com/wikiloc/terms_en.html"
+    ]
+  },
+  "classpass": {
+    "name": "ClassPass",
+    "urls": [
+      "https://classpass.com/privacy/usa",
+      "https://classpass.com/terms"
+    ]
+  },
+  "headspace": {
+    "name": "Headspace",
+    "urls": [
+      "https://www.headspace.com/privacy-policy",
+      "https://www.headspace.com/terms-and-conditions-ko"
+    ]
+  },
+  "betterhelp": {
+    "name": "BetterHelp",
+    "urls": [
+      "https://www.betterhelp.com/privacy/",
+      "https://www.betterhelp.com/terms/"
+    ]
+  },
+  "noom": {
+    "name": "Noom",
+    "urls": [
+      "https://www.noom.com/kr/privacy-policy/",
+      "https://www.noom.com/terms-and-conditions-of-use/"
+    ]
+  },
+  "flohealth": {
+    "name": "Flo",
+    "urls": [
+      "https://flo.health/privacy-policy",
+      "https://flo.health/terms-of-use"
+    ]
+  },
+  "sleepcycle": {
+    "name": "Sleep Cycle",
+    "urls": [
+      "https://sleepcycle.com/privacy-policy/en-v2",
+      "https://sleepcycle.com/terms-and-conditions"
+    ]
+  },
+  "garminconnect": {
+    "name": "Garmin Connect",
+    "urls": [
+      "https://www.garmin.com/en-US/legal/terms-of-use/",
+      "https://www8.garmin.com/privacy/connect_privacy.pdf"
+    ]
+  },
+  "peloton": {
+    "name": "Peloton",
+    "urls": [
+      "https://www.onepeloton.com/privacy-center",
+      "https://www.onepeloton.com/terms-of-service"
+    ]
+  },
+  "nikeclub": {
+    "name": "Nike Run Club",
+    "urls": [
+      "https://agreementservice.svs.nike.com/rest/agreement?agreementType=privacyPolicy&country=KR&language=ko&requestType=redirect",
+      "https://agreementservice.svs.nike.com/rest/agreement?agreementType=termsOfUse&country=KR&language=ko&requestType=redirect"
+    ]
+  },
+  "adidasrunning": {
+    "name": "adidas Running",
+    "urls": [
+      "https://www.adidas.com/us/help/us-company-information/what-are-the-terms-and-conditions",
+      "https://www.adidas.com/us/help/us-company-information/what-is-the-adidas-privacy-policy"
+    ]
+  },
+  "lululemon": {
+    "name": "lululemon",
+    "urls": [
+      "https://shop.lululemon.com/help/legal/privacy-policy",
+      "https://shop.lululemon.com/help/legal/terms-of-use"
+    ]
+  },
+  "choiceprivileges": {
+    "name": "Choice Privileges",
+    "urls": [
+      "https://www.choicehotels.com/choice-privileges/rules-regulations",
+      "https://www.choicehotels.com/legal/privacy-policy"
+    ]
+  },
+  "hilton": {
+    "name": "Hilton Honors",
+    "urls": [
+      "https://www.hilton.com/en/hilton-honors/terms/",
+      "https://www.hilton.com/en/p/global-privacy-statement/"
+    ]
+  },
+  "marriott": {
+    "name": "Marriott Bonvoy",
+    "urls": [
+      "https://www.marriott.com/ko/about/privacy.mi",
+      "https://www.marriott.com/ko/about/terms-of-use.mi"
+    ]
+  },
+  "hyatt": {
+    "name": "World of Hyatt",
+    "urls": [
+      "https://www.hyatt.com/help/terms/world-of-hyatt?cat_id=90000789&content_id=90005278",
+      "https://www.hyatt.com/landing/info/privacy-policy"
+    ]
+  },
+  "ihg": {
+    "name": "IHG One Rewards",
+    "urls": [
+      "https://digital.ihg.com/is/content/ihg/2025IHGOneRewardsConsolidatedTC",
+      "https://www.ihg.com/content/kr/ko/customer-care/member-tc.html"
+    ]
+  },
+  "accor": {
+    "name": "ALL Accor",
+    "urls": [
+      "https://all.accor.com/a/en/information/data-protection.html",
+      "https://all.accor.com/a/en/information/internet-sales-conditions.html"
+    ]
+  },
+  "airasia": {
+    "name": "AirAsia",
+    "urls": [
+      "https://www.airasia.com/aa/about-us/en/gb/privacy-statement.html",
+      "https://www.airasia.com/aa/about-us/ko/kr/our-policies.html"
+    ]
+  },
+  "ryanair": {
+    "name": "Ryanair",
+    "urls": [
+      "https://www.ryanair.com/gb/en/lp/privacy-policy",
+      "https://www.ryanair.com/gb/en/useful-info/help-centre/terms-and-conditions"
+    ]
+  },
+  "easyjet": {
+    "name": "easyJet",
+    "urls": [
+      "https://www.easyjet.com/en/help-centre/policy-terms-and-conditions",
+      "https://www.easyjet.com/en/policy/privacy-notice"
+    ]
+  },
+  "emirates": {
+    "name": "Emirates",
+    "urls": [
+      "https://www.emirates.com/english/information/privacy-policy/",
+      "https://www.emirates.com/english/information/terms-and-conditions/"
+    ]
+  },
+  "qatarairways": {
+    "name": "Qatar Airways",
+    "urls": [
+      "http://www.qatarairways.com/en/legal.html",
+      "https://www.qatarairways.com/en-kr/legal/privacy.html"
+    ]
+  },
+  "naver": {
+    "name": "네이버",
+    "urls": [
+      "https://policy.naver.com/policy/privacy.html",
+      "https://policy.naver.com/policy/service.html"
+    ]
+  }
+}
