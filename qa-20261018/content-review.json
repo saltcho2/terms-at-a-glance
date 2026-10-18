@@ -1198,7 +1198,7 @@
         "https://depophelp.zendesk.com/hc/en-gb/articles/360001773148-Terms-of-Service",
         {
           "document": "Depop Terms of Service",
-          "clause": "User Content · license",
+          "clause": "11. Your content · User Content license",
           "region": "국제 영문 약관 · 현지 강행법규 우선",
           "version": "2026. 10. 6. 시행 · 이전 가입 호주 이용자는 2026. 10. 26.부터 적용",
           "checkedAt": "2026. 10. 18. (한국 시간)",
@@ -2472,7 +2472,8 @@
           "action": "9개 이상 객실이 필요하면 Groups and Meetings 경로의 조건을 확인하세요.",
           "quote": "more than 8 rooms",
           "reviewMethod": "2026-10-18 공식 원문의 표시 조항과 편집 요약 대조. 전체 약관·전문가 검수 아님.",
-          "applicability": "확인한 영문 Terms of Service의 Group bookings 조항. 예약 당시 약관·숙소 개별 조건과 현지 판매 채널의 조건을 함께 확인하세요."
+          "applicability": "확인한 영문 Terms of Service의 Group bookings 조항. 예약 당시 약관·숙소 개별 조건과 현지 판매 채널의 조건을 함께 확인하세요.",
+          "updatedAt": "08-10-2026 (원문 표기)"
         }
       ],
       "scope": "표시 조항과 요약 대조. 전체 문서·전문가 검수 아님."
@@ -2518,7 +2519,8 @@
           "action": "단체 숙박은 일반 예약을 나누기 전에 전용 예약 경로를 확인하세요.",
           "quote": "more than 8 rooms",
           "reviewMethod": "2026-10-18 공식 원문의 표시 조항과 편집 요약 대조. 전체 약관·전문가 검수 아님.",
-          "applicability": "확인한 영문 Terms of Service의 Group bookings 조항. 예약 당시 약관·숙소 개별 조건과 현지 판매 채널의 조건을 함께 확인하세요."
+          "applicability": "확인한 영문 Terms of Service의 Group bookings 조항. 예약 당시 약관·숙소 개별 조건과 현지 판매 채널의 조건을 함께 확인하세요.",
+          "updatedAt": "03-26-2026 (원문 표기)"
         }
       ],
       "scope": "표시 조항과 요약 대조. 전체 문서·전문가 검수 아님."

@@ -1,0 +1,199 @@
+{
+  "checkedAt": "2026-10-18T12:49:55+00:00",
+  "scope": "이전 차이 감지 7개 문서의 로컬 재수집. 조항 의미·법률 검수 아님.",
+  "documents": {
+    "https://help.netflix.com/ko/node/407": {
+      "services": [
+        "netflix"
+      ],
+      "items": [
+        [
+          "netflix",
+          0
+        ]
+      ],
+      "requestAttempted": true,
+      "httpStatus": 200,
+      "finalUrl": "https://help.netflix.com/ko/node/407",
+      "contentType": "text/html;charset=UTF-8",
+      "state": "changed",
+      "baselineHash": "894fdbede22f7e9edba1dd64fbaea01edecded5a7d6f4f6ec6304ad747f34ef4",
+      "baselineAt": "2026-10-17T14:51:26+00:00",
+      "observedHash": "894fdbede22f7e9edba1dd64fbaea01edecded5a7d6f4f6ec6304ad747f34ef4",
+      "lastCheckedAt": "2026-10-18T12:49:55+00:00",
+      "changeDetectedAt": "2026-10-18T12:39:20+00:00",
+      "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
+      "textLength": 2974
+    },
+    "https://help.netflix.com/ko/node/633853347904100": {
+      "services": [
+        "netflix"
+      ],
+      "items": [
+        [
+          "netflix",
+          1
+        ]
+      ],
+      "requestAttempted": true,
+      "httpStatus": 200,
+      "finalUrl": "https://help.netflix.com/ko/node/633853347904100",
+      "contentType": "text/html;charset=UTF-8",
+      "state": "changed",
+      "baselineHash": "3e906759dfbe72baecad064a54dceecdf7c63397f74888c2ea5d9af4de326ffb",
+      "baselineAt": "2026-10-17T14:51:26+00:00",
+      "observedHash": "3e906759dfbe72baecad064a54dceecdf7c63397f74888c2ea5d9af4de326ffb",
+      "lastCheckedAt": "2026-10-18T12:49:55+00:00",
+      "changeDetectedAt": "2026-10-18T12:39:20+00:00",
+      "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
+      "textLength": 948
+    },
+    "https://policies.google.com/privacy?hl=ko": {
+      "services": [
+        "youtube",
+        "google"
+      ],
+      "items": [
+        [
+          "youtube",
+          0
+        ],
+        [
+          "google",
+          0
+        ],
+        [
+          "google",
+          1
+        ]
+      ],
+      "requestAttempted": true,
+      "httpStatus": 200,
+      "finalUrl": "https://policies.google.com/privacy?hl=ko",
+      "contentType": "text/html; charset=utf-8",
+      "state": "changed",
+      "baselineHash": "a81e5bd5c61de54de0b4792c5a123d9adef19aae32ecd134c86c1886b9c1a822",
+      "baselineAt": "2026-10-17T14:51:26+00:00",
+      "observedHash": "a81e5bd5c61de54de0b4792c5a123d9adef19aae32ecd134c86c1886b9c1a822",
+      "lastCheckedAt": "2026-10-18T12:49:55+00:00",
+      "changeDetectedAt": "2026-10-18T12:39:20+00:00",
+      "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
+      "textLength": 30146
+    },
+    "https://telegram.org/privacy": {
+      "services": [
+        "telegram"
+      ],
+      "items": [
+        [
+          "telegram",
+          0
+        ]
+      ],
+      "requestAttempted": true,
+      "httpStatus": 200,
+      "finalUrl": "https://telegram.org/privacy/gb",
+      "contentType": "text/html; charset=utf-8",
+      "state": "changed",
+      "baselineHash": "c906dc3fc74b3f8bd72e5870255bfa704be6b4729f0c207338df5a05d2579649",
+      "baselineAt": "2026-10-17T14:51:26+00:00",
+      "observedHash": "c906dc3fc74b3f8bd72e5870255bfa704be6b4729f0c207338df5a05d2579649",
+      "lastCheckedAt": "2026-10-18T12:49:55+00:00",
+      "changeDetectedAt": "2026-10-18T12:39:20+00:00",
+      "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
+      "textLength": 31847
+    },
+    "https://vimeo.com/legal/": {
+      "services": [
+        "vimeo"
+      ],
+      "items": [
+        [
+          "vimeo",
+          0
+        ]
+      ],
+      "requestAttempted": true,
+      "httpStatus": 200,
+      "finalUrl": "https://vimeo.com/legal/",
+      "contentType": "text/plain; charset=utf-8",
+      "state": "changed",
+      "baselineHash": "718cfa2630dcae4830d0e5c7f662642a1f3031ebc08c5f2d03fadd6d966960a6",
+      "baselineAt": "2026-10-17T14:51:26+00:00",
+      "observedHash": "718cfa2630dcae4830d0e5c7f662642a1f3031ebc08c5f2d03fadd6d966960a6",
+      "lastCheckedAt": "2026-10-18T12:49:55+00:00",
+      "changeDetectedAt": "2026-10-18T12:39:20+00:00",
+      "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
+      "textLength": 55297
+    },
+    "https://www.anthropic.com/legal/consumer-terms": {
+      "services": [
+        "claude"
+      ],
+      "items": [
+        [
+          "claude",
+          0
+        ],
+        [
+          "claude",
+          1
+        ],
+        [
+          "claude",
+          2
+        ],
+        [
+          "claude",
+          3
+        ],
+        [
+          "claude",
+          4
+        ],
+        [
+          "claude",
+          5
+        ]
+      ],
+      "requestAttempted": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.anthropic.com/legal/consumer-terms",
+      "contentType": "text/html; charset=utf-8",
+      "state": "changed",
+      "baselineHash": "1543df718474cd02aaada3fefbbec29e230301526240a0f8e1bf8de9686d5699",
+      "baselineAt": "2026-10-17T14:51:26+00:00",
+      "observedHash": "1543df718474cd02aaada3fefbbec29e230301526240a0f8e1bf8de9686d5699",
+      "lastCheckedAt": "2026-10-18T12:49:55+00:00",
+      "changeDetectedAt": "2026-10-18T12:39:20+00:00",
+      "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
+      "textLength": 15450
+    },
+    "https://www.calm.com/terms": {
+      "services": [
+        "calm"
+      ],
+      "items": [
+        [
+          "calm",
+          0
+        ]
+      ],
+      "requestAttempted": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.calm.com/terms",
+      "contentType": "text/html; charset=utf-8",
+      "state": "changed",
+      "baselineHash": "ebf435cf49e7a627b47dd815a5e4091decb63a2901799e0805ee614392fb1e0d",
+      "baselineAt": "2026-10-17T14:51:26+00:00",
+      "observedHash": "ebf435cf49e7a627b47dd815a5e4091decb63a2901799e0805ee614392fb1e0d",
+      "lastCheckedAt": "2026-10-18T12:49:55+00:00",
+      "changeDetectedAt": "2026-10-18T12:39:20+00:00",
+      "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
+      "textLength": 45864
+    }
+  },
+  "counts": {
+    "changed": 7
+  }
+}
