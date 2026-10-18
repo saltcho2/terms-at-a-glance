@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['scripts/check_policy_sources.py', 'scripts/test_policy_sources.py', 'service-catalog.js', '.github/workflows/policy-monitor.yml']
+    paths: ['scripts/check_policy_sources.py', 'scripts/test_policy_sources.py', 'service-catalog.js', 'data/catalog.json', 'data/catalog-audit.json', 'scripts/build-catalog.mjs', '.github/workflows/policy-monitor.yml']
 permissions:
   contents: write
   pages: write
@@ -18,6 +18,8 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - run: node scripts/build-catalog.mjs --check
+      - run: node qa-20261017/check-phase2.mjs
       - run: python3 scripts/test_policy_sources.py
       - run: python3 scripts/check_policy_sources.py
       - name: Save observation records

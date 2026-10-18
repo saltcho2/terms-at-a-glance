@@ -1,3 +1,4 @@
+throw new Error('Legacy generator disabled: its historical input is truncated. Edit data/catalog.json and run node scripts/build-catalog.mjs; preserve existing review records.');
 import fs from 'node:fs';
 import vm from 'node:vm';
 const ctx={window:{}};

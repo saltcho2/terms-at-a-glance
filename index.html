@@ -101,11 +101,11 @@
   <footer><div class="footer-inner"><span>© 2026 약관 한눈에 · 독립 정보 프로젝트</span><span>서비스 명칭과 로고의 권리는 각 권리자에게 있으며, 해당 서비스와 제휴 관계가 없습니다.</span></div></footer>
 
   <script>window.termsAssetErrors=[];</script>
-  <script src="service-catalog.js?v=20261018p3" onerror="window.termsAssetErrors.push('service-catalog.js')"></script>
+  <script src="service-catalog.js?v=20261018p4" onerror="window.termsAssetErrors.push('service-catalog.js')"></script>
   <script src="casebook.js?v=20261017c" onerror="window.termsAssetErrors.push('casebook.js')"></script>
   <script src="search-engine.js?v=20261014a" onerror="window.termsAssetErrors.push('search-engine.js')"></script>
-  <script src="source-status.js?v=20261018p3"></script>
-  <script src="review-ui.js?v=20261018p3" onerror="window.termsAssetErrors.push('review-ui.js')"></script>
+  <script src="source-status.js?v=20261018p4"></script>
+  <script src="review-ui.js?v=20261018p4" onerror="window.termsAssetErrors.push('review-ui.js')"></script>
   <script>
     function showLoadFailure(reason){
       document.documentElement.dataset.appState='failed';
@@ -198,7 +198,7 @@
     }
     function reviewDetails(data,item){
       const e=item[7]||{},priority=window.TermsReview.priority(item),recommended=window.TermsReview.reviewDate(e.checkedAt);
-      return '<details class="review-details"><summary>검수 기록·확인 순서의 근거</summary><dl><dt>확인 순서</dt><dd>'+escapeHtml(labels[priority.level])+' · '+escapeHtml(priority.reason)+'</dd><dt>대조 범위</dt><dd>이 화면의 해당 항목과 기재한 조항에 한정 · 전체 약관 검수 완료 아님</dd><dt>원문 시행일·버전</dt><dd>'+escapeHtml(e.version||'문서에서 버전 날짜를 확인하지 못함')+'</dd><dt>시행일</dt><dd>'+escapeHtml(e.effectiveAt||'별도 확인 기록 없음')+(e.effectiveAtBasis?'<br>'+escapeHtml(e.effectiveAtBasis):'')+'</dd><dt>문서 수정일</dt><dd>'+escapeHtml(e.updatedAt||'별도 확인 기록 없음')+'</dd><dt>게시일</dt><dd>'+escapeHtml(e.publishedAt||'별도 확인 기록 없음')+'</dd><dt>대조일</dt><dd>'+escapeHtml(e.checkedAt||'대조일 기록 없음')+'</dd><dt>재검토 권장일</dt><dd>'+escapeHtml(recommended||'대조일 기록이 없어 계산하지 않음')+' · 실제 검수 일정은 미정</dd></dl><p>주의 표시는 위법성 판정이 아닙니다. 원문 본문 스냅샷의 차이는 자동 비교합니다. 화면 구성 변경도 차이로 잡힐 수 있으며, 약관 개정 확정·요약 재검수 완료를 뜻하지 않습니다.</p></details>';
+      return '<details class="review-details"><summary>검수 기록·확인 순서의 근거</summary><dl><dt>확인 순서</dt><dd>'+escapeHtml(labels[priority.level])+' · '+escapeHtml(priority.reason)+'</dd><dt>대조 범위</dt><dd>이 화면의 해당 항목과 기재한 조항에 한정 · 전체 약관 검수 완료 아님</dd><dt>원문 시행일·버전</dt><dd>'+escapeHtml(e.version||'문서에서 버전 날짜를 확인하지 못함')+'</dd><dt>시행일</dt><dd>'+escapeHtml(e.effectiveAt||'별도 확인 기록 없음')+(e.effectiveAtBasis?'<br>'+escapeHtml(e.effectiveAtBasis):'')+'</dd><dt>문서 수정일</dt><dd>'+escapeHtml(e.updatedAt||'별도 확인 기록 없음')+'</dd><dt>게시일</dt><dd>'+escapeHtml(e.publishedAt||'별도 확인 기록 없음')+'</dd><dt>대조일</dt><dd>'+escapeHtml(e.checkedAt||'대조일 기록 없음')+'</dd><dt>재검토 권장일</dt><dd>'+escapeHtml(recommended||'대조일 기록이 없어 계산하지 않음')+' · 실제 검수 일정은 미정</dd><dt>이번 대조 방법</dt><dd>'+escapeHtml(e.reviewMethod||'별도 방법 기록 없음')+'</dd></dl><p>주의 표시는 위법성 판정이 아닙니다. HTML 본문 또는 PDF 파일 스냅샷의 차이를 자동 비교합니다. 화면 구성 변경도 차이로 잡힐 수 있으며, 약관 개정 확정·요약 재검수 완료를 뜻하지 않습니다.</p></details>';
     }
     let reportContextName="";
     function openReport(data,item){

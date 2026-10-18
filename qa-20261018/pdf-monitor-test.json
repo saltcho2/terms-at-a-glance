@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-18T13:00:04+00:00",
+  "scope": "현재 공개 링크의 HTML 본문 또는 PDF 파일 바이트 비교. 조항 해석·법률 검수 아님.",
+  "documents": {
+    "https://www.netlify.com/pdf/self-serve-subscription-agreement.pdf/": {
+      "services": [
+        "netlify"
+      ],
+      "items": [],
+      "requestAttempted": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.netlify.com/pdf/self-serve-subscription-agreement.pdf/",
+      "contentType": "application/pdf",
+      "state": "baseline",
+      "baselineHash": "18f9923a83ca37ac5229334fe59c2ebf915113ccdeccc669c21566759e946713",
+      "baselineAt": "2026-10-18T13:00:04+00:00",
+      "observedHash": "18f9923a83ca37ac5229334fe59c2ebf915113ccdeccc669c21566759e946713",
+      "lastCheckedAt": "2026-10-18T13:00:04+00:00",
+      "changeDetectedAt": null,
+      "reason": "변경 비교 기준 생성 · 요약 검수 아님",
+      "textLength": null,
+      "comparisonKind": "pdf-bytes",
+      "fileSize": 252755
+    }
+  },
+  "counts": {
+    "baseline": 1
+  },
+  "serviceCoverage": {
+    "registered": 1,
+    "withSource": 1,
+    "withoutSource": []
+  }
+}

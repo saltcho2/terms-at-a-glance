@@ -1,0 +1,4821 @@
+{
+  "registered": 500,
+  "summaryServices": 156,
+  "items": 258,
+  "missingFields": {
+    "publishedAt": 256,
+    "quote": 183,
+    "effectiveAt": 156
+  },
+  "withoutSummary": [
+    {
+      "key": "instagram",
+      "name": "Instagram"
+    },
+    {
+      "key": "tiktok",
+      "name": "TikTok"
+    },
+    {
+      "key": "facebook",
+      "name": "Facebook"
+    },
+    {
+      "key": "threads",
+      "name": "Threads"
+    },
+    {
+      "key": "disneyplus",
+      "name": "Disney+"
+    },
+    {
+      "key": "tving",
+      "name": "TVING"
+    },
+    {
+      "key": "wavve",
+      "name": "Wavve"
+    },
+    {
+      "key": "melon",
+      "name": "멜론"
+    },
+    {
+      "key": "aliexpress",
+      "name": "AliExpress"
+    },
+    {
+      "key": "shein",
+      "name": "SHEIN"
+    },
+    {
+      "key": "musinsa",
+      "name": "무신사"
+    },
+    {
+      "key": "ssg",
+      "name": "SSG.COM"
+    },
+    {
+      "key": "yogiyo",
+      "name": "요기요"
+    },
+    {
+      "key": "airbnb",
+      "name": "Airbnb"
+    },
+    {
+      "key": "booking",
+      "name": "Booking.com"
+    },
+    {
+      "key": "uber",
+      "name": "Uber"
+    },
+    {
+      "key": "kakaot",
+      "name": "카카오 T"
+    },
+    {
+      "key": "mastodon",
+      "name": "Mastodon"
+    },
+    {
+      "key": "quora",
+      "name": "Quora"
+    },
+    {
+      "key": "weverse",
+      "name": "Weverse"
+    },
+    {
+      "key": "band",
+      "name": "NAVER BAND"
+    },
+    {
+      "key": "kakaostory",
+      "name": "카카오스토리"
+    },
+    {
+      "key": "nextdoor",
+      "name": "Nextdoor"
+    },
+    {
+      "key": "clubhouse",
+      "name": "Clubhouse"
+    },
+    {
+      "key": "behance",
+      "name": "Behance"
+    },
+    {
+      "key": "deviantart",
+      "name": "DeviantArt"
+    },
+    {
+      "key": "hulu",
+      "name": "Hulu"
+    },
+    {
+      "key": "max",
+      "name": "Max"
+    },
+    {
+      "key": "paramountplus",
+      "name": "Paramount+"
+    },
+    {
+      "key": "peacock",
+      "name": "Peacock"
+    },
+    {
+      "key": "crunchyroll",
+      "name": "Crunchyroll"
+    },
+    {
+      "key": "viki",
+      "name": "Rakuten Viki"
+    },
+    {
+      "key": "deezer",
+      "name": "Deezer"
+    },
+    {
+      "key": "amazonmusic",
+      "name": "Amazon Music"
+    },
+    {
+      "key": "genie",
+      "name": "지니뮤직"
+    },
+    {
+      "key": "flo",
+      "name": "FLO"
+    },
+    {
+      "key": "kakaopage",
+      "name": "카카오페이지"
+    },
+    {
+      "key": "amazon",
+      "name": "Amazon"
+    },
+    {
+      "key": "ebay",
+      "name": "eBay"
+    },
+    {
+      "key": "walmart",
+      "name": "Walmart"
+    },
+    {
+      "key": "target",
+      "name": "Target"
+    },
+    {
+      "key": "rakuten",
+      "name": "Rakuten"
+    },
+    {
+      "key": "qoo10",
+      "name": "Qoo10"
+    },
+    {
+      "key": "mercadolibre",
+      "name": "Mercado Libre"
+    },
+    {
+      "key": "poshmark",
+      "name": "Poshmark"
+    },
+    {
+      "key": "stockx",
+      "name": "StockX"
+    },
+    {
+      "key": "kream",
+      "name": "KREAM"
+    },
+    {
+      "key": "navershopping",
+      "name": "네이버쇼핑"
+    },
+    {
+      "key": "kurly",
+      "name": "마켓컬리"
+    },
+    {
+      "key": "lotteon",
+      "name": "롯데ON"
+    },
+    {
+      "key": "homeplus",
+      "name": "홈플러스"
+    },
+    {
+      "key": "ikea",
+      "name": "IKEA"
+    },
+    {
+      "key": "sephora",
+      "name": "Sephora"
+    },
+    {
+      "key": "daiso",
+      "name": "다이소몰"
+    },
+    {
+      "key": "monday",
+      "name": "monday.com"
+    },
+    {
+      "key": "docusign",
+      "name": "DocuSign"
+    },
+    {
+      "key": "chatgpt",
+      "name": "ChatGPT"
+    },
+    {
+      "key": "perplexity",
+      "name": "Perplexity"
+    },
+    {
+      "key": "gemini",
+      "name": "Google Gemini"
+    },
+    {
+      "key": "agoda",
+      "name": "Agoda"
+    },
+    {
+      "key": "tripadvisor",
+      "name": "Tripadvisor"
+    },
+    {
+      "key": "lyft",
+      "name": "Lyft"
+    },
+    {
+      "key": "grab",
+      "name": "Grab"
+    },
+    {
+      "key": "bolt",
+      "name": "Bolt"
+    },
+    {
+      "key": "klook",
+      "name": "Klook"
+    },
+    {
+      "key": "myrealtrip",
+      "name": "마이리얼트립"
+    },
+    {
+      "key": "yeogi",
+      "name": "여기어때"
+    },
+    {
+      "key": "yanolja",
+      "name": "야놀자"
+    },
+    {
+      "key": "korail",
+      "name": "코레일"
+    },
+    {
+      "key": "nintendo",
+      "name": "Nintendo"
+    },
+    {
+      "key": "roblox",
+      "name": "Roblox"
+    },
+    {
+      "key": "battlenet",
+      "name": "Battle.net"
+    },
+    {
+      "key": "nexon",
+      "name": "넥슨"
+    },
+    {
+      "key": "duolingo",
+      "name": "Duolingo"
+    },
+    {
+      "key": "udemy",
+      "name": "Udemy"
+    },
+    {
+      "key": "messenger",
+      "name": "Messenger"
+    },
+    {
+      "key": "wechat",
+      "name": "WeChat"
+    },
+    {
+      "key": "qq",
+      "name": "QQ"
+    },
+    {
+      "key": "imo",
+      "name": "imo"
+    },
+    {
+      "key": "meetup",
+      "name": "Meetup"
+    },
+    {
+      "key": "vk",
+      "name": "VK"
+    },
+    {
+      "key": "okru",
+      "name": "OK"
+    },
+    {
+      "key": "truthsocial",
+      "name": "Truth Social"
+    },
+    {
+      "key": "parler",
+      "name": "Parler"
+    },
+    {
+      "key": "gab",
+      "name": "Gab"
+    },
+    {
+      "key": "lemmy",
+      "name": "Lemmy"
+    },
+    {
+      "key": "fivehundredpx",
+      "name": "500px"
+    },
+    {
+      "key": "blogger",
+      "name": "Blogger"
+    },
+    {
+      "key": "youtubemusic",
+      "name": "YouTube Music"
+    },
+    {
+      "key": "pandora",
+      "name": "Pandora"
+    },
+    {
+      "key": "iheartradio",
+      "name": "iHeartRadio"
+    },
+    {
+      "key": "tunein",
+      "name": "TuneIn"
+    },
+    {
+      "key": "plex",
+      "name": "Plex"
+    },
+    {
+      "key": "roku",
+      "name": "Roku"
+    },
+    {
+      "key": "tubi",
+      "name": "Tubi"
+    },
+    {
+      "key": "plutotv",
+      "name": "Pluto TV"
+    },
+    {
+      "key": "mubi",
+      "name": "MUBI"
+    },
+    {
+      "key": "criterion",
+      "name": "Criterion Channel"
+    },
+    {
+      "key": "discoveryplus",
+      "name": "discovery+"
+    },
+    {
+      "key": "espnplus",
+      "name": "ESPN+"
+    },
+    {
+      "key": "sling",
+      "name": "Sling TV"
+    },
+    {
+      "key": "fubotv",
+      "name": "Fubo"
+    },
+    {
+      "key": "dazn",
+      "name": "DAZN"
+    },
+    {
+      "key": "soop",
+      "name": "SOOP"
+    },
+    {
+      "key": "chzzk",
+      "name": "CHZZK"
+    },
+    {
+      "key": "storytel",
+      "name": "Storytel"
+    },
+    {
+      "key": "scribd",
+      "name": "Everand"
+    },
+    {
+      "key": "podbean",
+      "name": "Podbean"
+    },
+    {
+      "key": "pocketcasts",
+      "name": "Pocket Casts"
+    },
+    {
+      "key": "castbox",
+      "name": "Castbox"
+    },
+    {
+      "key": "qobuz",
+      "name": "Qobuz"
+    },
+    {
+      "key": "bestbuy",
+      "name": "Best Buy"
+    },
+    {
+      "key": "homedepot",
+      "name": "The Home Depot"
+    },
+    {
+      "key": "wayfair",
+      "name": "Wayfair"
+    },
+    {
+      "key": "wish",
+      "name": "Wish"
+    },
+    {
+      "key": "zalando",
+      "name": "Zalando"
+    },
+    {
+      "key": "asos",
+      "name": "ASOS"
+    },
+    {
+      "key": "farfetch",
+      "name": "FARFETCH"
+    },
+    {
+      "key": "uniqlo",
+      "name": "UNIQLO"
+    },
+    {
+      "key": "hm",
+      "name": "H&M"
+    },
+    {
+      "key": "ably",
+      "name": "에이블리"
+    },
+    {
+      "key": "queenit",
+      "name": "퀸잇"
+    },
+    {
+      "key": "karrot",
+      "name": "당근"
+    },
+    {
+      "key": "auction",
+      "name": "옥션"
+    },
+    {
+      "key": "doordash",
+      "name": "DoorDash"
+    },
+    {
+      "key": "instacart",
+      "name": "Instacart"
+    },
+    {
+      "key": "deliveroo",
+      "name": "Deliveroo"
+    },
+    {
+      "key": "foodpanda",
+      "name": "foodpanda"
+    },
+    {
+      "key": "ubereats",
+      "name": "Uber Eats"
+    },
+    {
+      "key": "costco",
+      "name": "Costco"
+    },
+    {
+      "key": "macys",
+      "name": "Macy’s"
+    },
+    {
+      "key": "nordstrom",
+      "name": "Nordstrom"
+    },
+    {
+      "key": "iherb",
+      "name": "iHerb"
+    },
+    {
+      "key": "samsungshop",
+      "name": "Samsung Shop"
+    },
+    {
+      "key": "googleworkspace",
+      "name": "Google Workspace"
+    },
+    {
+      "key": "gmail",
+      "name": "Gmail"
+    },
+    {
+      "key": "yahoomail",
+      "name": "Yahoo Mail"
+    },
+    {
+      "key": "wetransfer",
+      "name": "WeTransfer"
+    },
+    {
+      "key": "mega",
+      "name": "MEGA"
+    },
+    {
+      "key": "pcloud",
+      "name": "pCloud"
+    },
+    {
+      "key": "smartsheet",
+      "name": "Smartsheet"
+    },
+    {
+      "key": "salesforce",
+      "name": "Salesforce"
+    },
+    {
+      "key": "zendesk",
+      "name": "Zendesk"
+    },
+    {
+      "key": "webex",
+      "name": "Webex"
+    },
+    {
+      "key": "teams",
+      "name": "Microsoft Teams"
+    },
+    {
+      "key": "googlemeet",
+      "name": "Google Meet"
+    },
+    {
+      "key": "codesandbox",
+      "name": "CodeSandbox"
+    },
+    {
+      "key": "digitalocean",
+      "name": "DigitalOcean"
+    },
+    {
+      "key": "googlemaps",
+      "name": "Google Maps"
+    },
+    {
+      "key": "waze",
+      "name": "Waze"
+    },
+    {
+      "key": "citymapper",
+      "name": "Citymapper"
+    },
+    {
+      "key": "moovit",
+      "name": "Moovit"
+    },
+    {
+      "key": "lime",
+      "name": "Lime"
+    },
+    {
+      "key": "bird",
+      "name": "Bird"
+    },
+    {
+      "key": "getaround",
+      "name": "Getaround"
+    },
+    {
+      "key": "sixt",
+      "name": "SIXT"
+    },
+    {
+      "key": "hertz",
+      "name": "Hertz"
+    },
+    {
+      "key": "avis",
+      "name": "Avis"
+    },
+    {
+      "key": "rentalcars",
+      "name": "Rentalcars.com"
+    },
+    {
+      "key": "hopper",
+      "name": "Hopper"
+    },
+    {
+      "key": "traveloka",
+      "name": "Traveloka"
+    },
+    {
+      "key": "omio",
+      "name": "Omio"
+    },
+    {
+      "key": "trainline",
+      "name": "Trainline"
+    },
+    {
+      "key": "paypal",
+      "name": "PayPal"
+    },
+    {
+      "key": "venmo",
+      "name": "Venmo"
+    },
+    {
+      "key": "cashapp",
+      "name": "Cash App"
+    },
+    {
+      "key": "wise",
+      "name": "Wise"
+    },
+    {
+      "key": "revolut",
+      "name": "Revolut"
+    },
+    {
+      "key": "coinbase",
+      "name": "Coinbase"
+    },
+    {
+      "key": "binance",
+      "name": "Binance"
+    },
+    {
+      "key": "robinhood",
+      "name": "Robinhood"
+    },
+    {
+      "key": "tinder",
+      "name": "Tinder"
+    },
+    {
+      "key": "bumble",
+      "name": "Bumble"
+    },
+    {
+      "key": "hinge",
+      "name": "Hinge"
+    },
+    {
+      "key": "okcupid",
+      "name": "OkCupid"
+    },
+    {
+      "key": "match",
+      "name": "Match"
+    },
+    {
+      "key": "myfitnesspal",
+      "name": "MyFitnessPal"
+    },
+    {
+      "key": "indeed",
+      "name": "Indeed"
+    },
+    {
+      "key": "glassdoor",
+      "name": "Glassdoor"
+    },
+    {
+      "key": "upwork",
+      "name": "Upwork"
+    },
+    {
+      "key": "fiverr",
+      "name": "Fiverr"
+    },
+    {
+      "key": "khanacademy",
+      "name": "Khan Academy"
+    },
+    {
+      "key": "grok",
+      "name": "Grok"
+    },
+    {
+      "key": "midjourney",
+      "name": "Midjourney"
+    },
+    {
+      "key": "runway",
+      "name": "Runway"
+    },
+    {
+      "key": "leonardoai",
+      "name": "Leonardo AI"
+    },
+    {
+      "key": "stabilityai",
+      "name": "Stability AI"
+    },
+    {
+      "key": "poe",
+      "name": "Poe"
+    },
+    {
+      "key": "characterai",
+      "name": "Character.AI"
+    },
+    {
+      "key": "civitai",
+      "name": "Civitai"
+    },
+    {
+      "key": "cursor",
+      "name": "Cursor"
+    },
+    {
+      "key": "windsurf",
+      "name": "Windsurf"
+    },
+    {
+      "key": "lovable",
+      "name": "Lovable"
+    },
+    {
+      "key": "boltnew",
+      "name": "Bolt.new"
+    },
+    {
+      "key": "v0",
+      "name": "v0"
+    },
+    {
+      "key": "stackoverflow",
+      "name": "Stack Overflow"
+    },
+    {
+      "key": "npm",
+      "name": "npm"
+    },
+    {
+      "key": "pypi",
+      "name": "PyPI"
+    },
+    {
+      "key": "dockerhub",
+      "name": "Docker Hub"
+    },
+    {
+      "key": "jetbrains",
+      "name": "JetBrains"
+    },
+    {
+      "key": "vscode_market",
+      "name": "Visual Studio Marketplace"
+    },
+    {
+      "key": "unity",
+      "name": "Unity"
+    },
+    {
+      "key": "unrealengine",
+      "name": "Unreal Engine"
+    },
+    {
+      "key": "datadog",
+      "name": "Datadog"
+    },
+    {
+      "key": "newrelic",
+      "name": "New Relic"
+    },
+    {
+      "key": "grafana",
+      "name": "Grafana Cloud"
+    },
+    {
+      "key": "firebase",
+      "name": "Firebase"
+    },
+    {
+      "key": "rendercloud",
+      "name": "Render"
+    },
+    {
+      "key": "heroku",
+      "name": "Heroku"
+    },
+    {
+      "key": "linode",
+      "name": "Linode"
+    },
+    {
+      "key": "vultr",
+      "name": "Vultr"
+    },
+    {
+      "key": "ovhcloud",
+      "name": "OVHcloud"
+    },
+    {
+      "key": "namecheap",
+      "name": "Namecheap"
+    },
+    {
+      "key": "godaddy",
+      "name": "GoDaddy"
+    },
+    {
+      "key": "squarespace",
+      "name": "Squarespace"
+    },
+    {
+      "key": "wix",
+      "name": "Wix"
+    },
+    {
+      "key": "shopify",
+      "name": "Shopify"
+    },
+    {
+      "key": "woocommerce",
+      "name": "WooCommerce"
+    },
+    {
+      "key": "pandadoc",
+      "name": "PandaDoc"
+    },
+    {
+      "key": "bearnotes",
+      "name": "Bear"
+    },
+    {
+      "key": "roam",
+      "name": "Roam Research"
+    },
+    {
+      "key": "tana",
+      "name": "Tana"
+    },
+    {
+      "key": "anytype",
+      "name": "Anytype"
+    },
+    {
+      "key": "things",
+      "name": "Things"
+    },
+    {
+      "key": "sunsama",
+      "name": "Sunsama"
+    },
+    {
+      "key": "motion",
+      "name": "Motion"
+    },
+    {
+      "key": "akiflow",
+      "name": "Akiflow"
+    },
+    {
+      "key": "fantastical",
+      "name": "Fantastical"
+    },
+    {
+      "key": "nordpass",
+      "name": "NordPass"
+    },
+    {
+      "key": "nordvpn",
+      "name": "NordVPN"
+    },
+    {
+      "key": "expressvpn",
+      "name": "ExpressVPN"
+    },
+    {
+      "key": "surfshark",
+      "name": "Surfshark"
+    },
+    {
+      "key": "mullvad",
+      "name": "Mullvad"
+    },
+    {
+      "key": "protonvpn",
+      "name": "Proton VPN"
+    },
+    {
+      "key": "make",
+      "name": "Make"
+    },
+    {
+      "key": "ifttt",
+      "name": "IFTTT"
+    },
+    {
+      "key": "sproutsocial",
+      "name": "Sprout Social"
+    },
+    {
+      "key": "klaviyo",
+      "name": "Klaviyo"
+    },
+    {
+      "key": "constantcontact",
+      "name": "Constant Contact"
+    },
+    {
+      "key": "brevo",
+      "name": "Brevo"
+    },
+    {
+      "key": "kit",
+      "name": "Kit"
+    },
+    {
+      "key": "ghost",
+      "name": "Ghost"
+    },
+    {
+      "key": "nebula",
+      "name": "Nebula"
+    },
+    {
+      "key": "curiositystream",
+      "name": "Curiosity Stream"
+    },
+    {
+      "key": "britbox",
+      "name": "BritBox"
+    },
+    {
+      "key": "shudder",
+      "name": "Shudder"
+    },
+    {
+      "key": "acorntv",
+      "name": "Acorn TV"
+    },
+    {
+      "key": "viu",
+      "name": "Viu"
+    },
+    {
+      "key": "iqiyi",
+      "name": "iQIYI"
+    },
+    {
+      "key": "wetv",
+      "name": "WeTV"
+    },
+    {
+      "key": "bilibili",
+      "name": "Bilibili"
+    },
+    {
+      "key": "niconico",
+      "name": "Niconico"
+    },
+    {
+      "key": "dailymotion",
+      "name": "Dailymotion"
+    },
+    {
+      "key": "rumble",
+      "name": "Rumble"
+    },
+    {
+      "key": "ao3",
+      "name": "Archive of Our Own"
+    },
+    {
+      "key": "scribdbooks",
+      "name": "Scribd"
+    },
+    {
+      "key": "kobo",
+      "name": "Kobo"
+    },
+    {
+      "key": "googleplaybooks",
+      "name": "Google Play Books"
+    },
+    {
+      "key": "applebooks",
+      "name": "Apple Books"
+    },
+    {
+      "key": "feedly",
+      "name": "Feedly"
+    },
+    {
+      "key": "flipboard",
+      "name": "Flipboard"
+    },
+    {
+      "key": "inoreader",
+      "name": "Inoreader"
+    },
+    {
+      "key": "newsbreak",
+      "name": "NewsBreak"
+    },
+    {
+      "key": "groundnews",
+      "name": "Ground News"
+    },
+    {
+      "key": "nytimes",
+      "name": "The New York Times"
+    },
+    {
+      "key": "washingtonpost",
+      "name": "The Washington Post"
+    },
+    {
+      "key": "guardian",
+      "name": "The Guardian"
+    },
+    {
+      "key": "financialtimes",
+      "name": "Financial Times"
+    },
+    {
+      "key": "bloomberg",
+      "name": "Bloomberg"
+    },
+    {
+      "key": "ted",
+      "name": "TED"
+    },
+    {
+      "key": "naversmartstore",
+      "name": "네이버 스마트스토어"
+    },
+    {
+      "key": "kakaoshopping",
+      "name": "카카오 쇼핑"
+    },
+    {
+      "key": "wconcept",
+      "name": "W Concept"
+    },
+    {
+      "key": "twentyninecm",
+      "name": "29CM"
+    },
+    {
+      "key": "eql",
+      "name": "EQL"
+    },
+    {
+      "key": "lfmall",
+      "name": "LFmall"
+    },
+    {
+      "key": "lottehomeshopping",
+      "name": "롯데홈쇼핑"
+    },
+    {
+      "key": "gsshop",
+      "name": "GS SHOP"
+    },
+    {
+      "key": "cjonstyle",
+      "name": "CJ온스타일"
+    },
+    {
+      "key": "nsmall",
+      "name": "NS홈쇼핑"
+    },
+    {
+      "key": "akmall",
+      "name": "AK몰"
+    },
+    {
+      "key": "hmall",
+      "name": "현대Hmall"
+    },
+    {
+      "key": "interparkshopping",
+      "name": "인터파크 쇼핑"
+    },
+    {
+      "key": "tenbyten",
+      "name": "텐바이텐"
+    },
+    {
+      "key": "idus",
+      "name": "아이디어스"
+    },
+    {
+      "key": "mercari",
+      "name": "Mercari"
+    },
+    {
+      "key": "offerup",
+      "name": "OfferUp"
+    },
+    {
+      "key": "grailed",
+      "name": "Grailed"
+    },
+    {
+      "key": "goat",
+      "name": "GOAT"
+    },
+    {
+      "key": "therealreal",
+      "name": "The RealReal"
+    },
+    {
+      "key": "vestiaire",
+      "name": "Vestiaire Collective"
+    },
+    {
+      "key": "newegg",
+      "name": "Newegg"
+    },
+    {
+      "key": "bhphoto",
+      "name": "B&H Photo"
+    },
+    {
+      "key": "microcenter",
+      "name": "Micro Center"
+    },
+    {
+      "key": "lowes",
+      "name": "Lowe’s"
+    },
+    {
+      "key": "acehardware",
+      "name": "Ace Hardware"
+    },
+    {
+      "key": "walgreens",
+      "name": "Walgreens"
+    },
+    {
+      "key": "cvs",
+      "name": "CVS"
+    },
+    {
+      "key": "boots",
+      "name": "Boots"
+    },
+    {
+      "key": "zalora",
+      "name": "Zalora"
+    },
+    {
+      "key": "lazada",
+      "name": "Lazada"
+    },
+    {
+      "key": "shopee",
+      "name": "Shopee"
+    },
+    {
+      "key": "stripe",
+      "name": "Stripe"
+    },
+    {
+      "key": "square",
+      "name": "Square"
+    },
+    {
+      "key": "adyen",
+      "name": "Adyen"
+    },
+    {
+      "key": "klarna",
+      "name": "Klarna"
+    },
+    {
+      "key": "afterpay",
+      "name": "Afterpay"
+    },
+    {
+      "key": "affirm",
+      "name": "Affirm"
+    },
+    {
+      "key": "remitly",
+      "name": "Remitly"
+    },
+    {
+      "key": "westernunion",
+      "name": "Western Union"
+    },
+    {
+      "key": "moneygram",
+      "name": "MoneyGram"
+    },
+    {
+      "key": "skrill",
+      "name": "Skrill"
+    },
+    {
+      "key": "neteller",
+      "name": "Neteller"
+    },
+    {
+      "key": "payoneer",
+      "name": "Payoneer"
+    },
+    {
+      "key": "kakaopay",
+      "name": "카카오페이"
+    },
+    {
+      "key": "naverpay",
+      "name": "네이버페이"
+    },
+    {
+      "key": "toss",
+      "name": "토스"
+    },
+    {
+      "key": "samsungpay",
+      "name": "Samsung Wallet"
+    },
+    {
+      "key": "googlepay",
+      "name": "Google Pay"
+    },
+    {
+      "key": "applepay",
+      "name": "Apple Pay"
+    },
+    {
+      "key": "sofi",
+      "name": "SoFi"
+    },
+    {
+      "key": "wealthfront",
+      "name": "Wealthfront"
+    },
+    {
+      "key": "komoot",
+      "name": "Komoot"
+    },
+    {
+      "key": "wikiloc",
+      "name": "Wikiloc"
+    },
+    {
+      "key": "classpass",
+      "name": "ClassPass"
+    },
+    {
+      "key": "betterhelp",
+      "name": "BetterHelp"
+    },
+    {
+      "key": "flohealth",
+      "name": "Flo"
+    },
+    {
+      "key": "sleepcycle",
+      "name": "Sleep Cycle"
+    },
+    {
+      "key": "garminconnect",
+      "name": "Garmin Connect"
+    },
+    {
+      "key": "peloton",
+      "name": "Peloton"
+    },
+    {
+      "key": "nikeclub",
+      "name": "Nike Run Club"
+    },
+    {
+      "key": "adidasrunning",
+      "name": "adidas Running"
+    },
+    {
+      "key": "lululemon",
+      "name": "lululemon"
+    },
+    {
+      "key": "choiceprivileges",
+      "name": "Choice Privileges"
+    },
+    {
+      "key": "hilton",
+      "name": "Hilton Honors"
+    },
+    {
+      "key": "marriott",
+      "name": "Marriott Bonvoy"
+    },
+    {
+      "key": "hyatt",
+      "name": "World of Hyatt"
+    },
+    {
+      "key": "ihg",
+      "name": "IHG One Rewards"
+    },
+    {
+      "key": "accor",
+      "name": "ALL Accor"
+    },
+    {
+      "key": "airasia",
+      "name": "AirAsia"
+    },
+    {
+      "key": "ryanair",
+      "name": "Ryanair"
+    },
+    {
+      "key": "easyjet",
+      "name": "easyJet"
+    },
+    {
+      "key": "emirates",
+      "name": "Emirates"
+    },
+    {
+      "key": "qatarairways",
+      "name": "Qatar Airways"
+    }
+  ],
+  "itemsAudit": [
+    {
+      "key": "youtube",
+      "service": "YouTube",
+      "index": 0,
+      "title": "시청 기록 설정과 광고 설정은 따로 확인",
+      "source": "https://policies.google.com/privacy?hl=ko",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "youtube",
+      "service": "YouTube",
+      "index": 1,
+      "title": "영상 이용권은 운영·홍보·개선 목적으로 부여",
+      "source": "https://www.youtube.com/static?template=terms&gl=KR&hl=ko",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "youtube",
+      "service": "YouTube",
+      "index": 2,
+      "title": "내 영상에 광고가 붙어도 수익 지급이 자동 보장되지 않음",
+      "source": "https://www.youtube.com/static?template=terms&gl=KR&hl=ko",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "netflix",
+      "service": "Netflix",
+      "index": 0,
+      "title": "앱 삭제나 로그아웃으로는 멤버십이 해지되지 않음",
+      "source": "https://help.netflix.com/ko/node/407",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "netflix",
+      "service": "Netflix",
+      "index": 1,
+      "title": "일반 멤버십은 공개 상영 허가를 뜻하지 않음",
+      "source": "https://help.netflix.com/ko/node/633853347904100",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "temu",
+      "service": "Temu",
+      "index": 0,
+      "title": "후기는 운영·광고에 쓰일 수 있지만 영구 이용권으로 단정할 수 없음",
+      "source": "https://www.temu.com/kr/terms-of-use.html",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "temu",
+      "service": "Temu",
+      "index": 1,
+      "title": "탈퇴하면 계정의 리워드가 취소됨",
+      "source": "https://www.temu.com/kr/terms-of-use.html",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "temu",
+      "service": "Temu",
+      "index": 2,
+      "title": "판매 파트너와 플랫폼의 책임 범위를 구분",
+      "source": "https://www.temu.com/kr/terms-of-use.html",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "discord",
+      "service": "Discord",
+      "index": 0,
+      "title": "콘텐츠 이용권은 서비스 제공·개발·개선 목적",
+      "source": "https://discord.com/terms",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 17. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "discord",
+      "service": "Discord",
+      "index": 1,
+      "title": "메시지 수집과 음성 통화 저장은 구분해야 함",
+      "source": "https://discord.com/privacy",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "discord",
+      "service": "Discord",
+      "index": 2,
+      "title": "계정 비활성화는 계약 종료가 아님",
+      "source": "https://discord.com/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "discord",
+      "service": "Discord",
+      "index": 3,
+      "title": "2년 넘게 미사용하면 계정 종료 사유가 될 수 있음",
+      "source": "https://discord.com/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "discord",
+      "service": "Discord",
+      "index": 4,
+      "title": "Nitro 등 체험·프로모션 종료 뒤 정상 요금으로 갱신",
+      "source": "https://discord.com/terms/paid-services-terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "discord",
+      "service": "Discord",
+      "index": 5,
+      "title": "구독 취소는 현재 기간 끝에 적용·부분 환불은 예외 확인",
+      "source": "https://discord.com/terms/paid-services-terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "discord",
+      "service": "Discord",
+      "index": 6,
+      "title": "계정이 종료돼도 앱스토어 구독은 직접 취소 확인",
+      "source": "https://discord.com/terms/paid-services-terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "discord",
+      "service": "Discord",
+      "index": 7,
+      "title": "가상 상품은 계정 안의 이용권·현금 가치 없음",
+      "source": "https://discord.com/terms/paid-services-terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "spotify",
+      "service": "Spotify",
+      "index": 0,
+      "title": "한국 무료 체험은 유료 유지에 별도 동의 필요",
+      "source": "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 17. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "spotify",
+      "service": "Spotify",
+      "index": 1,
+      "title": "청약철회 기간에도 이용하면 권리가 사라질 수 있음",
+      "source": "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "spotify",
+      "service": "Spotify",
+      "index": 2,
+      "title": "저장한 음악도 파일 소유권을 산 것이 아님",
+      "source": "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "spotify",
+      "service": "Spotify",
+      "index": 3,
+      "title": "추천 배치에 상업적 고려가 영향을 줄 수 있음",
+      "source": "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "coupang",
+      "service": "쿠팡",
+      "index": 0,
+      "title": "맞춤 서비스와 선택 광고 동의는 처리 근거가 다름",
+      "source": "https://privacy.coupang.com/ko/center/coupang/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "coupang",
+      "service": "쿠팡",
+      "index": 1,
+      "title": "탈퇴 후 회원 식별 정보는 90일 보관",
+      "source": "https://privacy.coupang.com/ko/center/coupang/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "coupang",
+      "service": "쿠팡",
+      "index": 2,
+      "title": "거래 기록은 탈퇴와 별개로 수년간 남음",
+      "source": "https://privacy.coupang.com/ko/center/coupang/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "x",
+      "service": "X",
+      "index": 0,
+      "title": "게시물 이용권에 AI 학습과 제3자 배포가 포함됨",
+      "source": "https://x.com/en/tos",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "linkedin",
+      "service": "LinkedIn",
+      "index": 0,
+      "title": "다음 결제일 전에 구독을 취소해야 함",
+      "source": "https://www.linkedin.com/legal/user-agreement",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "linkedin",
+      "service": "LinkedIn",
+      "index": 1,
+      "title": "탈퇴해도 공유본·기존 재허락·백업에는 예외가 있음",
+      "source": "https://www.linkedin.com/legal/user-agreement",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "reddit",
+      "service": "Reddit",
+      "index": 0,
+      "title": "게시물은 AI 학습과 제휴사 배포에 활용될 수 있음",
+      "source": "https://redditinc.com/policies/user-agreement",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "pinterest",
+      "service": "Pinterest",
+      "index": 0,
+      "title": "계정 삭제 후에도 다른 사람이 저장한 콘텐츠는 남을 수 있음",
+      "source": "https://policy.pinterest.com/en/terms-of-service",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "snapchat",
+      "service": "Snapchat",
+      "index": 0,
+      "title": "공개 스토리에는 더 넓은 무상 이용권이 적용됨",
+      "source": "https://www.snap.com/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "kakaotalk",
+      "service": "카카오톡",
+      "index": 0,
+      "title": "카카오계정 탈퇴는 연결 서비스 데이터에도 영향",
+      "source": "https://www.kakao.com/policy/terms?lang=ko",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "line",
+      "service": "LINE",
+      "index": 0,
+      "title": "친구 외에 공개한 콘텐츠에는 넓은 이용권 부여",
+      "source": "https://terms.line.me/line_terms?lang=ko",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "line",
+      "service": "LINE",
+      "index": 1,
+      "title": "1년 이상 미사용하면 계정 삭제 대상이 될 수 있음",
+      "source": "https://terms.line.me/line_terms?lang=ko",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "telegram",
+      "service": "Telegram",
+      "index": 0,
+      "title": "기본값은 18개월 미접속 후 계정과 클라우드 자료 삭제",
+      "source": "https://telegram.org/privacy",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "twitch",
+      "service": "Twitch",
+      "index": 0,
+      "title": "외부 공유 기능을 켜면 다른 사용자의 재사용권 부여",
+      "source": "https://legal.twitch.com/en/legal/terms-of-service/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "watcha",
+      "service": "왓챠",
+      "index": 0,
+      "title": "무료 체험 후 유료 전환에 동의하면 정기결제",
+      "source": "https://watcha.com/ko-KR/legals/play_agreement",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "watcha",
+      "service": "왓챠",
+      "index": 1,
+      "title": "정기결제 해지와 즉시 중도해지는 환불 방식이 다름",
+      "source": "https://watcha.com/ko-KR/legals/play_agreement",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "appletv",
+      "service": "Apple TV+",
+      "index": 0,
+      "title": "구독은 취소 전까지 자동 갱신",
+      "source": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "appletv",
+      "service": "Apple TV+",
+      "index": 1,
+      "title": "콘텐츠 거래는 사용권 취득",
+      "source": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "primevideo",
+      "service": "Prime Video",
+      "index": 0,
+      "title": "구매한 콘텐츠도 온라인 접근이 중단될 수 있음",
+      "source": "https://www.primevideo.com/help?nodeId=202095490",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "applemusic",
+      "service": "Apple Music",
+      "index": 0,
+      "title": "기본 카드가 실패하면 다른 등록 수단으로 청구",
+      "source": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "applemusic",
+      "service": "Apple Music",
+      "index": 1,
+      "title": "체험 요금을 피하려면 종료 최소 24시간 전 취소",
+      "source": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "soundcloud",
+      "service": "SoundCloud",
+      "index": 0,
+      "title": "공유 설정에 따라 다른 이용자에게 재사용 권한 부여",
+      "source": "https://soundcloud.com/terms-of-use",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "soundcloud",
+      "service": "SoundCloud",
+      "index": 1,
+      "title": "음원 삭제와 댓글 이용권 종료는 다름",
+      "source": "https://soundcloud.com/terms-of-use",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "soundcloud",
+      "service": "SoundCloud",
+      "index": 2,
+      "title": "구독 중 계정을 끝내도 남은 기간 환불이 보장되지 않음",
+      "source": "https://soundcloud.com/terms-of-use",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "soundcloud",
+      "service": "SoundCloud",
+      "index": 3,
+      "title": "광고 ID와 이용 정보가 맞춤 광고에 활용될 수 있음",
+      "source": "https://soundcloud.com/pages/privacy",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "soundcloud",
+      "service": "SoundCloud",
+      "index": 4,
+      "title": "탈퇴 전에 활동 통계와 원본을 따로 저장",
+      "source": "https://soundcloud.com/terms-of-use",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "zigzag",
+      "service": "지그재그",
+      "index": 0,
+      "title": "후기는 홍보에 쓰일 수 있으며 거부 의사를 알릴 수 있음",
+      "source": "https://cf.res.s.zigzag.kr/zigzag/terms/user/ko/service.html",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "zigzag",
+      "service": "지그재그",
+      "index": 1,
+      "title": "탈퇴해도 전에 작성한 게시물은 자동 삭제되지 않음",
+      "source": "https://cf.res.s.zigzag.kr/zigzag/terms/user/ko/service.html",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "zigzag",
+      "service": "지그재그",
+      "index": 2,
+      "title": "반품은 기간뿐 아니라 사용·훼손 여부도 확인",
+      "source": "https://cf.res.s.zigzag.kr/zigzag/terms/user/ko/service.html",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "zigzag",
+      "service": "지그재그",
+      "index": 3,
+      "title": "탈퇴해도 거래 기록과 부정 이용 방지 자료는 남을 수 있음",
+      "source": "https://cf.res.s.zigzag.kr/zigzag/terms/user/ko/privacy.html",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "elevenst",
+      "service": "11번가",
+      "index": 0,
+      "title": "탈퇴 후에도 구매회원 정보는 1개월 보관",
+      "source": "https://privacy.11st.co.kr/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "elevenst",
+      "service": "11번가",
+      "index": 1,
+      "title": "11번가 앱을 삭제해도 회원 계정은 남음",
+      "source": "https://privacy.11st.co.kr/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "gmarket",
+      "service": "G마켓",
+      "index": 0,
+      "title": "반품 사유와 배송비 확인 전에는 환불이 지연될 수 있음",
+      "source": "https://policy.gmarket.co.kr/terms-policy/buyer-use",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "baemin",
+      "service": "배달의민족",
+      "index": 0,
+      "title": "가족 결제 요청 때 주소·주문정보가 대표에게 전달",
+      "source": "https://terms.baemin.com/terms/2026/9/2725_20260930033022606.html",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "baemin",
+      "service": "배달의민족",
+      "index": 1,
+      "title": "주소 추가정보도 해외 업체의 시스템 처리 대상",
+      "source": "https://terms.baemin.com/terms/2026/9/2725_20260930033022606.html",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "baemin",
+      "service": "배달의민족",
+      "index": 2,
+      "title": "구매·검색 기록은 맞춤형 광고용으로 1년 보관",
+      "source": "https://terms.baemin.com/terms/2026/9/2725_20260930033022606.html",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "google",
+      "service": "Google",
+      "index": 0,
+      "title": "활동 기록과 맞춤 광고 설정을 구분",
+      "source": "https://policies.google.com/privacy?hl=ko",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "google",
+      "service": "Google",
+      "index": 1,
+      "title": "로그아웃해도 기기 식별자와 함께 정보 수집",
+      "source": "https://policies.google.com/privacy?hl=ko",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "microsoft",
+      "service": "Microsoft",
+      "index": 0,
+      "title": "Microsoft 계정과 메일·클라우드의 미사용 기준이 다름",
+      "source": "https://www.microsoft.com/ko-kr/servicesagreement",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "microsoft",
+      "service": "Microsoft",
+      "index": 1,
+      "title": "반복 결제 가격 변경은 최소 15일 전 통지",
+      "source": "https://www.microsoft.com/ko-kr/servicesagreement",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "apple",
+      "service": "Apple iCloud",
+      "index": 0,
+      "title": "180일 동안 백업하지 않으면 기존 백업 삭제 가능",
+      "source": "https://www.apple.com/legal/internet-services/icloud/kr/terms.html",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "dropbox",
+      "service": "Dropbox",
+      "index": 0,
+      "title": "유료 계정은 취소 전까지 반복 청구",
+      "source": "https://www.dropbox.com/terms",
+      "missingFields": [],
+      "checkedAt": "2026. 10. 17. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "dropbox",
+      "service": "Dropbox",
+      "index": 1,
+      "title": "팀 관리자가 파일 접근과 계정 이용을 통제",
+      "source": "https://www.dropbox.com/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "dropbox",
+      "service": "Dropbox",
+      "index": 2,
+      "title": "무료 계정은 12개월 미접속 시 종료 대상",
+      "source": "https://www.dropbox.com/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "dropbox",
+      "service": "Dropbox",
+      "index": 3,
+      "title": "파일은 이용자 소유지만 서비스 기능을 위해 분석 가능",
+      "source": "https://www.dropbox.com/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "dropbox",
+      "service": "Dropbox",
+      "index": 4,
+      "title": "유료 취소와 이미 낸 요금의 반환은 별도",
+      "source": "https://www.dropbox.com/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "dropbox",
+      "service": "Dropbox",
+      "index": 5,
+      "title": "탈퇴 30일 뒤 삭제 시작·백업과 법적 보관은 예외",
+      "source": "https://www.dropbox.com/privacy",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "notion",
+      "service": "Notion",
+      "index": 0,
+      "title": "일반·Enterprise 요금제의 AI 제공자 보관 기간이 다름",
+      "source": "https://www.notion.com/help/notion-ai-security-practices",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 17. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "slack",
+      "service": "Slack",
+      "index": 0,
+      "title": "워크스페이스 고객이 메시지·파일을 통제",
+      "source": "https://slack.com/intl/ko-kr/terms-of-service/user",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "zoom",
+      "service": "Zoom",
+      "index": 0,
+      "title": "기본 카드가 거절되면 등록한 보조 수단으로 청구 가능",
+      "source": "https://www.zoom.com/en/trust/terms/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "zoom",
+      "service": "Zoom",
+      "index": 1,
+      "title": "계약 기본값은 다음 기간 30일 전 갱신 거절 통지",
+      "source": "https://www.zoom.com/en/trust/terms/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "zoom",
+      "service": "Zoom",
+      "index": 2,
+      "title": "회의 콘텐츠 이용권은 허용 목적에 한정·AI 학습과 구분",
+      "source": "https://www.zoom.com/en/trust/terms/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "zoom",
+      "service": "Zoom",
+      "index": 3,
+      "title": "계약 종료 후 자료 반출 기간은 30일",
+      "source": "https://www.zoom.com/en/trust/terms/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "canva",
+      "service": "Canva",
+      "index": 0,
+      "title": "공유한 디자인을 계속 제공하기 위한 이용권은 남음",
+      "source": "https://www.canva.com/policies/terms-of-use/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "canva",
+      "service": "Canva",
+      "index": 1,
+      "title": "유료 플랜·체험은 취소하지 않으면 다음 기간 청구",
+      "source": "https://www.canva.com/policies/terms-of-use/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "canva",
+      "service": "Canva",
+      "index": 2,
+      "title": "팀에 추가한 좌석은 정산일에 비용 발생 가능",
+      "source": "https://www.canva.com/policies/terms-of-use/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "canva",
+      "service": "Canva",
+      "index": 3,
+      "title": "구독 취소는 현재 기간 끝에 적용·기납부 요금 환불 제한",
+      "source": "https://www.canva.com/policies/terms-of-use/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "canva",
+      "service": "Canva",
+      "index": 4,
+      "title": "이용 정보는 외부 플랫폼 맞춤 광고에도 활용",
+      "source": "https://www.canva.com/policies/privacy-policy/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "canva",
+      "service": "Canva",
+      "index": 5,
+      "title": "디자인·계정 정보는 여러 나라에서 처리될 수 있음",
+      "source": "https://www.canva.com/policies/privacy-policy/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "tripcom",
+      "service": "Trip.com",
+      "index": 0,
+      "title": "후기·사진에 영구적 홍보 이용권 부여",
+      "source": "https://www.trip.com/contents/service-guideline/terms.html",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "bluesky",
+      "service": "Bluesky",
+      "index": 0,
+      "title": "계정 제한에 대한 내부 이의신청은 2주 이내",
+      "source": "https://bsky.social/about/support/tos",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "tumblr",
+      "service": "Tumblr",
+      "index": 0,
+      "title": "유료 기능 구매는 원칙적으로 환불되지 않음",
+      "source": "https://www.tumblr.com/policy/en/terms-of-service",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "medium",
+      "service": "Medium",
+      "index": 0,
+      "title": "글을 수정·번역·배포할 권한은 Medium 서비스 안으로 제한",
+      "source": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "medium",
+      "service": "Medium",
+      "index": 1,
+      "title": "정보가 미국 등 다른 나라에서 처리될 수 있음",
+      "source": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "medium",
+      "service": "Medium",
+      "index": 2,
+      "title": "멤버십과 무료 체험은 취소 전까지 반복 결제",
+      "source": "https://policy.medium.com/paid-terms-of-service-cc7f8e165178",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "medium",
+      "service": "Medium",
+      "index": 3,
+      "title": "멤버십 취소는 다음 기간부터 적용·남은 일수 환불 제한",
+      "source": "https://policy.medium.com/paid-terms-of-service-cc7f8e165178",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "medium",
+      "service": "Medium",
+      "index": 4,
+      "title": "서비스나 게시물 배포 범위가 제한될 수 있음",
+      "source": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "vimeo",
+      "service": "Vimeo",
+      "index": 0,
+      "title": "자동 갱신을 막으려면 최소 하루 전에 취소",
+      "source": "https://vimeo.com/legal/",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "flickr",
+      "service": "Flickr",
+      "index": 0,
+      "title": "사진 소유권은 남지만 서비스 제공을 위한 이용권 부여",
+      "source": "https://www.flickr.com/help/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "signal",
+      "service": "Signal",
+      "index": 0,
+      "title": "메시지 복구와 기기 보안은 직접 관리해야 함",
+      "source": "https://signal.org/legal/",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 17. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "tidal",
+      "service": "TIDAL",
+      "index": 0,
+      "title": "체험 종료 뒤 할인 없는 구독료로 자동 갱신",
+      "source": "https://tidal.com/terms",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "tidal",
+      "service": "TIDAL",
+      "index": 1,
+      "title": "직접 결제와 외부 제공 구독의 취소 경로가 다름",
+      "source": "https://tidal.com/terms",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "tidal",
+      "service": "TIDAL",
+      "index": 2,
+      "title": "선결제한 구독 기간도 기본 환불 대상이 아님",
+      "source": "https://tidal.com/terms",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "tidal",
+      "service": "TIDAL",
+      "index": 3,
+      "title": "공개한 이용자 콘텐츠는 서비스 홍보·재공유에 활용 가능",
+      "source": "https://tidal.com/terms",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "audible",
+      "service": "Audible",
+      "index": 0,
+      "title": "멤버십 해지 때 미사용 크레딧이 즉시 만료될 수 있음",
+      "source": "https://www.audible.com/legal/conditions-of-use",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "bugs",
+      "service": "벅스",
+      "index": 0,
+      "title": "탈퇴해도 작성한 게시물은 자동으로 지워지지 않음",
+      "source": "https://music.bugs.co.kr/rules/use",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "webtoon",
+      "service": "WEBTOON",
+      "index": 0,
+      "title": "게시물 이용권이 넓지만 CANVAS의 편집·파생물에는 제한이 있음",
+      "source": "https://www.webtoons.com/en/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "etsy",
+      "service": "Etsy",
+      "index": 0,
+      "title": "상품 사진·후기는 서비스 홍보에도 이용될 수 있음",
+      "source": "https://www.etsy.com/legal/terms-of-use/",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "etsy",
+      "service": "Etsy",
+      "index": 1,
+      "title": "계정을 끝내도 일부 게시물과 미납 요금은 남음",
+      "source": "https://www.etsy.com/legal/terms-of-use/",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "etsy",
+      "service": "Etsy",
+      "index": 2,
+      "title": "제품 품질·안전 문제의 판매자 책임을 확인",
+      "source": "https://www.etsy.com/legal/terms-of-use/",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "etsy",
+      "service": "Etsy",
+      "index": 3,
+      "title": "약관 위반으로 관련 계정까지 제한될 수 있음",
+      "source": "https://www.etsy.com/legal/terms-of-use/",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "depop",
+      "service": "Depop",
+      "index": 0,
+      "title": "상품 사진·설명에 영구적인 마케팅 이용권 부여",
+      "source": "https://depophelp.zendesk.com/hc/en-gb/articles/360001773148-Terms-of-Service",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "oliveyoung",
+      "service": "올리브영",
+      "index": 0,
+      "title": "올리브영 탈퇴 후에도 CJ ONE 통합회원은 유지",
+      "source": "https://www.oliveyoung.co.kr/store/company/terms.do",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "github",
+      "service": "GitHub",
+      "index": 0,
+      "title": "요금제 하향·미사용 기간의 환불이 제한됨",
+      "source": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 17. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "gitlab",
+      "service": "GitLab",
+      "index": 0,
+      "title": "유료 구독 축소·갱신 거절은 만료 30일 전까지",
+      "source": "https://handbook.gitlab.com/handbook/legal/subscription-agreement/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "gitlab",
+      "service": "GitLab",
+      "index": 1,
+      "title": "무료 플랜은 예고 없이 기능이 달라질 수 있음",
+      "source": "https://handbook.gitlab.com/handbook/legal/subscription-agreement/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "gitlab",
+      "service": "GitLab",
+      "index": 2,
+      "title": "공개 저장소의 라이선스는 업로더가 부여",
+      "source": "https://handbook.gitlab.com/handbook/legal/subscription-agreement/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "gitlab",
+      "service": "GitLab",
+      "index": 3,
+      "title": "민감 데이터는 사전 서면 동의 없이 제공 금지",
+      "source": "https://handbook.gitlab.com/handbook/legal/subscription-agreement/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "atlassian",
+      "service": "Atlassian",
+      "index": 0,
+      "title": "할인 가격이 갱신 시 유지된다고 보장하지 않음",
+      "source": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "trello",
+      "service": "Trello",
+      "index": 0,
+      "title": "최초 주문 30일 환불과 일반 중도해지는 조건이 다름",
+      "source": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "asana",
+      "service": "Asana",
+      "index": 0,
+      "title": "조직 워크스페이스의 자료는 조직 고객이 통제",
+      "source": "https://asana.com/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "clickup",
+      "service": "ClickUp",
+      "index": 0,
+      "title": "연간 요금제 취소·좌석 감소는 갱신 30일 전 통지",
+      "source": "https://clickup.com/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "figma",
+      "service": "Figma",
+      "index": 0,
+      "title": "연간 좌석 요금제여도 AI 크레딧 구독은 매월 갱신",
+      "source": "https://www.figma.com/legal/tos/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "figma",
+      "service": "Figma",
+      "index": 1,
+      "title": "중간에 승인한 추가 좌석은 바로 요금이 발생",
+      "source": "https://www.figma.com/legal/tos/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "miro",
+      "service": "Miro",
+      "index": 0,
+      "title": "회사 이메일로 만든 계정을 조직이 인수할 수 있음",
+      "source": "https://miro.com/legal/terms-of-service/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "evernote",
+      "service": "Evernote",
+      "index": 0,
+      "title": "계정 폐쇄 전에 유료 구독을 먼저 취소해야 함",
+      "source": "https://evernote.com/legal/terms-of-service",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "todoist",
+      "service": "Todoist",
+      "index": 0,
+      "title": "유료 구독은 다음 기간 전에 취소해야 청구 중단",
+      "source": "https://www.todoist.com/terms-of-service",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "todoist",
+      "service": "Todoist",
+      "index": 1,
+      "title": "팀원에게 비용 발생·자료 수정 권한을 줄 수 있음",
+      "source": "https://www.todoist.com/terms-of-service",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "box",
+      "service": "Box",
+      "index": 0,
+      "title": "요금 변경을 거절할 때 이메일 취소 확인 필요",
+      "source": "https://www.box.com/legal/termsofservice",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "adobe",
+      "service": "Adobe",
+      "index": 0,
+      "title": "매월 내는 연간 약정도 1년 계약으로 자동 갱신",
+      "source": "https://www.adobe.com/kr/legal/subscription-terms.html",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "adobe",
+      "service": "Adobe",
+      "index": 1,
+      "title": "한국 연간 약정의 중도 해지는 할인 차액과 10% 부담",
+      "source": "https://www.adobe.com/kr/legal/subscription-terms.html",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "adobe",
+      "service": "Adobe",
+      "index": 2,
+      "title": "연간 선불 요금은 사용분과 연간 금액의 10% 차감",
+      "source": "https://www.adobe.com/kr/legal/subscription-terms.html",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "adobe",
+      "service": "Adobe",
+      "index": 3,
+      "title": "월정액은 14일 이후 해당 월 환불 불가 조건",
+      "source": "https://www.adobe.com/kr/legal/subscription-terms.html",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "adobe",
+      "service": "Adobe",
+      "index": 4,
+      "title": "구독에 포함된 생성 크레딧은 매달 만료",
+      "source": "https://www.adobe.com/kr/legal/subscription-terms.html",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "grammarly",
+      "service": "Grammarly",
+      "index": 0,
+      "title": "설정을 마치지 않아도 서비스 접근일부터 청구",
+      "source": "https://www.grammarly.com/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "grammarly",
+      "service": "Grammarly",
+      "index": 1,
+      "title": "일부 기간·남은 AI 사용량은 환불하지 않는 조건",
+      "source": "https://www.grammarly.com/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "grammarly",
+      "service": "Grammarly",
+      "index": 2,
+      "title": "문서 이용권은 교정뿐 아니라 서비스 개선에도 적용",
+      "source": "https://www.grammarly.com/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "grammarly",
+      "service": "Grammarly",
+      "index": 3,
+      "title": "학교·회사 이메일 계정을 조직이 열람·통제 가능",
+      "source": "https://www.grammarly.com/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "grammarly",
+      "service": "Grammarly",
+      "index": 4,
+      "title": "계정 삭제 후 문서와 정보를 복구할 수 없음",
+      "source": "https://www.grammarly.com/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "calendly",
+      "service": "Calendly",
+      "index": 0,
+      "title": "갱신 시 요금 인상 조건이 포함됨",
+      "source": "https://calendly.com/legal/customer-terms-conditions",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "calendly",
+      "service": "Calendly",
+      "index": 1,
+      "title": "청구서 결제·Enterprise는 종료 30일 전 통지",
+      "source": "https://calendly.com/legal/customer-terms-conditions",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "calendly",
+      "service": "Calendly",
+      "index": 2,
+      "title": "조직 계정은 사용 보고와 관리 대상",
+      "source": "https://calendly.com/legal/customer-terms-conditions",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "claude",
+      "service": "Claude",
+      "index": 0,
+      "title": "학습 제외 설정에도 피드백·안전 검토 예외가 있음",
+      "source": "https://www.anthropic.com/legal/consumer-terms",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "claude",
+      "service": "Claude",
+      "index": 1,
+      "title": "회사 이메일 계정은 조직 관리자에게 연결될 수 있음",
+      "source": "https://www.anthropic.com/legal/consumer-terms",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "claude",
+      "service": "Claude",
+      "index": 2,
+      "title": "다음 기간 결제를 피하려면 최소 24시간 전에 취소",
+      "source": "https://www.anthropic.com/legal/consumer-terms",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "claude",
+      "service": "Claude",
+      "index": 3,
+      "title": "한국 이용자는 최초 구독 후 7일 청약철회 조건 확인",
+      "source": "https://www.anthropic.com/legal/consumer-terms",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "claude",
+      "service": "Claude",
+      "index": 4,
+      "title": "출력 권리 이전이 정확성·안전성을 보장하지는 않음",
+      "source": "https://www.anthropic.com/legal/consumer-terms",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "claude",
+      "service": "Claude",
+      "index": 5,
+      "title": "회사가 구독을 종료할 때와 내가 해지할 때의 환불은 다름",
+      "source": "https://www.anthropic.com/legal/consumer-terms",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "expedia",
+      "service": "Expedia",
+      "index": 0,
+      "title": "같은 숙소에 8개 초과 객실을 나눠 예약해도 취소 가능",
+      "source": "https://www.expedia.com/lp/b/terms-of-service",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "hotelscom",
+      "service": "Hotels.com",
+      "index": 0,
+      "title": "단체 예약을 여러 건으로 나눠도 객실 수 제한 적용",
+      "source": "https://www.hotels.com/lp/b/terms-of-service",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "kayak",
+      "service": "KAYAK",
+      "index": 0,
+      "title": "후기 속 이름·사진도 콘텐츠 이용에 포함될 수 있음",
+      "source": "https://www.kayak.com/terms-of-use",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "skyscanner",
+      "service": "Skyscanner",
+      "index": 0,
+      "title": "환불·변경은 실제 예약 업체의 조건 확인 필요",
+      "source": "https://www.skyscanner.com/terms-of-service",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "turo",
+      "service": "Turo",
+      "index": 0,
+      "title": "차량 사진과 후기는 서비스 홍보에 활용될 수 있음",
+      "source": "https://turo.com/us/en/policies/terms",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "steam",
+      "service": "Steam",
+      "index": 0,
+      "title": "지역 가격을 우회하면 계정 이용이 종료될 수 있음",
+      "source": "https://store.steampowered.com/subscriber_agreement/",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 17. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "epicgames",
+      "service": "Epic Games",
+      "index": 0,
+      "title": "게임·아이템 구매는 소유권 이전이 아닌 이용권",
+      "source": "https://legal.epicgames.com/epicgames/tos",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "epicgames",
+      "service": "Epic Games",
+      "index": 1,
+      "title": "신고 기능이 켜진 채팅은 일부 기록이 검토될 수 있음",
+      "source": "https://legal.epicgames.com/epicgames/tos",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "epicgames",
+      "service": "Epic Games",
+      "index": 2,
+      "title": "PC·Mac 환불은 14일·실행 2시간 미만 등 조건",
+      "source": "https://legal.epicgames.com/store/refund-policy",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "epicgames",
+      "service": "Epic Games",
+      "index": 3,
+      "title": "다른 스토어에서 산 상품은 해당 스토어 환불 정책",
+      "source": "https://legal.epicgames.com/epicgames/tos",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "playstation",
+      "service": "PlayStation",
+      "index": 0,
+      "title": "PS Plus는 갱신 취소 전까지 같은 기간으로 자동 연장",
+      "source": "https://www.playstation.com/ko-kr/legal/terms-of-service/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "xbox",
+      "service": "Xbox",
+      "index": 0,
+      "title": "게임 활동·계정 일부 정보가 게임사에 공유",
+      "source": "https://www.microsoft.com/ko-kr/servicesagreement",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "xbox",
+      "service": "Xbox",
+      "index": 1,
+      "title": "Xbox 가족 보호 설정이 다른 플랫폼까지 적용되지는 않음",
+      "source": "https://www.microsoft.com/ko-kr/servicesagreement",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "xbox",
+      "service": "Xbox",
+      "index": 2,
+      "title": "게임 클립·아바타 등에 무상 이용권을 부여",
+      "source": "https://www.microsoft.com/ko-kr/servicesagreement",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "xbox",
+      "service": "Xbox",
+      "index": 3,
+      "title": "게임 통화·아이템은 현금으로 돌려받는 자산이 아님",
+      "source": "https://www.microsoft.com/ko-kr/servicesagreement",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "riotgames",
+      "service": "Riot Games",
+      "index": 0,
+      "title": "요청받지 않은 아이디어에는 무상 이용권 부여",
+      "source": "https://www.riotgames.com/en/terms-of-service",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "ea",
+      "service": "Electronic Arts",
+      "index": 0,
+      "title": "게임 가상화폐는 현금 교환과 환불이 제한됨",
+      "source": "https://www.ea.com/legal/user-agreement",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "ubisoft",
+      "service": "Ubisoft",
+      "index": 0,
+      "title": "남은 가상화폐는 법정 예외 외 환불 제한",
+      "source": "https://www.ubisoft.com/legal/documents/termsofuse/en-US",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "coursera",
+      "service": "Coursera",
+      "index": 0,
+      "title": "구독은 같은 길이의 기간으로 자동 갱신",
+      "source": "https://www.coursera.org/about/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "quizlet",
+      "service": "Quizlet",
+      "index": 0,
+      "title": "자동 갱신을 막으려면 만료 최소 하루 전 취소",
+      "source": "https://quizlet.com/tos",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "whatsapp",
+      "service": "WhatsApp",
+      "index": 0,
+      "title": "전송되지 않은 메시지는 최대 30일 서버에 보관 가능",
+      "source": "https://www.whatsapp.com/legal/terms-of-service",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "viber",
+      "service": "Viber",
+      "index": 0,
+      "title": "공개 채널의 사진·영상에는 영구적 이용권 부여",
+      "source": "https://www.viber.com/en/terms/viber-terms-use/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "imgur",
+      "service": "Imgur",
+      "index": 0,
+      "title": "삭제해도 이미 재허락한 공개 콘텐츠의 이용권은 남음",
+      "source": "https://imgur.com/tos",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "giphy",
+      "service": "GIPHY",
+      "index": 0,
+      "title": "업로드한 GIF에 서비스·회사 사업용 영구 이용권 부여",
+      "source": "https://support.giphy.com/hc/en-us/articles/360020027752-GIPHY-User-Terms-of-Service",
+      "missingFields": [
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "dribbble",
+      "service": "Dribbble",
+      "index": 0,
+      "title": "유료 계정을 안 써도 미사용 기간을 환불하지 않음",
+      "source": "https://dribbble.com/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "artstation",
+      "service": "ArtStation",
+      "index": 0,
+      "title": "365일 연속 로그인하지 않으면 계정 종료 가능",
+      "source": "https://www.artstation.com/tos",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "patreon",
+      "service": "Patreon",
+      "index": 0,
+      "title": "기본 카드 결제가 실패하면 예비 결제수단 청구",
+      "source": "https://www.patreon.com/policy/legal",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "patreon",
+      "service": "Patreon",
+      "index": 1,
+      "title": "무료 체험·초기 선물 이용 뒤 유료 멤버십 전환 가능",
+      "source": "https://www.patreon.com/policy/legal",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "patreon",
+      "service": "Patreon",
+      "index": 2,
+      "title": "멤버십 혜택이 사라져도 자동 환불하지 않는 조건",
+      "source": "https://www.patreon.com/policy/legal",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "patreon",
+      "service": "Patreon",
+      "index": 3,
+      "title": "창작물·게시물의 이용권은 영구적·철회 불가 조건",
+      "source": "https://www.patreon.com/policy/legal",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "patreon",
+      "service": "Patreon",
+      "index": 4,
+      "title": "창작자 혜택의 품질·신원을 플랫폼이 보장하지 않음",
+      "source": "https://www.patreon.com/policy/legal",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "kofi",
+      "service": "Ko-fi",
+      "index": 0,
+      "title": "후원 메시지는 기본 공개이며 결제정보는 별도 공유 가능",
+      "source": "https://more.ko-fi.com/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "buymeacoffee",
+      "service": "Buy Me a Coffee",
+      "index": 0,
+      "title": "계정만 삭제하면 멤버십 결제는 멈추지 않음",
+      "source": "https://buymeacoffee.com/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "substack",
+      "service": "Substack",
+      "index": 0,
+      "title": "게시물 이용권은 영구적·철회 불가 조건",
+      "source": "https://substack.com/tos",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "substack",
+      "service": "Substack",
+      "index": 1,
+      "title": "탈퇴해도 공개 글·백업·다른 이용자의 사본이 남을 수 있음",
+      "source": "https://substack.com/tos",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "substack",
+      "service": "Substack",
+      "index": 2,
+      "title": "유료 뉴스레터의 환불은 창작자 조건도 확인",
+      "source": "https://substack.com/tos",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "substack",
+      "service": "Substack",
+      "index": 3,
+      "title": "다이렉트 메시지도 안전 목적의 자동 검토 대상",
+      "source": "https://substack.com/tos",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "wordpress",
+      "service": "WordPress.com",
+      "index": 0,
+      "title": "연간 구독은 종료 한 달 전 취소 기한 명시",
+      "source": "https://wordpress.com/tos/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "disqus",
+      "service": "Disqus",
+      "index": 0,
+      "title": "댓글을 다른 서비스에 배포하는 영구적 이용권 부여",
+      "source": "https://help.disqus.com/en/articles/1717102-terms-of-service",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "kick",
+      "service": "Kick",
+      "index": 0,
+      "title": "체험 취소 마감은 한국 시간이 아닌 태평양시간 기준",
+      "source": "https://kick.com/terms-of-service",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "bandcamp",
+      "service": "Bandcamp",
+      "index": 0,
+      "title": "구매한 음악도 서비스 안에서 계속 듣지 못할 수 있음",
+      "source": "https://bandcamp.com/terms_of_use",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "bunjang",
+      "service": "번개장터",
+      "index": 0,
+      "title": "탈퇴 전에 진행 중인 거래를 정리해야 함",
+      "source": "https://terms.bunjang.co.kr/terms/service.html",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "coupangeats",
+      "service": "쿠팡이츠",
+      "index": 0,
+      "title": "위치를 포함한 콘텐츠는 콘텐츠 보관 기간만큼 위치도 보관",
+      "source": "https://privacy.coupang.com/ko/center/coupang/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "coupangeats",
+      "service": "쿠팡이츠",
+      "index": 1,
+      "title": "위치정보 수집·제공 사실 기록은 6개월 보관",
+      "source": "https://privacy.coupang.com/ko/center/coupang/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "onedrive",
+      "service": "OneDrive",
+      "index": 0,
+      "title": "1년간 OneDrive에 접속하지 않으면 해지 대상",
+      "source": "https://www.microsoft.com/ko-kr/servicesagreement",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "outlook",
+      "service": "Outlook",
+      "index": 0,
+      "title": "받은 편지함도 1년에 한 번 접속해야 함",
+      "source": "https://www.microsoft.com/ko-kr/servicesagreement",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "protonmail",
+      "service": "Proton Mail",
+      "index": 0,
+      "title": "무료 계정은 12개월 미사용 시 데이터 삭제 가능",
+      "source": "https://proton.me/legal/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "protondrive",
+      "service": "Proton Drive",
+      "index": 0,
+      "title": "무료 계정은 12개월 미사용 시 데이터 삭제 가능",
+      "source": "https://proton.me/legal/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "linear",
+      "service": "Linear",
+      "index": 0,
+      "title": "서비스 개선 의견에 영구적 이용권 부여",
+      "source": "https://linear.app/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "airtable",
+      "service": "Airtable",
+      "index": 0,
+      "title": "정해진 사용량을 넘으면 추가 청구 가능",
+      "source": "https://www.airtable.com/company/tos",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "airtable",
+      "service": "Airtable",
+      "index": 1,
+      "title": "이용자가 취소할 때와 회사가 종료할 때의 환불이 다름",
+      "source": "https://www.airtable.com/company/tos",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "basecamp",
+      "service": "Basecamp",
+      "index": 0,
+      "title": "계정 취소 즉시 자료에 접근할 수 없게 됨",
+      "source": "https://37signals.com/policies/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "wrike",
+      "service": "Wrike",
+      "index": 0,
+      "title": "구독 갱신 전 서면으로 갱신 거절 의사를 알려야 함",
+      "source": "https://www.wrike.com/security/terms/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "zoho",
+      "service": "Zoho",
+      "index": 0,
+      "title": "갱신하지 않으려면 최소 7일 전에 알려야 함",
+      "source": "https://www.zoho.com/terms.html",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "hubspot",
+      "service": "HubSpot",
+      "index": 0,
+      "title": "계약 기간 중 요금제 다운그레이드 제한",
+      "source": "https://legal.hubspot.com/terms-of-service",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "intercom",
+      "service": "Intercom",
+      "index": 0,
+      "title": "연간 계약 갱신 거절은 30일 전 서면 통지",
+      "source": "https://www.intercom.com/legal/terms-and-policies",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "intercom",
+      "service": "Intercom",
+      "index": 1,
+      "title": "미사용 월간 크레딧은 이월되지 않고 초과분 별도 과금",
+      "source": "https://www.intercom.com/legal/terms-and-policies",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "mailchimp",
+      "service": "Mailchimp",
+      "index": 0,
+      "title": "24개월 미사용 계정은 자료·선불 잔액을 잃을 수 있음",
+      "source": "https://mailchimp.com/legal/terms/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "typeform",
+      "service": "Typeform",
+      "index": 0,
+      "title": "AI 출력물의 독점성·이용 권리를 보장하지 않음",
+      "source": "https://www.typeform.com/legal/ai-services",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "jotform",
+      "service": "Jotform",
+      "index": 0,
+      "title": "취소하거나 무료 요금제로 낮추기 전까지 자동 갱신",
+      "source": "https://www.jotform.com/terms/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "surveymonkey",
+      "service": "SurveyMonkey",
+      "index": 0,
+      "title": "자동 갱신 해제와 이미 낸 요금 환불은 다름",
+      "source": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "loom",
+      "service": "Loom",
+      "index": 0,
+      "title": "무료·베타 기능은 변경·종료와 지원의 제약이 큼",
+      "source": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "obsidian",
+      "service": "Obsidian",
+      "index": 0,
+      "title": "상업용 라이선스 구매 시 회사 로고의 홍보 사용 허락",
+      "source": "https://obsidian.md/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "replit",
+      "service": "Replit",
+      "index": 0,
+      "title": "구독료 환불과 사용량 요금 환불 조건이 다름",
+      "source": "https://replit.com/terms-of-service",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "vercel",
+      "service": "Vercel",
+      "index": 0,
+      "title": "업로드한 코드·자료의 서비스 개선 이용권 부여",
+      "source": "https://vercel.com/legal/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "netlify",
+      "service": "Netlify",
+      "index": 0,
+      "title": "관리 화면 취소는 1일 전, 서면 취소는 10일 전",
+      "source": "https://www.netlify.com/pdf/self-serve-subscription-agreement.pdf/",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "cloudflare",
+      "service": "Cloudflare",
+      "index": 0,
+      "title": "같은 기간으로 갱신되며 당시 요금이 적용됨",
+      "source": "https://www.cloudflare.com/terms/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "strava",
+      "service": "Strava",
+      "index": 0,
+      "title": "공개 경로·구간은 계정 삭제 후에도 이용권이 남음",
+      "source": "https://www.strava.com/legal/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "fitbit",
+      "service": "Fitbit",
+      "index": 0,
+      "title": "구독을 취소해도 홍보 메시지는 계속 올 수 있음",
+      "source": "https://support.google.com/product-documentation/answer/14816019",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "calm",
+      "service": "Calm",
+      "index": 0,
+      "title": "EEA·스위스·영국 구독은 종료 24시간 전 취소",
+      "source": "https://www.calm.com/terms",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "edx",
+      "service": "edX",
+      "index": 0,
+      "title": "체험을 유지하면 같은 기간의 유료 구독으로 갱신",
+      "source": "https://www.edx.org/edx-terms-service",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "skillshare",
+      "service": "Skillshare",
+      "index": 0,
+      "title": "카드가 만료돼도 구독 결제가 계속될 수 있음",
+      "source": "https://legal.skillshare.com/hc/en-us/articles/27194932901645-Skillshare-Terms-of-Service",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "codecademy",
+      "service": "Codecademy",
+      "index": 0,
+      "title": "공개한 콘텐츠와 등장인물 정보에 넓은 이용권 부여",
+      "source": "https://www.codecademy.com/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "huggingface",
+      "service": "Hugging Face",
+      "index": 0,
+      "title": "저장소를 공개하면 다른 이용자에게 영구적 이용권 부여",
+      "source": "https://huggingface.co/terms-of-service",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "replicate",
+      "service": "Replicate",
+      "index": 0,
+      "title": "선불 잔액을 넘긴 사용량도 등록 수단으로 청구 가능",
+      "source": "https://replicate.com/terms/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "docker",
+      "service": "Docker",
+      "index": 0,
+      "title": "일반 저장소 자료와 기능 제안의 이용 조건이 다름",
+      "source": "https://www.docker.com/legal/docker-terms-use/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "sentry",
+      "service": "Sentry",
+      "index": 0,
+      "title": "처음 받은 할인이 갱신 가격에 유지되지 않을 수 있음",
+      "source": "https://sentry.io/terms/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "mongodb",
+      "service": "MongoDB Atlas",
+      "index": 0,
+      "title": "AI 입력 학습을 원하지 않으면 거부 설정 확인",
+      "source": "https://www.mongodb.com/legal/terms-and-conditions/cloud?tck=docs_atlas",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "supabase",
+      "service": "Supabase",
+      "index": 0,
+      "title": "자동 갱신 거절은 계약 종료 30일 전 서면 통지",
+      "source": "https://supabase.com/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "supabase",
+      "service": "Supabase",
+      "index": 1,
+      "title": "AI 학습은 사전 서면 동의 없이 하지 않는다고 정함",
+      "source": "https://supabase.com/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "railway",
+      "service": "Railway",
+      "index": 0,
+      "title": "계정을 종료하면 남은 무료 사용 크레딧은 소멸",
+      "source": "https://railway.com/legal/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "flyio",
+      "service": "Fly.io",
+      "index": 0,
+      "title": "기능 제안은 보상 없이 영구적으로 사용할 수 있음",
+      "source": "https://fly.io/legal/terms-of-service/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "dropboxsign",
+      "service": "Dropbox Sign",
+      "index": 0,
+      "title": "사용량 한도를 넘으면 상위 요금제로 자동 전환",
+      "source": "https://sign.dropbox.com/about/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "notability",
+      "service": "Notability",
+      "index": 0,
+      "title": "Gallery에 공개한 노트는 다른 이용자가 재사용 가능",
+      "source": "https://notability.com/tos.html",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "goodnotes",
+      "service": "Goodnotes",
+      "index": 0,
+      "title": "직접 보낸 기능 피드백은 학습 모델 개선에 쓰일 수 있음",
+      "source": "https://www.goodnotes.com/terms-and-conditions?hsLang=en",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "craft",
+      "service": "Craft",
+      "index": 0,
+      "title": "AI 학습 금지 안내에도 자발적 피드백은 따로 확인",
+      "source": "https://www.craft.do/terms",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "craft",
+      "service": "Craft",
+      "index": 1,
+      "title": "공유 권한에 따라 다른 사람이 메모를 복제할 수 있음",
+      "source": "https://www.craft.do/terms",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "craft",
+      "service": "Craft",
+      "index": 2,
+      "title": "체험을 취소하지 않으면 유료 구독으로 전환될 수 있음",
+      "source": "https://www.craft.do/terms",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "coda",
+      "service": "Coda / Superhuman Docs",
+      "index": 0,
+      "title": "유료 구독은 같은 기간으로 갱신",
+      "source": "https://superhuman.com/legal/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "coda",
+      "service": "Coda / Superhuman Docs",
+      "index": 1,
+      "title": "기업용 계약에는 다른 약관이 적용됨",
+      "source": "https://superhuman.com/legal/terms",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "ticktick",
+      "service": "TickTick",
+      "index": 0,
+      "title": "새 기능·법률상 변경은 즉시 적용될 수 있음",
+      "source": "https://ticktick.com/tos",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "onepassword",
+      "service": "1Password",
+      "index": 0,
+      "title": "사용을 멈춰도 구독 취소 전까지 요금 청구",
+      "source": "https://1password.com/legal/terms-of-service",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "bitwarden",
+      "service": "Bitwarden",
+      "index": 0,
+      "title": "계정을 삭제하면 보관 정보는 복구할 수 없음",
+      "source": "https://bitwarden.com/terms/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "lastpass",
+      "service": "LastPass",
+      "index": 0,
+      "title": "갱신 거절은 만료 최소 30일 전 기준",
+      "source": "https://www.lastpass.com/legal-center/terms-of-service/personal",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "dashlane",
+      "service": "Dashlane",
+      "index": 0,
+      "title": "연간 구독은 시작·갱신 30일 이내 환불 요청 가능",
+      "source": "https://www.dashlane.com/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "zapier",
+      "service": "Zapier",
+      "index": 0,
+      "title": "기존 요금제가 없어지면 후속 요금제로 갱신 가능",
+      "source": "https://zapier.com/legal/terms-of-service",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "n8n",
+      "service": "n8n",
+      "index": 0,
+      "title": "리셀러의 공급 권한이 끝나면 이용권도 자동 종료",
+      "source": "https://n8n.io/legal/eula/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "buffer",
+      "service": "Buffer",
+      "index": 0,
+      "title": "다음 갱신 전에 취소가 접수되어야 함",
+      "source": "https://buffer.com/legal",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "buffer",
+      "service": "Buffer",
+      "index": 1,
+      "title": "제품 개선 의견에는 영구적인 이용권을 부여",
+      "source": "https://buffer.com/legal",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "hootsuite",
+      "service": "Hootsuite",
+      "index": 0,
+      "title": "체험 종료 전 취소 외에 유료 앱 해제도 확인",
+      "source": "https://www.hootsuite.com/legal/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "later",
+      "service": "Later",
+      "index": 0,
+      "title": "참여자로 연결한 SNS 콘텐츠에 브랜드 재사용권 부여",
+      "source": "https://later.com/terms/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "freshworks",
+      "service": "Freshworks",
+      "index": 0,
+      "title": "현재 계약 중에는 좌석 수·요금제를 낮출 수 없음",
+      "source": "https://www.freshworks.com/terms/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "wattpad",
+      "service": "Wattpad",
+      "index": 0,
+      "title": "공모전·작가 프로그램은 일반 게시 약관보다 별도 조건 우선",
+      "source": "https://policies.wattpad.com/terms/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "goodreads",
+      "service": "Goodreads",
+      "index": 0,
+      "title": "작성한 리뷰·댓글에 영구적·철회 불가 이용권 부여",
+      "source": "https://www.goodreads.com/about/terms?id=188",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "masterclass",
+      "service": "MasterClass",
+      "index": 0,
+      "title": "인증서 발급 시 30일보다 일찍 환불 기한이 끝남",
+      "source": "https://www.masterclass.com/terms",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "brilliant",
+      "service": "Brilliant",
+      "index": 0,
+      "title": "갱신을 피하려면 최소 한 영업일 전 취소 요청",
+      "source": "https://brilliant.org/terms-of-use/",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "domestika",
+      "service": "Domestika",
+      "index": 0,
+      "title": "Plus 결제 실패 시 금액을 나눠 다시 청구할 수 있음",
+      "source": "https://www.domestika.org/en/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "teachable",
+      "service": "Teachable",
+      "index": 0,
+      "title": "커뮤니티 게시물에는 목적 제한 없는 영구 이용권 부여",
+      "source": "https://www.teachable.com/legal/terms-of-use",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "thinkific",
+      "service": "Thinkific",
+      "index": 0,
+      "title": "연간 플랜 갱신 안내와 초과 사용료는 별도 확인",
+      "source": "https://www.thinkific.com/terms-of-service/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "ohouse",
+      "service": "오늘의집",
+      "index": 0,
+      "title": "반품 신청만 해 두면 효력이 사라질 수 있음",
+      "source": "https://ohou.se/usepolicy",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "ohouse",
+      "service": "오늘의집",
+      "index": 1,
+      "title": "탈퇴만으로 게시물이 삭제되지 않음",
+      "source": "https://ohou.se/usepolicy",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "ohouse",
+      "service": "오늘의집",
+      "index": 2,
+      "title": "게시물이 제휴 서비스·SNS 홍보에 쓰일 수 있음",
+      "source": "https://ohou.se/usepolicy",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "carousell",
+      "service": "Carousell",
+      "index": 0,
+      "title": "노출 강화 중 상품 상태를 바꾸면 효과가 끝나도 환불 없음",
+      "source": "https://support.carousell.com/hc/en-us/articles/115011881808-Terms-of-Service",
+      "missingFields": [
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 18. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "vinted",
+      "service": "Vinted",
+      "index": 0,
+      "title": "상품 사진·설명은 AI 개선과 외부 광고에 활용 가능",
+      "source": "https://www.vinted.com/terms-and-conditions",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "alltrails",
+      "service": "AllTrails",
+      "index": 0,
+      "title": "올린 활동 기록과 사진을 광고에 활용할 수 있음",
+      "source": "https://www.alltrails.com/terms",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "headspace",
+      "service": "Headspace",
+      "index": 0,
+      "title": "월간 구독은 30일, 연간 구독은 365일 기준",
+      "source": "https://www.headspace.com/terms-and-conditions-ko",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "noom",
+      "service": "Noom",
+      "index": 0,
+      "title": "서비스를 그만두려면 구독과 계정을 각각 종료",
+      "source": "https://www.noom.com/terms-and-conditions-of-use/",
+      "missingFields": [
+        "quote",
+        "effectiveAt",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "naver",
+      "service": "네이버",
+      "index": 0,
+      "title": "게시물이 AI 연구 개발에 사용될 수 있음",
+      "source": "https://policy.naver.com/policy/service.html",
+      "missingFields": [],
+      "checkedAt": "2026. 10. 17. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "naver",
+      "service": "네이버",
+      "index": 1,
+      "title": "탈퇴로 내 게시물과 계정 자료가 소멸할 수 있음",
+      "source": "https://policy.naver.com/policy/service.html",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    },
+    {
+      "key": "naver",
+      "service": "네이버",
+      "index": 2,
+      "title": "이 공통 약관만으로 모든 네이버 서비스를 판단할 수 없음",
+      "source": "https://policy.naver.com/policy/service.html",
+      "missingFields": [
+        "quote",
+        "publishedAt"
+      ],
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "scope": "기록 유무 점검. 원문 내용 검수 완료 판정 아님."
+    }
+  ]
+}

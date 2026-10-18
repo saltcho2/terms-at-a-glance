@@ -4,8 +4,8 @@ function test(name,fn){fn();tests.push({name,pass:true});}
 const scripts=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)].map(m=>m[1]);
 test('Inline JavaScript 문법',()=>scripts.forEach(s=>new vm.Script(s)));
 globalThis.window={};for(const f of ['review-ui.js','service-catalog.js','casebook.js'])vm.runInThisContext(read(f));
-const ui=window.TermsReview,now=new Date('2026-10-17T12:00:00Z'),catalog=window.serviceCatalog;
-test('실제 데이터 집계',()=>assert.deepEqual(ui.catalogStats(catalog,now),{registered:500,summaryServices:154,items:251,compared:251,pendingServices:346,recheck:0}));
+const ui=window.TermsReview,now=new Date('2026-10-18T12:00:00Z'),catalog=window.serviceCatalog;
+test('실제 데이터 집계',()=>assert.deepEqual(ui.catalogStats(catalog,now),{registered:500,summaryServices:156,items:258,compared:258,pendingServices:344,recheck:0}));
 test('집계 metadata does not override actual catalog',()=>{const tiny={a:{name:'a',items:[]}};assert.equal(ui.catalogStats(tiny,now).registered,1);assert.equal(ui.catalogStats(tiny,now).compared,0);});
 test('Malformed catalog is error, never count 0',()=>assert.throws(()=>ui.catalogStats({a:{name:'a',items:null}},now)));
 test('Recheck includes stale and unknown dates',()=>{const item=date=>['privacy','','','','','text','https://example.com',{document:'doc',clause:'clause',region:'KR',checkedAt:date}];assert.equal(ui.catalogStats({a:{name:'a',items:[item('2026. 9. 16.'),item(null),item('2026. 10. 17.')]}},now).recheck,2);});
@@ -27,4 +27,4 @@ test('Malformed case dates fail locally',()=>{for(const year of [undefined,'2026
 test('Repeated impact is omitted without removing summary',()=>{const x=['','','','','','summary','', {impact:'summary'}];assert.equal(ui.distinctImpact(x),null);x[7].impact='actual impact';assert.equal(ui.distinctImpact(x),'actual impact');assert.equal(x[5],'summary');});
 test('Same document effective dates agree',()=>{const dates=new Map();for(const s of Object.values(catalog))for(const i of s.items){if(!i[7]?.effectiveAt)continue;const prior=dates.get(i[6]);assert(!prior||prior===i[7].effectiveAt,i[6]);dates.set(i[6],i[7].effectiveAt);}});
 test('Source monitoring states never imply legal review',()=>{const x=['','','','','','','url'];for(const state of ['baseline','same','changed','unavailable'])assert.equal(ui.sourceState(x,{documents:{url:{state}}}).state,state);assert.equal(ui.sourceState(x,{}).state,'unknown');});
-fs.writeFileSync(new URL('phase3-code-tests.json' ,import.meta.url),JSON.stringify({tests,scope:'Node code tests; deployed UI tests are recorded separately'},null,2));console.log(tests.length+' checks passed');
+fs.writeFileSync(new URL('../qa-20261018/code-tests.json' ,import.meta.url),JSON.stringify({tests,scope:'Node code tests; deployed UI tests are recorded separately'},null,2));console.log(tests.length+' checks passed');

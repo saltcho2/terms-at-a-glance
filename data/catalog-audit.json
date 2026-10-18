@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026. 10. 13. (한국 시간)",
+  "total": 500,
+  "reviewed": 154,
+  "linked": 2,
+  "pending": 344,
+  "items": 251,
+  "complete": false,
+  "linkChecks": {
+    "storedUrls": 925,
+    "servicesAttempted": 500,
+    "states": {
+      "document-candidate": 606,
+      "body-unavailable": 150,
+      "http-error": 138,
+      "needs-document-check": 13,
+      "connection-error": 5,
+      "pdf-needs-review": 12,
+      "not-found-page": 1
+    }
+  },
+  "newReviewedServices": 139
+}

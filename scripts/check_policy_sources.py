@@ -71,6 +71,12 @@ def transition(previous, digest, timestamp, error=None):
     }
 
 
+def pdf_snapshot(data):
+    if not data.startswith(b'%PDF-'):
+        raise ValueError('PDF 주소가 PDF 파일을 반환하지 않음')
+    return hashlib.sha256(data).hexdigest()
+
+
 def sources(catalog):
     owners = {}
     for key, service in catalog.items():
@@ -109,22 +115,26 @@ def scan(catalog, previous, workers=8, text_dir=None, progress_path=None):
                     if len(data) > MAX_BYTES:
                         raise ValueError('응답 크기 제한 초과: 일부 본문만으로 변경 여부를 판정하지 않음')
                     if 'pdf' in result['contentType']:
-                        raise ValueError('PDF 본문 별도 검수 필요: HTML 비교 대상에서 제외')
-                    if 'html' not in result['contentType'] and 'text/' not in result['contentType']:
-                        raise ValueError('지원하지 않는 원문 형식')
-                    parser = DocumentText()
-                    parser.feed(data.decode(response.headers.get_content_charset() or 'utf-8', errors='replace'))
-                    text = parser.text()
-                    if re.search(r'verify (?:that )?you are human|checking your browser|just a moment|access denied|request blocked|unusual traffic', text[:2500], re.I):
-                        blocked.add(host)
-                        raise ValueError('사이트 접근 제한 화면: 우회하지 않고 중단')
-                    if len(text) < 500:
-                        raise ValueError('원문 본문 부족: JavaScript 렌더링 또는 별도 열람 필요')
-                    if re.search(r'404 not found|page (?:was )?not found|페이지를 찾을 수 없', text[:1500], re.I):
-                        raise ValueError('문서 대신 찾을 수 없음 안내가 응답됨')
-                    digest = hashlib.sha256(text.encode()).hexdigest()
-                    result.update(transition(old, digest, now), textLength=len(text), httpStatus=response.status, finalUrl=response.url, contentType=response.headers.get('Content-Type', ''))
-                    if text_dir:
+                        digest = pdf_snapshot(data)
+                        text = None
+                        comparison_kind = 'pdf-bytes'
+                    else:
+                        if 'html' not in result['contentType'] and 'text/' not in result['contentType']:
+                            raise ValueError('지원하지 않는 원문 형식')
+                        parser = DocumentText()
+                        parser.feed(data.decode(response.headers.get_content_charset() or 'utf-8', errors='replace'))
+                        text = parser.text()
+                        if re.search(r'verify (?:that )?you are human|checking your browser|just a moment|access denied|request blocked|unusual traffic', text[:2500], re.I):
+                            blocked.add(host)
+                            raise ValueError('사이트 접근 제한 화면: 우회하지 않고 중단')
+                        if len(text) < 500:
+                            raise ValueError('원문 본문 부족: JavaScript 렌더링 또는 별도 열람 필요')
+                        if re.search(r'404 not found|page (?:was )?not found|페이지를 찾을 수 없', text[:1500], re.I):
+                            raise ValueError('문서 대신 찾을 수 없음 안내가 응답됨')
+                        digest = hashlib.sha256(text.encode()).hexdigest()
+                        comparison_kind = 'html-text'
+                    result.update(transition(old, digest, now), textLength=len(text) if text is not None else None, comparisonKind=comparison_kind, fileSize=len(data), httpStatus=response.status, finalUrl=response.url, contentType=response.headers.get('Content-Type', ''))
+                    if text_dir and text is not None:
                         text_dir.mkdir(parents=True, exist_ok=True)
                         (text_dir / (hashlib.sha256(url.encode()).hexdigest()[:16] + '.txt')).write_text(text)
             except urllib.error.HTTPError as error:
@@ -146,7 +156,7 @@ def scan(catalog, previous, workers=8, text_dir=None, progress_path=None):
                 print('Source retrieval:', len(documents), '/', len(owners), flush=True)
                 if progress_path:
                     progress_path.write_text(json.dumps({'complete': False, 'checkedAt': now, 'processed': len(documents), 'total': len(owners), 'documents': documents}, ensure_ascii=False))
-    return {'checkedAt': now, 'scope': '현재 공개한 요약·공식 문서 링크의 본문 스냅샷 비교. 조항 해석·법률 검수 아님.', 'documents': dict(sorted(documents.items())), 'counts': dict(Counter(r['state'] for r in documents.values())), 'serviceCoverage': {'registered': len(catalog), 'withSource': len({k for r in owners.values() for k in r['services']}), 'withoutSource': sorted(set(catalog) - {k for r in owners.values() for k in r['services']})}}
+    return {'checkedAt': now, 'scope': '현재 공개 링크의 HTML 본문 또는 PDF 파일 바이트 비교. 조항 해석·법률 검수 아님.', 'documents': dict(sorted(documents.items())), 'counts': dict(Counter(r['state'] for r in documents.values())), 'serviceCoverage': {'registered': len(catalog), 'withSource': len({k for r in owners.values() for k in r['services']}), 'withoutSource': sorted(set(catalog) - {k for r in owners.values() for k in r['services']})}}
 
 
 def main():
