@@ -100,7 +100,7 @@ def scan(catalog, previous, workers=8, text_dir=None, progress_path=None):
             if host in blocked:
                 result = transition(old, None, now, '이 호스트가 자동 요청을 제한하여 후속 요청을 중단했습니다.')
                 return url, {**result, **owner, 'requestAttempted': False}
-            result = {**old, **owner, 'requestAttempted': True}
+            result = {**old, **owner, 'requestAttempted': True, 'httpStatus': None}
             try:
                 request = urllib.request.Request(url, headers={'User-Agent': 'TermsAtAGlance-PolicyMonitor/1.0 (+https://saltcho2.github.io/terms-at-a-glance/)'})
                 with urllib.request.urlopen(request, timeout=16) as response:
@@ -132,8 +132,8 @@ def scan(catalog, previous, workers=8, text_dir=None, progress_path=None):
                 if error.code in {403, 429}:
                     blocked.add(host)
             except Exception as error:
-                result.update(transition(old, None, now, str(error)[:200]), httpStatus=None)
-            result.update(owner)
+                result.update(transition(old, None, now, str(error)[:200]), httpStatus=result.get('httpStatus'))
+            result.update(owner, requestAttempted=True)
             return url, result
 
     documents = {}
