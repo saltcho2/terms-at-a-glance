@@ -1,1 +1,8 @@
-{"existingRegressionChecks":30,"duplicateIds":false,"topics":4,"summaryCardsRemoved":true,"sourceLinks":3,"browserCheck":"pending"}
+{
+  "existingRegressionChecks": 30,
+  "duplicateIds": false,
+  "topics": 4,
+  "summaryCardsRemoved": true,
+  "sourceLinks": 3,
+  "browserCheck": "See live-tests.json"
+}

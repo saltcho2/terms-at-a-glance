@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-18",
+  "environment": "Deployed GitHub Pages, cloud Chrome; 360px iframe is not a physical mobile device",
+  "home": {"topics": 4, "recentCases": 3, "oldSummaryCardsRemoved": true, "desktopClientWidth": 1348, "desktopScrollWidth": 1348},
+  "search": {"recommendedNetflix": {"service": "Netflix", "items": 2, "heroHidden": true, "homeContentHidden": true}, "unknownQuery": "zznonexistent123456", "noResultMessageVisible": true, "homeReturn": true, "bodySearchAnchor": true},
+  "keyboard": {"searchInputTabFocus": "검색하기", "focusOutline": "solid", "dataDisclosureEnterToggles": true},
+  "statistics": {"registered": "500개", "summaryServices": "156개", "cases": "19건", "collapsedByDefault": true},
+  "narrowFrame": {"viewport": 360, "scrollWidth": 345, "resources": 6, "allObservedResourcesStatus": 200, "note": "Resource Timing includes CSS and scripts; excludes the parent fixture HTML fetch and is not a server request log"},
+  "fixtures": {"catalogLoadFailure": "Failure message visible, search hidden, three official source links retained", "zeroCases": "아직 등록된 사례가 없습니다."},
+  "notPerformed": ["physical mobile device", "human participant usability test", "complete accessibility audit"]
+}
