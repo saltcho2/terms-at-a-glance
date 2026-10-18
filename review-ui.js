@@ -33,10 +33,22 @@ window.TermsReview={
     if(items.some(i=>!Array.isArray(i)||typeof i[5]!=='string'))throw new Error('요약 항목 형식을 확인하지 못했습니다.');
     const compared=items.filter(i=>i[6]&&i[7]?.document&&i[7]?.clause&&i[7]?.region&&i[7]?.checkedAt);
     const summaryServices=services.filter(s=>s.items.length).length;
-    return {registered:services.length,summaryServices,items:items.length,compared:compared.length,pendingServices:services.length-summaryServices,recheck:items.filter(i=>this.freshness(i[7]?.checkedAt,now).state!=='recent').length};
+    return {registered:services.length,summaryServices,items:items.length,compared:compared.length,pendingServices:services.length-summaryServices,recheck:items.filter(i=>this.freshness(i[7]?.checkedAt,now).state!=='recent'||['changed','unavailable'].includes(this.sourceState(i).state)).length};
+  },
+  sourceState(item,report=window.policySourceStatus){
+    const r=report?.documents?.[item[6]];
+    if(!r)return {state:'unknown',label:'원문 스냅샷 비교 기록 없음'};
+    const labels={baseline:'변경 비교 기준 생성 · 요약 검수 아님',same:'저장 기준과 같은 스냅샷 · 조항 검수 아님',changed:'원문 스냅샷 차이 감지 · 요약 재대조 필요',unavailable:'원문 수집 실패 · 최신성 확인 필요'};
+    return {state:r.state,label:labels[r.state]||'비교 상태 확인 필요',checkedAt:r.lastCheckedAt,reason:r.reason};
+  },
+  caseDate(record){
+    const value=record?.publishedAt||record?.year;
+    if(typeof value!=='string'||!/^\d{4}(?:-\d{2}(?:-\d{2})?)?$/.test(value))return null;
+    const [year,month=1,day=1]=value.split('-').map(Number),date=new Date(Date.UTC(year,month-1,day));
+    return date.getUTCFullYear()===year&&date.getUTCMonth()===month-1&&date.getUTCDate()===day?date.getTime():null;
   },
   caseState(book){
-    if(!book||typeof book!=='object'||Array.isArray(book)||Object.values(book).some(list=>!Array.isArray(list)||list.some(c=>!c||typeof c.title!=='string'||typeof c.url!=='string')))return {state:'failed',total:null,items:[],caption:'사례 목록을 불러오지 못했습니다.'};
+    if(!book||typeof book!=='object'||Array.isArray(book)||Object.values(book).some(list=>!Array.isArray(list)||list.some(c=>!c||['title','url','text','org','checkedAt'].some(k=>typeof c[k]!=='string'||!c[k].trim())||this.caseDate(c)===null)))return {state:'failed',total:null,items:[],caption:'사례 목록을 불러오지 못했습니다. 사례 자료의 형식을 확인해야 합니다.'};
     const items=Object.entries(book).flatMap(([key,list])=>list.map(c=>({key,...c})));
     return {state:items.length?'ready':'empty',total:items.length,items,caption:items.length>3?`최근 사례 3건 · 전체 ${items.length}건`:items.length?`등록된 사례 ${items.length}건`:'아직 등록된 사례가 없습니다.'};
   },
@@ -44,6 +56,10 @@ window.TermsReview={
     const orders={payment:['payment','cancel','privacy','content','other'],content:['content','privacy','cancel','payment','other'],cancel:['cancel','payment','privacy','content','other']};
     if(!orders[purpose])return [...items];
     return items.map((item,index)=>({item,index})).sort((a,b)=>orders[purpose].indexOf(a.item[0])-orders[purpose].indexOf(b.item[0])||a.index-b.index).map(x=>x.item);
+  },
+  distinctImpact(item){
+    const impact=item[7]?.impact;
+    return typeof impact==='string'&&impact.trim()&&impact.trim()!==String(item[5]||'').trim()?impact:null;
   },
   report(service,item){
     const evidence=item?.[7];

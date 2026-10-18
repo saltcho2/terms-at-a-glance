@@ -1,0 +1,534 @@
+{
+  "count": 88,
+  "records": [
+    {
+      "service": "temu",
+      "index": 0,
+      "version": "2026. 8. 31. 발효",
+      "effectiveAt": "2026. 8. 31."
+    },
+    {
+      "service": "temu",
+      "index": 1,
+      "version": "2026. 8. 31. 발효",
+      "effectiveAt": "2026. 8. 31."
+    },
+    {
+      "service": "temu",
+      "index": 2,
+      "version": "2026. 8. 31. 발효",
+      "effectiveAt": "2026. 8. 31."
+    },
+    {
+      "service": "discord",
+      "index": 1,
+      "version": "2025. 9. 29. 발효",
+      "effectiveAt": "2025. 9. 29."
+    },
+    {
+      "service": "discord",
+      "index": 2,
+      "version": "2025. 9. 29. 발효",
+      "effectiveAt": "2025. 9. 29."
+    },
+    {
+      "service": "discord",
+      "index": 3,
+      "version": "2025. 9. 29. 발효",
+      "effectiveAt": "2025. 9. 29."
+    },
+    {
+      "service": "discord",
+      "index": 4,
+      "version": "2025. 9. 29. 시행",
+      "effectiveAt": "2025. 9. 29."
+    },
+    {
+      "service": "discord",
+      "index": 5,
+      "version": "2025. 9. 29. 시행",
+      "effectiveAt": "2025. 9. 29."
+    },
+    {
+      "service": "discord",
+      "index": 6,
+      "version": "2025. 9. 29. 시행",
+      "effectiveAt": "2025. 9. 29."
+    },
+    {
+      "service": "discord",
+      "index": 7,
+      "version": "2025. 9. 29. 시행",
+      "effectiveAt": "2025. 9. 29."
+    },
+    {
+      "service": "coupang",
+      "index": 0,
+      "version": "2026. 5. 22. 시행",
+      "effectiveAt": "2026. 5. 22."
+    },
+    {
+      "service": "coupang",
+      "index": 1,
+      "version": "2026. 5. 22. 시행",
+      "effectiveAt": "2026. 5. 22."
+    },
+    {
+      "service": "coupang",
+      "index": 2,
+      "version": "2026. 5. 22. 시행",
+      "effectiveAt": "2026. 5. 22."
+    },
+    {
+      "service": "reddit",
+      "index": 0,
+      "version": "2026. 7. 1. 시행",
+      "effectiveAt": "2026. 7. 1."
+    },
+    {
+      "service": "snapchat",
+      "index": 0,
+      "version": "2026. 9. 21. 시행",
+      "effectiveAt": "2026. 9. 21."
+    },
+    {
+      "service": "watcha",
+      "index": 0,
+      "version": "2026. 8. 9. 시행 · 미래 개정 예고와 구분",
+      "effectiveAt": "2026. 8. 9."
+    },
+    {
+      "service": "watcha",
+      "index": 1,
+      "version": "2026. 8. 9. 시행 · 미래 개정 예고와 구분",
+      "effectiveAt": "2026. 8. 9."
+    },
+    {
+      "service": "elevenst",
+      "index": 0,
+      "version": "2026. 9. 23. 시행",
+      "effectiveAt": "2026. 9. 23."
+    },
+    {
+      "service": "elevenst",
+      "index": 1,
+      "version": "2026. 9. 23. 시행",
+      "effectiveAt": "2026. 9. 23."
+    },
+    {
+      "service": "baemin",
+      "index": 0,
+      "version": "2026. 9. 30. 시행",
+      "effectiveAt": "2026. 9. 30."
+    },
+    {
+      "service": "baemin",
+      "index": 1,
+      "version": "2026. 9. 30. 시행",
+      "effectiveAt": "2026. 9. 30."
+    },
+    {
+      "service": "baemin",
+      "index": 2,
+      "version": "2026. 9. 30. 시행",
+      "effectiveAt": "2026. 9. 30."
+    },
+    {
+      "service": "google",
+      "index": 1,
+      "version": "2026. 10. 1. 발효",
+      "effectiveAt": "2026. 10. 1."
+    },
+    {
+      "service": "dropbox",
+      "index": 1,
+      "version": "2025. 1. 7. 시행",
+      "effectiveAt": "2025. 1. 7."
+    },
+    {
+      "service": "dropbox",
+      "index": 2,
+      "version": "2025. 1. 7. 시행",
+      "effectiveAt": "2025. 1. 7."
+    },
+    {
+      "service": "dropbox",
+      "index": 3,
+      "version": "2025. 1. 7. 시행 · 2027. 1. 1. 예정 약관과 구분",
+      "effectiveAt": "2025. 1. 7."
+    },
+    {
+      "service": "dropbox",
+      "index": 4,
+      "version": "2025. 1. 7. 시행 · 2027. 1. 1. 예정 약관과 구분",
+      "effectiveAt": "2025. 1. 7."
+    },
+    {
+      "service": "zoom",
+      "index": 0,
+      "version": "2023. 8. 11. 시행 표시",
+      "effectiveAt": "2023. 8. 11."
+    },
+    {
+      "service": "canva",
+      "index": 0,
+      "version": "2026. 8. 19. 시행",
+      "effectiveAt": "2026. 8. 19."
+    },
+    {
+      "service": "medium",
+      "index": 0,
+      "version": "2020. 9. 1. 시행 표시",
+      "effectiveAt": "2020. 9. 1."
+    },
+    {
+      "service": "medium",
+      "index": 1,
+      "version": "2020. 9. 1. 시행 표시",
+      "effectiveAt": "2020. 9. 1."
+    },
+    {
+      "service": "medium",
+      "index": 2,
+      "version": "2021. 11. 19. 시행 표시",
+      "effectiveAt": "2021. 11. 19."
+    },
+    {
+      "service": "medium",
+      "index": 3,
+      "version": "2021. 11. 19. 시행 표시",
+      "effectiveAt": "2021. 11. 19."
+    },
+    {
+      "service": "medium",
+      "index": 4,
+      "version": "2020. 9. 1. 시행 표시",
+      "effectiveAt": "2020. 9. 1."
+    },
+    {
+      "service": "tidal",
+      "index": 0,
+      "version": "2026. 6. 29. 시행",
+      "effectiveAt": "2026. 6. 29."
+    },
+    {
+      "service": "tidal",
+      "index": 1,
+      "version": "2026. 6. 29. 시행",
+      "effectiveAt": "2026. 6. 29."
+    },
+    {
+      "service": "tidal",
+      "index": 2,
+      "version": "2026. 6. 29. 시행",
+      "effectiveAt": "2026. 6. 29."
+    },
+    {
+      "service": "tidal",
+      "index": 3,
+      "version": "2026. 6. 29. 시행",
+      "effectiveAt": "2026. 6. 29."
+    },
+    {
+      "service": "bugs",
+      "index": 0,
+      "version": "2024. 1. 25. 시행 표시",
+      "effectiveAt": "2024. 1. 25."
+    },
+    {
+      "service": "depop",
+      "index": 0,
+      "version": "2026. 7. 22. 시행 · 제8.8항은 7.20 시행",
+      "effectiveAt": "2026. 7. 22."
+    },
+    {
+      "service": "oliveyoung",
+      "index": 0,
+      "version": "2026. 8. 20. 시행",
+      "effectiveAt": "2026. 8. 20."
+    },
+    {
+      "service": "atlassian",
+      "index": 0,
+      "version": "2026. 10. 1. 시행",
+      "effectiveAt": "2026. 10. 1."
+    },
+    {
+      "service": "trello",
+      "index": 0,
+      "version": "2026. 10. 1. 시행",
+      "effectiveAt": "2026. 10. 1."
+    },
+    {
+      "service": "asana",
+      "index": 0,
+      "version": "2024. 1. 1. 시행",
+      "effectiveAt": "2024. 1. 1."
+    },
+    {
+      "service": "clickup",
+      "index": 0,
+      "version": "2025. 6. 27. 시행",
+      "effectiveAt": "2025. 6. 27."
+    },
+    {
+      "service": "figma",
+      "index": 0,
+      "version": "2026. 3. 11. 시행",
+      "effectiveAt": "2026. 3. 11."
+    },
+    {
+      "service": "figma",
+      "index": 1,
+      "version": "2026. 3. 11. 시행",
+      "effectiveAt": "2026. 3. 11."
+    },
+    {
+      "service": "miro",
+      "index": 0,
+      "version": "2021. 9. 1. 시행 표시",
+      "effectiveAt": "2021. 9. 1."
+    },
+    {
+      "service": "todoist",
+      "index": 0,
+      "version": "2026. 8. 27. 시행",
+      "effectiveAt": "2026. 8. 27."
+    },
+    {
+      "service": "todoist",
+      "index": 1,
+      "version": "2026. 8. 27. 시행",
+      "effectiveAt": "2026. 8. 27."
+    },
+    {
+      "service": "box",
+      "index": 0,
+      "version": "2026. 8. 17. 시행",
+      "effectiveAt": "2026. 8. 17."
+    },
+    {
+      "service": "claude",
+      "index": 0,
+      "version": "2025. 10. 8. 시행",
+      "effectiveAt": "2025. 10. 8."
+    },
+    {
+      "service": "claude",
+      "index": 1,
+      "version": "2025. 10. 8. 시행",
+      "effectiveAt": "2025. 10. 8."
+    },
+    {
+      "service": "claude",
+      "index": 2,
+      "version": "2025. 10. 8. 시행",
+      "effectiveAt": "2025. 10. 8."
+    },
+    {
+      "service": "claude",
+      "index": 3,
+      "version": "2025. 10. 8. 시행",
+      "effectiveAt": "2025. 10. 8."
+    },
+    {
+      "service": "claude",
+      "index": 4,
+      "version": "2025. 10. 8. 시행",
+      "effectiveAt": "2025. 10. 8."
+    },
+    {
+      "service": "claude",
+      "index": 5,
+      "version": "2025. 10. 8. 시행",
+      "effectiveAt": "2025. 10. 8."
+    },
+    {
+      "service": "coursera",
+      "index": 0,
+      "version": "2026. 1. 1. 시행",
+      "effectiveAt": "2026. 1. 1."
+    },
+    {
+      "service": "whatsapp",
+      "index": 0,
+      "version": "2021. 1. 4. 시행 표시",
+      "effectiveAt": "2021. 1. 4."
+    },
+    {
+      "service": "imgur",
+      "index": 0,
+      "version": "2026. 10. 2. 시행",
+      "effectiveAt": "2026. 10. 2."
+    },
+    {
+      "service": "giphy",
+      "index": 0,
+      "version": "2024. 4. 8. 시행",
+      "effectiveAt": "2024. 4. 8."
+    },
+    {
+      "service": "kofi",
+      "index": 0,
+      "version": "2026. 7. 13. 시행",
+      "effectiveAt": "2026. 7. 13."
+    },
+    {
+      "service": "bandcamp",
+      "index": 0,
+      "version": "2026. 5. 7. 시행",
+      "effectiveAt": "2026. 5. 7."
+    },
+    {
+      "service": "coupangeats",
+      "index": 0,
+      "version": "2026. 5. 22. 시행",
+      "effectiveAt": "2026. 5. 22."
+    },
+    {
+      "service": "coupangeats",
+      "index": 1,
+      "version": "2026. 5. 22. 시행",
+      "effectiveAt": "2026. 5. 22."
+    },
+    {
+      "service": "linear",
+      "index": 0,
+      "version": "2026. 6. 9. 시행",
+      "effectiveAt": "2026. 6. 9."
+    },
+    {
+      "service": "intercom",
+      "index": 0,
+      "version": "2026. 9. 8. 시행",
+      "effectiveAt": "2026. 9. 8."
+    },
+    {
+      "service": "intercom",
+      "index": 1,
+      "version": "2026. 9. 8. 시행",
+      "effectiveAt": "2026. 9. 8."
+    },
+    {
+      "service": "mailchimp",
+      "index": 0,
+      "version": "2025. 10. 10. 시행",
+      "effectiveAt": "2025. 10. 10."
+    },
+    {
+      "service": "surveymonkey",
+      "index": 0,
+      "version": "2025. 12. 27. 시행",
+      "effectiveAt": "2025. 12. 27."
+    },
+    {
+      "service": "loom",
+      "index": 0,
+      "version": "2026. 10. 1. 시행",
+      "effectiveAt": "2026. 10. 1."
+    },
+    {
+      "service": "strava",
+      "index": 0,
+      "version": "2026. 9. 28. 시행",
+      "effectiveAt": "2026. 9. 28."
+    },
+    {
+      "service": "huggingface",
+      "index": 0,
+      "version": "2022. 9. 15. 시행 표시",
+      "effectiveAt": "2022. 9. 15."
+    },
+    {
+      "service": "docker",
+      "index": 0,
+      "version": "2026. 8. 26. 시행",
+      "effectiveAt": "2026. 8. 26."
+    },
+    {
+      "service": "railway",
+      "index": 0,
+      "version": "2026. 4. 20. 시행",
+      "effectiveAt": "2026. 4. 20."
+    },
+    {
+      "service": "flyio",
+      "index": 0,
+      "version": "2026. 4. 29. 시행",
+      "effectiveAt": "2026. 4. 29."
+    },
+    {
+      "service": "dropboxsign",
+      "index": 0,
+      "version": "2025. 1. 7. 시행",
+      "effectiveAt": "2025. 1. 7."
+    },
+    {
+      "service": "notability",
+      "index": 0,
+      "version": "2025. 9. 9. 시행",
+      "effectiveAt": "2025. 9. 9."
+    },
+    {
+      "service": "coda",
+      "index": 0,
+      "version": "2025. 10. 29. 시행",
+      "effectiveAt": "2025. 10. 29."
+    },
+    {
+      "service": "coda",
+      "index": 1,
+      "version": "2025. 10. 29. 시행",
+      "effectiveAt": "2025. 10. 29."
+    },
+    {
+      "service": "bitwarden",
+      "index": 0,
+      "version": "2017. 6. 1. 시행 표시",
+      "effectiveAt": "2017. 6. 1."
+    },
+    {
+      "service": "zapier",
+      "index": 0,
+      "version": "2026. 4. 9. 시행",
+      "effectiveAt": "2026. 4. 9."
+    },
+    {
+      "service": "n8n",
+      "index": 0,
+      "version": "2026. 8. 27. 시행",
+      "effectiveAt": "2026. 8. 27."
+    },
+    {
+      "service": "later",
+      "index": 0,
+      "version": "2024. 1. 17. 시행",
+      "effectiveAt": "2024. 1. 17."
+    },
+    {
+      "service": "freshworks",
+      "index": 0,
+      "version": "2026. 4. 1. 시행",
+      "effectiveAt": "2026. 4. 1."
+    },
+    {
+      "service": "brilliant",
+      "index": 0,
+      "version": "2026. 2. 9. 시행",
+      "effectiveAt": "2026. 2. 9."
+    },
+    {
+      "service": "naver",
+      "index": 1,
+      "version": "2026. 10. 1. 시행",
+      "effectiveAt": "2026. 10. 1."
+    },
+    {
+      "service": "naver",
+      "index": 2,
+      "version": "2026. 10. 1. 시행",
+      "effectiveAt": "2026. 10. 1."
+    }
+  ],
+  "scope": "기존 명시 날짜의 구조화. 새 원문 검수 아님."
+}

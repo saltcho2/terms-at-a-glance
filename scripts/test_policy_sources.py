@@ -1,0 +1,17 @@
+import unittest
+from check_policy_sources import transition, DocumentText
+class MonitorTests(unittest.TestCase):
+    def test_lifecycle(self):
+        r=transition({},'a','day1');self.assertEqual(r['state'],'baseline')
+        r=transition(r,'a','day2');self.assertEqual(r['state'],'same')
+        r=transition(r,'b','day3');self.assertEqual(r['state'],'changed')
+        r=transition(r,'b','day4');self.assertEqual(r['state'],'changed')
+        r=transition(r,None,'day5','HTTP 403');self.assertEqual(r['state'],'unavailable')
+        r=transition(r,'b','day6');self.assertEqual(r['state'],'changed');self.assertEqual(r['baselineHash'],'a')
+    def test_navigation_ignored_body_changes_retained(self):
+        def parse(nav,body):
+            p=DocumentText();p.feed('<nav>'+nav+'</nav><main>'+body+'</main>');return p.text()
+        body='Policy clause. '*60
+        self.assertEqual(parse('a',body),parse('b',body))
+        self.assertNotEqual(parse('a',body),parse('a',body+'new clause'))
+if __name__=='__main__':unittest.main()
