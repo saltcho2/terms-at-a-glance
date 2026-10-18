@@ -12,7 +12,7 @@ const output='window.serviceCatalog='+JSON.stringify(catalog,null,2)+';\nwindow.
 const target=new URL('service-catalog.js',root);
 const htmlPath=new URL('index.html',root),html=fs.readFileSync(htmlPath,'utf8');
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const previews=['netflix','naver','youtube'].map(key=>{const service=catalog[key],item=service.items[0];return `<article class="preview-card"><p class="home-case-meta">${esc(service.name)} · ${esc(item[1])}</p><h3>${esc(item[2])}</h3><p>${esc(item[5])}</p><small>${esc(item[7].checkedAt||'대조일 기록 없음')} 해당 항목 대조</small><a href="${esc(item[6])}" target="_blank" rel="noopener">공식 원문 확인 ↗</a><button type="button" data-preview="${key}" disabled>${esc(service.name)} 상세 요약 보기 →</button></article>`}).join('');
+const previews=['netflix','naver','youtube'].map(key=>{const service=catalog[key],item=service.items[0];return `<article class="source-entry"><div><strong>${esc(service.name)}</strong><span>${esc(item[7].document)}</span></div><a href="${esc(item[6])}" target="_blank" rel="noopener">공식 원문 ↗</a><button type="button" data-preview="${key}" disabled>요약 보기 →</button></article>`}).join('');
 const pattern=/(<div class="preview-grid">)[\s\S]*?(<\/div><\/section>)/;
 if(!pattern.test(html))throw Error('Preview container not found; no files generated');
 const updatedHtml=html.replace(pattern,(_,start,end)=>start+previews+end);
