@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T20:47:32+00:00",
+  "checkedAt": "2026-10-21T10:53:35+00:00",
   "scope": "현재 공개 링크의 HTML 본문 또는 PDF 파일 바이트 비교. 조항 해석·법률 검수 아님.",
   "documents": {
     "https://1password.com/legal/terms-of-service": {
@@ -20,12 +20,12 @@
       "baselineHash": "519e047a8beec0d7fcf8b5509999dcd1bbb9a6b08b04071e92a35f92f48ed65b",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "519e047a8beec0d7fcf8b5509999dcd1bbb9a6b08b04071e92a35f92f48ed65b",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 50900,
       "comparisonKind": "html-text",
-      "fileSize": 301612
+      "fileSize": 301617
     },
     "https://37signals.com/policies/terms": {
       "services": [
@@ -45,7 +45,7 @@
       "baselineHash": "c76c301a1d140cb8dcb38c4bb5d21b9d841ed6bb1474d71166f0d1b5cf448de8",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "c76c301a1d140cb8dcb38c4bb5d21b9d841ed6bb1474d71166f0d1b5cf448de8",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 13169,
@@ -70,12 +70,12 @@
       "baselineHash": "dd9e09b28182d7bf8a02b8d0b0e3eb44d7772f8868568c8f014f54ec9e8725b7",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "dd9e09b28182d7bf8a02b8d0b0e3eb44d7772f8868568c8f014f54ec9e8725b7",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 26643,
       "comparisonKind": "html-text",
-      "fileSize": 556601
+      "fileSize": 556873
     },
     "https://bandcamp.com/terms_of_use": {
       "services": [
@@ -95,7 +95,7 @@
       "baselineHash": "d1285087c4063881db00bc53aca8aaae8dd1ba1bc1e664f4e7dab33a2c81f41b",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "d1285087c4063881db00bc53aca8aaae8dd1ba1bc1e664f4e7dab33a2c81f41b",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 59896,
@@ -120,7 +120,7 @@
       "baselineHash": "bfcdc938ee8e7985f50b1385d4cfad1515a8d658d5be609fca5247d77208ab58",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "bfcdc938ee8e7985f50b1385d4cfad1515a8d658d5be609fca5247d77208ab58",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 20661,
@@ -145,12 +145,12 @@
       "baselineHash": "ae6561cc58a7fa52c238a2862fb142e3d59ff5d2179dfae357fcf74f5f554023",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "ae6561cc58a7fa52c238a2862fb142e3d59ff5d2179dfae357fcf74f5f554023",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 47414,
       "comparisonKind": "html-text",
-      "fileSize": 91665
+      "fileSize": 91735
     },
     "https://bsky.social/about/support/tos": {
       "services": [
@@ -170,7 +170,7 @@
       "baselineHash": "6b34d6655197361109b296c15535c62f570cf7c186be66e6939dd1c155df0743",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "6b34d6655197361109b296c15535c62f570cf7c186be66e6939dd1c155df0743",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 30658,
@@ -199,7 +199,7 @@
       "baselineHash": "159ed52bbf9848cb89a8a092261d63631ce50d87dbaeae8274c295dc159d3009",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "159ed52bbf9848cb89a8a092261d63631ce50d87dbaeae8274c295dc159d3009",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 181560,
@@ -224,7 +224,7 @@
       "baselineHash": "71f396be3a31cda1f61835ebb1f06294573a4ed52be2e26faecc7ebf58b62c6b",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "71f396be3a31cda1f61835ebb1f06294573a4ed52be2e26faecc7ebf58b62c6b",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 13359,
@@ -257,7 +257,7 @@
       "baselineHash": "d8fca9518ef26a6e880ee011362ecb80393a15e7b32b644c7982ed7b5e59157a",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "d8fca9518ef26a6e880ee011362ecb80393a15e7b32b644c7982ed7b5e59157a",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 58284,
@@ -282,7 +282,7 @@
       "baselineHash": "f077c674a5843a54bf7bef9f8f8983c88cc44c96478a5cd06b2bde3a8e529126",
       "baselineAt": "2026-10-18T13:02:21+00:00",
       "observedHash": "f077c674a5843a54bf7bef9f8f8983c88cc44c96478a5cd06b2bde3a8e529126",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 26201,
@@ -315,7 +315,7 @@
       "baselineHash": "bf7fa02e1a4ca4eff5708cea8ebf712b85eec9063dee2495c3cf853eebb2d1b5",
       "baselineAt": "2026-10-18T13:02:21+00:00",
       "observedHash": "bf7fa02e1a4ca4eff5708cea8ebf712b85eec9063dee2495c3cf853eebb2d1b5",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 19336,
@@ -340,7 +340,7 @@
       "baselineHash": "c2cf8e22a573f05e7df48e1e7ba21393d390d715bb0e1be24de502c05a9882b3",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "c2cf8e22a573f05e7df48e1e7ba21393d390d715bb0e1be24de502c05a9882b3",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 41963,
@@ -365,7 +365,7 @@
       "baselineHash": "498f11b4a4404262de9a17085116c4c65512dab85f92a441ca993d2c9f827385",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "498f11b4a4404262de9a17085116c4c65512dab85f92a441ca993d2c9f827385",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 403",
       "textLength": 234310
@@ -388,7 +388,7 @@
       "baselineHash": "d3e41efb5a2cc0f3d9b9521510af1444eae8c5f3ecb3314f5d8a83a463b432e5",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "d3e41efb5a2cc0f3d9b9521510af1444eae8c5f3ecb3314f5d8a83a463b432e5",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 35384,
@@ -421,12 +421,12 @@
       "baselineHash": "2897c37ccab2b947e24bf261fd7b72de548cca15d0ebe5d28394cebf9591ca39",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "2897c37ccab2b947e24bf261fd7b72de548cca15d0ebe5d28394cebf9591ca39",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 59411,
       "comparisonKind": "html-text",
-      "fileSize": 134543
+      "fileSize": 134531
     },
     "https://discord.com/terms/paid-services-terms": {
       "services": [
@@ -458,7 +458,7 @@
       "baselineHash": "6ebf577715625a4781ed7c540a9de1d8d823baaa00cb7c6014885107e52eed45",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "6ebf577715625a4781ed7c540a9de1d8d823baaa00cb7c6014885107e52eed45",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 24086,
@@ -483,7 +483,7 @@
       "baselineHash": "df5a9eae37755008b01f5e9d55e37522b2b300039b53c3f42c702b2504afd17e",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "df5a9eae37755008b01f5e9d55e37522b2b300039b53c3f42c702b2504afd17e",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 45715,
@@ -508,7 +508,7 @@
       "baselineHash": "80df26897ee5ceadc6e0cc3ffafdd7ef340ab96c1368bd9aedcc3c7d74f76be3",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "80df26897ee5ceadc6e0cc3ffafdd7ef340ab96c1368bd9aedcc3c7d74f76be3",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 76368,
@@ -533,7 +533,7 @@
       "baselineHash": "d5ea91b61ee4dc78002b97f3de17ac71c8af73a884e65e90035f6898aecfcbef",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "d5ea91b61ee4dc78002b97f3de17ac71c8af73a884e65e90035f6898aecfcbef",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 108967,
@@ -558,7 +558,7 @@
       "baselineHash": "9f816ae63e211ea0a1bd9cc8607515a317e1a45279a0391b49c88953fe4e2c82",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "9f816ae63e211ea0a1bd9cc8607515a317e1a45279a0391b49c88953fe4e2c82",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 23819,
@@ -595,7 +595,7 @@
       "baselineHash": "15bea63ec620a513c8888ff2bd8300a86b552f41ea4e5c3ff867dc1116937f17",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "15bea63ec620a513c8888ff2bd8300a86b552f41ea4e5c3ff867dc1116937f17",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 77072,
@@ -620,7 +620,7 @@
       "baselineHash": "875d910ad2f14f31a58cff0518965fc73b50e7fc651e58cb13e6261c0030e1d7",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "875d910ad2f14f31a58cff0518965fc73b50e7fc651e58cb13e6261c0030e1d7",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 53108,
@@ -645,12 +645,12 @@
       "baselineHash": "894fdbede22f7e9edba1dd64fbaea01edecded5a7d6f4f6ec6304ad747f34ef4",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "c607bd8a37256e3b8d3d4d7aed2281eaedc6613687a3d734550dbc27100fa1ed",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-18T12:39:20+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
       "textLength": 3209,
       "comparisonKind": "html-text",
-      "fileSize": 115312
+      "fileSize": 115546
     },
     "https://help.netflix.com/ko/node/633853347904100": {
       "services": [
@@ -670,7 +670,7 @@
       "baselineHash": "3e906759dfbe72baecad064a54dceecdf7c63397f74888c2ea5d9af4de326ffb",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "ad6d4bc9d48a91bf52f1280d42f1bc2996c1ff01f45fdb0769034bc6a34439a2",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-18T12:39:20+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
       "textLength": 976,
@@ -695,7 +695,7 @@
       "baselineHash": "14f0ed05ab5f6684f8770b0001538112094c44bf92a76774929c71766e028a9d",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "14f0ed05ab5f6684f8770b0001538112094c44bf92a76774929c71766e028a9d",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 29539,
@@ -720,12 +720,12 @@
       "baselineHash": "6adf81eb3fbeca36616e1ee4d4873636b0ad623a049d288fd81be09e8ddca4a3",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "6adf81eb3fbeca36616e1ee4d4873636b0ad623a049d288fd81be09e8ddca4a3",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 24432,
       "comparisonKind": "html-text",
-      "fileSize": 173117
+      "fileSize": 176599
     },
     "https://kick.com/terms-of-service": {
       "services": [
@@ -745,12 +745,12 @@
       "baselineHash": "6903a0bffcd52952a9023797cb6d181033f8aa8de1d2451b5e62c291c92cb996",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "6903a0bffcd52952a9023797cb6d181033f8aa8de1d2451b5e62c291c92cb996",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 56872,
       "comparisonKind": "html-text",
-      "fileSize": 319604
+      "fileSize": 322523
     },
     "https://later.com/terms/": {
       "services": [
@@ -770,7 +770,7 @@
       "baselineHash": "565b7ea5f6bd7abefabcd795e16c708715b586b5791b5b8b3a1a3a720c00432b",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "565b7ea5f6bd7abefabcd795e16c708715b586b5791b5b8b3a1a3a720c00432b",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 64230,
@@ -803,7 +803,7 @@
       "baselineHash": "76f6a80c60f5735de5d97e60b6de82d6155f8004be9085fc3fc881fbc76b3661",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "76f6a80c60f5735de5d97e60b6de82d6155f8004be9085fc3fc881fbc76b3661",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 302",
       "textLength": 83216
@@ -826,7 +826,7 @@
       "baselineHash": "5d1abf09e88ac82a495436d1a2f9db3ed07cebdcaba2378a73259247811da7eb",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "5d1abf09e88ac82a495436d1a2f9db3ed07cebdcaba2378a73259247811da7eb",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 302",
       "textLength": 6570
@@ -849,7 +849,7 @@
       "baselineHash": "65325186850a05ce2cb5ff1aa0c903a8b3c081905d1cc095765a74269c8ed821",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "65325186850a05ce2cb5ff1aa0c903a8b3c081905d1cc095765a74269c8ed821",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 65298,
@@ -874,7 +874,7 @@
       "baselineHash": "df7184d3fc47d6632d95e3769235a7380d49339efb233c1f9d8974c1080b254c",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "df7184d3fc47d6632d95e3769235a7380d49339efb233c1f9d8974c1080b254c",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 403",
       "textLength": 71773
@@ -897,7 +897,7 @@
       "baselineHash": "752e4773253d064b11181c8a48515e482acafd8088ac76733ea635e3cd3b241f",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "752e4773253d064b11181c8a48515e482acafd8088ac76733ea635e3cd3b241f",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 23927,
@@ -922,12 +922,12 @@
       "baselineHash": "9cca26e0a660105ad1c14c40d507c56845e5f2be3994628be16f6f9a072e318f",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "9cca26e0a660105ad1c14c40d507c56845e5f2be3994628be16f6f9a072e318f",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 36933,
       "comparisonKind": "html-text",
-      "fileSize": 522399
+      "fileSize": 522398
     },
     "https://mailchimp.com/legal/terms/": {
       "services": [
@@ -947,12 +947,12 @@
       "baselineHash": "4d0e24d017db2e0d7031026504747c5f259497387038c61ec144d401ba934336",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "4d0e24d017db2e0d7031026504747c5f259497387038c61ec144d401ba934336",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 91651,
       "comparisonKind": "html-text",
-      "fileSize": 354114
+      "fileSize": 354363
     },
     "https://miro.com/legal/terms-of-service/": {
       "services": [
@@ -972,7 +972,7 @@
       "baselineHash": "1c08941b0a4f8b958175e6fb8ffb573fdb6434b20decb78af7c854eb42a5c031",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "1c08941b0a4f8b958175e6fb8ffb573fdb6434b20decb78af7c854eb42a5c031",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 41495,
@@ -997,7 +997,7 @@
       "baselineHash": "783a517c678abe3538a0aa8a4c9d71a70d6512138262f177687f302234a3367a",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "783a517c678abe3538a0aa8a4c9d71a70d6512138262f177687f302234a3367a",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 40524,
@@ -1022,7 +1022,7 @@
       "baselineHash": "8d28b56892df366899fd129e7c91db47781abe2602203fafdf1f56f5644c4cb1",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "8d28b56892df366899fd129e7c91db47781abe2602203fafdf1f56f5644c4cb1",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 11744,
@@ -1047,7 +1047,7 @@
       "baselineHash": "2edbd4d83f3ed50ed89278f5e67ccad387bb3c1b7c8b0c19711f5aae4459452f",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "51a576425886d28850977567fcdf07124517cb9d819a47f3dd9e7c1b488df949",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-20T20:47:32+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
       "textLength": 39079,
@@ -1072,7 +1072,7 @@
       "baselineHash": "de04a3e387eee0afe9a3c3773bd8d8326d24f3b2e79ed34c12c61f9e03f89986",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "de04a3e387eee0afe9a3c3773bd8d8326d24f3b2e79ed34c12c61f9e03f89986",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 49311,
@@ -1097,7 +1097,7 @@
       "baselineHash": "89e9f3b6ce84933a894ec564899d8079fa10fe9a07205607476299b0925503c3",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "89e9f3b6ce84933a894ec564899d8079fa10fe9a07205607476299b0925503c3",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 39549,
@@ -1130,12 +1130,12 @@
       "baselineHash": "f0401f6d258a75efeb08c5ad630ef3163869b8fbff6de84fec010c7efcf34436",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "f0401f6d258a75efeb08c5ad630ef3163869b8fbff6de84fec010c7efcf34436",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 21118,
       "comparisonKind": "html-text",
-      "fileSize": 306358
+      "fileSize": 306357
     },
     "https://policies.google.com/privacy?hl=ko": {
       "services": [
@@ -1164,12 +1164,12 @@
       "baselineHash": "a81e5bd5c61de54de0b4792c5a123d9adef19aae32ecd134c86c1886b9c1a822",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "c7c0fe93c49aee4c4e6c12441d6d66f02321c5eee6ceb6e2882ee530a3b93d74",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-18T12:39:20+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
       "textLength": 35604,
       "comparisonKind": "html-text",
-      "fileSize": 676578
+      "fileSize": 676625
     },
     "https://policies.wattpad.com/terms/": {
       "services": [
@@ -1189,7 +1189,7 @@
       "baselineHash": "b83eb808e88c848239516951b189618c26c64953df2d4387e5b310c145ba16dd",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "b83eb808e88c848239516951b189618c26c64953df2d4387e5b310c145ba16dd",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 17077,
@@ -1214,7 +1214,7 @@
       "baselineHash": "f3338e3042616ed0b4239ebe33036e7b4c3833b988e775e131ca8eabb465beda",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "f3338e3042616ed0b4239ebe33036e7b4c3833b988e775e131ca8eabb465beda",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 20281,
@@ -1241,13 +1241,13 @@
       ],
       "requestAttempted": true,
       "state": "unavailable",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "reason": "HTTP 403",
       "httpStatus": 403
     },
     "https://policy.medium.com/paid-terms-of-service-cc7f8e165178": {
       "state": "unavailable",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "reason": "이 호스트가 자동 요청을 제한하여 후속 요청을 중단했습니다.",
       "services": [
         "medium"
@@ -1290,7 +1290,7 @@
       "baselineHash": "5dbc0f07a8ef2f5f31be844affd58600f91347d27e8049ebcfac7edd0e4abe64",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "5dbc0f07a8ef2f5f31be844affd58600f91347d27e8049ebcfac7edd0e4abe64",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 12859,
@@ -1315,7 +1315,7 @@
       "baselineHash": "aa381de2672ff9ef054b68ed9fe658b3c1cfaf9f221263646ddc6b2bc3bef495",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "aa381de2672ff9ef054b68ed9fe658b3c1cfaf9f221263646ddc6b2bc3bef495",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-18T13:06:51+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
       "textLength": 37052,
@@ -1344,7 +1344,7 @@
       "baselineHash": "d29a32c742e35b604e3134457bf4da2f46b388bfef5cb321c5187f123fa3686b",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "d29a32c742e35b604e3134457bf4da2f46b388bfef5cb321c5187f123fa3686b",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 48596,
@@ -1386,7 +1386,7 @@
       "baselineHash": "9bde3c89ae547552dc4f4ff1b0c1b61e7d374dc5b92d728bbb0880bb3dc58a61",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "9bde3c89ae547552dc4f4ff1b0c1b61e7d374dc5b92d728bbb0880bb3dc58a61",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 27646,
@@ -1415,13 +1415,13 @@
       "state": "changed",
       "baselineHash": "9730db488183379c5079a443275f383e7bacee3ca61e098d383fbc717bd94e8f",
       "baselineAt": "2026-10-17T14:51:26+00:00",
-      "observedHash": "0a01b28770fbda61fae0e18b6462d8a6aea87bef12aa948b2a69695099649d0f",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "observedHash": "c864ed8cf4cf2632fcef7b3b7344bf5bbc715d7eedb5af80a04dc566b1d948fd",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-19T20:45:53+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
-      "textLength": 30456,
+      "textLength": 28659,
       "comparisonKind": "html-text",
-      "fileSize": 39074
+      "fileSize": 39067
     },
     "https://quizlet.com/tos": {
       "services": [
@@ -1441,7 +1441,7 @@
       "baselineHash": "fa04a948efb45e617c9ce5f0e1765f11c0f7ad67e273ed6af871d037450bd933",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "fa04a948efb45e617c9ce5f0e1765f11c0f7ad67e273ed6af871d037450bd933",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 403",
       "textLength": 38786
@@ -1464,7 +1464,7 @@
       "baselineHash": "889ee03e4486bf49aed324cceeb967acd18edee54ed0f5dffb1816fa67e1b6c1",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "889ee03e4486bf49aed324cceeb967acd18edee54ed0f5dffb1816fa67e1b6c1",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 47173,
@@ -1489,7 +1489,7 @@
       "baselineHash": "8222d96e62315a307a6a4abc71e90beaa27ec8e4c165cbd46b928d9104ac47e4",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "8222d96e62315a307a6a4abc71e90beaa27ec8e4c165cbd46b928d9104ac47e4",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 84949,
@@ -1514,7 +1514,7 @@
       "baselineHash": "88b908a3f2999cb9b8f32b75da46a09d91c917f55acb4ccf25d76642956f9af6",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "88b908a3f2999cb9b8f32b75da46a09d91c917f55acb4ccf25d76642956f9af6",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 78381,
@@ -1539,7 +1539,7 @@
       "baselineHash": "a3104f2d4a2bd8bfb7e7c434c151b0bcff0da6bd0250cc156ca2c43f1b08515f",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "a3104f2d4a2bd8bfb7e7c434c151b0bcff0da6bd0250cc156ca2c43f1b08515f",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 22460,
@@ -1564,7 +1564,7 @@
       "baselineHash": "5dfc318497507dfadd8b3c67fb8da299360d1bb83c630b7dad8cccc46fdd5187",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "5dfc318497507dfadd8b3c67fb8da299360d1bb83c630b7dad8cccc46fdd5187",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 42171,
@@ -1589,7 +1589,7 @@
       "baselineHash": "1900127631627ca288ff9924b107b269c4dc0363d741c0d95c65fe936609242b",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "1900127631627ca288ff9924b107b269c4dc0363d741c0d95c65fe936609242b",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 49598,
@@ -1614,7 +1614,7 @@
       "baselineHash": "9c23665af8e4e8f081a4e38abb2987e2fa4d6e4a4c19bdab29359387b9d6c322",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "9c23665af8e4e8f081a4e38abb2987e2fa4d6e4a4c19bdab29359387b9d6c322",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 13208,
@@ -1639,12 +1639,12 @@
       "baselineHash": "82ab1cee7b76ea8407aacac31090356443b926749cf15afb277280a69b5e6c2c",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "82ab1cee7b76ea8407aacac31090356443b926749cf15afb277280a69b5e6c2c",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 6691,
       "comparisonKind": "html-text",
-      "fileSize": 141645
+      "fileSize": 141676
     },
     "https://soundcloud.com/pages/privacy": {
       "services": [
@@ -1661,7 +1661,7 @@
       "finalUrl": "https://soundcloud.com/pages/privacy",
       "contentType": "text/html",
       "state": "unavailable",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "reason": "원문 본문 부족: JavaScript 렌더링 또는 별도 열람 필요"
     },
     "https://soundcloud.com/terms-of-use": {
@@ -1691,7 +1691,7 @@
       "finalUrl": "https://soundcloud.com/terms-of-use",
       "contentType": "text/html",
       "state": "unavailable",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "reason": "원문 본문 부족: JavaScript 렌더링 또는 별도 열람 필요"
     },
     "https://store.steampowered.com/subscriber_agreement/": {
@@ -1712,7 +1712,7 @@
       "baselineHash": "ef13d9f20fad0993e21b5423491cb7c3032e4e2f08c1d9223f6253a17ec47123",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "ef13d9f20fad0993e21b5423491cb7c3032e4e2f08c1d9223f6253a17ec47123",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 49298,
@@ -1746,7 +1746,7 @@
       "finalUrl": "https://substack.com/tos",
       "contentType": "text/html",
       "state": "unavailable",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "reason": "HTTP 403"
     },
     "https://supabase.com/terms": {
@@ -1771,12 +1771,12 @@
       "baselineHash": "7468976f32e891f6db94500ab406527886e110bedf88119edf74dc1f80182744",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "7468976f32e891f6db94500ab406527886e110bedf88119edf74dc1f80182744",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 57429,
       "comparisonKind": "html-text",
-      "fileSize": 129563
+      "fileSize": 129718
     },
     "https://superhuman.com/legal/terms": {
       "services": [
@@ -1800,12 +1800,12 @@
       "baselineHash": "eb05e48e1d6cc8f77389b092d4e91ff4b8d20608ac2915a4fff947ca51917bf3",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "eb05e48e1d6cc8f77389b092d4e91ff4b8d20608ac2915a4fff947ca51917bf3",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 57411,
       "comparisonKind": "html-text",
-      "fileSize": 910999
+      "fileSize": 910997
     },
     "https://support.carousell.com/hc/en-us/articles/115011881808-Terms-of-Service": {
       "services": [
@@ -1825,7 +1825,7 @@
       "baselineHash": "ed316b95b954f99e9e05ec6a6aa7044e2bbd5699f0ffddcb42b62c93d3590019",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "ed316b95b954f99e9e05ec6a6aa7044e2bbd5699f0ffddcb42b62c93d3590019",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 403",
       "textLength": 150165
@@ -1848,7 +1848,7 @@
       "baselineHash": "f04309ad851f82ce71652d8a3ec95a117549c58b60d572df2d24c536409ecb6b",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "f04309ad851f82ce71652d8a3ec95a117549c58b60d572df2d24c536409ecb6b",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 403",
       "textLength": 23485
@@ -1865,7 +1865,7 @@
       ],
       "requestAttempted": true,
       "state": "same",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "httpStatus": 200,
       "finalUrl": "https://support.google.com/product-documentation/answer/14816019",
@@ -1876,7 +1876,7 @@
       "changeDetectedAt": null,
       "textLength": 48249,
       "comparisonKind": "html-text",
-      "fileSize": 1597111
+      "fileSize": 1597113
     },
     "https://telegram.org/privacy": {
       "services": [
@@ -1896,12 +1896,12 @@
       "baselineHash": "c906dc3fc74b3f8bd72e5870255bfa704be6b4729f0c207338df5a05d2579649",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "13525666317958169a988c5163606e626fdc4d59bafb0b3dea778d738107bc4a",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-18T12:39:20+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
       "textLength": 32967,
       "comparisonKind": "html-text",
-      "fileSize": 53503
+      "fileSize": 53502
     },
     "https://terms.baemin.com/terms/2026/9/2725_20260930033022606.html": {
       "services": [
@@ -1929,7 +1929,7 @@
       "baselineHash": "d33ae1af049144cfb23d16c22394f8dba14426c8f346700ba80ed3dd96b438b5",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "d33ae1af049144cfb23d16c22394f8dba14426c8f346700ba80ed3dd96b438b5",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 18174,
@@ -1954,7 +1954,7 @@
       "baselineHash": "dab17f71e958e49cc0b2b948624ae4eaeb3d0c192489accae24182452e3f8442",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "dab17f71e958e49cc0b2b948624ae4eaeb3d0c192489accae24182452e3f8442",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 20623,
@@ -1983,7 +1983,7 @@
       "baselineHash": "5df6b8fe37d7c585120afe6db0ed53c1aa59774c410c73d28598aecce89d400c",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "5df6b8fe37d7c585120afe6db0ed53c1aa59774c410c73d28598aecce89d400c",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 14009,
@@ -2008,7 +2008,7 @@
       "baselineHash": "eb317c910eb1967ab62bd85fba108d3eeec9953cd805007f4a7edb5276c9ed16",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "eb317c910eb1967ab62bd85fba108d3eeec9953cd805007f4a7edb5276c9ed16",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 7100,
@@ -2039,7 +2039,7 @@
       ],
       "requestAttempted": true,
       "state": "unavailable",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "reason": "HTTP 403",
       "httpStatus": 403
     },
@@ -2061,7 +2061,7 @@
       "baselineHash": "5e6aa48e7bd03127a2051c188d97a02c6e02e0c64302cfff9e6b4f5e6a9e7f8a",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "5e6aa48e7bd03127a2051c188d97a02c6e02e0c64302cfff9e6b4f5e6a9e7f8a",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 403",
       "textLength": 99741
@@ -2084,12 +2084,12 @@
       "baselineHash": "2cae39048927a0b9209456de9c6b5350238c2814848b62680e1f8932dce98fb9",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "983dda62982546bd1d87cbfe21078fe9695632afe0937ba12a457108a9d9a677",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-20T20:47:32+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
       "textLength": 51644,
       "comparisonKind": "html-text",
-      "fileSize": 805520
+      "fileSize": 804882
     },
     "https://vimeo.com/legal/": {
       "services": [
@@ -2109,12 +2109,12 @@
       "baselineHash": "718cfa2630dcae4830d0e5c7f662642a1f3031ebc08c5f2d03fadd6d966960a6",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "7fa6a5388f970bb54bbd0f7e680579b3e8c1c755764d6037b8d22d9d9ebaa350",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-18T12:39:20+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
       "textLength": 52381,
       "comparisonKind": "html-text",
-      "fileSize": 1007588
+      "fileSize": 1007545
     },
     "https://watcha.com/ko-KR/legals/play_agreement": {
       "services": [
@@ -2138,12 +2138,12 @@
       "baselineHash": "527eb35f71c32195c0db0493b5afe74aca198b689bdaed74fae7ae5bbaf84366",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "527eb35f71c32195c0db0493b5afe74aca198b689bdaed74fae7ae5bbaf84366",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 21079,
       "comparisonKind": "html-text",
-      "fileSize": 855246
+      "fileSize": 855313
     },
     "https://wordpress.com/tos/": {
       "services": [
@@ -2163,12 +2163,12 @@
       "baselineHash": "eb9de30dc3e75c8e2c6112f6af4aae34c2eb80dec781851f6cb5b52ae04488a1",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "eb9de30dc3e75c8e2c6112f6af4aae34c2eb80dec781851f6cb5b52ae04488a1",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 72452,
       "comparisonKind": "html-text",
-      "fileSize": 214062
+      "fileSize": 214188
     },
     "https://www.adobe.com/kr/legal/subscription-terms.html": {
       "services": [
@@ -2201,7 +2201,7 @@
       "finalUrl": "https://www.adobe.com/kr/legal/subscription-terms.html",
       "contentType": "text/html; charset=utf-8",
       "state": "unavailable",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "reason": "원문 본문 부족: JavaScript 렌더링 또는 별도 열람 필요"
     },
     "https://www.airtable.com/company/tos": {
@@ -2226,12 +2226,12 @@
       "baselineHash": "85d607e40439a84146a8b51643456151e3510a0a11deb05526fee588d5518c84",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "85d607e40439a84146a8b51643456151e3510a0a11deb05526fee588d5518c84",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 56280,
       "comparisonKind": "html-text",
-      "fileSize": 491469
+      "fileSize": 490828
     },
     "https://www.alltrails.com/terms": {
       "services": [
@@ -2251,12 +2251,12 @@
       "baselineHash": "7be102445e78d70e8f1c083567bd5a36f8f855d37fa5182f18b43431b95500b5",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "7be102445e78d70e8f1c083567bd5a36f8f855d37fa5182f18b43431b95500b5",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 93750,
       "comparisonKind": "html-text",
-      "fileSize": 368189
+      "fileSize": 367797
     },
     "https://www.anthropic.com/legal/consumer-terms": {
       "services": [
@@ -2296,12 +2296,12 @@
       "baselineHash": "1543df718474cd02aaada3fefbbec29e230301526240a0f8e1bf8de9686d5699",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "08a52381993aac685e4bc7b47e0e51856eac16483498a9830a06944ec2db915c",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-18T12:39:20+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
       "textLength": 28764,
       "comparisonKind": "html-text",
-      "fileSize": 539397
+      "fileSize": 539668
     },
     "https://www.apple.com/legal/internet-services/icloud/kr/terms.html": {
       "services": [
@@ -2321,7 +2321,7 @@
       "baselineHash": "bfc773496985c59f43f9e7931232e17073078e42722508622399f4540d05d570",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "bfc773496985c59f43f9e7931232e17073078e42722508622399f4540d05d570",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 37929,
@@ -2359,7 +2359,7 @@
       "baselineHash": "1c7947df14d7dcc2b41d895c91d5f1fed767e7bd6ec3ab6b94e8409fa591ae7c",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "1c7947df14d7dcc2b41d895c91d5f1fed767e7bd6ec3ab6b94e8409fa591ae7c",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 30174,
@@ -2384,7 +2384,7 @@
       "baselineHash": "55c93a03bbdc2ececc18eb6899c1450e11b9f2d83da58e9571aeb7fe20eeb08a",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "55c93a03bbdc2ececc18eb6899c1450e11b9f2d83da58e9571aeb7fe20eeb08a",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 403",
       "textLength": 54990
@@ -2417,12 +2417,12 @@
       "baselineHash": "352f852cd78c7fa8a0582d648a7d0b8f6bbf524950df1c73a97f67bc7f85b611",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "352f852cd78c7fa8a0582d648a7d0b8f6bbf524950df1c73a97f67bc7f85b611",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 46620,
       "comparisonKind": "html-text",
-      "fileSize": 272685
+      "fileSize": 272708
     },
     "https://www.audible.com/legal/conditions-of-use": {
       "services": [
@@ -2442,12 +2442,12 @@
       "baselineHash": "f6f6793221a237171b5e985ad7559f7f074b75da8e0dd1c2aee6db9decc6974e",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "f6f6793221a237171b5e985ad7559f7f074b75da8e0dd1c2aee6db9decc6974e",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 10284,
       "comparisonKind": "html-text",
-      "fileSize": 251060
+      "fileSize": 196842
     },
     "https://www.box.com/legal/termsofservice": {
       "services": [
@@ -2467,7 +2467,7 @@
       "baselineHash": "b8b22336edbdeb8b27a117c0ea80197537d104d507da9b96647a7fe21b266492",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "b8b22336edbdeb8b27a117c0ea80197537d104d507da9b96647a7fe21b266492",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 403",
       "textLength": 495821
@@ -2490,7 +2490,7 @@
       "baselineHash": "ebf435cf49e7a627b47dd815a5e4091decb63a2901799e0805ee614392fb1e0d",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "77b29f67ff79df45f83119a279e3f876a940523aa96005014b122c740174d2c8",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-18T12:39:20+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
       "textLength": 61623,
@@ -2519,7 +2519,7 @@
       "baselineHash": "95df1957be8349f36e6521af6567318fc594643149a84da04919bf98c47df73b",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "95df1957be8349f36e6521af6567318fc594643149a84da04919bf98c47df73b",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "이 호스트가 자동 요청을 제한하여 후속 요청을 중단했습니다.",
       "textLength": 62719
@@ -2554,7 +2554,7 @@
       "baselineHash": "13fe63d2f19a5bae1e8e2cd65bfd801806b80e443a8562aa71689a357920a0e0",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "13fe63d2f19a5bae1e8e2cd65bfd801806b80e443a8562aa71689a357920a0e0",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 403",
       "textLength": 45803
@@ -2577,12 +2577,12 @@
       "baselineHash": "251c6279ae7dd57aa0fa58a0ac158da4ca28d31e582f4b25dbb69455e660751d",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "251c6279ae7dd57aa0fa58a0ac158da4ca28d31e582f4b25dbb69455e660751d",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 39991,
       "comparisonKind": "html-text",
-      "fileSize": 315545
+      "fileSize": 315539
     },
     "https://www.codecademy.com/terms": {
       "services": [
@@ -2602,7 +2602,7 @@
       "baselineHash": "fe73522704cc5637eeaadd9b8eb6ab05bbef86c2ec99fedda4457a589a175eb0",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "fe73522704cc5637eeaadd9b8eb6ab05bbef86c2ec99fedda4457a589a175eb0",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 46471,
@@ -2627,12 +2627,12 @@
       "baselineHash": "2821bdefeeaf73ae17e569e0020d135ffc1f5690ede0a605d6038bf9ef351f3a",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "2821bdefeeaf73ae17e569e0020d135ffc1f5690ede0a605d6038bf9ef351f3a",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 58049,
       "comparisonKind": "html-text",
-      "fileSize": 435574
+      "fileSize": 435745
     },
     "https://www.craft.do/terms": {
       "services": [
@@ -2657,7 +2657,7 @@
       "finalUrl": "https://www.craft.do/terms",
       "contentType": "text/html; charset=utf-8",
       "state": "unavailable",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "reason": "원문 본문 부족: JavaScript 렌더링 또는 별도 열람 필요"
     },
     "https://www.dashlane.com/terms": {
@@ -2678,7 +2678,7 @@
       "baselineHash": "15502bb36f0690de88f60f81624bb39d41f5d3bf5b8c9c7923139d1a66a1c0f2",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "15502bb36f0690de88f60f81624bb39d41f5d3bf5b8c9c7923139d1a66a1c0f2",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 47070,
@@ -2703,7 +2703,7 @@
       "baselineHash": "20b3d76b11a1619a260682251c4eeb1bb17a241ebf48eee6095c7767976cf1f4",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "20b3d76b11a1619a260682251c4eeb1bb17a241ebf48eee6095c7767976cf1f4",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 34840,
@@ -2724,16 +2724,16 @@
       "httpStatus": 200,
       "finalUrl": "https://www.domestika.org/en/terms",
       "contentType": "text/html; charset=utf-8",
-      "state": "same",
+      "state": "changed",
       "baselineHash": "624d5c27f792aaffe928f29e208e7e134f0857ca383b66ef1f626d77add468eb",
       "baselineAt": "2026-10-17T14:51:26+00:00",
-      "observedHash": "624d5c27f792aaffe928f29e208e7e134f0857ca383b66ef1f626d77add468eb",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
-      "changeDetectedAt": null,
-      "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
-      "textLength": 91111,
+      "observedHash": "3b65a047775b165a9d476a6b05fc65ab4605f56880f163e9ed590ad9dc82ef31",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
+      "changeDetectedAt": "2026-10-21T10:53:35+00:00",
+      "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
+      "textLength": 91031,
       "comparisonKind": "html-text",
-      "fileSize": 397847
+      "fileSize": 393787
     },
     "https://www.dropbox.com/privacy": {
       "services": [
@@ -2753,12 +2753,12 @@
       "baselineHash": "88edd002cb9cd953d6674a885ebd835f1fcaf5b645d5758baa31581da811dc41",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "88edd002cb9cd953d6674a885ebd835f1fcaf5b645d5758baa31581da811dc41",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 17742,
       "comparisonKind": "html-text",
-      "fileSize": 439706
+      "fileSize": 439694
     },
     "https://www.dropbox.com/terms": {
       "services": [
@@ -2794,12 +2794,12 @@
       "baselineHash": "063b59029dc2baf425a646f7fc9d6dccd38620e07585f14c084865f00db3df26",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "063b59029dc2baf425a646f7fc9d6dccd38620e07585f14c084865f00db3df26",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 25330,
       "comparisonKind": "html-text",
-      "fileSize": 455553
+      "fileSize": 455557
     },
     "https://www.ea.com/legal/user-agreement": {
       "services": [
@@ -2819,12 +2819,12 @@
       "baselineHash": "9fe349b21acd68ac071be7d5117d7e54fc8332899fb38845197db65b687bc714",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "9fe349b21acd68ac071be7d5117d7e54fc8332899fb38845197db65b687bc714",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 46968,
       "comparisonKind": "html-text",
-      "fileSize": 155609
+      "fileSize": 155486
     },
     "https://www.edx.org/edx-terms-service": {
       "services": [
@@ -2844,7 +2844,7 @@
       "baselineHash": "a9bddcdcbd4016405ec319f70503585a64b095abf78b5022e85bc037ab38c367",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "a9bddcdcbd4016405ec319f70503585a64b095abf78b5022e85bc037ab38c367",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 70462,
@@ -2875,7 +2875,7 @@
       ],
       "requestAttempted": true,
       "state": "unavailable",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "reason": "HTTP 403",
       "httpStatus": 403
     },
@@ -2897,7 +2897,7 @@
       "baselineHash": "d1de96664879454d73b8b4c6bbee87c2bc371cc5451fdeb3fcce70ac637b85a3",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "d1de96664879454d73b8b4c6bbee87c2bc371cc5451fdeb3fcce70ac637b85a3",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 429",
       "textLength": 74354
@@ -2921,7 +2921,7 @@
       "finalUrl": "https://www.figma.com/legal/tos/",
       "contentType": "text/html; charset=utf-8",
       "state": "same",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "baselineHash": "d286e2d101664a651d8d780aa9611bbd2473202e6b730a9f8f97014340f48375",
       "baselineAt": "2026-10-18T12:39:20+00:00",
@@ -2929,7 +2929,7 @@
       "changeDetectedAt": null,
       "textLength": 36483,
       "comparisonKind": "html-text",
-      "fileSize": 1731385
+      "fileSize": 1731428
     },
     "https://www.flickr.com/help/terms": {
       "services": [
@@ -2949,12 +2949,12 @@
       "baselineHash": "4055077eebf6b9601fdd1350c87d8995320bcf84c4493ad3c8d33829f942d74c",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "4055077eebf6b9601fdd1350c87d8995320bcf84c4493ad3c8d33829f942d74c",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 58245,
       "comparisonKind": "html-text",
-      "fileSize": 515702
+      "fileSize": 515704
     },
     "https://www.freshworks.com/terms/": {
       "services": [
@@ -2974,7 +2974,7 @@
       "baselineHash": "19c986d8b4fd0ea5878f8bf956bf858550d024a18d3fcfcb9d2509e3b87e5da6",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "19c986d8b4fd0ea5878f8bf956bf858550d024a18d3fcfcb9d2509e3b87e5da6",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 48065,
@@ -2999,7 +2999,7 @@
       "baselineHash": "03d1e36e6ea7486f586edd2e34cd730a78d8d95d8833269dfaec75e22b08c1be",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "46fc105d5bbfe1150ca379e507e7c1c6e5021ce5fd8b1c4393c3c269167d21e3",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-19T20:45:53+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
       "textLength": 61503,
@@ -3024,12 +3024,12 @@
       "baselineHash": "ddc7e21571c121026e2ec655bf29b060903c14d0b2069c3c61583f2019e45870",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "ddc7e21571c121026e2ec655bf29b060903c14d0b2069c3c61583f2019e45870",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 18534,
       "comparisonKind": "html-text",
-      "fileSize": 74401
+      "fileSize": 73357
     },
     "https://www.grammarly.com/terms": {
       "services": [
@@ -3065,12 +3065,12 @@
       "baselineHash": "549d9bc15da7ce3976f8ae3f87108d8e86f4e7d76a6ce20237ab1c8518d19e67",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "549d9bc15da7ce3976f8ae3f87108d8e86f4e7d76a6ce20237ab1c8518d19e67",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 57313,
       "comparisonKind": "html-text",
-      "fileSize": 393094
+      "fileSize": 392650
     },
     "https://www.headspace.com/terms-and-conditions-ko": {
       "services": [
@@ -3090,12 +3090,12 @@
       "baselineHash": "81916527ef5481545ed4ee8b6730936e75623b4c6a3c7ddf58cc61948021d825",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "81916527ef5481545ed4ee8b6730936e75623b4c6a3c7ddf58cc61948021d825",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-18T13:02:21+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
       "textLength": 38457,
       "comparisonKind": "html-text",
-      "fileSize": 405251
+      "fileSize": 405250
     },
     "https://www.hootsuite.com/legal/terms": {
       "services": [
@@ -3115,7 +3115,7 @@
       "baselineHash": "c6746dad11848f5a10b714f6ccc486b8e37e902e8e42ddd4a0172cf56d3c4610",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "c6746dad11848f5a10b714f6ccc486b8e37e902e8e42ddd4a0172cf56d3c4610",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 25026,
@@ -3140,7 +3140,7 @@
       "baselineHash": "020ce1e8ca33cd2185c9b3867f4c1989001e25cbbdd5464218c3cfa8160fc663",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "020ce1e8ca33cd2185c9b3867f4c1989001e25cbbdd5464218c3cfa8160fc663",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 429",
       "textLength": 64544
@@ -3167,7 +3167,7 @@
       "baselineHash": "645f86995814d5238140bc459a9e5602a33ba7c8d50f213be3ef2d0872af79d1",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "645f86995814d5238140bc459a9e5602a33ba7c8d50f213be3ef2d0872af79d1",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 61855,
@@ -3192,12 +3192,12 @@
       "baselineHash": "c4325ce2c0b530389e9c72dc69ed68943a8acc19da247be2651acedff3a9ce5f",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "c4325ce2c0b530389e9c72dc69ed68943a8acc19da247be2651acedff3a9ce5f",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 34121,
       "comparisonKind": "html-text",
-      "fileSize": 407377
+      "fileSize": 409374
     },
     "https://www.kakao.com/policy/terms?lang=ko": {
       "services": [
@@ -3217,12 +3217,12 @@
       "baselineHash": "08d8d15d9607b52bc8dadb13e5eb57371fc000dfae3f728f9978639d078c9142",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "08d8d15d9607b52bc8dadb13e5eb57371fc000dfae3f728f9978639d078c9142",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 12068,
       "comparisonKind": "html-text",
-      "fileSize": 55598
+      "fileSize": 55726
     },
     "https://www.kayak.com/terms-of-use": {
       "services": [
@@ -3242,12 +3242,12 @@
       "baselineHash": "e2b5927a3e9cff6d84da656e609dd1d2bd8d5d6f80188e8e1ff31e19d834c734",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "e2b5927a3e9cff6d84da656e609dd1d2bd8d5d6f80188e8e1ff31e19d834c734",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 43851,
       "comparisonKind": "html-text",
-      "fileSize": 540430
+      "fileSize": 540428
     },
     "https://www.lastpass.com/legal-center/terms-of-service/personal": {
       "services": [
@@ -3267,12 +3267,12 @@
       "baselineHash": "936e394cf2e11a3b644b36bcdb8aecc7f737c3df17271ab5508d30d1f87f0457",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "936e394cf2e11a3b644b36bcdb8aecc7f737c3df17271ab5508d30d1f87f0457",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 20882,
       "comparisonKind": "html-text",
-      "fileSize": 183302
+      "fileSize": 183296
     },
     "https://www.linkedin.com/legal/user-agreement": {
       "services": [
@@ -3296,7 +3296,7 @@
       "baselineHash": "c341716ecac935edade000e7e7d1232fa3522ff2b1aa19adf3be4a5f7e3464d9",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "c341716ecac935edade000e7e7d1232fa3522ff2b1aa19adf3be4a5f7e3464d9",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 32779,
@@ -3321,7 +3321,7 @@
       "baselineHash": "0c6551a5baca0828cc53a30947e94a5196ca734e1106484558d011ad5a6ce7d2",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "0c6551a5baca0828cc53a30947e94a5196ca734e1106484558d011ad5a6ce7d2",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 403",
       "textLength": 76377
@@ -3375,12 +3375,12 @@
       "baselineHash": "598bc03afee5872d28d255f078233ae9b6ae502bd31bb15a90023302c8baec5f",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "598bc03afee5872d28d255f078233ae9b6ae502bd31bb15a90023302c8baec5f",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 68295,
       "comparisonKind": "html-text",
-      "fileSize": 323140
+      "fileSize": 323144
     },
     "https://www.mongodb.com/legal/terms-and-conditions/cloud?tck=docs_atlas": {
       "services": [
@@ -3400,7 +3400,7 @@
       "baselineHash": "a2fec7ee633a732b272f8ddf2026852bfe1c857d81bbcbb3dd4077d395c0e903",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "a2fec7ee633a732b272f8ddf2026852bfe1c857d81bbcbb3dd4077d395c0e903",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 19871,
@@ -3422,7 +3422,7 @@
       "finalUrl": "https://www.netlify.com/pdf/self-serve-subscription-agreement.pdf/",
       "contentType": "application/pdf",
       "state": "same",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "baselineHash": "18f9923a83ca37ac5229334fe59c2ebf915113ccdeccc669c21566759e946713",
       "baselineAt": "2026-10-18T13:02:21+00:00",
@@ -3450,7 +3450,7 @@
       "baselineHash": "6de75e79f11d15364e11ca8407ac38331e4f9eeb074c80fdfb2128fc4f6a83ac",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "6de75e79f11d15364e11ca8407ac38331e4f9eeb074c80fdfb2128fc4f6a83ac",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 403",
       "textLength": 68709
@@ -3473,12 +3473,12 @@
       "baselineHash": "a78ff80fc0790586d9dc09aff57aa02a9f1370591c572a9b5dfdb1c7de4112f3",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "37149fcd02e89790d7e09cab542f595199cf283a3f74363b2f8aa63e87986ef1",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": "2026-10-20T20:47:32+00:00",
       "reason": "원문 스냅샷 차이 감지 · 요약 재대조 필요",
       "textLength": 6996,
       "comparisonKind": "html-text",
-      "fileSize": 261666
+      "fileSize": 261688
     },
     "https://www.oliveyoung.co.kr/store/company/terms.do": {
       "services": [
@@ -3498,7 +3498,7 @@
       "baselineHash": "f4913482c69656e8b6db70afa5b8818e0eca29dc936cef68224ffca94f9c3346",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "f4913482c69656e8b6db70afa5b8818e0eca29dc936cef68224ffca94f9c3346",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 403",
       "textLength": 26540
@@ -3537,7 +3537,7 @@
       "baselineHash": "f8094aee88dce25f8a64e9705bb24302db3f0afc606621e074c78d955c1328de",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "f8094aee88dce25f8a64e9705bb24302db3f0afc606621e074c78d955c1328de",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "HTTP 403",
       "textLength": 47427
@@ -3560,12 +3560,12 @@
       "baselineHash": "85a425abb5f4a7cd5c1f0788ff59c26393ca7637f6dde6ff9c25cffadb44081e",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "85a425abb5f4a7cd5c1f0788ff59c26393ca7637f6dde6ff9c25cffadb44081e",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 26811,
       "comparisonKind": "html-text",
-      "fileSize": 209984
+      "fileSize": 209953
     },
     "https://www.primevideo.com/help?nodeId=202095490": {
       "services": [
@@ -3585,12 +3585,12 @@
       "baselineHash": "3b6709d002cdb8058ba444f0537a5cf6f35e69cc7e831409b2bd5746d084a07c",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "3b6709d002cdb8058ba444f0537a5cf6f35e69cc7e831409b2bd5746d084a07c",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 25389,
       "comparisonKind": "html-text",
-      "fileSize": 765633
+      "fileSize": 765208
     },
     "https://www.riotgames.com/en/terms-of-service": {
       "services": [
@@ -3610,7 +3610,7 @@
       "baselineHash": "6542af8312abd87cfa4aba5daf7874f0bb5df6dbf1f47544a067c43de4d92b42",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "6542af8312abd87cfa4aba5daf7874f0bb5df6dbf1f47544a067c43de4d92b42",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 77524,
@@ -3635,12 +3635,12 @@
       "baselineHash": "5bc100e9d5a3bc3f52ad91b726cf90bceef293e850ae8a0c210a41112abda1c1",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "5bc100e9d5a3bc3f52ad91b726cf90bceef293e850ae8a0c210a41112abda1c1",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 20820,
       "comparisonKind": "html-text",
-      "fileSize": 415105
+      "fileSize": 414643
     },
     "https://www.snap.com/terms": {
       "services": [
@@ -3660,12 +3660,12 @@
       "baselineHash": "33299c7fd0ff1e6363e63d25561c9fd72eb63c6f25892a2a95fc1af5b78da521",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "33299c7fd0ff1e6363e63d25561c9fd72eb63c6f25892a2a95fc1af5b78da521",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 104790,
       "comparisonKind": "html-text",
-      "fileSize": 800184
+      "fileSize": 716061
     },
     "https://www.spotify.com/kr-ko/legal/end-user-agreement/": {
       "services": [
@@ -3697,7 +3697,7 @@
       "baselineHash": "9f7e96388858d09690e7b99faaec5e0728ce0758d94cf35ab423a1ac902279f0",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "9f7e96388858d09690e7b99faaec5e0728ce0758d94cf35ab423a1ac902279f0",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 19763,
@@ -3722,12 +3722,12 @@
       "baselineHash": "8912c76f68b9d124915d211a7fc9ea54669e98dbf23644001b824ecd37f4020f",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "8912c76f68b9d124915d211a7fc9ea54669e98dbf23644001b824ecd37f4020f",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 47455,
       "comparisonKind": "html-text",
-      "fileSize": 766177
+      "fileSize": 766175
     },
     "https://www.surveymonkey.com/mp/legal/terms-of-use/": {
       "services": [
@@ -3747,12 +3747,12 @@
       "baselineHash": "ab91e7d49bf154497f864e0917c93b62d2a50a053340c63c46d16f07774a2b35",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "ab91e7d49bf154497f864e0917c93b62d2a50a053340c63c46d16f07774a2b35",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 51063,
       "comparisonKind": "html-text",
-      "fileSize": 756364
+      "fileSize": 756434
     },
     "https://www.teachable.com/legal/terms-of-use": {
       "services": [
@@ -3772,7 +3772,7 @@
       "baselineHash": "66feac87950fa81e30c40fb9efb02772d4b5538d83f035e345a1a0d3ca4d1f57",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "66feac87950fa81e30c40fb9efb02772d4b5538d83f035e345a1a0d3ca4d1f57",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 89218,
@@ -3805,12 +3805,12 @@
       "baselineHash": "59458eb604a3baa3c94d5811094fcc0700a7ef09179c5bbef84dee5435bc3a28",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "59458eb604a3baa3c94d5811094fcc0700a7ef09179c5bbef84dee5435bc3a28",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 27798,
       "comparisonKind": "html-text",
-      "fileSize": 299973
+      "fileSize": 299378
     },
     "https://www.thinkific.com/terms-of-service/": {
       "services": [
@@ -3830,7 +3830,7 @@
       "baselineHash": "d3829e74a5e04a67c4ee976ad4d75b1701f6e5d12867acafca9b3f73a3ebe212",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "d3829e74a5e04a67c4ee976ad4d75b1701f6e5d12867acafca9b3f73a3ebe212",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 91015,
@@ -3859,12 +3859,12 @@
       "baselineHash": "a5924f37fd9681aa02c6ac537521ab3f29a82439df4818f77ad4bee7d371dbfe",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "a5924f37fd9681aa02c6ac537521ab3f29a82439df4818f77ad4bee7d371dbfe",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 55668,
       "comparisonKind": "html-text",
-      "fileSize": 197105
+      "fileSize": 197111
     },
     "https://www.trip.com/contents/service-guideline/terms.html": {
       "services": [
@@ -3884,7 +3884,7 @@
       "baselineHash": "baa804180f2f5b115d8d07d3043fe1ae10a60fd1b3d8503225dcc2c83b897c09",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "baa804180f2f5b115d8d07d3043fe1ae10a60fd1b3d8503225dcc2c83b897c09",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 43908,
@@ -3909,12 +3909,12 @@
       "baselineHash": "4eec4e6e49361063c12a14fefd6723532819d91bc5f3858b1188eecd32d9def4",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "4eec4e6e49361063c12a14fefd6723532819d91bc5f3858b1188eecd32d9def4",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 37904,
       "comparisonKind": "html-text",
-      "fileSize": 72967
+      "fileSize": 72947
     },
     "https://www.typeform.com/legal/ai-services": {
       "services": [
@@ -3934,12 +3934,12 @@
       "baselineHash": "81d3a9636a5ebd5cf01f0b462a88aea3a7b974f38bead60c1e579bd2272fa73b",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "81d3a9636a5ebd5cf01f0b462a88aea3a7b974f38bead60c1e579bd2272fa73b",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 3823,
       "comparisonKind": "html-text",
-      "fileSize": 194780
+      "fileSize": 194798
     },
     "https://www.ubisoft.com/legal/documents/termsofuse/en-US": {
       "services": [
@@ -3959,7 +3959,7 @@
       "baselineHash": "d4d9e17b78bd2423eaa063d1a61a5efbbf6242e56fa1f46798e968cfd40beb74",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "d4d9e17b78bd2423eaa063d1a61a5efbbf6242e56fa1f46798e968cfd40beb74",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 87999,
@@ -3984,7 +3984,7 @@
       "baselineHash": "63b116a995d094c61732c85bb63c0f48481cfa79c07bd6f676a6aff25608d4c9",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "63b116a995d094c61732c85bb63c0f48481cfa79c07bd6f676a6aff25608d4c9",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 71938,
@@ -4009,12 +4009,12 @@
       "baselineHash": "baa41d15bf6542f1150050927954aacf03078df18b09e396115c3c4bdf6e01fa",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "baa41d15bf6542f1150050927954aacf03078df18b09e396115c3c4bdf6e01fa",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 74030,
       "comparisonKind": "html-text",
-      "fileSize": 1527782
+      "fileSize": 1528158
     },
     "https://www.webtoons.com/en/terms": {
       "services": [
@@ -4034,7 +4034,7 @@
       "baselineHash": "b0d25cba8cc16cb78f85784749c1e20f3a051e80483bec89ef0d5deaa9d65072",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "b0d25cba8cc16cb78f85784749c1e20f3a051e80483bec89ef0d5deaa9d65072",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 217112,
@@ -4053,7 +4053,7 @@
       ],
       "requestAttempted": true,
       "state": "same",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "httpStatus": 200,
       "finalUrl": "https://www.whatsapp.com/legal/terms-of-service",
@@ -4064,7 +4064,7 @@
       "changeDetectedAt": null,
       "textLength": 33019,
       "comparisonKind": "html-text",
-      "fileSize": 230353
+      "fileSize": 230693
     },
     "https://www.wrike.com/security/terms/": {
       "services": [
@@ -4084,12 +4084,12 @@
       "baselineHash": "6e0213c5834face50e5f3058a206dd429e44e0b19286ed072cb93231ec327b9b",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "6e0213c5834face50e5f3058a206dd429e44e0b19286ed072cb93231ec327b9b",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 59432,
       "comparisonKind": "html-text",
-      "fileSize": 850371
+      "fileSize": 850169
     },
     "https://www.youtube.com/static?template=terms&gl=KR&hl=ko": {
       "services": [
@@ -4113,7 +4113,7 @@
       "baselineHash": "0178c1c1a549df8cdb21ea02d6a585f79443ca3ee9a48a9437e88d33c73af420",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "0178c1c1a549df8cdb21ea02d6a585f79443ca3ee9a48a9437e88d33c73af420",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 13191,
@@ -4138,7 +4138,7 @@
       "baselineHash": "7aefa0fcaf06d64d14eebdaa210fd493dc01f4d86ee3a82629b5d61bc4ef8a08",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "7aefa0fcaf06d64d14eebdaa210fd493dc01f4d86ee3a82629b5d61bc4ef8a08",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 24699,
@@ -4175,12 +4175,12 @@
       "baselineHash": "4f6e4c30c1447aac786bb86980809f873409667a6dc59a225d6300408093f679",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "4f6e4c30c1447aac786bb86980809f873409667a6dc59a225d6300408093f679",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 87399,
       "comparisonKind": "html-text",
-      "fileSize": 392728
+      "fileSize": 392750
     },
     "https://x.com/en/tos": {
       "services": [
@@ -4200,7 +4200,7 @@
       "baselineHash": "df120cc09d1ca60c8e4e10593d91c95de6d6489ee9ec19bab72064b679a2abd9",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "df120cc09d1ca60c8e4e10593d91c95de6d6489ee9ec19bab72064b679a2abd9",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 61668,
@@ -4225,7 +4225,7 @@
       "baselineHash": "20fe9f94a93ef8f57ab4ec82b6cac826687f5054ed5f8958e1980e8e3c10b423",
       "baselineAt": "2026-10-17T14:51:26+00:00",
       "observedHash": "20fe9f94a93ef8f57ab4ec82b6cac826687f5054ed5f8958e1980e8e3c10b423",
-      "lastCheckedAt": "2026-10-20T20:47:32+00:00",
+      "lastCheckedAt": "2026-10-21T10:53:35+00:00",
       "changeDetectedAt": null,
       "reason": "저장한 기준과 같은 스냅샷 · 요약 정확성 검수 아님",
       "textLength": 38913,
@@ -4234,8 +4234,8 @@
     }
   },
   "counts": {
-    "same": 116,
-    "changed": 14,
+    "same": 115,
+    "changed": 15,
     "unavailable": 27
   },
   "serviceCoverage": {
