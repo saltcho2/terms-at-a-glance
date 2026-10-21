@@ -1,0 +1,13 @@
+{
+  "testedAt": "2026-10-21",
+  "environment": "Actual deployed GitHub Pages in cloud Chrome",
+  "homepage": {"headline": "동의하기 전, 약관부터 확인하세요.", "catalogAsset": "service-catalog.js?v=20261021r1", "state": "home", "homeVisible": true, "detailVisible": false},
+  "services": [
+    {"name": "쿠팡", "items": 3, "observed": ["2026. 10. 14. 시행", "원문 대조일 2026. 10. 18."]},
+    {"name": "쿠팡이츠", "items": 2, "observed": ["배달 완료 후 1년", "위치 포함 게시물의 별도 보관 기준"]},
+    {"name": "Pinterest", "items": 1, "observed": ["현행 2025. 4. 30.", "2026. 11. 12. 개정 예고는 별도", "자동 비교 응답 차이 상태 유지"]},
+    {"name": "Quizlet", "items": 1, "observed": ["공식 한국어 참고 번역", "영문 우선", "자동 수집 실패 상태 유지"]},
+    {"name": "Canva", "items": 6, "observed": ["개인정보 항목을 실제로 펼쳐 2026. 8. 25. 최종 수정 확인", "검수 상세를 펼쳐 10월 18일 대조와 10월 21일 편집 반영 구분 확인"]}
+  ],
+  "notClaimed": ["all service items browser-tested", "physical mobile test", "five human users", "legal expert review", "all terms semantically reviewed"]
+}
