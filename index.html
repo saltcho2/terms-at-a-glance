@@ -58,9 +58,9 @@
       </form>
       <div class="quick"><span class="quick-label">추천 검색</span><button class="chip" data-service="youtube" disabled>YouTube</button><button class="chip" data-service="netflix" disabled>Netflix</button><button class="chip" data-service="naver" disabled>네이버</button><button class="chip" data-service="coupang" disabled>쿠팡</button><button class="chip" data-service="spotify" disabled>Spotify</button></div>
       <div class="quick recent-row" id="recentRow" hidden><span class="quick-label">최근 검색</span><span id="recentList"></span></div>
-      <details class="catalog-picker" id="catalogTools"><summary>전체 목록에서 찾아보기</summary><label for="serviceSelect">전체 서비스에서 선택</label><select id="serviceSelect" disabled><option value="">서비스 목록 불러오는 중</option></select><p>‘요약 제공’은 표시된 항목을 원문과 대조했다는 뜻입니다. ‘보완 중’인 서비스도 검색과 목록에서 찾을 수 있습니다.</p></details>
+      <details class="catalog-picker" id="catalogTools"><summary>전체 목록에서 찾아보기</summary><label for="serviceSelect">전체 서비스에서 선택</label><select id="serviceSelect" disabled><option value="">서비스 목록 불러오는 중</option></select><p>요약과 원문 링크가 준비된 서비스만 공개합니다. 확인한 범위와 대조일은 각 항목에서 확인하세요.</p></details>
       <div class="search-feedback" id="searchCorrection" role="status" hidden><span id="correctionText"></span><button type="button" id="originalSearchButton"></button></div>
-      <div class="search-empty" id="searchError" role="status" hidden><h3 id="searchEmptyTitle">검색 안내</h3><p id="searchEmptyText"></p><a class="request-link" id="requestService" href="https://github.com/saltcho2/terms-at-a-glance/issues/new" target="_blank" rel="noopener">서비스 추가 요청하기 ↗</a><div id="searchAlternatives"></div><button type="button" id="browseCatalog">전체 서비스 목록 보기</button><p>등록되지 않은 서비스와, 등록됐지만 요약이 없는 서비스는 구분해 안내합니다.</p><p class="request-note" id="requestNote">요청 작성 화면에서 내용을 확인한 뒤 등록해 주세요. GitHub 로그인이 필요합니다.</p></div>
+      <div class="search-empty" id="searchError" role="status" hidden><h3 id="searchEmptyTitle">검색 안내</h3><p id="searchEmptyText"></p><a class="request-link" id="requestService" href="https://github.com/saltcho2/terms-at-a-glance/issues/new" target="_blank" rel="noopener">서비스 추가 요청하기 ↗</a><div id="searchAlternatives"></div><button type="button" id="browseCatalog">전체 서비스 목록 보기</button><p>요약이 준비되지 않은 서비스는 공개 목록에서 제외되어 있습니다.</p><p class="request-note" id="requestNote">요청 작성 화면에서 내용을 확인한 뒤 등록해 주세요. GitHub 로그인이 필요합니다.</p></div>
     </section>
 
     <section id="homeContent" aria-label="약관 한눈에 소개">
@@ -70,7 +70,7 @@
 
       </div>
       <section class="method-panel" aria-labelledby="methodTitle"><div class="method-head"><div><p class="section-index">03 / 정리 기준</p><h2 id="methodTitle">어떻게 정리했나요?</h2></div><p>요약문은 이해를 돕기 위한 설명이며 약관 원문을 대신하지 않습니다.</p></div><div class="method-grid"><div class="method-item"><strong>1. 공식 자료부터 확인</strong><p>서비스 약관, 개인정보처리방침과 정부·감독기관 발표를 우선 확인합니다.</p></div><div class="method-item"><strong>2. 이용자에게 미치는 영향 설명</strong><p>결제와 개인정보, 콘텐츠 이용, 해지 조건이 내게 어떤 의미인지 풀어씁니다.</p></div><div class="method-item"><strong>3. 출처와 점검일 표시</strong><p>내용을 직접 다시 확인할 수 있도록 원문 링크와 마지막 점검일을 함께 표시합니다.</p></div></div></section>
-      <details class="data-disclosure"><summary>자료 현황과 확인 범위 <span>등록 수와 대조 기록을 구분해 안내합니다</span></summary><div class="home-stats" id="homeStats"><div class="stat"><strong id="catalogTotal">자료 준비 중</strong><span>목록에 등록된 서비스</span></div><div class="stat"><strong id="summaryServiceStat">자료 준비 중</strong><span>1개 이상 요약을 볼 수 있는 서비스</span></div><div class="stat"><strong id="auditDateStat">자료 준비 중</strong><span>원문 대조 기록이 있는 항목 · 전체 검수 아님</span></div><div class="stat"><strong id="recheckStat">자료 준비 중</strong><span>대조일·원문 수집·스냅샷 차이 재확인 대상</span></div><div class="stat"><strong id="pendingServiceStat">자료 준비 중</strong><span>등록됐으나 요약이 없는 서비스</span></div><div class="stat"><strong id="verifiedCaseStat">자료 준비 중</strong><span>등록된 실제 사례 · 출처·대조일은 개별 확인</span></div></div>
+      <details class="data-disclosure"><summary>자료 현황과 확인 범위 <span>등록 수와 대조 기록을 구분해 안내합니다</span></summary><div class="home-stats" id="homeStats"><div class="stat"><strong id="catalogTotal">자료 준비 중</strong><span>목록에 등록된 서비스</span></div><div class="stat"><strong id="summaryServiceStat">자료 준비 중</strong><span>1개 이상 요약을 볼 수 있는 서비스</span></div><div class="stat"><strong id="auditDateStat">자료 준비 중</strong><span>원문 대조 기록이 있는 항목 · 전체 검수 아님</span></div><div class="stat"><strong id="recheckStat">자료 준비 중</strong><span>대조일·원문 수집·스냅샷 차이 재확인 대상</span></div><div class="stat"><strong id="summaryItemStat">자료 준비 중</strong><span>공개된 요약 항목</span></div><div class="stat"><strong id="verifiedCaseStat">자료 준비 중</strong><span>등록된 실제 사례 · 출처·대조일은 개별 확인</span></div></div>
       <p class="notice" id="reviewProgress" role="status"></p></details>
 <section class="preview-panel source-directory" aria-labelledby="previewTitle"><h2 id="previewTitle">대표 서비스 원문 바로가기</h2><p class="preview-intro">요약을 읽기 전에 공식 문서를 직접 확인할 수도 있습니다.</p><div class="preview-grid"><article class="source-entry"><div><strong>Netflix</strong><span>넷플릭스 한국어 공식 고객센터 · 멤버십 해지 방법</span></div><a href="https://help.netflix.com/ko/node/407" target="_blank" rel="noopener">공식 원문 ↗</a><button type="button" data-preview="netflix" disabled>요약 보기 →</button></article><article class="source-entry"><div><strong>네이버</strong><span>네이버 공통 이용약관</span></div><a href="https://policy.naver.com/policy/service.html" target="_blank" rel="noopener">공식 원문 ↗</a><button type="button" data-preview="naver" disabled>요약 보기 →</button></article><article class="source-entry"><div><strong>YouTube</strong><span>Google 개인정보처리방침</span></div><a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener">공식 원문 ↗</a><button type="button" data-preview="youtube" disabled>요약 보기 →</button></article></div></section>
 <details class="editorial-policy"><summary>검수 범위와 확인 순서는 어떻게 정하나요?</summary><p>요약 제공은 화면에 표시한 항목만 원문과 대조했다는 뜻입니다. URL 접속 점검·항목 대조·약관 전체 검수는 서로 다릅니다. 이 사이트는 전체 약관 검수 완료를 표시하지 않습니다.</p><p><strong>가입 전에 확인할 조건:</strong> 결제·구독, 개인정보, 해지·환불 항목, 또는 삭제 후 권한·사본이 남을 수 있다고 설명한 콘텐츠 항목입니다. 그 밖의 콘텐츠 권리와 기타 조건은 <strong>추가로 알아둘 조건</strong>으로 안내합니다. 이는 항목 유형에 따른 읽기 순서이며, 위험 점수·위법성 판정·서비스 간 안전 등급이 아닙니다.</p><p>각 항목에서 원문 문서·조항명·버전·대조일을 확인할 수 있습니다. 원문에 명시되지 않은 날짜는 추정하지 않습니다. 원문과 요약이 다르면 적용되는 공식 원문을 확인해야 합니다.</p><p>별도 법률 전문가 검토 기록과 확정된 다음 검수 일정은 등록되어 있지 않습니다. 재검토 권장일은 대조일에서 30일 뒤로 계산한 참고일이며 실제 검수 예약이나 원문 변경 감지 결과가 아닙니다.</p></details>
@@ -121,7 +121,16 @@
     }
     try{
     if(!window.serviceCatalog||!Object.keys(window.serviceCatalog).length||!window.TermsSearch||!window.TermsReview){showLoadFailure(window.termsAssetErrors?.length?'불러오지 못한 파일: '+window.termsAssetErrors.join(', '):'검색에 필요한 자료 또는 모듈을 확인하지 못했습니다.');}else{
-    const services=window.serviceCatalog;
+    // Only publish services with usable summaries and official source links.
+    // Keep excluded source records for later correction; do not count them as public content.
+    const services=Object.fromEntries(Object.entries(window.serviceCatalog).flatMap(([key,service])=>{
+      const items=Array.isArray(service.items)?service.items.filter(item=>
+        Array.isArray(item)&&[item[2],item[5]].every(value=>typeof value==='string'&&value.trim()&&!/undefined|^https?:\/\//i.test(value.trim()))&&
+        typeof item[6]==='string'&&/^https?:\/\//.test(item[6])
+      ):[];
+      return items.length?[[key,{...service,items}]]:[];
+    }));
+    if(!Object.keys(services).length)throw new Error('공개할 수 있는 요약 자료가 없습니다.');
     const icons={payment:'₩',privacy:'⌁',content:'✦',cancel:'↩',other:'!'};
     const labels={mid:'추가로 알아둘 조건',high:'가입 전에 확인할 조건'};
     const audit=window.catalogAudit||{};
@@ -136,11 +145,11 @@
       $('#summaryServiceStat').textContent=`${stats.summaryServices}개`;
       $('#auditDateStat').textContent=`${stats.compared}개`;
       $('#recheckStat').textContent=`${stats.recheck}개 항목`;
-      $('#pendingServiceStat').textContent=`${stats.pendingServices}개`;
+      $('#summaryItemStat').textContent=`${stats.items}개`;
       $('#reviewProgress').textContent=`목록 ${serviceCount}개 중 요약 제공 ${stats.summaryServices}개 서비스 · ${stats.items}개 항목입니다. 원문 대조 기록이 있는 항목은 ${stats.compared}개이며 서비스 전체 검수 완료 수가 아닙니다. 재확인 안내 ${stats.recheck}개는 대조일 경과·기록 부재 또는 원문 수집·스냅샷 비교 상태를 반영합니다. 기존 URL 접속 점검 기록은 ${auditDate} 기준으로, 이번 집계와 별개입니다.`;
       $('#navNote').textContent='서비스 약관을 쉽게 찾고 이해하는 곳';
       $('#searchInput').placeholder='서비스명 또는 주소';
-      $('#serviceSelect').innerHTML='<option value="">전체 '+serviceCount+'개 서비스 보기</option>'+Object.entries(services).sort((a,b)=>a[1].name.localeCompare(b[1].name,'ko')).map(([key,s])=>`<option value="${escapeHtml(key)}">${escapeHtml(s.name)} · ${s.items.length?'요약 제공':s.status==='linked'?'공식 링크 확인 · 요약 보완 중':'자료 보완 중'}</option>`).join('');
+      $('#serviceSelect').innerHTML='<option value="">전체 '+serviceCount+'개 서비스 보기</option>'+Object.entries(services).sort((a,b)=>a[1].name.localeCompare(b[1].name,'ko')).map(([key,s])=>`<option value="${escapeHtml(key)}">${escapeHtml(s.name)} · 요약 제공</option>`).join('');
     }
     function renderHomeCases(){
       const state=window.TermsReview.caseState(window.serviceCases),allCases=state.items;
@@ -151,7 +160,7 @@
       if(!state.total){$('#homeCases').textContent=state.caption;return;}
       const recent=allCases.sort((a,b)=>window.TermsReview.caseDate(b)-window.TermsReview.caseDate(a)).slice(0,3);
       const container=$('#homeCases');container.classList.remove('expanded');
-      container.innerHTML=recent.map((c,i)=>`<article class="home-case"><p class="home-case-meta">${escapeHtml(c.publishedAt||c.year)} · ${escapeHtml(services[c.key]?.name||c.serviceName||c.key)} · ${escapeHtml(c.org)}</p><p class="home-case-title">${escapeHtml(c.title)}</p><p class="home-case-meta">${escapeHtml([c.region,c.stage].filter(Boolean).join(' · '))}</p><p class="home-case-text">${escapeHtml(c.text)}</p>${caseSourceLinks(c,'home-case-link')}<button class="home-case-service" type="button" data-case-service="${escapeHtml(c.key)}">이 서비스 약관 보기 →</button></article>`).join('');
+      container.innerHTML=recent.map((c,i)=>`<article class="home-case"><p class="home-case-meta">${escapeHtml(c.publishedAt||c.year)} · ${escapeHtml(services[c.key]?.name||c.serviceName||c.key)} · ${escapeHtml(c.org)}</p><p class="home-case-title">${escapeHtml(c.title)}</p><p class="home-case-meta">${escapeHtml([c.region,c.stage].filter(Boolean).join(' · '))}</p><p class="home-case-text">${escapeHtml(c.text)}</p>${caseSourceLinks(c,'home-case-link')}${services[c.key]?`<button class="home-case-service" type="button" data-case-service="${escapeHtml(c.key)}">이 서비스 약관 보기 →</button>`:''}</article>`).join('');
       container.querySelectorAll('[data-case-service]').forEach(button=>button.addEventListener('click',()=>runSearch(services[button.dataset.caseService].name)));
     }
     function caseSourceLinks(record,className){
@@ -242,7 +251,7 @@
       }else{
         clearSearchFeedback();document.documentElement.dataset.appState=submittedQuery?'no-results':'empty-query';$('#reportComposer').hidden=true;$('#resultSection').hidden=true;$('#resultSection').classList.add('hidden');$('#homeContent').classList.add('hidden');$('#homeWhy').classList.add('hidden');$('#serviceSelect').value='';
         $('#searchError').hidden=false;$('#searchEmptyTitle').textContent=submittedQuery?'“'+submittedQuery+'” 검색 결과가 없습니다.':'서비스 이름이나 사이트 주소를 입력해 주세요.';
-        $('#searchEmptyText').textContent=submittedQuery?'등록된 서비스 이름·별칭·주소에서 결과를 찾지 못했습니다. 등록된 서비스의 요약이 없는 경우에는 상세 페이지에서 보완 상태를 따로 안내합니다.':'';
+        $('#searchEmptyText').textContent=submittedQuery?'공개된 서비스 이름·별칭·주소에서 결과를 찾지 못했습니다. 요약이 준비되지 않은 서비스는 검색에 표시하지 않습니다. 다른 이름으로 검색하거나 서비스 추가를 요청해 주세요.':'';
         const alternatives=exactOnly?serviceSearch.matches(submittedQuery).slice(0,3).map(x=>x.key):[];
         const available=alternatives.length?alternatives:['youtube','netflix','naver'];
         $('#searchAlternatives').innerHTML=submittedQuery?'<p>'+(alternatives.length?'비슷한 이름의 등록 서비스':'현재 요약을 볼 수 있는 서비스')+'</p>'+available.map(key=>'<button type="button" class="chip" data-alternative="'+escapeHtml(key)+'">'+escapeHtml(services[key].name)+'</button>').join(''):'';
@@ -293,3 +302,4 @@
   </script>
 </body>
 </html>
+
