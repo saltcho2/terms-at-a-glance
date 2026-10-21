@@ -1,0 +1,3421 @@
+{
+  "scope": "2026-10-18 batch of 67 and this batch of 42 only; other historical verification logs are not combined",
+  "sourceObservedAt": "2026-10-18",
+  "editedAt": "2026-10-21",
+  "twoBatchReviewedItems": 109,
+  "notReviewedInTheseBatches": 149,
+  "items": [
+    {
+      "service": "YouTube",
+      "key": "youtube",
+      "index": 1,
+      "title": "영상 이용권은 운영·홍보·개선 목적으로 부여",
+      "url": "https://www.youtube.com/static?template=terms&gl=KR&hl=ko",
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "YouTube",
+      "key": "youtube",
+      "index": 2,
+      "title": "내 영상에 광고가 붙어도 수익 지급이 자동 보장되지 않음",
+      "url": "https://www.youtube.com/static?template=terms&gl=KR&hl=ko",
+      "checkedAt": "2026. 10. 9. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "X",
+      "key": "x",
+      "index": 0,
+      "title": "게시물 이용권에 AI 학습과 제3자 배포가 포함됨",
+      "url": "https://x.com/en/tos",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "LinkedIn",
+      "key": "linkedin",
+      "index": 0,
+      "title": "다음 결제일 전에 구독을 취소해야 함",
+      "url": "https://www.linkedin.com/legal/user-agreement",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "LinkedIn",
+      "key": "linkedin",
+      "index": 1,
+      "title": "탈퇴해도 공유본·기존 재허락·백업에는 예외가 있음",
+      "url": "https://www.linkedin.com/legal/user-agreement",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Reddit",
+      "key": "reddit",
+      "index": 0,
+      "title": "게시물은 AI 학습과 제휴사 배포에 활용될 수 있음",
+      "url": "https://redditinc.com/policies/user-agreement",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Snapchat",
+      "key": "snapchat",
+      "index": 0,
+      "title": "공개 스토리에는 더 넓은 무상 이용권이 적용됨",
+      "url": "https://www.snap.com/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "카카오톡",
+      "key": "kakaotalk",
+      "index": 0,
+      "title": "카카오계정 탈퇴는 연결 서비스 데이터에도 영향",
+      "url": "https://www.kakao.com/policy/terms?lang=ko",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "LINE",
+      "key": "line",
+      "index": 0,
+      "title": "친구 외에 공개한 콘텐츠에는 넓은 이용권 부여",
+      "url": "https://terms.line.me/line_terms?lang=ko",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "LINE",
+      "key": "line",
+      "index": 1,
+      "title": "1년 이상 미사용하면 계정 삭제 대상이 될 수 있음",
+      "url": "https://terms.line.me/line_terms?lang=ko",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Twitch",
+      "key": "twitch",
+      "index": 0,
+      "title": "외부 공유 기능을 켜면 다른 사용자의 재사용권 부여",
+      "url": "https://legal.twitch.com/en/legal/terms-of-service/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "왓챠",
+      "key": "watcha",
+      "index": 0,
+      "title": "무료 체험 후 유료 전환에 동의하면 정기결제",
+      "url": "https://watcha.com/ko-KR/legals/play_agreement",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "왓챠",
+      "key": "watcha",
+      "index": 1,
+      "title": "정기결제 해지와 즉시 중도해지는 환불 방식이 다름",
+      "url": "https://watcha.com/ko-KR/legals/play_agreement",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Apple TV+",
+      "key": "appletv",
+      "index": 0,
+      "title": "구독은 취소 전까지 자동 갱신",
+      "url": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Apple TV+",
+      "key": "appletv",
+      "index": 1,
+      "title": "콘텐츠 거래는 사용권 취득",
+      "url": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Prime Video",
+      "key": "primevideo",
+      "index": 0,
+      "title": "구매한 콘텐츠도 온라인 접근이 중단될 수 있음",
+      "url": "https://www.primevideo.com/help?nodeId=202095490",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Apple Music",
+      "key": "applemusic",
+      "index": 0,
+      "title": "기본 카드가 실패하면 다른 등록 수단으로 청구",
+      "url": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Apple Music",
+      "key": "applemusic",
+      "index": 1,
+      "title": "체험 요금을 피하려면 종료 최소 24시간 전 취소",
+      "url": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "11번가",
+      "key": "elevenst",
+      "index": 0,
+      "title": "탈퇴 후에도 구매회원 정보는 1개월 보관",
+      "url": "https://privacy.11st.co.kr/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "11번가",
+      "key": "elevenst",
+      "index": 1,
+      "title": "11번가 앱을 삭제해도 회원 계정은 남음",
+      "url": "https://privacy.11st.co.kr/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "G마켓",
+      "key": "gmarket",
+      "index": 0,
+      "title": "반품 사유와 배송비 확인 전에는 환불이 지연될 수 있음",
+      "url": "https://policy.gmarket.co.kr/terms-policy/buyer-use",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "배달의민족",
+      "key": "baemin",
+      "index": 0,
+      "title": "가족 결제 요청 때 주소·주문정보가 대표에게 전달",
+      "url": "https://terms.baemin.com/terms/2026/9/2725_20260930033022606.html",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "배달의민족",
+      "key": "baemin",
+      "index": 1,
+      "title": "주소 추가정보도 해외 업체의 시스템 처리 대상",
+      "url": "https://terms.baemin.com/terms/2026/9/2725_20260930033022606.html",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "배달의민족",
+      "key": "baemin",
+      "index": 2,
+      "title": "구매·검색 기록은 맞춤형 광고용으로 1년 보관",
+      "url": "https://terms.baemin.com/terms/2026/9/2725_20260930033022606.html",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Dropbox",
+      "key": "dropbox",
+      "index": 0,
+      "title": "유료 계정은 취소 전까지 반복 청구",
+      "url": "https://www.dropbox.com/terms",
+      "checkedAt": "2026. 10. 17. (한국 시간)",
+      "hasQuote": true
+    },
+    {
+      "service": "Dropbox",
+      "key": "dropbox",
+      "index": 1,
+      "title": "팀 관리자가 파일 접근과 계정 이용을 통제",
+      "url": "https://www.dropbox.com/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Dropbox",
+      "key": "dropbox",
+      "index": 2,
+      "title": "무료 계정은 12개월 미접속 시 종료 대상",
+      "url": "https://www.dropbox.com/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Dropbox",
+      "key": "dropbox",
+      "index": 3,
+      "title": "파일은 이용자 소유지만 서비스 기능을 위해 분석 가능",
+      "url": "https://www.dropbox.com/terms",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Dropbox",
+      "key": "dropbox",
+      "index": 4,
+      "title": "유료 취소와 이미 낸 요금의 반환은 별도",
+      "url": "https://www.dropbox.com/terms",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Dropbox",
+      "key": "dropbox",
+      "index": 5,
+      "title": "탈퇴 30일 뒤 삭제 시작·백업과 법적 보관은 예외",
+      "url": "https://www.dropbox.com/privacy",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Notion",
+      "key": "notion",
+      "index": 0,
+      "title": "일반·Enterprise 요금제의 AI 제공자 보관 기간이 다름",
+      "url": "https://www.notion.com/help/notion-ai-security-practices",
+      "checkedAt": "2026. 10. 17. (한국 시간)",
+      "hasQuote": true
+    },
+    {
+      "service": "Slack",
+      "key": "slack",
+      "index": 0,
+      "title": "워크스페이스 고객이 메시지·파일을 통제",
+      "url": "https://slack.com/intl/ko-kr/terms-of-service/user",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Zoom",
+      "key": "zoom",
+      "index": 0,
+      "title": "기본 카드가 거절되면 등록한 보조 수단으로 청구 가능",
+      "url": "https://www.zoom.com/en/trust/terms/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Zoom",
+      "key": "zoom",
+      "index": 1,
+      "title": "계약 기본값은 다음 기간 30일 전 갱신 거절 통지",
+      "url": "https://www.zoom.com/en/trust/terms/",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Zoom",
+      "key": "zoom",
+      "index": 2,
+      "title": "회의 콘텐츠 이용권은 허용 목적에 한정·AI 학습과 구분",
+      "url": "https://www.zoom.com/en/trust/terms/",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Zoom",
+      "key": "zoom",
+      "index": 3,
+      "title": "계약 종료 후 자료 반출 기간은 30일",
+      "url": "https://www.zoom.com/en/trust/terms/",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Trip.com",
+      "key": "tripcom",
+      "index": 0,
+      "title": "후기·사진에 영구적 홍보 이용권 부여",
+      "url": "https://www.trip.com/contents/service-guideline/terms.html",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Bluesky",
+      "key": "bluesky",
+      "index": 0,
+      "title": "계정 제한에 대한 내부 이의신청은 2주 이내",
+      "url": "https://bsky.social/about/support/tos",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Tumblr",
+      "key": "tumblr",
+      "index": 0,
+      "title": "유료 기능 구매는 원칙적으로 환불되지 않음",
+      "url": "https://www.tumblr.com/policy/en/terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Flickr",
+      "key": "flickr",
+      "index": 0,
+      "title": "사진 소유권은 남지만 서비스 제공을 위한 이용권 부여",
+      "url": "https://www.flickr.com/help/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Signal",
+      "key": "signal",
+      "index": 0,
+      "title": "메시지 복구와 기기 보안은 직접 관리해야 함",
+      "url": "https://signal.org/legal/",
+      "checkedAt": "2026. 10. 17. (한국 시간)",
+      "hasQuote": true
+    },
+    {
+      "service": "Audible",
+      "key": "audible",
+      "index": 0,
+      "title": "멤버십 해지 때 미사용 크레딧이 즉시 만료될 수 있음",
+      "url": "https://www.audible.com/legal/conditions-of-use",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "벅스",
+      "key": "bugs",
+      "index": 0,
+      "title": "탈퇴해도 작성한 게시물은 자동으로 지워지지 않음",
+      "url": "https://music.bugs.co.kr/rules/use",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "WEBTOON",
+      "key": "webtoon",
+      "index": 0,
+      "title": "게시물 이용권이 넓지만 CANVAS의 편집·파생물에는 제한이 있음",
+      "url": "https://www.webtoons.com/en/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "GitHub",
+      "key": "github",
+      "index": 0,
+      "title": "요금제 하향·미사용 기간의 환불이 제한됨",
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+      "checkedAt": "2026. 10. 17. (한국 시간)",
+      "hasQuote": true
+    },
+    {
+      "service": "GitLab",
+      "key": "gitlab",
+      "index": 0,
+      "title": "유료 구독 축소·갱신 거절은 만료 30일 전까지",
+      "url": "https://handbook.gitlab.com/handbook/legal/subscription-agreement/",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "GitLab",
+      "key": "gitlab",
+      "index": 1,
+      "title": "무료 플랜은 예고 없이 기능이 달라질 수 있음",
+      "url": "https://handbook.gitlab.com/handbook/legal/subscription-agreement/",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "GitLab",
+      "key": "gitlab",
+      "index": 2,
+      "title": "공개 저장소의 라이선스는 업로더가 부여",
+      "url": "https://handbook.gitlab.com/handbook/legal/subscription-agreement/",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "GitLab",
+      "key": "gitlab",
+      "index": 3,
+      "title": "민감 데이터는 사전 서면 동의 없이 제공 금지",
+      "url": "https://handbook.gitlab.com/handbook/legal/subscription-agreement/",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Atlassian",
+      "key": "atlassian",
+      "index": 0,
+      "title": "할인 가격이 갱신 시 유지된다고 보장하지 않음",
+      "url": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Trello",
+      "key": "trello",
+      "index": 0,
+      "title": "최초 주문 30일 환불과 일반 중도해지는 조건이 다름",
+      "url": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Asana",
+      "key": "asana",
+      "index": 0,
+      "title": "조직 워크스페이스의 자료는 조직 고객이 통제",
+      "url": "https://asana.com/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "ClickUp",
+      "key": "clickup",
+      "index": 0,
+      "title": "연간 요금제 취소·좌석 감소는 갱신 30일 전 통지",
+      "url": "https://clickup.com/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Figma",
+      "key": "figma",
+      "index": 0,
+      "title": "연간 좌석 요금제여도 AI 크레딧 구독은 매월 갱신",
+      "url": "https://www.figma.com/legal/tos/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Figma",
+      "key": "figma",
+      "index": 1,
+      "title": "중간에 승인한 추가 좌석은 바로 요금이 발생",
+      "url": "https://www.figma.com/legal/tos/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Miro",
+      "key": "miro",
+      "index": 0,
+      "title": "회사 이메일로 만든 계정을 조직이 인수할 수 있음",
+      "url": "https://miro.com/legal/terms-of-service/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Evernote",
+      "key": "evernote",
+      "index": 0,
+      "title": "계정 폐쇄 전에 유료 구독을 먼저 취소해야 함",
+      "url": "https://evernote.com/legal/terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Todoist",
+      "key": "todoist",
+      "index": 0,
+      "title": "유료 구독은 다음 기간 전에 취소해야 청구 중단",
+      "url": "https://www.todoist.com/terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Todoist",
+      "key": "todoist",
+      "index": 1,
+      "title": "팀원에게 비용 발생·자료 수정 권한을 줄 수 있음",
+      "url": "https://www.todoist.com/terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Grammarly",
+      "key": "grammarly",
+      "index": 0,
+      "title": "설정을 마치지 않아도 서비스 접근일부터 청구",
+      "url": "https://www.grammarly.com/terms",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Grammarly",
+      "key": "grammarly",
+      "index": 1,
+      "title": "일부 기간·남은 AI 사용량은 환불하지 않는 조건",
+      "url": "https://www.grammarly.com/terms",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Grammarly",
+      "key": "grammarly",
+      "index": 2,
+      "title": "문서 이용권은 교정뿐 아니라 서비스 개선에도 적용",
+      "url": "https://www.grammarly.com/terms",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Grammarly",
+      "key": "grammarly",
+      "index": 3,
+      "title": "학교·회사 이메일 계정을 조직이 열람·통제 가능",
+      "url": "https://www.grammarly.com/terms",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Grammarly",
+      "key": "grammarly",
+      "index": 4,
+      "title": "계정 삭제 후 문서와 정보를 복구할 수 없음",
+      "url": "https://www.grammarly.com/terms",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Calendly",
+      "key": "calendly",
+      "index": 0,
+      "title": "갱신 시 요금 인상 조건이 포함됨",
+      "url": "https://calendly.com/legal/customer-terms-conditions",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Calendly",
+      "key": "calendly",
+      "index": 1,
+      "title": "청구서 결제·Enterprise는 종료 30일 전 통지",
+      "url": "https://calendly.com/legal/customer-terms-conditions",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Calendly",
+      "key": "calendly",
+      "index": 2,
+      "title": "조직 계정은 사용 보고와 관리 대상",
+      "url": "https://calendly.com/legal/customer-terms-conditions",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "KAYAK",
+      "key": "kayak",
+      "index": 0,
+      "title": "후기 속 이름·사진도 콘텐츠 이용에 포함될 수 있음",
+      "url": "https://www.kayak.com/terms-of-use",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Skyscanner",
+      "key": "skyscanner",
+      "index": 0,
+      "title": "환불·변경은 실제 예약 업체의 조건 확인 필요",
+      "url": "https://www.skyscanner.com/terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Steam",
+      "key": "steam",
+      "index": 0,
+      "title": "지역 가격을 우회하면 계정 이용이 종료될 수 있음",
+      "url": "https://store.steampowered.com/subscriber_agreement/",
+      "checkedAt": "2026. 10. 17. (한국 시간)",
+      "hasQuote": true
+    },
+    {
+      "service": "PlayStation",
+      "key": "playstation",
+      "index": 0,
+      "title": "PS Plus는 갱신 취소 전까지 같은 기간으로 자동 연장",
+      "url": "https://www.playstation.com/ko-kr/legal/terms-of-service/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Riot Games",
+      "key": "riotgames",
+      "index": 0,
+      "title": "요청받지 않은 아이디어에는 무상 이용권 부여",
+      "url": "https://www.riotgames.com/en/terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Electronic Arts",
+      "key": "ea",
+      "index": 0,
+      "title": "게임 가상화폐는 현금 교환과 환불이 제한됨",
+      "url": "https://www.ea.com/legal/user-agreement",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Ubisoft",
+      "key": "ubisoft",
+      "index": 0,
+      "title": "남은 가상화폐는 법정 예외 외 환불 제한",
+      "url": "https://www.ubisoft.com/legal/documents/termsofuse/en-US",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Coursera",
+      "key": "coursera",
+      "index": 0,
+      "title": "구독은 같은 길이의 기간으로 자동 갱신",
+      "url": "https://www.coursera.org/about/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "WhatsApp",
+      "key": "whatsapp",
+      "index": 0,
+      "title": "전송되지 않은 메시지는 최대 30일 서버에 보관 가능",
+      "url": "https://www.whatsapp.com/legal/terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Viber",
+      "key": "viber",
+      "index": 0,
+      "title": "공개 채널의 사진·영상에는 영구적 이용권 부여",
+      "url": "https://www.viber.com/en/terms/viber-terms-use/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Imgur",
+      "key": "imgur",
+      "index": 0,
+      "title": "삭제해도 이미 재허락한 공개 콘텐츠의 이용권은 남음",
+      "url": "https://imgur.com/tos",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Dribbble",
+      "key": "dribbble",
+      "index": 0,
+      "title": "유료 계정을 안 써도 미사용 기간을 환불하지 않음",
+      "url": "https://dribbble.com/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "ArtStation",
+      "key": "artstation",
+      "index": 0,
+      "title": "365일 연속 로그인하지 않으면 계정 종료 가능",
+      "url": "https://www.artstation.com/tos",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Ko-fi",
+      "key": "kofi",
+      "index": 0,
+      "title": "후원 메시지는 기본 공개이며 결제정보는 별도 공유 가능",
+      "url": "https://more.ko-fi.com/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Buy Me a Coffee",
+      "key": "buymeacoffee",
+      "index": 0,
+      "title": "계정만 삭제하면 멤버십 결제는 멈추지 않음",
+      "url": "https://buymeacoffee.com/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "WordPress.com",
+      "key": "wordpress",
+      "index": 0,
+      "title": "연간 구독은 종료 한 달 전 취소 기한 명시",
+      "url": "https://wordpress.com/tos/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Disqus",
+      "key": "disqus",
+      "index": 0,
+      "title": "댓글을 다른 서비스에 배포하는 영구적 이용권 부여",
+      "url": "https://help.disqus.com/en/articles/1717102-terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Kick",
+      "key": "kick",
+      "index": 0,
+      "title": "체험 취소 마감은 한국 시간이 아닌 태평양시간 기준",
+      "url": "https://kick.com/terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Bandcamp",
+      "key": "bandcamp",
+      "index": 0,
+      "title": "구매한 음악도 서비스 안에서 계속 듣지 못할 수 있음",
+      "url": "https://bandcamp.com/terms_of_use",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "번개장터",
+      "key": "bunjang",
+      "index": 0,
+      "title": "탈퇴 전에 진행 중인 거래를 정리해야 함",
+      "url": "https://terms.bunjang.co.kr/terms/service.html",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Proton Mail",
+      "key": "protonmail",
+      "index": 0,
+      "title": "무료 계정은 12개월 미사용 시 데이터 삭제 가능",
+      "url": "https://proton.me/legal/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Proton Drive",
+      "key": "protondrive",
+      "index": 0,
+      "title": "무료 계정은 12개월 미사용 시 데이터 삭제 가능",
+      "url": "https://proton.me/legal/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Linear",
+      "key": "linear",
+      "index": 0,
+      "title": "서비스 개선 의견에 영구적 이용권 부여",
+      "url": "https://linear.app/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Airtable",
+      "key": "airtable",
+      "index": 0,
+      "title": "정해진 사용량을 넘으면 추가 청구 가능",
+      "url": "https://www.airtable.com/company/tos",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Airtable",
+      "key": "airtable",
+      "index": 1,
+      "title": "이용자가 취소할 때와 회사가 종료할 때의 환불이 다름",
+      "url": "https://www.airtable.com/company/tos",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Basecamp",
+      "key": "basecamp",
+      "index": 0,
+      "title": "계정 취소 즉시 자료에 접근할 수 없게 됨",
+      "url": "https://37signals.com/policies/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Wrike",
+      "key": "wrike",
+      "index": 0,
+      "title": "구독 갱신 전 서면으로 갱신 거절 의사를 알려야 함",
+      "url": "https://www.wrike.com/security/terms/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Zoho",
+      "key": "zoho",
+      "index": 0,
+      "title": "갱신하지 않으려면 최소 7일 전에 알려야 함",
+      "url": "https://www.zoho.com/terms.html",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "HubSpot",
+      "key": "hubspot",
+      "index": 0,
+      "title": "계약 기간 중 요금제 다운그레이드 제한",
+      "url": "https://legal.hubspot.com/terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Intercom",
+      "key": "intercom",
+      "index": 0,
+      "title": "연간 계약 갱신 거절은 30일 전 서면 통지",
+      "url": "https://www.intercom.com/legal/terms-and-policies",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Intercom",
+      "key": "intercom",
+      "index": 1,
+      "title": "미사용 월간 크레딧은 이월되지 않고 초과분 별도 과금",
+      "url": "https://www.intercom.com/legal/terms-and-policies",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Mailchimp",
+      "key": "mailchimp",
+      "index": 0,
+      "title": "24개월 미사용 계정은 자료·선불 잔액을 잃을 수 있음",
+      "url": "https://mailchimp.com/legal/terms/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Typeform",
+      "key": "typeform",
+      "index": 0,
+      "title": "AI 출력물의 독점성·이용 권리를 보장하지 않음",
+      "url": "https://www.typeform.com/legal/ai-services",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Jotform",
+      "key": "jotform",
+      "index": 0,
+      "title": "취소하거나 무료 요금제로 낮추기 전까지 자동 갱신",
+      "url": "https://www.jotform.com/terms/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "SurveyMonkey",
+      "key": "surveymonkey",
+      "index": 0,
+      "title": "자동 갱신 해제와 이미 낸 요금 환불은 다름",
+      "url": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Loom",
+      "key": "loom",
+      "index": 0,
+      "title": "무료·베타 기능은 변경·종료와 지원의 제약이 큼",
+      "url": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Obsidian",
+      "key": "obsidian",
+      "index": 0,
+      "title": "상업용 라이선스 구매 시 회사 로고의 홍보 사용 허락",
+      "url": "https://obsidian.md/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Replit",
+      "key": "replit",
+      "index": 0,
+      "title": "구독료 환불과 사용량 요금 환불 조건이 다름",
+      "url": "https://replit.com/terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Vercel",
+      "key": "vercel",
+      "index": 0,
+      "title": "업로드한 코드·자료의 서비스 개선 이용권 부여",
+      "url": "https://vercel.com/legal/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Cloudflare",
+      "key": "cloudflare",
+      "index": 0,
+      "title": "같은 기간으로 갱신되며 당시 요금이 적용됨",
+      "url": "https://www.cloudflare.com/terms/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Strava",
+      "key": "strava",
+      "index": 0,
+      "title": "공개 경로·구간은 계정 삭제 후에도 이용권이 남음",
+      "url": "https://www.strava.com/legal/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Fitbit",
+      "key": "fitbit",
+      "index": 0,
+      "title": "구독을 취소해도 홍보 메시지는 계속 올 수 있음",
+      "url": "https://support.google.com/product-documentation/answer/14816019",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "edX",
+      "key": "edx",
+      "index": 0,
+      "title": "체험을 유지하면 같은 기간의 유료 구독으로 갱신",
+      "url": "https://www.edx.org/edx-terms-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Codecademy",
+      "key": "codecademy",
+      "index": 0,
+      "title": "공개한 콘텐츠와 등장인물 정보에 넓은 이용권 부여",
+      "url": "https://www.codecademy.com/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Hugging Face",
+      "key": "huggingface",
+      "index": 0,
+      "title": "저장소를 공개하면 다른 이용자에게 영구적 이용권 부여",
+      "url": "https://huggingface.co/terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Replicate",
+      "key": "replicate",
+      "index": 0,
+      "title": "선불 잔액을 넘긴 사용량도 등록 수단으로 청구 가능",
+      "url": "https://replicate.com/terms/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Docker",
+      "key": "docker",
+      "index": 0,
+      "title": "일반 저장소 자료와 기능 제안의 이용 조건이 다름",
+      "url": "https://www.docker.com/legal/docker-terms-use/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Sentry",
+      "key": "sentry",
+      "index": 0,
+      "title": "처음 받은 할인이 갱신 가격에 유지되지 않을 수 있음",
+      "url": "https://sentry.io/terms/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "MongoDB Atlas",
+      "key": "mongodb",
+      "index": 0,
+      "title": "AI 입력 학습을 원하지 않으면 거부 설정 확인",
+      "url": "https://www.mongodb.com/legal/terms-and-conditions/cloud?tck=docs_atlas",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Supabase",
+      "key": "supabase",
+      "index": 0,
+      "title": "자동 갱신 거절은 계약 종료 30일 전 서면 통지",
+      "url": "https://supabase.com/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Supabase",
+      "key": "supabase",
+      "index": 1,
+      "title": "AI 학습은 사전 서면 동의 없이 하지 않는다고 정함",
+      "url": "https://supabase.com/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Railway",
+      "key": "railway",
+      "index": 0,
+      "title": "계정을 종료하면 남은 무료 사용 크레딧은 소멸",
+      "url": "https://railway.com/legal/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Fly.io",
+      "key": "flyio",
+      "index": 0,
+      "title": "기능 제안은 보상 없이 영구적으로 사용할 수 있음",
+      "url": "https://fly.io/legal/terms-of-service/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Dropbox Sign",
+      "key": "dropboxsign",
+      "index": 0,
+      "title": "사용량 한도를 넘으면 상위 요금제로 자동 전환",
+      "url": "https://sign.dropbox.com/about/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Notability",
+      "key": "notability",
+      "index": 0,
+      "title": "Gallery에 공개한 노트는 다른 이용자가 재사용 가능",
+      "url": "https://notability.com/tos.html",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Goodnotes",
+      "key": "goodnotes",
+      "index": 0,
+      "title": "직접 보낸 기능 피드백은 학습 모델 개선에 쓰일 수 있음",
+      "url": "https://www.goodnotes.com/terms-and-conditions?hsLang=en",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Coda / Superhuman Docs",
+      "key": "coda",
+      "index": 0,
+      "title": "유료 구독은 같은 기간으로 갱신",
+      "url": "https://superhuman.com/legal/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Coda / Superhuman Docs",
+      "key": "coda",
+      "index": 1,
+      "title": "기업용 계약에는 다른 약관이 적용됨",
+      "url": "https://superhuman.com/legal/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "TickTick",
+      "key": "ticktick",
+      "index": 0,
+      "title": "새 기능·법률상 변경은 즉시 적용될 수 있음",
+      "url": "https://ticktick.com/tos",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "1Password",
+      "key": "onepassword",
+      "index": 0,
+      "title": "사용을 멈춰도 구독 취소 전까지 요금 청구",
+      "url": "https://1password.com/legal/terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Bitwarden",
+      "key": "bitwarden",
+      "index": 0,
+      "title": "계정을 삭제하면 보관 정보는 복구할 수 없음",
+      "url": "https://bitwarden.com/terms/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "LastPass",
+      "key": "lastpass",
+      "index": 0,
+      "title": "갱신 거절은 만료 최소 30일 전 기준",
+      "url": "https://www.lastpass.com/legal-center/terms-of-service/personal",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Dashlane",
+      "key": "dashlane",
+      "index": 0,
+      "title": "연간 구독은 시작·갱신 30일 이내 환불 요청 가능",
+      "url": "https://www.dashlane.com/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Zapier",
+      "key": "zapier",
+      "index": 0,
+      "title": "기존 요금제가 없어지면 후속 요금제로 갱신 가능",
+      "url": "https://zapier.com/legal/terms-of-service",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "n8n",
+      "key": "n8n",
+      "index": 0,
+      "title": "리셀러의 공급 권한이 끝나면 이용권도 자동 종료",
+      "url": "https://n8n.io/legal/eula/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Buffer",
+      "key": "buffer",
+      "index": 0,
+      "title": "다음 갱신 전에 취소가 접수되어야 함",
+      "url": "https://buffer.com/legal",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Buffer",
+      "key": "buffer",
+      "index": 1,
+      "title": "제품 개선 의견에는 영구적인 이용권을 부여",
+      "url": "https://buffer.com/legal",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Hootsuite",
+      "key": "hootsuite",
+      "index": 0,
+      "title": "체험 종료 전 취소 외에 유료 앱 해제도 확인",
+      "url": "https://www.hootsuite.com/legal/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Later",
+      "key": "later",
+      "index": 0,
+      "title": "참여자로 연결한 SNS 콘텐츠에 브랜드 재사용권 부여",
+      "url": "https://later.com/terms/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Freshworks",
+      "key": "freshworks",
+      "index": 0,
+      "title": "현재 계약 중에는 좌석 수·요금제를 낮출 수 없음",
+      "url": "https://www.freshworks.com/terms/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Wattpad",
+      "key": "wattpad",
+      "index": 0,
+      "title": "공모전·작가 프로그램은 일반 게시 약관보다 별도 조건 우선",
+      "url": "https://policies.wattpad.com/terms/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Goodreads",
+      "key": "goodreads",
+      "index": 0,
+      "title": "작성한 리뷰·댓글에 영구적·철회 불가 이용권 부여",
+      "url": "https://www.goodreads.com/about/terms?id=188",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Brilliant",
+      "key": "brilliant",
+      "index": 0,
+      "title": "갱신을 피하려면 최소 한 영업일 전 취소 요청",
+      "url": "https://brilliant.org/terms-of-use/",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Domestika",
+      "key": "domestika",
+      "index": 0,
+      "title": "Plus 결제 실패 시 금액을 나눠 다시 청구할 수 있음",
+      "url": "https://www.domestika.org/en/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Teachable",
+      "key": "teachable",
+      "index": 0,
+      "title": "커뮤니티 게시물에는 목적 제한 없는 영구 이용권 부여",
+      "url": "https://www.teachable.com/legal/terms-of-use",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Thinkific",
+      "key": "thinkific",
+      "index": 0,
+      "title": "연간 플랜 갱신 안내와 초과 사용료는 별도 확인",
+      "url": "https://www.thinkific.com/terms-of-service/",
+      "checkedAt": "2026. 10. 14. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "오늘의집",
+      "key": "ohouse",
+      "index": 0,
+      "title": "반품 신청만 해 두면 효력이 사라질 수 있음",
+      "url": "https://ohou.se/usepolicy",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "오늘의집",
+      "key": "ohouse",
+      "index": 1,
+      "title": "탈퇴만으로 게시물이 삭제되지 않음",
+      "url": "https://ohou.se/usepolicy",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "오늘의집",
+      "key": "ohouse",
+      "index": 2,
+      "title": "게시물이 제휴 서비스·SNS 홍보에 쓰일 수 있음",
+      "url": "https://ohou.se/usepolicy",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Vinted",
+      "key": "vinted",
+      "index": 0,
+      "title": "상품 사진·설명은 AI 개선과 외부 광고에 활용 가능",
+      "url": "https://www.vinted.com/terms-and-conditions",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "AllTrails",
+      "key": "alltrails",
+      "index": 0,
+      "title": "올린 활동 기록과 사진을 광고에 활용할 수 있음",
+      "url": "https://www.alltrails.com/terms",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    },
+    {
+      "service": "Headspace",
+      "key": "headspace",
+      "index": 0,
+      "title": "월간 구독은 30일, 연간 구독은 365일 기준",
+      "url": "https://www.headspace.com/terms-and-conditions-ko",
+      "checkedAt": "2026. 10. 13. (한국 시간)",
+      "hasQuote": false
+    }
+  ],
+  "servicesWithoutSummary": 344,
+  "pendingServices": [
+    {
+      "key": "instagram",
+      "service": "Instagram",
+      "documents": [],
+      "pendingReason": "공식 약관 페이지에서 로그인 요구가 확인되어 본문을 대조하지 못했습니다. 로그인 화면을 약관 원문으로 표시하지 않습니다."
+    },
+    {
+      "key": "tiktok",
+      "service": "TikTok",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "facebook",
+      "service": "Facebook",
+      "documents": [],
+      "pendingReason": "공식 약관 페이지에서 로그인 요구·접근 제한이 확인되어 본문을 대조하지 못했습니다."
+    },
+    {
+      "key": "threads",
+      "service": "Threads",
+      "documents": [],
+      "pendingReason": "공식 약관 페이지에서 요청 제한(HTTP 429)이 발생해 본문을 대조하지 못했습니다."
+    },
+    {
+      "key": "disneyplus",
+      "service": "Disney+",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "tving",
+      "service": "TVING",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "wavve",
+      "service": "Wavve",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "melon",
+      "service": "멜론",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "aliexpress",
+      "service": "AliExpress",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "shein",
+      "service": "SHEIN",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "musinsa",
+      "service": "무신사",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "ssg",
+      "service": "SSG.COM",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "yogiyo",
+      "service": "요기요",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "airbnb",
+      "service": "Airbnb",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "booking",
+      "service": "Booking.com",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "uber",
+      "service": "Uber",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "kakaot",
+      "service": "카카오 T",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "mastodon",
+      "service": "Mastodon",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "quora",
+      "service": "Quora",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "weverse",
+      "service": "Weverse",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "band",
+      "service": "NAVER BAND",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "kakaostory",
+      "service": "카카오스토리",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "nextdoor",
+      "service": "Nextdoor",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "clubhouse",
+      "service": "Clubhouse",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "behance",
+      "service": "Behance",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "deviantart",
+      "service": "DeviantArt",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "hulu",
+      "service": "Hulu",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "max",
+      "service": "Max",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "paramountplus",
+      "service": "Paramount+",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "peacock",
+      "service": "Peacock",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "crunchyroll",
+      "service": "Crunchyroll",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "viki",
+      "service": "Rakuten Viki",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "deezer",
+      "service": "Deezer",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "amazonmusic",
+      "service": "Amazon Music",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "genie",
+      "service": "지니뮤직",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "flo",
+      "service": "FLO",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "kakaopage",
+      "service": "카카오페이지",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "amazon",
+      "service": "Amazon",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "ebay",
+      "service": "eBay",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "walmart",
+      "service": "Walmart",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "target",
+      "service": "Target",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "rakuten",
+      "service": "Rakuten",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "qoo10",
+      "service": "Qoo10",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "mercadolibre",
+      "service": "Mercado Libre",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "poshmark",
+      "service": "Poshmark",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "stockx",
+      "service": "StockX",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "kream",
+      "service": "KREAM",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 연결 실패 또는 시간 초과. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "navershopping",
+      "service": "네이버쇼핑",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "kurly",
+      "service": "마켓컬리",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "lotteon",
+      "service": "롯데ON",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "homeplus",
+      "service": "홈플러스",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "ikea",
+      "service": "IKEA",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "sephora",
+      "service": "Sephora",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "daiso",
+      "service": "다이소몰",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "monday",
+      "service": "monday.com",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "docusign",
+      "service": "DocuSign",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "chatgpt",
+      "service": "ChatGPT",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "perplexity",
+      "service": "Perplexity",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "gemini",
+      "service": "Google Gemini",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "agoda",
+      "service": "Agoda",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "tripadvisor",
+      "service": "Tripadvisor",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "lyft",
+      "service": "Lyft",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "grab",
+      "service": "Grab",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "bolt",
+      "service": "Bolt",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "klook",
+      "service": "Klook",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "myrealtrip",
+      "service": "마이리얼트립",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "yeogi",
+      "service": "여기어때",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "yanolja",
+      "service": "야놀자",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "korail",
+      "service": "코레일",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "nintendo",
+      "service": "Nintendo",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "roblox",
+      "service": "Roblox",
+      "documents": [],
+      "pendingReason": "공식 페이지에서 2026년 11월 1일 시행 예정 약관이 확인됐습니다. 현재 적용되는 약관을 확보하기 전까지 예정 약관으로 현행 조건을 설명하지 않습니다."
+    },
+    {
+      "key": "battlenet",
+      "service": "Battle.net",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 연결 실패 또는 시간 초과. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "nexon",
+      "service": "넥슨",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "duolingo",
+      "service": "Duolingo",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "udemy",
+      "service": "Udemy",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "messenger",
+      "service": "Messenger",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "wechat",
+      "service": "WeChat",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "qq",
+      "service": "QQ",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "imo",
+      "service": "imo",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "meetup",
+      "service": "Meetup",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "vk",
+      "service": "VK",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "okru",
+      "service": "OK",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "truthsocial",
+      "service": "Truth Social",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "parler",
+      "service": "Parler",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "gab",
+      "service": "Gab",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "lemmy",
+      "service": "Lemmy",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "fivehundredpx",
+      "service": "500px",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "blogger",
+      "service": "Blogger",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "youtubemusic",
+      "service": "YouTube Music",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "pandora",
+      "service": "Pandora",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "iheartradio",
+      "service": "iHeartRadio",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "tunein",
+      "service": "TuneIn",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "plex",
+      "service": "Plex",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "roku",
+      "service": "Roku",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "tubi",
+      "service": "Tubi",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "plutotv",
+      "service": "Pluto TV",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "mubi",
+      "service": "MUBI",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "criterion",
+      "service": "Criterion Channel",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "discoveryplus",
+      "service": "discovery+",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "espnplus",
+      "service": "ESPN+",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "sling",
+      "service": "Sling TV",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "fubotv",
+      "service": "Fubo",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "dazn",
+      "service": "DAZN",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "soop",
+      "service": "SOOP",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "chzzk",
+      "service": "CHZZK",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "storytel",
+      "service": "Storytel",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "scribd",
+      "service": "Everand",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "podbean",
+      "service": "Podbean",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "pocketcasts",
+      "service": "Pocket Casts",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "castbox",
+      "service": "Castbox",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "qobuz",
+      "service": "Qobuz",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "bestbuy",
+      "service": "Best Buy",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "homedepot",
+      "service": "The Home Depot",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "wayfair",
+      "service": "Wayfair",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "wish",
+      "service": "Wish",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "zalando",
+      "service": "Zalando",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "asos",
+      "service": "ASOS",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "farfetch",
+      "service": "FARFETCH",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "uniqlo",
+      "service": "UNIQLO",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "hm",
+      "service": "H&M",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "ably",
+      "service": "에이블리",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "queenit",
+      "service": "퀸잇",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "karrot",
+      "service": "당근",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "auction",
+      "service": "옥션",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "doordash",
+      "service": "DoorDash",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "instacart",
+      "service": "Instacart",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "deliveroo",
+      "service": "Deliveroo",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "foodpanda",
+      "service": "foodpanda",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "ubereats",
+      "service": "Uber Eats",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "costco",
+      "service": "Costco",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "macys",
+      "service": "Macy’s",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "nordstrom",
+      "service": "Nordstrom",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "iherb",
+      "service": "iHerb",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "samsungshop",
+      "service": "Samsung Shop",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "googleworkspace",
+      "service": "Google Workspace",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "gmail",
+      "service": "Gmail",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "yahoomail",
+      "service": "Yahoo Mail",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "wetransfer",
+      "service": "WeTransfer",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "mega",
+      "service": "MEGA",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "pcloud",
+      "service": "pCloud",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "smartsheet",
+      "service": "Smartsheet",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "salesforce",
+      "service": "Salesforce",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "zendesk",
+      "service": "Zendesk",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "webex",
+      "service": "Webex",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "teams",
+      "service": "Microsoft Teams",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "googlemeet",
+      "service": "Google Meet",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "codesandbox",
+      "service": "CodeSandbox",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "digitalocean",
+      "service": "DigitalOcean",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "googlemaps",
+      "service": "Google Maps",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "waze",
+      "service": "Waze",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "citymapper",
+      "service": "Citymapper",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "moovit",
+      "service": "Moovit",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "lime",
+      "service": "Lime",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "bird",
+      "service": "Bird",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "getaround",
+      "service": "Getaround",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "sixt",
+      "service": "SIXT",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "hertz",
+      "service": "Hertz",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "avis",
+      "service": "Avis",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "rentalcars",
+      "service": "Rentalcars.com",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "hopper",
+      "service": "Hopper",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "traveloka",
+      "service": "Traveloka",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "omio",
+      "service": "Omio",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "trainline",
+      "service": "Trainline",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "paypal",
+      "service": "PayPal",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "venmo",
+      "service": "Venmo",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "cashapp",
+      "service": "Cash App",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "wise",
+      "service": "Wise",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "revolut",
+      "service": "Revolut",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "coinbase",
+      "service": "Coinbase",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "binance",
+      "service": "Binance",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "robinhood",
+      "service": "Robinhood",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "tinder",
+      "service": "Tinder",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "bumble",
+      "service": "Bumble",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "hinge",
+      "service": "Hinge",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "okcupid",
+      "service": "OkCupid",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "match",
+      "service": "Match",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "myfitnesspal",
+      "service": "MyFitnessPal",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "indeed",
+      "service": "Indeed",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "glassdoor",
+      "service": "Glassdoor",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "upwork",
+      "service": "Upwork",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "fiverr",
+      "service": "Fiverr",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "khanacademy",
+      "service": "Khan Academy",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "grok",
+      "service": "Grok",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "midjourney",
+      "service": "Midjourney",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "runway",
+      "service": "Runway",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "leonardoai",
+      "service": "Leonardo AI",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "stabilityai",
+      "service": "Stability AI",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "poe",
+      "service": "Poe",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "characterai",
+      "service": "Character.AI",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "civitai",
+      "service": "Civitai",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "cursor",
+      "service": "Cursor",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "windsurf",
+      "service": "Windsurf",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "lovable",
+      "service": "Lovable",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "boltnew",
+      "service": "Bolt.new",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "v0",
+      "service": "v0",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "stackoverflow",
+      "service": "Stack Overflow",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "npm",
+      "service": "npm",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "pypi",
+      "service": "PyPI",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "dockerhub",
+      "service": "Docker Hub",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "jetbrains",
+      "service": "JetBrains",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "vscode_market",
+      "service": "Visual Studio Marketplace",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / PDF 본문 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "unity",
+      "service": "Unity",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "unrealengine",
+      "service": "Unreal Engine",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / PDF 본문 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "datadog",
+      "service": "Datadog",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "newrelic",
+      "service": "New Relic",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "grafana",
+      "service": "Grafana Cloud",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "firebase",
+      "service": "Firebase",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "rendercloud",
+      "service": "Render",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "heroku",
+      "service": "Heroku",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "linode",
+      "service": "Linode",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "vultr",
+      "service": "Vultr",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "ovhcloud",
+      "service": "OVHcloud",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "namecheap",
+      "service": "Namecheap",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 문서를 찾을 수 없다는 화면 확인 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "godaddy",
+      "service": "GoDaddy",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "squarespace",
+      "service": "Squarespace",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "wix",
+      "service": "Wix",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "shopify",
+      "service": "Shopify",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "woocommerce",
+      "service": "WooCommerce",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "pandadoc",
+      "service": "PandaDoc",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "bearnotes",
+      "service": "Bear",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "roam",
+      "service": "Roam Research",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "tana",
+      "service": "Tana",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "anytype",
+      "service": "Anytype",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "things",
+      "service": "Things",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "sunsama",
+      "service": "Sunsama",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "motion",
+      "service": "Motion",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "akiflow",
+      "service": "Akiflow",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "fantastical",
+      "service": "Fantastical",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "nordpass",
+      "service": "NordPass",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "nordvpn",
+      "service": "NordVPN",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "expressvpn",
+      "service": "ExpressVPN",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "surfshark",
+      "service": "Surfshark",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "mullvad",
+      "service": "Mullvad",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "protonvpn",
+      "service": "Proton VPN",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "make",
+      "service": "Make",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "ifttt",
+      "service": "IFTTT",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "sproutsocial",
+      "service": "Sprout Social",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "klaviyo",
+      "service": "Klaviyo",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "constantcontact",
+      "service": "Constant Contact",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "brevo",
+      "service": "Brevo",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "kit",
+      "service": "Kit",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "ghost",
+      "service": "Ghost",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "nebula",
+      "service": "Nebula",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "curiositystream",
+      "service": "Curiosity Stream",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "britbox",
+      "service": "BritBox",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "shudder",
+      "service": "Shudder",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "acorntv",
+      "service": "Acorn TV",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "viu",
+      "service": "Viu",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "iqiyi",
+      "service": "iQIYI",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "wetv",
+      "service": "WeTV",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "bilibili",
+      "service": "Bilibili",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "niconico",
+      "service": "Niconico",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 약관 본문 여부 확인 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "dailymotion",
+      "service": "Dailymotion",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "rumble",
+      "service": "Rumble",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "ao3",
+      "service": "Archive of Our Own",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 연결 실패 또는 시간 초과. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "scribdbooks",
+      "service": "Scribd",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "kobo",
+      "service": "Kobo",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "googleplaybooks",
+      "service": "Google Play Books",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "applebooks",
+      "service": "Apple Books",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "feedly",
+      "service": "Feedly",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "flipboard",
+      "service": "Flipboard",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "inoreader",
+      "service": "Inoreader",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "newsbreak",
+      "service": "NewsBreak",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "groundnews",
+      "service": "Ground News",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "nytimes",
+      "service": "The New York Times",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "washingtonpost",
+      "service": "The Washington Post",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "guardian",
+      "service": "The Guardian",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "financialtimes",
+      "service": "Financial Times",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "bloomberg",
+      "service": "Bloomberg",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "ted",
+      "service": "TED",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "naversmartstore",
+      "service": "네이버 스마트스토어",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "kakaoshopping",
+      "service": "카카오 쇼핑",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "wconcept",
+      "service": "W Concept",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "twentyninecm",
+      "service": "29CM",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "eql",
+      "service": "EQL",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "lfmall",
+      "service": "LFmall",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "lottehomeshopping",
+      "service": "롯데홈쇼핑",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "gsshop",
+      "service": "GS SHOP",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "cjonstyle",
+      "service": "CJ온스타일",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "nsmall",
+      "service": "NS홈쇼핑",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "akmall",
+      "service": "AK몰",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "hmall",
+      "service": "현대Hmall",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "interparkshopping",
+      "service": "인터파크 쇼핑",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "tenbyten",
+      "service": "텐바이텐",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 1개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "idus",
+      "service": "아이디어스",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "mercari",
+      "service": "Mercari",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "offerup",
+      "service": "OfferUp",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "grailed",
+      "service": "Grailed",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "goat",
+      "service": "GOAT",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "therealreal",
+      "service": "The RealReal",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "vestiaire",
+      "service": "Vestiaire Collective",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "newegg",
+      "service": "Newegg",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "bhphoto",
+      "service": "B&H Photo",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "microcenter",
+      "service": "Micro Center",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "lowes",
+      "service": "Lowe’s",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "acehardware",
+      "service": "Ace Hardware",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "walgreens",
+      "service": "Walgreens",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "cvs",
+      "service": "CVS",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "boots",
+      "service": "Boots",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "zalora",
+      "service": "Zalora",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "lazada",
+      "service": "Lazada",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "shopee",
+      "service": "Shopee",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "stripe",
+      "service": "Stripe",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "square",
+      "service": "Square",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "adyen",
+      "service": "Adyen",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "klarna",
+      "service": "Klarna",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "afterpay",
+      "service": "Afterpay",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "affirm",
+      "service": "Affirm",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "remitly",
+      "service": "Remitly",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "westernunion",
+      "service": "Western Union",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "moneygram",
+      "service": "MoneyGram",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "skrill",
+      "service": "Skrill",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "neteller",
+      "service": "Neteller",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "payoneer",
+      "service": "Payoneer",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "kakaopay",
+      "service": "카카오페이",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "naverpay",
+      "service": "네이버페이",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "toss",
+      "service": "토스",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "samsungpay",
+      "service": "Samsung Wallet",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "googlepay",
+      "service": "Google Pay",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "applepay",
+      "service": "Apple Pay",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "sofi",
+      "service": "SoFi",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "wealthfront",
+      "service": "Wealthfront",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "komoot",
+      "service": "Komoot",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "wikiloc",
+      "service": "Wikiloc",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "classpass",
+      "service": "ClassPass",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "betterhelp",
+      "service": "BetterHelp",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "flohealth",
+      "service": "Flo",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "sleepcycle",
+      "service": "Sleep Cycle",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "garminconnect",
+      "service": "Garmin Connect",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "peloton",
+      "service": "Peloton",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "nikeclub",
+      "service": "Nike Run Club",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "adidasrunning",
+      "service": "adidas Running",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 서버 접속 거부 또는 주소 오류 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "lululemon",
+      "service": "lululemon",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "choiceprivileges",
+      "service": "Choice Privileges",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "hilton",
+      "service": "Hilton Honors",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "marriott",
+      "service": "Marriott Bonvoy",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "hyatt",
+      "service": "World of Hyatt",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "ihg",
+      "service": "IHG One Rewards",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. PDF 본문 대조 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "accor",
+      "service": "ALL Accor",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 서버 접속 거부 또는 주소 오류. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "airasia",
+      "service": "AirAsia",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요 / 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "ryanair",
+      "service": "Ryanair",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "easyjet",
+      "service": "easyJet",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 불가 · 동적 화면 또는 접근 제한 확인 필요 / 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "emirates",
+      "service": "Emirates",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    },
+    {
+      "key": "qatarairways",
+      "service": "Qatar Airways",
+      "documents": [],
+      "pendingReason": "기존 저장 주소 2개를 2026. 10. 13. (한국 시간) 점검했습니다. 본문 수집 · 조항 대조 필요. 적용 지역·상품과 개별 조항을 대조한 요약은 아직 없습니다."
+    }
+  ],
+  "physicalMobileTest": "not performed",
+  "fiveHumanUserTest": "not performed",
+  "legalExpertReview": "not performed",
+  "automaticDocumentSemanticChangeReview": "not completed"
+}

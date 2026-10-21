@@ -1,0 +1,40 @@
+{
+  "sourceObservedAt": "2026-10-18",
+  "editedAt": "2026-10-21",
+  "priorUnresolvedDocuments": 5,
+  "directBodyAccessResolved": 5,
+  "allClausesReviewed": false,
+  "automaticCollectionRepaired": false,
+  "documents": [
+    {
+      "url": "https://www.canva.com/policies/terms-of-use/",
+      "method": "actual rendered Chrome body",
+      "versionObserved": "effective 2026-08-19",
+      "reviewedItems": 4
+    },
+    {
+      "url": "https://www.canva.com/policies/privacy-policy/",
+      "method": "official web text and rendered Chrome body",
+      "versionObserved": "last updated 2026-08-25",
+      "reviewedItems": 2
+    },
+    {
+      "url": "https://quizlet.com/tos",
+      "method": "actual rendered Chrome Korean reference translation; English priority notice observed",
+      "versionObserved": "last updated 2026-05-28",
+      "reviewedItems": 1
+    },
+    {
+      "url": "https://www.noom.com/terms-and-conditions-of-use/",
+      "method": "actual rendered Chrome English body",
+      "versionObserved": "updated 2025-12-09",
+      "reviewedItems": 1
+    },
+    {
+      "url": "https://soundcloud.com/pages/privacy",
+      "method": "actual rendered Chrome body after normal page rendering",
+      "versionObserved": "last amended 2026-08-17",
+      "reviewedItems": 1
+    }
+  ]
+}

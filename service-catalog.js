@@ -205,10 +205,16 @@ window.serviceCatalog={
           "clause": "제6.1~6.3조 · 사용자 제출물",
           "region": "한국",
           "version": "2026. 8. 31. 발효",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "개인정보가 담긴 후기 사진은 피하고 탈퇴 시 제출물 파기를 원하면 서면으로 요청하세요.",
           "effectiveAt": "2026. 8. 31.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "귀하의 서면 요청에 따라",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "후기 사진·글의 이용 범위와 탈퇴 시 서면 파기 요청을 따로 확인해야 합니다.",
+          "publishedAt": null,
+          "updatedAt": null,
+          "applicability": "한국 이용약관의 기재 조항. 제14조는 법령상 책임·고의·중과실 예외와 별도 반품·환불 정책을 배제하지 않습니다."
         }
       ],
       [
@@ -224,10 +230,16 @@ window.serviceCatalog={
           "clause": "제12.1조 · 리워드 / 제13.2조 · 관계 종료",
           "region": "한국",
           "version": "2026. 8. 31. 발효",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "쿠폰·크레딧의 사용 기한과 탈퇴 시 소멸 여부를 확인하세요.",
           "effectiveAt": "2026. 8. 31.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "모든 콘텐츠와 리워드는",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "계정 종료 전에 남은 쿠폰·리워드의 사용 조건을 확인해야 합니다.",
+          "publishedAt": null,
+          "updatedAt": null,
+          "applicability": "한국 이용약관의 기재 조항. 제14조는 법령상 책임·고의·중과실 예외와 별도 반품·환불 정책을 배제하지 않습니다."
         }
       ],
       [
@@ -243,24 +255,31 @@ window.serviceCatalog={
           "clause": "제14.1~14.4조 · 보증 성명",
           "region": "한국",
           "version": "2026. 8. 31. 발효",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "주문 전 실제 판매자와 반품 창구를 확인하고 문제가 생기면 판매자·플랫폼의 대응을 모두 기록하세요.",
           "effectiveAt": "2026. 8. 31.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "관련 법령에 따라",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "실제 판매자와 반품 창구를 확인하되 플랫폼의 법정 책임까지 없다고 단정하면 안 됩니다.",
+          "publishedAt": null,
+          "updatedAt": null,
+          "applicability": "한국 이용약관의 기재 조항. 제14조는 법령상 책임·고의·중과실 예외와 별도 반품·환불 정책을 배제하지 않습니다."
         }
       ]
     ],
     "reviewScope": "한국 이용약관 중 아래 3개 항목 확인 · 개인정보·반품 세부 정책은 미검수",
-    "reviewStatus": "2026. 10. 9. (한국 시간) · 한국 이용약관 중 아래 3개 항목 확인 · 개인정보·반품 세부 정책은 미검수",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 3개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
-    "pendingReason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다.",
+    "pendingReason": "별도 개인정보·반품·환불 정책은 이번 검수 범위 밖",
     "documents": [
       {
         "url": "https://www.temu.com/kr/terms-of-use.html",
         "title": "Temu 한국 이용약관",
-        "checkedAt": "2026. 10. 9. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -345,15 +364,17 @@ window.serviceCatalog={
           "document": "Discord Terms of Service",
           "clause": "Content in Discord’s services · Your content",
           "region": "국제 영문 원문 · 현지법 예외 적용",
-          "version": "2025. 9. 29. 발효",
-          "checkedAt": "2026. 10. 17. (한국 시간)",
+          "version": "2025. 9. 29. 발효 · 2025. 8. 29. 최종 수정",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "게시물과 서비스 개선 의견의 권리 조건을 구분하고 민감한 자료는 올리지 마세요.",
-          "quote": "The rights you grant in this license are for the limited purpose of providing, developing, and improving our services",
+          "quote": "providing, developing, and improving",
           "effectiveAt": "2025. 9. 29.",
           "publishedAt": null,
           "updatedAt": "2025. 8. 29.",
-          "reviewMethod": "2026-10-17 공식 원문 표본 대조 · 표시 항목에 한정",
-          "impact": "게시물의 소유권이 남아도 서비스 제공·개발·개선을 위한 이용권은 부여됩니다. 피드백 조건과 구분하세요."
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "서비스 개선 목적 이용권과 소유권 양도는 다른 조건입니다.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "applicability": "국제 영문 원문의 해당 조항. 유료 서비스는 Paid Services Terms 및 별도 Refund Policy를 함께 적용하며 현지 강행법규·앱스토어 구매 조건의 예외를 확인해야 합니다."
         }
       ],
       [
@@ -368,11 +389,17 @@ window.serviceCatalog={
           "document": "Discord Privacy Policy",
           "clause": "The information we collect · Information you provide to us",
           "region": "국제 영문 원문 · 현지법 예외 적용",
-          "version": "2025. 9. 29. 발효",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "version": "2025. 9. 29. 발효 · 2025. 8. 29. 최종 수정",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "공개 서버와 채널의 참여 범위를 확인하고 텍스트·파일·녹음에 민감한 정보를 남기지 마세요.",
           "effectiveAt": "2025. 9. 29.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "generally do not store",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "남긴 텍스트·파일·녹음과 실시간 통화의 일반적 저장 방침을 구분해야 합니다.",
+          "updatedAt": "2025. 8. 29.",
+          "publishedAt": null,
+          "applicability": "국제 영문 원문의 해당 조항. 유료 서비스는 Paid Services Terms 및 별도 Refund Policy를 함께 적용하며 현지 강행법규·앱스토어 구매 조건의 예외를 확인해야 합니다."
         }
       ],
       [
@@ -387,11 +414,17 @@ window.serviceCatalog={
           "document": "Discord Terms of Service",
           "clause": "Term & Termination · Your right to terminate",
           "region": "국제 영문 원문 · 현지법 예외 적용",
-          "version": "2025. 9. 29. 발효",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "version": "2025. 9. 29. 발효 · 2025. 8. 29. 최종 수정",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "잠시 쉬는 비활성화와 계정 삭제를 구분하고 필요한 자료는 삭제 전에 보관하세요.",
           "effectiveAt": "2025. 9. 29.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "does not terminate",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "비활성화만으로는 계약 종료나 계정 삭제가 되지 않습니다.",
+          "updatedAt": "2025. 8. 29.",
+          "publishedAt": null,
+          "applicability": "국제 영문 원문의 해당 조항. 유료 서비스는 Paid Services Terms 및 별도 Refund Policy를 함께 적용하며 현지 강행법규·앱스토어 구매 조건의 예외를 확인해야 합니다."
         }
       ],
       [
@@ -406,11 +439,17 @@ window.serviceCatalog={
           "document": "Discord Terms of Service",
           "clause": "Term & Termination / Appeals",
           "region": "국제 영문 원문 · 현지법 예외 적용",
-          "version": "2025. 9. 29. 발효",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "version": "2025. 9. 29. 발효 · 2025. 8. 29. 최종 수정",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "복구 연락처를 최신 상태로 유지하고 계정 제한 시 통지와 이의 신청 경로를 확인하세요.",
           "effectiveAt": "2025. 9. 29.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "more than two years",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "장기간 방치한 계정도 종료 대상이 될 수 있어 복구 연락처와 이의 신청 경로를 확인해야 합니다.",
+          "updatedAt": "2025. 8. 29.",
+          "publishedAt": null,
+          "applicability": "국제 영문 원문의 해당 조항. 유료 서비스는 Paid Services Terms 및 별도 Refund Policy를 함께 적용하며 현지 강행법규·앱스토어 구매 조건의 예외를 확인해야 합니다."
         }
       ],
       [
@@ -425,11 +464,17 @@ window.serviceCatalog={
           "document": "Discord Paid Services Terms",
           "clause": "Subscriptions · Promotions · Gifts",
           "region": "국제 영문 유료 서비스 약관 · 현지법·별도 환불 정책 우선",
-          "version": "2025. 9. 29. 시행",
-          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "version": "2025. 9. 29. 발효 · 2025. 8. 29. 최종 수정",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "설정의 Subscriptions·Server Boost에서 다음 결제일과 체험 종료일을 확인하세요.",
           "effectiveAt": "2025. 9. 29.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "automatically-renewing subscription",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "체험·선물 체험도 별도 취소하지 않으면 다음 요금이 청구될 수 있습니다.",
+          "updatedAt": "2025. 8. 29.",
+          "publishedAt": null,
+          "applicability": "국제 영문 원문의 해당 조항. 유료 서비스는 Paid Services Terms 및 별도 Refund Policy를 함께 적용하며 현지 강행법규·앱스토어 구매 조건의 예외를 확인해야 합니다."
         }
       ],
       [
@@ -444,11 +489,17 @@ window.serviceCatalog={
           "document": "Discord Paid Services Terms",
           "clause": "Subscriptions · Cancellation · Refunds",
           "region": "국제 영문 유료 서비스 약관 · 현지법·별도 환불 정책 우선",
-          "version": "2025. 9. 29. 시행",
-          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "version": "2025. 9. 29. 발효 · 2025. 8. 29. 최종 수정",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "가입한 결제 경로에서 취소하고 환불 가능 여부는 공식 환불 정책을 확인하세요.",
           "effectiveAt": "2025. 9. 29.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "Except as otherwise stated",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "일반 취소와 법·별도 환불 정책에 따른 예외를 구분해야 합니다.",
+          "updatedAt": "2025. 8. 29.",
+          "publishedAt": null,
+          "applicability": "국제 영문 원문의 해당 조항. 유료 서비스는 Paid Services Terms 및 별도 Refund Policy를 함께 적용하며 현지 강행법규·앱스토어 구매 조건의 예외를 확인해야 합니다."
         }
       ],
       [
@@ -463,11 +514,17 @@ window.serviceCatalog={
           "document": "Discord Paid Services Terms",
           "clause": "Suspension or termination",
           "region": "국제 영문 유료 서비스 약관 · 현지법·별도 환불 정책 우선",
-          "version": "2025. 9. 29. 시행",
-          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "version": "2025. 9. 29. 발효 · 2025. 8. 29. 최종 수정",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "계정 삭제·정지 후에도 Apple·Google 구독 목록을 확인하세요.",
           "effectiveAt": "2025. 9. 29.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "where possible",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "계정 접근을 잃어도 모바일 앱스토어의 구독·결제를 직접 확인해야 합니다.",
+          "updatedAt": "2025. 8. 29.",
+          "publishedAt": null,
+          "applicability": "국제 영문 원문의 해당 조항. 유료 서비스는 Paid Services Terms 및 별도 Refund Policy를 함께 적용하며 현지 강행법규·앱스토어 구매 조건의 예외를 확인해야 합니다."
         }
       ],
       [
@@ -482,16 +539,22 @@ window.serviceCatalog={
           "document": "Discord Paid Services Terms",
           "clause": "Virtual Goods",
           "region": "국제 영문 유료 서비스 약관 · 현지법·별도 환불 정책 우선",
-          "version": "2025. 9. 29. 시행",
-          "checkedAt": "2026. 10. 14. (한국 시간)",
+          "version": "2025. 9. 29. 발효 · 2025. 8. 29. 최종 수정",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "가상 상품을 다시 팔거나 현금으로 환불받을 수 있다고 가정하지 마세요.",
           "effectiveAt": "2025. 9. 29.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "no cash value",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "가상 상품을 구매해도 현금 가치가 있는 소유 자산이 되는 것은 아닙니다.",
+          "updatedAt": "2025. 8. 29.",
+          "publishedAt": null,
+          "applicability": "국제 영문 원문의 해당 조항. 유료 서비스는 Paid Services Terms 및 별도 Refund Policy를 함께 적용하며 현지 강행법규·앱스토어 구매 조건의 예외를 확인해야 합니다."
         }
       ]
     ],
     "reviewScope": "표시 8개 항목의 출처 조항 확인 · 적용 지역·상품은 각 항목 참고",
-    "reviewStatus": "2026. 10. 14. (한국 시간) · 유료 구독·환불·앱 결제·가상 상품 추가 확인",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 8개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
     "pendingReason": "",
@@ -499,20 +562,23 @@ window.serviceCatalog={
       {
         "url": "https://discord.com/terms",
         "title": "Discord Terms of Service",
-        "checkedAt": "2026. 10. 9. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       },
       {
         "url": "https://discord.com/privacy",
         "title": "Discord Privacy Policy",
-        "checkedAt": "2026. 10. 9. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       },
       {
         "url": "https://discord.com/terms/paid-services-terms",
         "title": "Discord Paid Services Terms",
-        "checkedAt": "2026. 10. 14. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -548,14 +614,16 @@ window.serviceCatalog={
           "clause": "제3장 · 청구 및 취소 / 철회 권리",
           "region": "한국",
           "version": null,
-          "checkedAt": "2026. 10. 17. (한국 시간)",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "체험의 유료 유지 동의 여부와 현재 구독의 다음 결제일을 각각 확인하세요.",
-          "quote": "회원이 유료 구독을 계속 유지하려면 평가판 종료 30일 전부터 종료시까지의 기간 내에 명시적으로 동의해야 합니다.",
+          "quote": "명시적으로 동의해야 합니다.",
           "effectiveAt": null,
           "publishedAt": null,
           "updatedAt": null,
-          "reviewMethod": "2026-10-17 공식 원문 표본 대조 · 표시 항목에 한정",
-          "impact": "체험을 유지할지 선택할 때 유료 전환 동의와 기존 구독의 갱신을 구분해야 합니다."
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "무료 체험의 유료 유지 동의와 이미 결제 중인 구독의 자동 갱신은 구분해야 합니다.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "applicability": "한국어·대한민국 이용약관의 해당 조항. 무료 체험·최초 구매·이후 월별 청구의 철회 기간은 다릅니다. 원문 시행·게시일은 이번 열람에서 확인하지 못했습니다."
         }
       ],
       [
@@ -563,16 +631,24 @@ window.serviceCatalog={
         "해지·환불",
         "청약철회 기간에도 이용하면 권리가 사라질 수 있음",
         "high",
-        "체험 없이 처음 유료 구독을 구입하면 14일, 이후 매달 청구는 7일의 청약철회 기간을 정하지만 그 기간에 서비스를 이용하면 철회권을 잃는다고 명시합니다. 일반 해지는 현재 청구 기간 종료 후 적용되며, 약관상 예외 외에 부분 환불은 제공하지 않습니다.",
-        "체험 없이 처음 유료 구독을 구입하면 14일, 이후 매달 청구는 7일의 청약철회 기간을 정하지만 그 기간에 서비스를 이용하면 철회권을 잃는다고 명시합니다. 일반 해지는 현재 청구 기간 종료 후 적용되며, 약관상 예외 외에 부분 환불은 제공하지 않습니다.",
+        "한국 약관은 체험 시작 또는 체험 없이 처음 구매한 경우 14일, 이후 매달 청구된 금액에는 청구일로부터 7일의 철회 기간을 구분합니다. 해당 기간에 서비스를 이용하면 철회권이 사라질 수 있다고 정하므로 결제 경로와 이용 여부를 확인해야 합니다.",
+        "한국 약관은 체험 시작 또는 체험 없이 처음 구매한 경우 14일, 이후 매달 청구된 금액에는 청구일로부터 7일의 철회 기간을 구분합니다. 해당 기간에 서비스를 이용하면 철회권이 사라질 수 있다고 정하므로 결제 경로와 이용 여부를 확인해야 합니다.",
         "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
         {
           "document": "한국 이용약관",
           "clause": "제3장 · 청구 및 취소 / 철회 권리",
           "region": "한국",
           "version": null,
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "action": "환불을 원하면 재생하기 전에 청구일과 청약철회 조건을 확인하고 고객지원에 문의하세요."
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "환불을 원하면 재생하기 전에 청구일과 청약철회 조건을 확인하고 고객지원에 문의하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "청약철회권을 상실하게 됩니다.",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "환불을 원한다면 재생하기 전에 구매·청구일과 이용 여부에 따른 철회 조건을 확인해야 합니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": null,
+          "applicability": "한국어·대한민국 이용약관의 해당 조항. 무료 체험·최초 구매·이후 월별 청구의 철회 기간은 다릅니다. 원문 시행·게시일은 이번 열람에서 확인하지 못했습니다."
         }
       ],
       [
@@ -588,8 +664,16 @@ window.serviceCatalog={
           "clause": "제2장 · 서비스 제한 / 제3장 · Spotify 서비스 이용 권리",
           "region": "한국",
           "version": null,
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "action": "오프라인 저장을 영구 보관으로 생각하지 말고 필요한 음악의 별도 구매 가능 여부를 확인하세요."
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "오프라인 저장을 영구 보관으로 생각하지 말고 필요한 음악의 별도 구매 가능 여부를 확인하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "판매 또는 양도되지 않으며",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "오프라인 저장은 음악 파일의 영구 소유를 보장하지 않습니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": null,
+          "applicability": "한국어·대한민국 이용약관의 해당 조항. 무료 체험·최초 구매·이후 월별 청구의 철회 기간은 다릅니다. 원문 시행·게시일은 이번 열람에서 확인하지 못했습니다."
         }
       ],
       [
@@ -605,22 +689,31 @@ window.serviceCatalog={
           "clause": "제4장 · 콘텐츠 경험",
           "region": "한국",
           "version": null,
-          "checkedAt": "2026. 10. 9. (한국 시간)",
-          "action": "추천 순서를 순수한 취향 일치도 순위로 해석하지 말고 여러 목록을 비교하세요."
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "추천 순서를 순수한 취향 일치도 순위로 해석하지 말고 여러 목록을 비교하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "상업적 고려 사항",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "추천 순서를 취향 일치도만으로 정해진 결과라고 받아들이면 안 됩니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": null,
+          "applicability": "한국어·대한민국 이용약관의 해당 조항. 무료 체험·최초 구매·이후 월별 청구의 철회 기간은 다릅니다. 원문 시행·게시일은 이번 열람에서 확인하지 못했습니다."
         }
       ]
     ],
     "reviewScope": "한국 이용약관 중 아래 4개 항목 확인",
-    "reviewStatus": "2026. 10. 9. (한국 시간) · 한국 이용약관 중 아래 4개 항목 확인",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 5개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
-    "pendingReason": "기존 문서 주소에서 접속 오류·시간 초과가 발생해 대체 공식 문서를 재확인해야 합니다.",
+    "pendingReason": "",
     "documents": [
       {
         "url": "https://www.spotify.com/kr-ko/legal/end-user-agreement/",
         "title": "한국 이용약관",
-        "checkedAt": "2026. 10. 9. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -654,11 +747,17 @@ window.serviceCatalog={
           "document": "쿠팡 개인정보처리방침",
           "clause": "제1절 가·나 · 수집 항목 및 목적과 보유 기간",
           "region": "한국",
-          "version": "2026. 5. 22. 시행",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "version": "2026. 10. 14. 시행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "가입 때 선택 광고·마케팅 동의를 구분하고 철회 메뉴와 적용 범위를 확인하세요.",
-          "effectiveAt": "2026. 5. 22.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "effectiveAt": "2026. 10. 14.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "동의철회 시 맞춤형 광고 차단",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "선택 광고 동의를 철회해도 계약 이행에 필요한 개인화 정보 처리까지 모두 중단되는 것은 아닙니다.",
+          "publishedAt": null,
+          "updatedAt": null,
+          "applicability": "대한민국 쿠팡 개인정보처리방침의 해당 수집·파기 표. 와우 구독·결제·환불 약관 전체는 이번 검수 범위가 아닙니다."
         }
       ],
       [
@@ -673,11 +772,17 @@ window.serviceCatalog={
           "document": "쿠팡 개인정보처리방침",
           "clause": "제1절 가 · 회원관리 / 부정행위 방지",
           "region": "한국",
-          "version": "2026. 5. 22. 시행",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "version": "2026. 10. 14. 시행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "탈퇴 전 남겨야 할 거래 자료를 저장하고, 삭제 요청 시 정보 종류별 보관 근거를 문의하세요.",
-          "effectiveAt": "2026. 5. 22.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "effectiveAt": "2026. 10. 14.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "회원탈퇴 시 1년간 보관",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "회원 식별 정보의 90일 보관과 부정행위가 탐지된 계정의 1년 보관을 구분해야 합니다.",
+          "publishedAt": null,
+          "updatedAt": null,
+          "applicability": "대한민국 쿠팡 개인정보처리방침의 해당 수집·파기 표. 와우 구독·결제·환불 약관 전체는 이번 검수 범위가 아닙니다."
         }
       ],
       [
@@ -692,25 +797,32 @@ window.serviceCatalog={
           "document": "쿠팡 개인정보처리방침",
           "clause": "제4절 · 개인정보의 파기 절차 및 방법",
           "region": "한국",
-          "version": "2026. 5. 22. 시행",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "version": "2026. 10. 14. 시행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "주문·환불 자료를 필요한 만큼 보관하고, 거래 기록과 회원 정보의 삭제 시점을 따로 확인하세요.",
-          "effectiveAt": "2026. 5. 22.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "effectiveAt": "2026. 10. 14.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "계약 또는 청약철회 등에 관한 기록",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "탈퇴 후에도 거래·분쟁 자료는 종류별 법정 보관 기간에 따라 남을 수 있습니다.",
+          "publishedAt": null,
+          "updatedAt": null,
+          "applicability": "대한민국 쿠팡 개인정보처리방침의 해당 수집·파기 표. 와우 구독·결제·환불 약관 전체는 이번 검수 범위가 아닙니다."
         }
       ]
     ],
     "reviewScope": "개인정보처리방침 중 아래 3개 항목 확인 · 와우·환불 약관은 재검수 대기",
-    "reviewStatus": "2026. 10. 9. (한국 시간) · 개인정보처리방침 중 아래 3개 항목 확인 · 와우·환불 약관은 재검수 대기",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 3개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
-    "pendingReason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다.",
+    "pendingReason": "와우 구독·일반 결제·환불 약관은 별도 재검수 필요",
     "documents": [
       {
         "url": "https://privacy.coupang.com/ko/center/coupang/",
         "title": "쿠팡 개인정보처리방침",
-        "checkedAt": "2026. 10. 9. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -970,14 +1082,24 @@ window.serviceCatalog={
           "document": "Pinterest Terms of Service",
           "clause": "3.c How long we keep your User Content",
           "region": "국제 영문 약관 · 현지법 및 별도 계약 우선",
-          "version": null,
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "action": "처음 올릴 때 공개 범위를 확인하고 민감한 이미지는 게시하지 마세요."
+          "version": "현행 2025. 4. 30. 시행 · 2026. 11. 12. 개정 예고는 별도",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "처음 올릴 때 공개 범위를 확인하고 민감한 이미지는 게시하지 마세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "backup, archival, or audit purposes",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "effectiveAt": "2025. 4. 30.",
+          "publishedAt": null,
+          "updatedAt": null,
+          "impact": "탈퇴·삭제 뒤에도 다른 사람이 저장·공유한 사본과 일정 기간의 백업은 남을 수 있습니다.",
+          "applicability": "2026-10-18 공식 현행 페이지의 §3.c를 대조했습니다. 2026-11-12 시행 예정 문서의 미리보기 링크는 개정 예고이며 현재 효력과 구분합니다.",
+          "announcedEffectiveAt": "2026. 11. 12.",
+          "changeNoticeUrl": "https://policy.pinterest.com/en/terms-of-service-preview"
         }
       ]
     ],
     "reviewScope": "표시된 조항의 원문 대조 완료 · 국제 영문 약관 · 현지법 및 별도 계약 우선",
-    "reviewStatus": "2026. 10. 13. (한국 시간) · 표시된 조항의 원문 대조 완료",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 1개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
     "pendingReason": "",
@@ -985,8 +1107,9 @@ window.serviceCatalog={
       {
         "url": "https://policy.pinterest.com/en/terms-of-service",
         "title": "Pinterest Terms of Service",
-        "checkedAt": "2026. 10. 13. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -1720,11 +1843,19 @@ window.serviceCatalog={
         "https://soundcloud.com/pages/privacy",
         {
           "document": "SoundCloud Privacy Policy",
-          "clause": "Privacy Policy · Information We Receive · Advertising on the Platform",
+          "clause": "Personal Data We Collect — Device Information / How We Use Your Personal Data — Advertising and Marketing / Your Choices and Controls",
           "region": "국제 영문 약관 · 현지 강행법규 및 상품별 구독 조건 우선",
-          "version": null,
-          "checkedAt": "2026. 10. 14. (한국 시간)",
-          "action": "계정 Advertising 설정과 휴대폰 앱 추적·광고 ID 설정을 함께 확인하세요."
+          "version": "2026. 8. 17. 최종 수정",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "계정 Advertising 설정과 휴대폰 앱 추적·광고 ID 설정을 함께 확인하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "you may still see ads",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2026. 8. 17.",
+          "impact": "맞춤 광고를 꺼도 일반 광고가 사라지는 것은 아니며, 기기 추적 동의와 서비스 광고 설정을 구분해야 합니다.",
+          "applicability": "공식 기본 URL에서 실제 렌더링된 국제 영문 개인정보처리방침. EEA·영국·미국 일부 주 등의 추가 동의·권리 조건이 별도로 명시되어 있습니다."
         }
       ],
       [
@@ -1748,7 +1879,7 @@ window.serviceCatalog={
       ]
     ],
     "reviewScope": "표시 5개 항목의 출처 조항 확인 · 적용 지역·상품은 각 항목 참고",
-    "reviewStatus": "2026. 10. 18. (한국 시간) · 이번 4개 항목 대조 · 전체 약관 검수 아님",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 1개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
     "pendingReason": "",
@@ -1763,8 +1894,9 @@ window.serviceCatalog={
       {
         "url": "https://soundcloud.com/pages/privacy",
         "title": "SoundCloud Privacy Policy",
-        "checkedAt": "2026. 10. 14. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -2344,9 +2476,17 @@ window.serviceCatalog={
           "document": "Microsoft 서비스 계약",
           "clause": "4.a.ii 계정 사용",
           "region": "대한민국 한국어 · 개인 소비자 서비스",
-          "version": "2026. 9. 30. 적용",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "action": "계정 로그인 외에 Outlook과 OneDrive에도 각각 접속하세요."
+          "version": "2026. 9. 30. 적용 · 2026. 7. 30. 발행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "계정 로그인 외에 Outlook과 OneDrive에도 각각 접속하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "2년마다 한",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "개인 계정 로그인 외에도 Outlook.com과 OneDrive에 각각 접속해야 합니다.",
+          "effectiveAt": "2026. 9. 30.",
+          "publishedAt": "2026. 7. 30.",
+          "updatedAt": null,
+          "applicability": "대한민국 한국어 Microsoft 소비자 서비스 계약의 기재 조항만 대조. 기업·학교용 계약과 개별 게임·구독 상품의 별도 약관은 제외합니다."
         }
       ],
       [
@@ -2361,14 +2501,22 @@ window.serviceCatalog={
           "document": "Microsoft 서비스 계약",
           "clause": "9.j 요금 변경",
           "region": "대한민국 한국어 · 개인 소비자 서비스",
-          "version": "2026. 9. 30. 적용",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "action": "계정 이메일의 가격 변경 안내와 적용일을 확인하세요."
+          "version": "2026. 9. 30. 적용 · 2026. 7. 30. 발행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "계정 이메일의 가격 변경 안내와 적용일을 확인하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "15일 전에",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "반복 구매 가격 변경 안내를 놓치면 새 요금이 적용되기 전에 취소할 기회를 놓칠 수 있습니다.",
+          "effectiveAt": "2026. 9. 30.",
+          "publishedAt": "2026. 7. 30.",
+          "updatedAt": null,
+          "applicability": "대한민국 한국어 Microsoft 소비자 서비스 계약의 기재 조항만 대조. 기업·학교용 계약과 개별 게임·구독 상품의 별도 약관은 제외합니다."
         }
       ]
     ],
     "reviewScope": "미사용 계정과 요금 변경 조건 확인 · 대한민국 한국어 · 개인 소비자 서비스",
-    "reviewStatus": "2026. 10. 13. (한국 시간) · 미사용 계정과 요금 변경 조건 확인",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 2개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
     "pendingReason": "",
@@ -2376,8 +2524,9 @@ window.serviceCatalog={
       {
         "url": "https://www.microsoft.com/ko-kr/servicesagreement",
         "title": "Microsoft 서비스 계약",
-        "checkedAt": "2026. 10. 13. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -2412,16 +2561,24 @@ window.serviceCatalog={
         "https://www.apple.com/legal/internet-services/icloud/kr/terms.html",
         {
           "document": "iCloud 이용약관",
-          "clause": "I.C 사용상 제한 · II.O 백업",
+          "clause": "II.O 백업 / IV.D 콘텐츠 백업",
           "region": "대한민국 한국어 약관",
           "version": "2026. 9. 14. 최종 수정",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "action": "오랫동안 쓰지 않은 기기의 마지막 백업일과 저장 공간을 확인하고 중요한 파일은 따로 저장하세요."
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "오랫동안 쓰지 않은 기기의 마지막 백업일과 저장 공간을 확인하고 중요한 파일은 따로 저장하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "180일 동안 백업을 하지 않았을 경우",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2026. 9. 14.",
+          "impact": "오랫동안 백업하지 않은 기기의 기존 백업은 계속 보관된다고 보장되지 않습니다.",
+          "applicability": "대한민국 한국어 iCloud 약관의 기기 백업 조항. 모든 iCloud 파일이 180일 뒤 일괄 삭제된다는 뜻은 아닙니다."
         }
       ]
     ],
     "reviewScope": "저장 용량 및 백업 삭제 조건 확인 · 대한민국 한국어 약관",
-    "reviewStatus": "2026. 10. 13. (한국 시간) · 저장 용량 및 백업 삭제 조건 확인",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 1개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
     "pendingReason": "",
@@ -2429,8 +2586,9 @@ window.serviceCatalog={
       {
         "url": "https://www.apple.com/legal/internet-services/icloud/kr/terms.html",
         "title": "iCloud 이용약관",
-        "checkedAt": "2026. 10. 13. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -2834,10 +2992,16 @@ window.serviceCatalog={
           "clause": "4.a User Content",
           "region": "국제 영문 약관",
           "version": "2026. 8. 19. 시행",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "민감한 자료가 든 디자인의 공유 대상과 링크 권한을 확인하세요.",
           "effectiveAt": "2026. 8. 19.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "perpetual, royalty-free, sublicensable",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "공유된 디자인을 계속 제공하는 데 필요한 자료 이용권은 공유 뒤에도 남을 수 있습니다.",
+          "publishedAt": null,
+          "updatedAt": null,
+          "applicability": "국제 영문 약관. 영문 우선 조항과 현지 비배제 소비자 권리를 확인했습니다. 한국 청구 주소는 미국·영국 외 계약 주체 구분에 해당하며 별도 기업·리셀러·교육 약관은 따로 적용될 수 있습니다."
         }
       ],
       [
@@ -2850,11 +3014,19 @@ window.serviceCatalog={
         "https://www.canva.com/policies/terms-of-use/",
         {
           "document": "Canva Terms of Use",
-          "clause": "Subscriptions and Renewals · Free Trials and Pilots",
+          "clause": "9.a Subscriptions and Renewals / 9.e Free Trials and Pilots",
           "region": "국제 영문 약관 · 현지 강행법규·별도 계약 우선",
-          "version": null,
-          "checkedAt": "2026. 10. 14. (한국 시간)",
-          "action": "체험 종료일과 갱신일을 기록하고 계정에서 취소 완료 여부를 확인하세요."
+          "version": "2026. 8. 19. 시행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "체험 종료일과 갱신일을 기록하고 계정에서 취소 완료 여부를 확인하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "automatically renew each billing cycle",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "구독 갱신과 체험 종료일을 놓치면 다음 결제 주기의 요금이 청구될 수 있습니다.",
+          "publishedAt": null,
+          "effectiveAt": "2026. 8. 19.",
+          "updatedAt": null,
+          "applicability": "국제 영문 약관. 영문 우선 조항과 현지 비배제 소비자 권리를 확인했습니다. 한국 청구 주소는 미국·영국 외 계약 주체 구분에 해당하며 별도 기업·리셀러·교육 약관은 따로 적용될 수 있습니다."
         }
       ],
       [
@@ -2867,11 +3039,19 @@ window.serviceCatalog={
         "https://www.canva.com/policies/terms-of-use/",
         {
           "document": "Canva Terms of Use",
-          "clause": "Pricing for Additional Seats on your Team",
+          "clause": "9.b Pricing for Additional Seats on your Team",
           "region": "국제 영문 약관 · 현지 강행법규·별도 계약 우선",
-          "version": null,
-          "checkedAt": "2026. 10. 14. (한국 시간)",
-          "action": "팀 초대 전 좌석 비용과 정산일을 확인하고 쓰지 않는 좌석을 정리하세요."
+          "version": "2026. 8. 19. 시행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "팀 초대 전 좌석 비용과 정산일을 확인하고 쓰지 않는 좌석을 정리하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "next Billing Date",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "팀 초대로 늘어난 좌석을 정산 전에 정리하지 않으면 추가 비용이 생길 수 있습니다.",
+          "publishedAt": null,
+          "effectiveAt": "2026. 8. 19.",
+          "updatedAt": null,
+          "applicability": "국제 영문 약관. 영문 우선 조항과 현지 비배제 소비자 권리를 확인했습니다. 한국 청구 주소는 미국·영국 외 계약 주체 구분에 해당하며 별도 기업·리셀러·교육 약관은 따로 적용될 수 있습니다."
         }
       ],
       [
@@ -2884,11 +3064,19 @@ window.serviceCatalog={
         "https://www.canva.com/policies/terms-of-use/",
         {
           "document": "Canva Terms of Use",
-          "clause": "Cancellation",
+          "clause": "9.d Cancellation",
           "region": "국제 영문 약관 · 현지 강행법규·별도 계약 우선",
-          "version": null,
-          "checkedAt": "2026. 10. 14. (한국 시간)",
-          "action": "구독과 추가 기능의 취소 상태를 각각 확인하세요."
+          "version": "2026. 8. 19. 시행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "구독과 추가 기능의 취소 상태를 각각 확인하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "except where required by law",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "취소는 즉시 환불과 같지 않으며 이미 낸 요금에는 법정 예외를 따로 확인해야 합니다.",
+          "publishedAt": null,
+          "effectiveAt": "2026. 8. 19.",
+          "updatedAt": null,
+          "applicability": "국제 영문 약관. 영문 우선 조항과 현지 비배제 소비자 권리를 확인했습니다. 한국 청구 주소는 미국·영국 외 계약 주체 구분에 해당하며 별도 기업·리셀러·교육 약관은 따로 적용될 수 있습니다."
         }
       ],
       [
@@ -2901,11 +3089,19 @@ window.serviceCatalog={
         "https://www.canva.com/policies/privacy-policy/",
         {
           "document": "Canva Privacy Policy",
-          "clause": "Privacy Policy §2 How we use your information · §4 Advertising",
+          "clause": "Privacy Policy §2 How we use your information / §4 Advertising",
           "region": "국제 영문 약관 · 현지 강행법규·별도 계약 우선",
-          "version": null,
-          "checkedAt": "2026. 10. 14. (한국 시간)",
-          "action": "광고·쿠키 설정을 확인하고 일반 계정과 교육용 계정 조건을 구분하세요."
+          "version": "2026. 8. 25. 최종 수정",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "광고·쿠키 설정을 확인하고 일반 계정과 교육용 계정 조건을 구분하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "students using Canva Education",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "일반 계정과 Canva Education 학생의 광고 조건은 다릅니다.",
+          "publishedAt": null,
+          "effectiveAt": null,
+          "updatedAt": "2026. 8. 25.",
+          "applicability": "국제 영문 개인정보처리방침의 일반 조항. Canva Education 학생의 광고·AI 학습 예외와 국가별 추가 조항을 구분합니다. 최종 수정일을 시행일로 바꾸지 않았습니다."
         }
       ],
       [
@@ -2920,14 +3116,22 @@ window.serviceCatalog={
           "document": "Canva Privacy Policy",
           "clause": "Privacy Policy §5 How we transfer, store and protect your data",
           "region": "국제 영문 약관 · 현지 강행법규·별도 계약 우선",
-          "version": null,
-          "checkedAt": "2026. 10. 14. (한국 시간)",
-          "action": "개인정보가 든 디자인을 업로드하기 전에 해외 처리와 공유 범위를 확인하세요."
+          "version": "2026. 8. 25. 최종 수정",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "개인정보가 든 디자인을 업로드하기 전에 해외 처리와 공유 범위를 확인하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "United States, Australia, Singapore",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "개인정보가 담긴 디자인은 거주 국가 밖에서도 저장·처리될 수 있습니다.",
+          "publishedAt": null,
+          "effectiveAt": null,
+          "updatedAt": "2026. 8. 25.",
+          "applicability": "국제 영문 개인정보처리방침의 일반 조항. Canva Education 학생의 광고·AI 학습 예외와 국가별 추가 조항을 구분합니다. 최종 수정일을 시행일로 바꾸지 않았습니다."
         }
       ]
     ],
     "reviewScope": "표시 6개 항목의 출처 조항 확인 · 적용 지역·상품은 각 항목 참고",
-    "reviewStatus": "2026. 10. 14. (한국 시간) · 구독·팀 좌석·환불·광고·해외 처리 추가 확인",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 6개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
     "pendingReason": "",
@@ -2935,14 +3139,16 @@ window.serviceCatalog={
       {
         "url": "https://www.canva.com/policies/terms-of-use/",
         "title": "Canva Terms of Use",
-        "checkedAt": "2026. 10. 14. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       },
       {
         "url": "https://www.canva.com/policies/privacy-policy/",
         "title": "Canva Privacy Policy",
-        "checkedAt": "2026. 10. 14. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -7035,9 +7241,17 @@ window.serviceCatalog={
           "document": "Microsoft 서비스 계약 · Xbox 서비스 조건",
           "clause": "13.a.ii Xbox Services",
           "region": "대한민국 한국어 · Xbox 개별 상품·구독 약관 별도",
-          "version": null,
-          "checkedAt": "2026. 10. 14. (한국 시간)",
-          "action": "Xbox 개인정보 설정과 외부 플랫폼 연결 권한을 확인하세요."
+          "version": "2026. 9. 30. 적용 · 2026. 7. 30. 발행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "Xbox 개인정보 설정과 외부 플랫폼 연결 권한을 확인하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "게임 개발자와",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "외부 플랫폼을 연결하면 게임 활동·친구 목록 등의 공유 범위를 추가로 확인해야 합니다.",
+          "effectiveAt": "2026. 9. 30.",
+          "publishedAt": "2026. 7. 30.",
+          "updatedAt": null,
+          "applicability": "대한민국 한국어 Microsoft 소비자 서비스 계약의 기재 조항만 대조. 기업·학교용 계약과 개별 게임·구독 상품의 별도 약관은 제외합니다."
         }
       ],
       [
@@ -7052,9 +7266,17 @@ window.serviceCatalog={
           "document": "Microsoft 서비스 계약 · Xbox 서비스 조건",
           "clause": "13.a.ii · 13.a.v Xbox 이용 아동",
           "region": "대한민국 한국어 · Xbox 개별 상품·구독 약관 별도",
-          "version": null,
-          "checkedAt": "2026. 10. 14. (한국 시간)",
-          "action": "게임을 실행하는 각 플랫폼의 자녀 보호 설정을 따로 확인하세요."
+          "version": "2026. 9. 30. 적용 · 2026. 7. 30. 발행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "게임을 실행하는 각 플랫폼의 자녀 보호 설정을 따로 확인하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "다른 장치나",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "Xbox 가족 보호 설정만 켜 두면 다른 플랫폼에서도 같은 보호가 작동한다고 가정하면 안 됩니다.",
+          "effectiveAt": "2026. 9. 30.",
+          "publishedAt": "2026. 7. 30.",
+          "updatedAt": null,
+          "applicability": "대한민국 한국어 Microsoft 소비자 서비스 계약의 기재 조항만 대조. 기업·학교용 계약과 개별 게임·구독 상품의 별도 약관은 제외합니다."
         }
       ],
       [
@@ -7069,9 +7291,17 @@ window.serviceCatalog={
           "document": "Microsoft 서비스 계약 · Xbox 서비스 조건",
           "clause": "13.a.iii 귀하의 콘텐츠",
           "region": "대한민국 한국어 · Xbox 개별 상품·구독 약관 별도",
-          "version": null,
-          "checkedAt": "2026. 10. 14. (한국 시간)",
-          "action": "공개 게임 클립에 얼굴·이름·대화 등 개인정보가 포함됐는지 확인하세요."
+          "version": "2026. 9. 30. 적용 · 2026. 7. 30. 발행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "공개 게임 클립에 얼굴·이름·대화 등 개인정보가 포함됐는지 확인하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "전 세계적",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "공개 클립·아바타·게이머태그에 대한 서비스의 이용권을 고려해 노출 범위를 선택해야 합니다.",
+          "effectiveAt": "2026. 9. 30.",
+          "publishedAt": "2026. 7. 30.",
+          "updatedAt": null,
+          "applicability": "대한민국 한국어 Microsoft 소비자 서비스 계약의 기재 조항만 대조. 기업·학교용 계약과 개별 게임·구독 상품의 별도 약관은 제외합니다."
         }
       ],
       [
@@ -7086,14 +7316,22 @@ window.serviceCatalog={
           "document": "Microsoft 서비스 계약 · Xbox 서비스 조건",
           "clause": "13.a.vi 게임 통화 또는 가상 상품",
           "region": "대한민국 한국어 · Xbox 개별 상품·구독 약관 별도",
-          "version": null,
-          "checkedAt": "2026. 10. 14. (한국 시간)",
-          "action": "충전 전에 해당 게임의 아이템 사용·환불 조건을 확인하세요."
+          "version": "2026. 9. 30. 적용 · 2026. 7. 30. 발행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "충전 전에 해당 게임의 아이템 사용·환불 조건을 확인하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "권리 또는",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "가상 아이템을 현금으로 되돌려받을 수 있는 소유 자산으로 생각하면 안 됩니다.",
+          "effectiveAt": "2026. 9. 30.",
+          "publishedAt": "2026. 7. 30.",
+          "updatedAt": null,
+          "applicability": "대한민국 한국어 Microsoft 소비자 서비스 계약의 기재 조항만 대조. 기업·학교용 계약과 개별 게임·구독 상품의 별도 약관은 제외합니다."
         }
       ]
     ],
     "reviewScope": "표시 4개 항목의 출처 조항 확인 · 적용 지역·상품은 각 항목 참고",
-    "reviewStatus": "2026. 10. 14. (한국 시간) · 게임 활동 공유·가족 설정·콘텐츠·가상 아이템 조항 확인",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 4개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
     "pendingReason": "",
@@ -7101,8 +7339,9 @@ window.serviceCatalog={
       {
         "url": "https://www.microsoft.com/ko-kr/servicesagreement",
         "title": "Microsoft 서비스 계약 · Xbox 서비스 조건",
-        "checkedAt": "2026. 10. 14. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -7494,17 +7733,25 @@ window.serviceCatalog={
         "자동 갱신 구독은 만료 최소 1일 전에 취소해야 추가 청구를 피할 수 있습니다. Quizlet에서 직접 구매한 구독은 법이 요구하는 경우를 제외하고 환불하지 않으며, 앱스토어 등 다른 플랫폼 구매는 해당 플랫폼의 환불 정책을 따릅니다.",
         "https://quizlet.com/tos",
         {
-          "document": "Quizlet Terms of Service",
-          "clause": "Upgraded Membership · To Cancel Your Subscription / Refunds",
-          "region": "국제 영문 약관 · 현지 법정 환불 권리 우선",
-          "version": "2026. 5. 28. 최종 수정",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "action": "구독을 구매한 곳과 만료일을 확인하고 취소 완료 기록을 보관하세요."
+          "document": "Quizlet 서비스 약관 (공식 한국어 참고 번역)",
+          "clause": "3. 구독 — 회원권 취소(3) / 환불(5)",
+          "region": "공식 한국어 표시 문서 · 영문 우선 · 현지 법정 권리 예외",
+          "version": "2026. 5. 28. 최종 업데이트",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "구독을 구매한 곳과 만료일을 확인하고 취소 완료 기록을 보관하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "만료일 적어도 1일 전에",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2026. 5. 28.",
+          "impact": "자동 갱신을 피하려면 하루 전 취소 기준과 실제 구매처의 취소·환불 경로를 확인해야 합니다.",
+          "applicability": "실제 브라우저에서 한국어 본문을 대조했습니다. 번역과 영문이 다르면 영문이 우선한다는 원문 안내가 있으며, 한국어 표시 자체가 한국 전용 계약이라는 뜻은 아닙니다."
         }
       ]
     ],
     "reviewScope": "구독 취소 기한과 결제 경로별 환불 조건 확인 · 국제 영문 약관 · 현지 법정 환불 권리 우선",
-    "reviewStatus": "2026. 10. 13. (한국 시간) · 구독 취소 기한과 결제 경로별 환불 조건 확인",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 1개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
     "pendingReason": "",
@@ -7512,8 +7759,9 @@ window.serviceCatalog={
       {
         "url": "https://quizlet.com/tos",
         "title": "Quizlet Terms of Service",
-        "checkedAt": "2026. 10. 13. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -9701,20 +9949,26 @@ window.serviceCatalog={
       [
         "privacy",
         "개인정보",
-        "위치를 포함한 콘텐츠는 콘텐츠 보관 기간만큼 위치도 보관",
+        "배달 위치정보와 위치가 담긴 게시물은 보관 기준이 다름",
         "mid",
-        "쿠팡이츠에 적용되는 방침은 위치 기반 가게 추천·주소 찾기 등을 위해 위치정보를 처리한다고 정합니다. 게시물·콘텐츠에 위치가 함께 저장되는 경우 그 콘텐츠의 보관 기간 동안 위치정보도 보관될 수 있습니다.",
-        "쿠팡이츠에 적용되는 방침은 위치 기반 가게 추천·주소 찾기 등을 위해 위치정보를 처리한다고 정합니다. 게시물·콘텐츠에 위치가 함께 저장되는 경우 그 콘텐츠의 보관 기간 동안 위치정보도 보관될 수 있습니다.",
+        "쿠팡이츠 수집 표는 위치기반 가게 추천·주소 찾기에 쓰는 개인 위치정보를 배달 완료 후 1년 보관한다고 안내합니다. 별도로 위치가 함께 저장된 게시물·콘텐츠는 해당 콘텐츠 보관 기간 동안 위치정보가 남을 수 있습니다.",
+        "쿠팡이츠 수집 표는 위치기반 가게 추천·주소 찾기에 쓰는 개인 위치정보를 배달 완료 후 1년 보관한다고 안내합니다. 별도로 위치가 함께 저장된 게시물·콘텐츠는 해당 콘텐츠 보관 기간 동안 위치정보가 남을 수 있습니다.",
         "https://privacy.coupang.com/ko/center/coupang/",
         {
           "document": "쿠팡 개인정보처리방침 · 쿠팡이츠 적용",
-          "clause": "7. 개인위치정보의 처리 · 처리목적 및 보유기간",
+          "clause": "1. 서비스에서 별도로 수집하는 개인정보 — 쿠팡이츠 / 7. 개인위치정보의 처리",
           "region": "대한민국 · 방침 서두에서 쿠팡이츠 적용 명시",
-          "version": "2026. 5. 22. 시행",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "version": "2026. 10. 14. 시행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "위치 권한을 필요한 때로 제한하고 위치가 포함된 공개 콘텐츠·저장 주소를 점검하세요.",
-          "effectiveAt": "2026. 5. 22.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "effectiveAt": "2026. 10. 14.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "배달 완료 후 1년",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "배달 완료나 게시물 삭제만으로 모든 위치 관련 기록이 동시에 없어지는 것은 아닙니다.",
+          "applicability": "쿠팡 방침의 쿠팡이츠 전용 수집 표와 위치정보 조항을 함께 대조. 구매자 위치 정보와 게시물에 포함된 위치 정보의 기준을 구분합니다.",
+          "publishedAt": null,
+          "updatedAt": null
         }
       ],
       [
@@ -9729,16 +9983,22 @@ window.serviceCatalog={
           "document": "쿠팡 개인정보처리방침 · 쿠팡이츠 적용",
           "clause": "7. 개인위치정보의 처리 · 파기",
           "region": "대한민국 · 방침 서두에서 쿠팡이츠 적용 명시",
-          "version": "2026. 5. 22. 시행",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
+          "version": "2026. 10. 14. 시행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "탈퇴·동의 철회 때 위치정보와 처리 사실 기록의 보관 범위를 따로 문의하세요.",
-          "effectiveAt": "2026. 5. 22.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "effectiveAt": "2026. 10. 14.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "위치정보시스템에 6개월간 보관",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "실제 위치정보를 지워도 수집·이용·제공했다는 확인자료는 별도 기간 보관될 수 있습니다.",
+          "publishedAt": null,
+          "updatedAt": null,
+          "applicability": "대한민국 쿠팡이츠에 적용되는 방침 제7절의 위치정보 처리 사실 확인자료. 실제 위치정보의 처리·삭제와 별도의 6개월 보관 기록을 구분합니다."
         }
       ]
     ],
     "reviewScope": "위치 관련 콘텐츠와 동의·제공 기록의 보관 조건 확인 · 대한민국 · 방침 서두에서 쿠팡이츠 적용 명시",
-    "reviewStatus": "2026. 10. 13. (한국 시간) · 위치 관련 콘텐츠와 동의·제공 기록의 보관 조건 확인",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 2개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
     "pendingReason": "",
@@ -9746,8 +10006,9 @@ window.serviceCatalog={
       {
         "url": "https://privacy.coupang.com/ko/center/coupang/",
         "title": "쿠팡 개인정보처리방침 · 쿠팡이츠 적용",
-        "checkedAt": "2026. 10. 13. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -10037,14 +10298,22 @@ window.serviceCatalog={
           "document": "Microsoft 서비스 계약",
           "clause": "4.a.ii 계정 사용",
           "region": "개인용 OneDrive · 대한민국 한국어 약관",
-          "version": "2026. 9. 30. 적용",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "action": "파일이 보관된 OneDrive에 직접 접속하고 별도 사본을 보관하세요."
+          "version": "2026. 9. 30. 적용 · 2026. 7. 30. 발행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "파일이 보관된 OneDrive에 직접 접속하고 별도 사본을 보관하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "1년에 한",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "다른 Microsoft 서비스 이용만으로 개인용 OneDrive의 접속 조건을 충족한다고 가정하면 안 됩니다.",
+          "effectiveAt": "2026. 9. 30.",
+          "publishedAt": "2026. 7. 30.",
+          "updatedAt": null,
+          "applicability": "대한민국 한국어 Microsoft 소비자 서비스 계약의 기재 조항만 대조. 기업·학교용 계약과 개별 게임·구독 상품의 별도 약관은 제외합니다."
         }
       ]
     ],
     "reviewScope": "OneDrive 미사용 조건 확인 · 업무용 계약 제외 · 개인용 OneDrive · 대한민국 한국어 약관",
-    "reviewStatus": "2026. 10. 13. (한국 시간) · OneDrive 미사용 조건 확인 · 업무용 계약 제외",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 1개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
     "pendingReason": "",
@@ -10052,8 +10321,9 @@ window.serviceCatalog={
       {
         "url": "https://www.microsoft.com/ko-kr/servicesagreement",
         "title": "Microsoft 서비스 계약",
-        "checkedAt": "2026. 10. 13. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -10139,14 +10409,22 @@ window.serviceCatalog={
           "document": "Microsoft 서비스 계약",
           "clause": "4.a.ii 계정 사용",
           "region": "개인용 Outlook.com · 대한민국 한국어 약관",
-          "version": "2026. 9. 30. 적용",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "action": "보관할 메일을 내려받고 받은 편지함에도 정기적으로 접속하세요."
+          "version": "2026. 9. 30. 적용 · 2026. 7. 30. 발행",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "보관할 메일을 내려받고 받은 편지함에도 정기적으로 접속하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "편지함 및",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "계정을 유지하더라도 받은 편지함 자체에 정기적으로 접속할 필요가 있습니다.",
+          "effectiveAt": "2026. 9. 30.",
+          "publishedAt": "2026. 7. 30.",
+          "updatedAt": null,
+          "applicability": "대한민국 한국어 Microsoft 소비자 서비스 계약의 기재 조항만 대조. 기업·학교용 계약과 개별 게임·구독 상품의 별도 약관은 제외합니다."
         }
       ]
     ],
     "reviewScope": "받은 편지함 미사용 조건 확인 · 업무용 계약 제외 · 개인용 Outlook.com · 대한민국 한국어 약관",
-    "reviewStatus": "2026. 10. 13. (한국 시간) · 받은 편지함 미사용 조건 확인 · 업무용 계약 제외",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 1개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
     "pendingReason": "",
@@ -10154,8 +10432,9 @@ window.serviceCatalog={
       {
         "url": "https://www.microsoft.com/ko-kr/servicesagreement",
         "title": "Microsoft 서비스 계약",
-        "checkedAt": "2026. 10. 13. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -18320,13 +18599,21 @@ window.serviceCatalog={
           "clause": "6.9 Subscriptions Obtained Through Third Parties / 12.2 Termination by You",
           "region": "국제 영문 약관 · 앱스토어 조건·현지 법정 권리 우선",
           "version": "2025. 12. 9. 최종 수정",
-          "checkedAt": "2026. 10. 13. (한국 시간)",
-          "action": "구매한 곳의 구독 취소를 먼저 확인한 뒤 계정·저장 자료를 정리하세요."
+          "checkedAt": "2026. 10. 18. (한국 시간)",
+          "action": "구매한 곳의 구독 취소를 먼저 확인한 뒤 계정·저장 자료를 정리하세요.",
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "canceling any subscriptions",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "계정 삭제와 결제 구독 취소를 한 가지 절차로 생각하면 다음 청구를 놓칠 수 있습니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2025. 12. 9.",
+          "applicability": "영문 Noom 소비자 서비스의 §6.9·§12.2. 앱스토어 구독에는 구매처 조건이 우선할 수 있고 고용주·건강보험 등이 제공하는 Noom Health 계약은 별도입니다."
         }
       ]
     ],
     "reviewScope": "계정 종료와 구매 경로별 구독 취소 조건 확인 · 국제 영문 약관 · 앱스토어 조건·현지 법정 권리 우선",
-    "reviewStatus": "2026. 10. 13. (한국 시간) · 계정 종료와 구매 경로별 구독 취소 조건 확인",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 1개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
     "pendingReason": "",
@@ -18334,8 +18621,9 @@ window.serviceCatalog={
       {
         "url": "https://www.noom.com/terms-and-conditions-of-use/",
         "title": "Noom Terms and Conditions of Use",
-        "checkedAt": "2026. 10. 13. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {
@@ -18830,15 +19118,16 @@ window.serviceCatalog={
           "clause": "여러분이 제공한 콘텐츠를 소중히 다룰 것입니다",
           "region": "한국",
           "version": "2026. 10. 1. 시행",
-          "checkedAt": "2026. 10. 17. (한국 시간)",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "민감한 자료를 올리기 전에 공개 범위를 확인하고, 이미 연구용으로 처리된 자료의 회수가 가능한지 따로 확인하세요.",
-          "quote": "인공지능 분야 기술 등의 연구 개발 목적으로 네이버에서 사용되거나",
+          "quote": "인공지능 분야 기술 등의 연구 개발",
           "effectiveAt": "2026. 10. 1.",
           "publishedAt": "2026. 9. 23.",
           "updatedAt": null,
-          "reviewMethod": "2026-10-17 공식 원문 표본 대조 · 표시 항목에 한정",
-          "impact": "공개한 게시물은 AI 연구 개발에 쓰일 수 있습니다. 삭제·비공개 전에 이미 구분하기 어렵게 처리된 자료는 제외 대상의 예외입니다.",
-          "applicability": "네이버 공통 이용약관의 게시물 조항. 개별 서비스의 추가 약관·운영정책이 다르게 정하면 해당 정책이 우선할 수 있습니다. 네이버페이·계열사 서비스까지 같은 조건으로 판단하지 마세요."
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "삭제·비공개 전에 이미 구분하기 어렵게 처리된 자료에는 AI 연구 제외의 예외가 있습니다.",
+          "applicability": "대한민국 한국어 정본의 네이버 공통 약관. 별도 서비스·계열사 약관과 다를 때는 해당 개별 약관·운영정책이 우선할 수 있습니다.",
+          "editedAt": "2026. 10. 21. (한국 시간)"
         }
       ],
       [
@@ -18854,10 +19143,16 @@ window.serviceCatalog={
           "clause": "언제든지 네이버 서비스 이용계약을 해지하실 수 있습니다",
           "region": "한국",
           "version": "2026. 10. 1. 시행",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "메일·파일·게시물을 먼저 보관하고 공유 공간의 글과 댓글은 탈퇴 전에 직접 삭제하세요.",
           "effectiveAt": "2026. 10. 1.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "공용 게시판에 등록한 댓글",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "공유된 글·댓글은 탈퇴 전에 따로 지우지 않으면 남을 수 있습니다.",
+          "publishedAt": "2026. 9. 23.",
+          "updatedAt": null,
+          "applicability": "대한민국 한국어 정본의 네이버 공통 약관. 별도 서비스·계열사 약관과 다를 때는 해당 개별 약관·운영정책이 우선할 수 있습니다."
         }
       ],
       [
@@ -18870,27 +19165,34 @@ window.serviceCatalog={
         "https://policy.naver.com/policy/service.html",
         {
           "document": "네이버 공통 이용약관",
-          "clause": "다양한 네이버 서비스를 즐겨보세요 / 다양한 포인트",
+          "clause": "다양한 네이버 서비스를 즐겨보세요 / 약관 및 운영정책 게시·개정",
           "region": "한국",
           "version": "2026. 10. 1. 시행",
-          "checkedAt": "2026. 10. 9. (한국 시간)",
+          "checkedAt": "2026. 10. 18. (한국 시간)",
           "action": "실제로 가입·결제하는 서비스의 별도 약관도 확인하세요.",
           "effectiveAt": "2026. 10. 1.",
-          "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
+          "editedAt": "2026. 10. 21. (한국 시간)",
+          "quote": "별도의 약관, 운영정책이 우선",
+          "reviewMethod": "2026-10-18 공식 원문의 표시 조항·적용 범위·요약 직접 대조, 2026-10-21 편집 반영. 전체 문서 재검수·법률 전문가 검토 아님.",
+          "impact": "공통 약관을 읽었더라도 실제로 결제하거나 이용하는 개별 서비스 조건을 추가로 확인해야 합니다.",
+          "publishedAt": "2026. 9. 23.",
+          "updatedAt": null,
+          "applicability": "대한민국 한국어 정본의 네이버 공통 약관. 별도 서비스·계열사 약관과 다를 때는 해당 개별 약관·운영정책이 우선할 수 있습니다."
         }
       ]
     ],
     "reviewScope": "2026년 10월 1일 시행 공통 이용약관 중 아래 3개 항목 확인",
-    "reviewStatus": "2026. 10. 9. (한국 시간) · 2026년 10월 1일 시행 공통 이용약관 중 아래 3개 항목 확인",
+    "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 3개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
-    "pendingReason": "기존 공통 요약을 서비스별 공식 조항과 대조해야 합니다.",
+    "pendingReason": "",
     "documents": [
       {
         "url": "https://policy.naver.com/policy/service.html",
         "title": "네이버 공통 이용약관",
-        "checkedAt": "2026. 10. 9. (한국 시간)",
-        "bodyChecked": true
+        "checkedAt": "2026. 10. 18. (한국 시간)",
+        "bodyChecked": true,
+        "scope": "기재한 표시 조항만 직접 대조; 본문 열람 성공과 전체 검수는 구분"
       }
     ],
     "linkAudit": {

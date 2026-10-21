@@ -4,7 +4,7 @@ function test(name,fn){fn();tests.push({name,pass:true});}
 const scripts=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)].map(m=>m[1]);
 test('Inline JavaScript 문법',()=>scripts.forEach(s=>new vm.Script(s)));
 globalThis.window={};for(const f of ['review-ui.js','service-catalog.js','casebook.js'])vm.runInThisContext(read(f));
-const ui=window.TermsReview,now=new Date('2026-10-18T12:00:00Z'),catalog=window.serviceCatalog;
+const ui=window.TermsReview,now=new Date('2026-10-21T12:00:00Z'),catalog=window.serviceCatalog;
 test('실제 데이터 집계',()=>assert.deepEqual(ui.catalogStats(catalog,now),{registered:500,summaryServices:156,items:258,compared:258,pendingServices:344,recheck:0}));
 test('집계 metadata does not override actual catalog',()=>{const tiny={a:{name:'a',items:[]}};assert.equal(ui.catalogStats(tiny,now).registered,1);assert.equal(ui.catalogStats(tiny,now).compared,0);});
 test('Malformed catalog is error, never count 0',()=>assert.throws(()=>ui.catalogStats({a:{name:'a',items:null}},now)));
@@ -22,9 +22,9 @@ for(const [name,partial] of [['missing catalog',{}],['missing search',{serviceCa
  vm.runInNewContext(scripts.at(-1),{window:{termsAssetErrors:['service-catalog.js'],...partial},document});
  assert.equal(document.documentElement.dataset.appState,'failed');assert.equal(nodes.get('#dataLoadError').hidden,false);assert.equal(nodes.get('.search-panel').hidden,true);assert.equal(nodes.get('#homeStats').hidden,true);assert(nodes.get('#loadFailureDetail').textContent.includes('service-catalog.js'));
 });
-test('Source scope is explicit and review dates preserved',()=>{assert(catalog.netflix.items[0][7].applicability.includes('국가별'));assert(catalog.naver.items[0][7].applicability.includes('공통'));assert.equal(catalog.naver.items[1][7].checkedAt,'2026. 10. 9. (한국 시간)');});
+test('Source scope is explicit and review dates preserved',()=>{assert(catalog.netflix.items[0][7].applicability.includes('국가별'));assert(catalog.naver.items[0][7].applicability.includes('공통'));assert.equal(catalog.naver.items[1][7].checkedAt,'2026. 10. 18. (한국 시간)');});
 test('Malformed case dates fail locally',()=>{for(const year of [undefined,'2026-02-30','tomorrow'])assert.equal(ui.caseState({a:[{title:'t',url:'https://example.com',text:'x',org:'o',checkedAt:'2026-10-17',year}]}).state,'failed');});
 test('Repeated impact is omitted without removing summary',()=>{const x=['','','','','','summary','', {impact:'summary'}];assert.equal(ui.distinctImpact(x),null);x[7].impact='actual impact';assert.equal(ui.distinctImpact(x),'actual impact');assert.equal(x[5],'summary');});
 test('Same document effective dates agree',()=>{const dates=new Map();for(const s of Object.values(catalog))for(const i of s.items){if(!i[7]?.effectiveAt)continue;const prior=dates.get(i[6]);assert(!prior||prior===i[7].effectiveAt,i[6]);dates.set(i[6],i[7].effectiveAt);}});
 test('Source monitoring states never imply legal review',()=>{const x=['','','','','','','url'];for(const state of ['baseline','same','changed','unavailable'])assert.equal(ui.sourceState(x,{documents:{url:{state}}}).state,state);assert.equal(ui.sourceState(x,{}).state,'unknown');});
-fs.writeFileSync(new URL('../qa-20261018/code-tests.json' ,import.meta.url),JSON.stringify({tests,scope:'Node code tests; deployed UI tests are recorded separately'},null,2));console.log(tests.length+' checks passed');
+fs.writeFileSync(new URL('../qa-20261021/code-tests.json' ,import.meta.url),JSON.stringify({tests,scope:'Node code tests; deployed UI tests are recorded separately'},null,2));console.log(tests.length+' checks passed');
