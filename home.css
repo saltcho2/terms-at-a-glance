@@ -84,3 +84,37 @@ html:not([data-app-state="home"]):not([data-app-state="loading"]):not([data-app-
   .method-panel[aria-labelledby="methodTitle"] .method-item+.method-item{border-top:1px solid #e2e6e1;}
   .latest-panel,.method-panel[aria-labelledby="methodTitle"]{margin-bottom:28px;border-radius:12px;}
 }
+
+/* Section 01 uses the same distinct heading/body structure as 02 and 03. */
+#homeWhy.why-panel{
+  display:block;gap:0;margin:0 0 36px;padding:0;
+  border:1px solid #dce1dc;border-radius:16px;overflow:hidden;background:#fff;
+}
+#homeWhy .why-heading{padding:26px 28px;background:#eef2f8;border-bottom:1px solid #dce1dc;}
+#homeWhy .section-index{
+  display:inline-block;padding:5px 10px;margin:0 0 12px;border-radius:6px;
+  background:#253d37;color:#fff;font-size:.72rem;font-weight:750;letter-spacing:.03em;line-height:1.5;
+}
+#homeWhy h2{font-size:clamp(1.3rem,2.2vw,1.65rem);line-height:1.45;margin:0;color:#192837;}
+#homeWhy h2 br{display:none;}
+#homeWhy .why-intro{max-width:760px;margin:12px 0 17px;font-size:.85rem;color:#53605b;line-height:1.8;}
+#homeWhy .why-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;margin:0;padding:4px 28px;}
+#homeWhy .why-item,#homeWhy .why-item:first-child{
+  display:grid;grid-template-columns:25px minmax(0,1fr);gap:13px;margin:0;
+  padding:24px 24px 24px 0;border:0;border-top:1px solid #e2e6e1;background:none;border-radius:0;min-width:0;
+}
+#homeWhy .why-item:nth-child(-n+2){border-top:0;}
+#homeWhy .why-item:nth-child(even){padding-left:24px;padding-right:0;border-left:1px solid #e2e6e1;}
+#homeWhy .why-num{margin:4px 0 0;}
+#homeWhy .why-item h3{margin:5px 0 8px;font-size:.98rem;line-height:1.6;}
+#homeWhy .why-item p{margin:0;font-size:.81rem;line-height:1.8;}
+@media(max-width:800px){
+  #homeWhy.why-panel{margin-bottom:28px;border-radius:12px;}
+  #homeWhy .why-heading{padding:22px 20px;}
+  #homeWhy .why-list{grid-template-columns:1fr;padding:0 20px;}
+  #homeWhy .why-item,#homeWhy .why-item:first-child,#homeWhy .why-item:nth-child(even){
+    padding:20px 0;border:0;border-top:1px solid #e2e6e1;
+  }
+  #homeWhy .why-item:first-child{border-top:0;}
+  #homeWhy .why-intro{font-size:.8rem;}
+}
