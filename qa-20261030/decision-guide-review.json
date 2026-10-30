@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-30",
+  "purpose": "요약 나열에서 사용자 판단을 돕는 전달 구조로 보완",
+  "implementation": [
+    "최대 3개 핵심 질문·영향·행동 안내",
+    "목적에 맞는 항목만 먼저 안내하며 전체 요약 유지",
+    "버튼으로 해당 상세와 원문 근거에 이동",
+    "목적 관련 요약이 없으면 미확인 안내",
+    "대조일과 기존 원문 비교 상태 표시"
+  ],
+  "dataChanges": false,
+  "localChecks": {
+    "uiRegression": 34,
+    "decisionSelection": 11,
+    "canonicalCatalog": "passed"
+  },
+  "deployedBrowserChecks": [
+    {
+      "service": "Netflix",
+      "test": "가입·결제 전 안내 3개, 전체 상세 4개 유지",
+      "passed": true
+    },
+    {
+      "service": "Netflix",
+      "test": "안내 버튼에서 결제 파트너 해지 상세 펼침",
+      "passed": true
+    },
+    {
+      "service": "Outlook",
+      "test": "가입·결제 관련 요약 부재 안내",
+      "passed": true
+    },
+    {
+      "service": "Outlook",
+      "test": "목적 관련 요약이 없어도 기존 상세 2개 유지",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "모바일 실기기 및 실제 사용자 이해도 테스트 미수행",
+    "현재 약관 내용 전체 재검수가 아닌 정보 전달 구조 보완"
+  ]
+}
