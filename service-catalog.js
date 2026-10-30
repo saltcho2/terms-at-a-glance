@@ -1278,9 +1278,34 @@ window.serviceCatalog={
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "action": "공개할 자료의 권리와 공개 범위를 확인하고 AI 관련 개인정보 설정도 살펴보세요."
         }
+      ],
+      [
+        "other",
+        "기타 조건",
+        "장기 미사용·운영 지속 가능성도 계정 종료 사유",
+        "high",
+        "X 약관에는 규칙 위반 외에도 장기 미사용이나 서비스 제공의 상업적 지속 가능성 등을 이유로 계정·서비스를 중단할 수 있다는 조건이 있습니다. 잘못된 종료라고 생각하면 고객센터의 이의 제기 절차를 이용할 수 있습니다.",
+        "X 약관에는 규칙 위반 외에도 장기 미사용이나 서비스 제공의 상업적 지속 가능성 등을 이유로 계정·서비스를 중단할 수 있다는 조건이 있습니다. 잘못된 종료라고 생각하면 고객센터의 이의 제기 절차를 이용할 수 있습니다.",
+        "https://x.com/en/tos",
+        {
+          "document": "X Terms of Service",
+          "clause": "4. Using the Services · Ending These Terms",
+          "region": "한국 등 EU·EFTA·영국 외 이용자용 약관",
+          "version": "시행 2026-10-09",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "your account should be removed due to prolonged inactivity",
+          "action": "중요한 게시물은 별도로 보관하고 정지 통지와 이의 제기 절차를 확인하세요.",
+          "impact": "위반이 없다는 이유만으로 계정의 영구 이용이 보장되지는 않습니다.",
+          "sourceType": "policy",
+          "applicability": "한국 등 EU·EFTA·영국 외 이용자용 약관 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-10-09",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "콘텐츠 이용 허락 조항 확인 · 국제 영문 약관 · 지역별 조건 별도",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 콘텐츠 이용 허락 조항 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -1461,9 +1486,34 @@ window.serviceCatalog={
           "announcedEffectiveAt": "2026. 11. 12.",
           "changeNoticeUrl": "https://policy.pinterest.com/en/terms-of-service-preview"
         }
+      ],
+      [
+        "privacy",
+        "개인정보",
+        "서비스 밖의 활동도 콘텐츠·광고 추천에 활용",
+        "high",
+        "Pinterest는 서비스 안팎의 활동을 바탕으로 관심사를 파악하고 관련 콘텐츠와 광고를 보여준다고 설명합니다. 추천에 쓰이는 정보가 Pinterest 안에서 저장한 핀에만 한정되는 것은 아닙니다.",
+        "Pinterest는 서비스 안팎의 활동을 바탕으로 관심사를 파악하고 관련 콘텐츠와 광고를 보여준다고 설명합니다. 추천에 쓰이는 정보가 Pinterest 안에서 저장한 핀에만 한정되는 것은 아닙니다.",
+        "https://policy.pinterest.com/en/terms-of-service",
+        {
+          "document": "Pinterest Terms of Service",
+          "clause": "1. The Service",
+          "region": "한국 등 미국 외 이용자 · 2025-04-30 시행 본문, 2026-11-12 예정 약관 제외",
+          "version": "시행 2025-04-30 · 2026-11-12 예정 버전 제외",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "based on your onsite and offsite activity",
+          "action": "개인정보처리방침과 광고 개인화 설정을 확인하세요.",
+          "impact": "외부 활동이 추천과 광고에 연결될 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "한국 등 미국 외 이용자 · 2025-04-30 시행 본문, 2026-11-12 예정 약관 제외 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2025-04-30",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "표시된 조항의 원문 대조 완료 · 국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 1개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -1748,9 +1798,34 @@ window.serviceCatalog={
           "impact": "자동 삭제를 원치 않으면 설정 기간을 확인해야 하며, 유료 게시물 구매자의 거래 사본은 원본 삭제만으로 회수되지 않습니다.",
           "applicability": "Telegram 개인정보처리방침의 클라우드 계정·유료 채널 게시물 조항. 국가별 법정 권리와 별도 상품 조건은 별도 확인."
         }
+      ],
+      [
+        "privacy",
+        "개인정보",
+        "일반 클라우드 대화와 비밀 대화의 보관 방식이 다름",
+        "high",
+        "일반 클라우드 대화의 메시지·사진·영상·문서는 Telegram 서버에 보관되어 여러 기기에서 열립니다. 비밀 대화는 종단간 암호화를 사용하며 대화 내용을 서버에 저장하지 않고 해당 기기에서만 접근합니다.",
+        "일반 클라우드 대화의 메시지·사진·영상·문서는 Telegram 서버에 보관되어 여러 기기에서 열립니다. 비밀 대화는 종단간 암호화를 사용하며 대화 내용을 서버에 저장하지 않고 해당 기기에서만 접근합니다.",
+        "https://telegram.org/privacy",
+        {
+          "document": "Telegram Privacy Policy",
+          "clause": "3.3.1 Cloud Chats / 3.3.2 Secret Chats",
+          "region": "글로벌 영문 개인정보처리방침 · 대화 유형별 차이",
+          "version": null,
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "Secret chats use end-to-end encryption.",
+          "action": "민감한 대화라면 대화 유형과 사용하는 기기를 먼저 확인하세요.",
+          "impact": "모든 대화가 비밀 대화와 동일한 암호화·보관 방식을 쓰는 것은 아닙니다.",
+          "sourceType": "policy",
+          "applicability": "글로벌 영문 개인정보처리방침 · 대화 유형별 차이 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "장기 미사용 계정 삭제와 유료 게시물 사본 보관 확인 · 국제 영문 약관 · 현지 강행법규 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 18. (한국 시간) · 이번 1개 항목 대조 · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -3048,9 +3123,59 @@ window.serviceCatalog={
           "impact": "오랫동안 백업하지 않은 기기의 기존 백업은 계속 보관된다고 보장되지 않습니다.",
           "applicability": "대한민국 한국어 iCloud 약관의 기기 백업 조항. 모든 iCloud 파일이 180일 뒤 일괄 삭제된다는 뜻은 아닙니다."
         }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "iCloud+는 정기 청구되고 하향 변경은 다음 결제일 적용",
+        "high",
+        "iCloud+ 업그레이드 요금은 바로 적용되고 정기적으로 자동 청구됩니다. 요금제를 낮추면 다음 월간·연간 청구일에 반영되므로 변경 직후 당장 요금이 줄어드는 것은 아닙니다.",
+        "iCloud+ 업그레이드 요금은 바로 적용되고 정기적으로 자동 청구됩니다. 요금제를 낮추면 다음 월간·연간 청구일에 반영되므로 변경 직후 당장 요금이 줄어드는 것은 아닙니다.",
+        "https://www.apple.com/legal/internet-services/icloud/kr/terms.html",
+        {
+          "document": "iCloud 이용약관",
+          "clause": "III.A 지불",
+          "region": "한국 iCloud 이용약관 · iCloud+ 가입자",
+          "version": "최종 수정 2026-09-14",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "다운그레이드는 다음 연간 또는 월간 비용 청구일에 적용됩니다.",
+          "action": "다음 결제일과 변경 후 요금제를 확인하세요.",
+          "impact": "하향 변경 직전의 청구와 다음 청구를 혼동할 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "한국 iCloud 이용약관 · iCloud+ 가입자 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2026-09-14"
+        }
+      ],
+      [
+        "other",
+        "기타 조건",
+        "요금제 용량을 넘으면 백업·일부 기능이 중단될 수 있음",
+        "high",
+        "요금제를 낮춘 뒤 저장된 자료가 새 한도를 넘으면 용량을 줄이기 전까지 새 iCloud 백업을 만들 수 없거나 일부 기능을 이용하지 못할 수 있습니다.",
+        "요금제를 낮춘 뒤 저장된 자료가 새 한도를 넘으면 용량을 줄이기 전까지 새 iCloud 백업을 만들 수 없거나 일부 기능을 이용하지 못할 수 있습니다.",
+        "https://www.apple.com/legal/internet-services/icloud/kr/terms.html",
+        {
+          "document": "iCloud 이용약관",
+          "clause": "III.B 취소할 수 있는 권리",
+          "region": "한국 iCloud 이용약관 · 요금제 취소·하향 변경",
+          "version": "최종 수정 2026-09-14",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "더 이상의 iCloud 백업을 생성할 수 없거나",
+          "action": "요금제를 낮추기 전에 사용 용량을 확인하고 필요한 자료를 따로 백업하세요.",
+          "impact": "비용을 줄이는 과정에서 새 자료의 백업이 멈출 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "한국 iCloud 이용약관 · 요금제 취소·하향 변경 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2026-09-14"
+        }
       ]
     ],
-    "reviewScope": "저장 용량 및 백업 삭제 조건 확인 · 대한민국 한국어 약관",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 1개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -3313,9 +3438,34 @@ window.serviceCatalog={
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "action": "학교·회사 워크스페이스에 개인 자료를 올리기 전에 관리자의 보존·내보내기 정책을 확인하세요."
         }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "워크스페이스 계정 해지는 조직 고객에게 요청",
+        "high",
+        "Slack 사용자 약관은 계정을 해지하려는 경우 워크스페이스 고객에게 문의하라고 안내합니다. 조직의 구독 종료나 조직·Slack의 접근 종료로 이용이 끝날 수도 있습니다.",
+        "Slack 사용자 약관은 계정을 해지하려는 경우 워크스페이스 고객에게 문의하라고 안내합니다. 조직의 구독 종료나 조직·Slack의 접근 종료로 이용이 끝날 수도 있습니다.",
+        "https://slack.com/intl/ko-kr/terms-of-service/user",
+        {
+          "document": "Slack 사용자 서비스 약관",
+          "clause": "귀하는 고객(및 Slack)의 뜻에 따라 본 서비스를 이용합니다",
+          "region": "한국어 사용자 약관 · 조직이 초대한 승인된 사용자",
+          "version": null,
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "계정을 해지하고자 하는 경우 고객에게 문의해주십시오.",
+          "action": "워크스페이스 관리자에게 계정 종료와 자료 처리 방침을 확인하세요.",
+          "impact": "개인 계정 조작만으로 조직이 관리하는 모든 자료까지 삭제되는 것은 아닙니다.",
+          "sourceType": "policy",
+          "applicability": "한국어 사용자 약관 · 조직이 초대한 승인된 사용자 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "워크스페이스에 초대된 사용자의 자료 통제권 확인 · 한국어 사용자 약관 · 워크스페이스 고객 계약 별도",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 워크스페이스에 초대된 사용자의 자료 통제권 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -5662,9 +5812,59 @@ window.serviceCatalog={
           "reviewMethod": "2026-10-17 공식 원문 표본 대조 · 표시 항목에 한정",
           "impact": "유료 요금제를 중간에 낮추거나 사용하지 않아도 이미 낸 요금이 자동 환불되지는 않습니다. 현지 강행법규와 별도 계약은 따로 확인하세요."
         }
+      ],
+      [
+        "content",
+        "콘텐츠 권리",
+        "개인용 AI 기능의 입력·출력은 학습 설정을 확인",
+        "high",
+        "개인 라이선스의 AI 기능은 계정 설정에서 거부하지 않으면 입력·출력이 GitHub 및 계열사의 AI 개발·학습·개선에 이용될 수 있습니다. 거부는 효력 발생 이후에 적용됩니다. 기업 고객·볼륨 계약은 해당 계약을 따릅니다.",
+        "개인 라이선스의 AI 기능은 계정 설정에서 거부하지 않으면 입력·출력이 GitHub 및 계열사의 AI 개발·학습·개선에 이용될 수 있습니다. 거부는 효력 발생 이후에 적용됩니다. 기업 고객·볼륨 계약은 해당 계약을 따릅니다.",
+        "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+        {
+          "document": "GitHub Terms of Service",
+          "clause": "J.1 / J.3 AI Features, Training, and Your Data",
+          "region": "글로벌 약관 · J.3은 개인 라이선스에 한정",
+          "version": "시행 2026-04-27",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "you opt out through your account settings",
+          "action": "AI 기능을 쓰기 전에 데이터 학습 설정과 개인·기업 라이선스 여부를 확인하세요.",
+          "impact": "자료를 입력한 뒤 설정을 바꾼다고 이전 사용까지 소급해 제외되는 것은 아닙니다.",
+          "sourceType": "policy",
+          "applicability": "글로벌 약관 · J.3은 개인 라이선스에 한정 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-04-27",
+          "publishedAt": null,
+          "updatedAt": null
+        }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "탈퇴해도 다른 저장소에 기여한 코드와 포크는 남음",
+        "high",
+        "GitHub는 계정 종료 뒤 자체 저장소 자료를 90일 이내 삭제하지만 암호화 백업에 일부 정보가 남을 수 있습니다. 다른 이용자 저장소에 기여한 자료나 다른 이용자가 포크한 자료는 삭제하지 않는다고 명시합니다.",
+        "GitHub는 계정 종료 뒤 자체 저장소 자료를 90일 이내 삭제하지만 암호화 백업에 일부 정보가 남을 수 있습니다. 다른 이용자 저장소에 기여한 자료나 다른 이용자가 포크한 자료는 삭제하지 않는다고 명시합니다.",
+        "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+        {
+          "document": "GitHub Terms of Service",
+          "clause": "M.2 Upon Cancellation",
+          "region": "글로벌 일반 약관 · 별도 기업 계약과 구분",
+          "version": "시행 2026-04-27",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "other Users have forked",
+          "action": "탈퇴 전에 자료를 내보내고 공개 저장소·포크에 남는 내용을 확인하세요.",
+          "impact": "내 계정을 지워도 이미 다른 저장소로 퍼진 기여물이 함께 사라지지는 않습니다.",
+          "sourceType": "policy",
+          "applicability": "글로벌 일반 약관 · 별도 기업 계약과 구분 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-04-27",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "월·연간 요금제 환불 조건 확인 · 일반 서비스 영문 약관 · 별도 기업계약 제외",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 월·연간 요금제 환불 조건 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -5817,9 +6017,59 @@ window.serviceCatalog={
           "effectiveAt": "2026. 10. 1.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "별도 주문 조건이 없으면 갱신 시점의 요금으로 자동 연장",
+        "high",
+        "Atlassian 고객 계약은 별도 주문 조건이 없으면 구독을 당시 요금으로 자동 갱신한다고 정합니다. 기존 기간이 12개월 미만이면 같은 기간, 12개월 이상이면 12개월로 갱신되며 종료 전에 갱신 거절을 통지해야 합니다.",
+        "Atlassian 고객 계약은 별도 주문 조건이 없으면 구독을 당시 요금으로 자동 갱신한다고 정합니다. 기존 기간이 12개월 미만이면 같은 기간, 12개월 이상이면 12개월로 갱신되며 종료 전에 갱신 거절을 통지해야 합니다.",
+        "https://www.atlassian.com/legal/atlassian-customer-agreement",
+        {
+          "document": "Atlassian Customer Agreement",
+          "clause": "10.1(c) Renewals",
+          "region": "Atlassian 고객 계약 적용 주문 · 개별 주문·제품별 추가 약관 우선",
+          "version": "시행 2026-10-01",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "will automatically renew",
+          "action": "계정 설정·지원팀을 통해 갱신 거절을 처리하고 주문서의 예외를 확인하세요.",
+          "impact": "할인된 첫 결제 가격이나 장기 계약 기간이 그대로 반복된다고 볼 수 없습니다.",
+          "sourceType": "policy",
+          "applicability": "Atlassian 고객 계약 적용 주문 · 개별 주문·제품별 추가 약관 우선 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-10-01",
+          "publishedAt": null,
+          "updatedAt": null
+        }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "계약 종료 후 클라우드 접근과 데이터 보관도 종료될 수 있음",
+        "high",
+        "계약·구독 기간이 끝나면 해당 제품 접근을 중단해야 하며 Atlassian은 법률상 금지되지 않는 한 제품 문서의 절차에 따라 고객 데이터를 삭제합니다. 이 조항만으로 특정 삭제 유예기간이 보장되지는 않습니다.",
+        "계약·구독 기간이 끝나면 해당 제품 접근을 중단해야 하며 Atlassian은 법률상 금지되지 않는 한 제품 문서의 절차에 따라 고객 데이터를 삭제합니다. 이 조항만으로 특정 삭제 유예기간이 보장되지는 않습니다.",
+        "https://www.atlassian.com/legal/atlassian-customer-agreement",
+        {
+          "document": "Atlassian Customer Agreement",
+          "clause": "12.4 Effect of Termination",
+          "region": "Atlassian 고객 계약 적용 주문 · 각 제품 문서의 보관·삭제 절차 확인",
+          "version": "시행 2026-10-01",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "in accordance with the Documentation.",
+          "action": "종료 전에 자료를 내보내고 해당 제품 문서의 데이터 보관 기간을 확인하세요.",
+          "impact": "계약 종료 뒤에도 자료를 계속 열 수 있다고 기대하면 안 됩니다.",
+          "sourceType": "policy",
+          "applicability": "Atlassian 고객 계약 적용 주문 · 각 제품 문서의 보관·삭제 절차 확인 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-10-01",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "고객 계약의 갱신 기간과 요금 조건 확인 · 국제 영문 약관 · 현지 강행법규 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 고객 계약의 갱신 기간과 요금 조건 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -5870,9 +6120,59 @@ window.serviceCatalog={
           "effectiveAt": "2026. 10. 1.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "별도 주문 조건이 없으면 갱신 시점의 요금으로 자동 연장",
+        "high",
+        "Atlassian 고객 계약은 별도 주문 조건이 없으면 구독을 당시 요금으로 자동 갱신한다고 정합니다. 기존 기간이 12개월 미만이면 같은 기간, 12개월 이상이면 12개월로 갱신되며 종료 전에 갱신 거절을 통지해야 합니다.",
+        "Atlassian 고객 계약은 별도 주문 조건이 없으면 구독을 당시 요금으로 자동 갱신한다고 정합니다. 기존 기간이 12개월 미만이면 같은 기간, 12개월 이상이면 12개월로 갱신되며 종료 전에 갱신 거절을 통지해야 합니다.",
+        "https://www.atlassian.com/legal/atlassian-customer-agreement",
+        {
+          "document": "Atlassian Customer Agreement",
+          "clause": "10.1(c) Renewals",
+          "region": "Atlassian 고객 계약 적용 주문 · 개별 주문·제품별 추가 약관 우선",
+          "version": "시행 2026-10-01",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "will automatically renew",
+          "action": "계정 설정·지원팀을 통해 갱신 거절을 처리하고 주문서의 예외를 확인하세요.",
+          "impact": "할인된 첫 결제 가격이나 장기 계약 기간이 그대로 반복된다고 볼 수 없습니다.",
+          "sourceType": "policy",
+          "applicability": "Atlassian 고객 계약 적용 주문 · 개별 주문·제품별 추가 약관 우선 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-10-01",
+          "publishedAt": null,
+          "updatedAt": null
+        }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "계약 종료 후 클라우드 접근과 데이터 보관도 종료될 수 있음",
+        "high",
+        "계약·구독 기간이 끝나면 해당 제품 접근을 중단해야 하며 Atlassian은 법률상 금지되지 않는 한 제품 문서의 절차에 따라 고객 데이터를 삭제합니다. 이 조항만으로 특정 삭제 유예기간이 보장되지는 않습니다.",
+        "계약·구독 기간이 끝나면 해당 제품 접근을 중단해야 하며 Atlassian은 법률상 금지되지 않는 한 제품 문서의 절차에 따라 고객 데이터를 삭제합니다. 이 조항만으로 특정 삭제 유예기간이 보장되지는 않습니다.",
+        "https://www.atlassian.com/legal/atlassian-customer-agreement",
+        {
+          "document": "Atlassian Customer Agreement",
+          "clause": "12.4 Effect of Termination",
+          "region": "Atlassian 고객 계약 적용 주문 · 각 제품 문서의 보관·삭제 절차 확인",
+          "version": "시행 2026-10-01",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "in accordance with the Documentation.",
+          "action": "종료 전에 자료를 내보내고 해당 제품 문서의 데이터 보관 기간을 확인하세요.",
+          "impact": "계약 종료 뒤에도 자료를 계속 열 수 있다고 기대하면 안 됩니다.",
+          "sourceType": "policy",
+          "applicability": "Atlassian 고객 계약 적용 주문 · 각 제품 문서의 보관·삭제 절차 확인 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-10-01",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "최초 주문 환불과 일반 임의 해지의 차이 확인 · Trello가 연결한 Atlassian 고객 계약 · 주문서·상품별 조건 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 최초 주문 환불과 일반 임의 해지의 차이 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -5923,9 +6223,34 @@ window.serviceCatalog={
           "effectiveAt": "2024. 1. 1.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "content",
+        "콘텐츠 권리",
+        "무료 개인 이용자의 콘텐츠에도 서비스 제공용 이용권 부여",
+        "high",
+        "무료 이용자가 올린 자료의 소유권은 이용자에게 있지만 Asana는 서비스 제공과 개인정보처리방침이 허용하는 범위에서 접근·복제·처리·전송·표시할 수 있습니다. 조직 관리 계정의 자료는 별도 고객 계약에 따라 조직이 통제합니다.",
+        "무료 이용자가 올린 자료의 소유권은 이용자에게 있지만 Asana는 서비스 제공과 개인정보처리방침이 허용하는 범위에서 접근·복제·처리·전송·표시할 수 있습니다. 조직 관리 계정의 자료는 별도 고객 계약에 따라 조직이 통제합니다.",
+        "https://asana.com/terms",
+        {
+          "document": "Asana User Terms",
+          "clause": "8.2 Free User Content / 8.3 Managed User Content",
+          "region": "글로벌 User Terms · 무료 이용자와 조직 관리 이용자 구분",
+          "version": "시행 2024-01-01",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "Free Users maintain ownership",
+          "action": "개인 무료 계정과 조직 관리 계정을 구분하고 공유 대상을 확인하세요.",
+          "impact": "자료의 소유권과 서비스 제공에 필요한 이용권은 별개의 조건입니다.",
+          "sourceType": "policy",
+          "applicability": "글로벌 User Terms · 무료 이용자와 조직 관리 이용자 구분 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2024-01-01",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "유료 조직의 승인 사용자 자료 관리권 확인 · Managed User용 영문 약관 · 고객 계약 별도",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 유료 조직의 승인 사용자 자료 관리권 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -5976,9 +6301,34 @@ window.serviceCatalog={
           "effectiveAt": "2025. 6. 27.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "30일 만족 보장에는 갱신·체험 후 구매 등 제외 조건",
+        "high",
+        "첫 구매·새 제품 및 일부 업그레이드의 30일 만족 보장에는 예외가 있습니다. 영업 담당자·리셀러 구매, 기존 서비스 갱신·확장, 구매 전 파일럿·체험을 마친 경우에는 적용되지 않으며 업그레이드 환불은 이전 요금제로 되돌리고 차액을 돌려주는 방식입니다.",
+        "첫 구매·새 제품 및 일부 업그레이드의 30일 만족 보장에는 예외가 있습니다. 영업 담당자·리셀러 구매, 기존 서비스 갱신·확장, 구매 전 파일럿·체험을 마친 경우에는 적용되지 않으며 업그레이드 환불은 이전 요금제로 되돌리고 차액을 돌려주는 방식입니다.",
+        "https://clickup.com/terms",
+        {
+          "document": "ClickUp Terms of Service",
+          "clause": "1.14 Satisfaction Guarantee",
+          "region": "글로벌 서비스 약관 · 구매 종류·경로별 만족 보장 예외",
+          "version": "시행 2025-06-27",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "renewals or expansions of previously purchased Services",
+          "action": "구매 경로와 이전 체험·구독 이력을 확인한 뒤 환불을 문의하세요.",
+          "impact": "모든 결제가 30일 안에는 무조건 전액 환불되는 것은 아닙니다.",
+          "sourceType": "policy",
+          "applicability": "글로벌 서비스 약관 · 구매 종류·경로별 만족 보장 예외 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2025-06-27",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "연간 요금제 갱신·좌석 감소 통지 기한 확인 · 국제 영문 약관 · 현지 강행법규 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 연간 요금제 갱신·좌석 감소 통지 기한 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -6127,9 +6477,34 @@ window.serviceCatalog={
           "effectiveAt": "2021. 9. 1.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "기본 고객 계약은 만료 90일 전 갱신 거절 조건",
+        "high",
+        "표시된 고객 계약은 주문서에 다른 조건이 없으면 12개월씩 갱신되며 현재 기간 종료 최소 90일 전에 갱신 거절을 통지하도록 정합니다. 통지 후 다음 주기는 청구하지 않지만 이미 청구한 금액은 환불·크레딧 대상이 아니라고 명시합니다.",
+        "표시된 고객 계약은 주문서에 다른 조건이 없으면 12개월씩 갱신되며 현재 기간 종료 최소 90일 전에 갱신 거절을 통지하도록 정합니다. 통지 후 다음 주기는 청구하지 않지만 이미 청구한 금액은 환불·크레딧 대상이 아니라고 명시합니다.",
+        "https://miro.com/legal/terms-of-service/",
+        {
+          "document": "Miro Customer Agreement",
+          "clause": "9.1 Subscription Term",
+          "region": "Miro Customer Agreement 적용 계약 · 개별 주문 조건 우선, 모든 요금제에 일괄 적용하지 않음",
+          "version": "표시 시행일 2021-09-01",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "at least 90 days before the current Subscription Term ends",
+          "action": "먼저 자신의 주문서·가입 경로의 갱신 조건을 확인하세요.",
+          "impact": "개별 주문 조건을 확인하지 않으면 갱신 거절 기한을 놓칠 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "Miro Customer Agreement 적용 계약 · 개별 주문 조건 우선, 모든 요금제에 일괄 적용하지 않음 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2021-09-01",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "회사 이메일로 가입한 계정의 조직 관리·자료 접근 조건 확인 · 일반·리셀러 고객용 영문 약관 · Enterprise는 Master Cloud Agreement 적용",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 회사 이메일로 가입한 계정의 조직 관리·자료 접근 조건 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -6178,9 +6553,34 @@ window.serviceCatalog={
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "action": "노트를 안전하게 내보내고 구독 취소가 확인된 후 계정 폐쇄를 진행하세요."
         }
+      ],
+      [
+        "privacy",
+        "개인정보",
+        "연결한 외부 앱·AI 에이전트의 권한도 직접 확인",
+        "high",
+        "Evernote는 외부 앱·서비스·AI 에이전트를 연결할 수 있지만 허용 권한을 꼼꼼히 확인해야 하며 계정을 통해 해당 도구가 수행한 행위에 이용자가 책임진다고 규정합니다.",
+        "Evernote는 외부 앱·서비스·AI 에이전트를 연결할 수 있지만 허용 권한을 꼼꼼히 확인해야 하며 계정을 통해 해당 도구가 수행한 행위에 이용자가 책임진다고 규정합니다.",
+        "https://evernote.com/legal/terms-of-service",
+        {
+          "document": "Evernote 서비스 이용약관",
+          "clause": "Evernote 서비스 이용 관련 계정·제3자 앱 조건",
+          "region": "한국 등 EEA·영국·스위스 외 이용자용 약관",
+          "version": "최종 업데이트 2026-10-01",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "신뢰할 수 있는 승인된 제3자 애플리케이션",
+          "action": "필요 없는 연결을 해제하고 외부 도구의 읽기·수정 권한을 확인하세요.",
+          "impact": "외부 도구를 연결하면 그 도구가 계정 자료를 다루는 범위도 늘 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "한국 등 EEA·영국·스위스 외 이용자용 약관 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2026-10-01"
+        }
       ]
     ],
-    "reviewScope": "계정 폐쇄 전 유료 구독 취소와 자료 반출 확인 · 국제 영문 약관 · 현지 강행법규 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 계정 폐쇄 전 유료 구독 취소와 자료 반출 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -8220,9 +8620,34 @@ window.serviceCatalog={
           "effectiveAt": "2026. 1. 1.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "other",
+        "기타 조건",
+        "수료증 취득이 대학 학점 인정까지 보장하지 않음",
+        "high",
+        "Coursera는 학점 부여 기관이 명시한 경우를 제외하면 강의 참여·수료로 학점이 생기지 않는다고 설명합니다. 한 기관이 인정한 학점도 다른 기관이 인정한다고 보장하지 않습니다.",
+        "Coursera는 학점 부여 기관이 명시한 경우를 제외하면 강의 참여·수료로 학점이 생기지 않는다고 설명합니다. 한 기관이 인정한 학점도 다른 기관이 인정한다고 보장하지 않습니다.",
+        "https://www.coursera.org/about/terms",
+        {
+          "document": "Coursera Terms of Use",
+          "clause": "No Academic Credit",
+          "region": "일반 Content Offerings · 학위·학점 과정의 명시적 별도 조건 확인",
+          "version": null,
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "Coursera does not grant academic credit",
+          "action": "결제 전에 학점 부여 기관과 소속 학교의 인정 조건을 확인하세요.",
+          "impact": "수료증이 학위·학점이나 모든 학교의 인정을 자동으로 뜻하지는 않습니다.",
+          "sourceType": "policy",
+          "applicability": "일반 Content Offerings · 학위·학점 과정의 명시적 별도 조건 확인 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "구독 갱신 조건 확인 · 국제 영문 약관 · 상품별 환불 정책 별도",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 구독 갱신 조건 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -10866,9 +11291,34 @@ window.serviceCatalog={
           "updatedAt": null,
           "applicability": "대한민국 한국어 Microsoft 소비자 서비스 계약의 기재 조항만 대조. 기업·학교용 계약과 개별 게임·구독 상품의 별도 약관은 제외합니다."
         }
+      ],
+      [
+        "other",
+        "기타 조건",
+        "용량 초과 통지를 방치하면 자료 접근·보관 제한 가능",
+        "high",
+        "OneDrive 사용량이 무료·유료 한도를 넘고 Microsoft의 정리·상위 요금제 전환 통지에 응하지 않으면 계정 종료와 자료 삭제 또는 접근 차단이 가능하다고 정합니다.",
+        "OneDrive 사용량이 무료·유료 한도를 넘고 Microsoft의 정리·상위 요금제 전환 통지에 응하지 않으면 계정 종료와 자료 삭제 또는 접근 차단이 가능하다고 정합니다.",
+        "https://www.microsoft.com/ko-kr/servicesagreement",
+        {
+          "document": "Microsoft 서비스 계약",
+          "clause": "서비스 조건 j(i) OneDrive 저장소 할당",
+          "region": "한국어 Microsoft 소비자 서비스 계약 · OneDrive, 조직용 별도 계약과 구분",
+          "version": "발행 2026-07-30 · 적용 2026-09-30",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "초과 콘텐츠를 제거하거나",
+          "action": "구독 해지·하향 변경 전에 용량을 정리하고 별도 사본을 보관하세요.",
+          "impact": "요금제만 낮추고 자료를 그대로 두면 접근이 제한될 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "한국어 Microsoft 소비자 서비스 계약 · OneDrive, 조직용 별도 계약과 구분 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-09-30",
+          "publishedAt": "2026-07-30",
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "OneDrive 미사용 조건 확인 · 업무용 계약 제외 · 개인용 OneDrive · 대한민국 한국어 약관",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 1개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -10977,9 +11427,34 @@ window.serviceCatalog={
           "updatedAt": null,
           "applicability": "대한민국 한국어 Microsoft 소비자 서비스 계약의 기재 조항만 대조. 기업·학교용 계약과 개별 게임·구독 상품의 별도 약관은 제외합니다."
         }
+      ],
+      [
+        "other",
+        "기타 조건",
+        "사서함·Microsoft 저장소 한도 초과 시 메일 송수신 제한",
+        "high",
+        "Outlook.com 사서함이나 Microsoft 저장소 할당량을 초과하면 정리하거나 충분한 용량을 확보할 때까지 메일을 보내거나 받을 수 없습니다. 통지 후에도 해결하지 않으면 자료 삭제·접근 제한이 가능하다고 정합니다.",
+        "Outlook.com 사서함이나 Microsoft 저장소 할당량을 초과하면 정리하거나 충분한 용량을 확보할 때까지 메일을 보내거나 받을 수 없습니다. 통지 후에도 해결하지 않으면 자료 삭제·접근 제한이 가능하다고 정합니다.",
+        "https://www.microsoft.com/ko-kr/servicesagreement",
+        {
+          "document": "Microsoft 서비스 계약",
+          "clause": "서비스 조건 j(iii) Outlook.com 저장소 할당",
+          "region": "한국어 Microsoft 소비자 서비스 계약 · Outlook.com, 조직용 별도 계약과 구분",
+          "version": "발행 2026-07-30 · 적용 2026-09-30",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "메시지를 보내거나 받을 수 없습니다.",
+          "action": "사서함뿐 아니라 전체 Microsoft 저장소 사용량도 확인하세요.",
+          "impact": "메일함 자체가 작아도 다른 저장소 사용량 때문에 송수신이 막힐 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "한국어 Microsoft 소비자 서비스 계약 · Outlook.com, 조직용 별도 계약과 구분 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-09-30",
+          "publishedAt": "2026-07-30",
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "받은 편지함 미사용 조건 확인 · 업무용 계약 제외 · 개인용 Outlook.com · 대한민국 한국어 약관",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 18. (한국 시간) · 표시 1개 항목 직접 대조 · 편집 반영 2026. 10. 21. · 전체 약관 검수 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -11234,9 +11709,34 @@ window.serviceCatalog={
           "effectiveAt": "2026. 6. 9.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "이메일로 갱신을 취소할 때는 서면 확인까지 필요",
+        "high",
+        "갱신을 원하지 않으면 계정에서 구독을 변경하거나 billing@linear.app으로 통지하고 Linear의 서면 확인을 받아야 합니다. 유료 구독 취소는 기능이 줄어든 무료 버전으로 전환되지만 워크스페이스 삭제와는 다릅니다.",
+        "갱신을 원하지 않으면 계정에서 구독을 변경하거나 billing@linear.app으로 통지하고 Linear의 서면 확인을 받아야 합니다. 유료 구독 취소는 기능이 줄어든 무료 버전으로 전환되지만 워크스페이스 삭제와는 다릅니다.",
+        "https://linear.app/terms",
+        {
+          "document": "Linear Terms of Service",
+          "clause": "5.1 Agreement Term and Renewals",
+          "region": "글로벌 고객 계약 · 주문서에 명시된 구독",
+          "version": "시행 2026-06-09",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "provided that Linear confirms such cancellation in writing",
+          "action": "취소 확인을 보관하고 구독 취소와 워크스페이스 삭제를 구분하세요.",
+          "impact": "이메일을 보냈다는 사실만으로 갱신 취소가 끝났다고 오해할 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "글로벌 고객 계약 · 주문서에 명시된 구독 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-06-09",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "표시된 조항의 원문 대조 완료 · 국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 표시된 조항의 원문 대조 완료",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -11353,9 +11853,34 @@ window.serviceCatalog={
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "action": "계정 취소 전에 프로젝트·첨부파일을 내보내고 취소 완료 여부를 확인하세요."
         }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "이메일·전화 요청만으로 자동 취소되지는 않음",
+        "high",
+        "Basecamp 공통 약관은 이메일이나 전화로 요청한 것만으로 자동 취소로 보지 않는다고 정합니다. 당월 중 취소하면 즉시 종료되며 마지막 청구 기간의 미사용분은 자동 일할 환불되지 않습니다.",
+        "Basecamp 공통 약관은 이메일이나 전화로 요청한 것만으로 자동 취소로 보지 않는다고 정합니다. 당월 중 취소하면 즉시 종료되며 마지막 청구 기간의 미사용분은 자동 일할 환불되지 않습니다.",
+        "https://37signals.com/policies/terms",
+        {
+          "document": "37signals Terms of Service",
+          "clause": "Cancellation and Termination",
+          "region": "37signals 공통 약관의 Basecamp · 별도 Refund Policy 함께 확인",
+          "version": "최종 업데이트 2026-09-16",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "An email or phone request to cancel your account is not automatically considered cancellation.",
+          "action": "공식 취소 절차를 완료하고 별도 환불 정책을 확인하세요.",
+          "impact": "문의만 남긴 채 결제가 멈췄다고 생각하거나 자동 환불을 기대할 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "37signals 공통 약관의 Basecamp · 별도 Refund Policy 함께 확인 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2026-09-16"
+        }
       ]
     ],
-    "reviewScope": "표시된 조항을 원문과 대조 · 나머지 조항은 미검수 · Basecamp 공통 서비스 약관 · 국제 영문",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 표시된 조항을 원문과 대조 · 나머지 조항은 미검수",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -11915,9 +12440,59 @@ window.serviceCatalog={
           "effectiveAt": "2026. 10. 1.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "별도 주문 조건이 없으면 갱신 시점의 요금으로 자동 연장",
+        "high",
+        "Atlassian 고객 계약은 별도 주문 조건이 없으면 구독을 당시 요금으로 자동 갱신한다고 정합니다. 기존 기간이 12개월 미만이면 같은 기간, 12개월 이상이면 12개월로 갱신되며 종료 전에 갱신 거절을 통지해야 합니다.",
+        "Atlassian 고객 계약은 별도 주문 조건이 없으면 구독을 당시 요금으로 자동 갱신한다고 정합니다. 기존 기간이 12개월 미만이면 같은 기간, 12개월 이상이면 12개월로 갱신되며 종료 전에 갱신 거절을 통지해야 합니다.",
+        "https://www.atlassian.com/legal/atlassian-customer-agreement",
+        {
+          "document": "Atlassian Customer Agreement",
+          "clause": "10.1(c) Renewals",
+          "region": "Atlassian 고객 계약 적용 주문 · 개별 주문·제품별 추가 약관 우선",
+          "version": "시행 2026-10-01",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "will automatically renew",
+          "action": "계정 설정·지원팀을 통해 갱신 거절을 처리하고 주문서의 예외를 확인하세요.",
+          "impact": "할인된 첫 결제 가격이나 장기 계약 기간이 그대로 반복된다고 볼 수 없습니다.",
+          "sourceType": "policy",
+          "applicability": "Atlassian 고객 계약 적용 주문 · 개별 주문·제품별 추가 약관 우선 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-10-01",
+          "publishedAt": null,
+          "updatedAt": null
+        }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "계약 종료 후 클라우드 접근과 데이터 보관도 종료될 수 있음",
+        "high",
+        "계약·구독 기간이 끝나면 해당 제품 접근을 중단해야 하며 Atlassian은 법률상 금지되지 않는 한 제품 문서의 절차에 따라 고객 데이터를 삭제합니다. 이 조항만으로 특정 삭제 유예기간이 보장되지는 않습니다.",
+        "계약·구독 기간이 끝나면 해당 제품 접근을 중단해야 하며 Atlassian은 법률상 금지되지 않는 한 제품 문서의 절차에 따라 고객 데이터를 삭제합니다. 이 조항만으로 특정 삭제 유예기간이 보장되지는 않습니다.",
+        "https://www.atlassian.com/legal/atlassian-customer-agreement",
+        {
+          "document": "Atlassian Customer Agreement",
+          "clause": "12.4 Effect of Termination",
+          "region": "Atlassian 고객 계약 적용 주문 · 각 제품 문서의 보관·삭제 절차 확인",
+          "version": "시행 2026-10-01",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "in accordance with the Documentation.",
+          "action": "종료 전에 자료를 내보내고 해당 제품 문서의 데이터 보관 기간을 확인하세요.",
+          "impact": "계약 종료 뒤에도 자료를 계속 열 수 있다고 기대하면 안 됩니다.",
+          "sourceType": "policy",
+          "applicability": "Atlassian 고객 계약 적용 주문 · 각 제품 문서의 보관·삭제 절차 확인 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-10-01",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "무료·베타 상품의 변경·지원 범위 확인 · Loom가 연결한 Atlassian 고객 계약 · 무료·시험·베타 상품에 한정",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 무료·베타 상품의 변경·지원 범위 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -12041,9 +12616,34 @@ window.serviceCatalog={
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "action": "회사 명의로 구매한다면 로고 사용 여부를 확인하고 필요하면 제외 요청을 보내세요."
         }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "유료 서비스 비용은 실제 사용량과 관계없이 환불 제한",
+        "high",
+        "Obsidian 약관은 별도 합의가 없으면 서비스 비용이 구매한 서비스 기준이고 실제 사용량 기준이 아니며 취소·환불 불가라고 정합니다. 미사용 서비스도 환불 대상이 아니라고 명시합니다.",
+        "Obsidian 약관은 별도 합의가 없으면 서비스 비용이 구매한 서비스 기준이고 실제 사용량 기준이 아니며 취소·환불 불가라고 정합니다. 미사용 서비스도 환불 대상이 아니라고 명시합니다.",
+        "https://obsidian.md/terms",
+        {
+          "document": "Obsidian Terms of Service",
+          "clause": "Fees",
+          "region": "일반 유료 서비스 조건 · 무료 앱 사용 및 선택적 라이선스와 구분",
+          "version": "최종 업데이트 2025-02-20",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "All fees are non-cancellable and non-refundable",
+          "action": "Sync·Publish 등 구매하는 서비스의 별도 조건과 결제 기간을 확인하세요.",
+          "impact": "유료 기능을 쓰지 않았다는 사실만으로 환불이 보장되지는 않습니다.",
+          "sourceType": "policy",
+          "applicability": "일반 유료 서비스 조건 · 무료 앱 사용 및 선택적 라이선스와 구분 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2025-02-20"
+        }
       ]
     ],
-    "reviewScope": "Commercial Use 라이선스 조항만 확인 · 개인 노트 전체에 적용되는 조건 아님 · 국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · Commercial Use 라이선스 조항만 확인 · 개인 노트 전체에 적용되는 조건 아님",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -12092,9 +12692,34 @@ window.serviceCatalog={
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "action": "청구서에서 구독료와 사용량 요금을 구분하고 환불 요청 시 계정 정보와 청구서 번호를 준비하세요."
         }
+      ],
+      [
+        "privacy",
+        "개인정보",
+        "비공개 앱도 서비스 운영 목적의 접근 예외가 있음",
+        "high",
+        "앱 콘텐츠는 대중에게 공개되지 않지만 Replit은 서비스 제공에 필요한 이용권을 받으며 문제 해결·서비스 개선·안전과 보안을 위해 비공개 앱 콘텐츠에 접근할 수 있다고 명시합니다.",
+        "앱 콘텐츠는 대중에게 공개되지 않지만 Replit은 서비스 제공에 필요한 이용권을 받으며 문제 해결·서비스 개선·안전과 보안을 위해 비공개 앱 콘텐츠에 접근할 수 있다고 명시합니다.",
+        "https://replit.com/terms-of-service",
+        {
+          "document": "Replit Terms of Service",
+          "clause": "Content · b. App Content",
+          "region": "글로벌 일반 서비스 약관 · 앱 콘텐츠",
+          "version": "최종 업데이트 2026-08-03",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "Replit reserves the right to access the content of your private apps",
+          "action": "공개 설정 외에 서비스 운영자의 접근 조건도 확인하고 민감한 비밀정보를 넣지 않도록 관리하세요.",
+          "impact": "비공개 설정이 운영자의 모든 접근까지 차단한다는 뜻은 아닙니다.",
+          "sourceType": "policy",
+          "applicability": "글로벌 일반 서비스 약관 · 앱 콘텐츠 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2026-08-03"
+        }
       ]
     ],
-    "reviewScope": "표시된 조항의 원문 대조 완료 · 국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 표시된 조항의 원문 대조 완료",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -12168,9 +12793,34 @@ window.serviceCatalog={
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "action": "비공개 코드와 고객 자료를 올리기 전 기밀유지·개인정보 관련 계약도 확인하세요."
         }
+      ],
+      [
+        "privacy",
+        "개인정보",
+        "로그·트래픽 등 시스템 데이터는 계약 종료 후에도 활용 가능",
+        "high",
+        "Vercel 약관은 계정 정보를 제외한 트래픽·텔레메트리·로그·이용 통계 등의 시스템 데이터를 사업 목적으로 활용할 수 있고 외부 공개는 집계하거나 비식별화한 형태로 한다고 정합니다. 이 조건은 계약 기간 중과 종료 후에 적용됩니다.",
+        "Vercel 약관은 계정 정보를 제외한 트래픽·텔레메트리·로그·이용 통계 등의 시스템 데이터를 사업 목적으로 활용할 수 있고 외부 공개는 집계하거나 비식별화한 형태로 한다고 정합니다. 이 조건은 계약 기간 중과 종료 후에 적용됩니다.",
+        "https://vercel.com/legal/terms",
+        {
+          "document": "Vercel Terms of Service",
+          "clause": "System Data 조항",
+          "region": "글로벌 일반 약관 · Account Information과 구분되는 System Data",
+          "version": "최종 업데이트 2026-10-19",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "including traffic data, telemetry, logs generated from the Services",
+          "action": "개인정보처리방침과 배포 로그에 담기는 정보를 함께 확인하세요.",
+          "impact": "프로젝트 삭제와 시스템 이용 통계의 활용 종료가 같은 시점은 아닐 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "글로벌 일반 약관 · Account Information과 구분되는 System Data 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2026-10-19"
+        }
       ]
     ],
-    "reviewScope": "표시된 조항의 원문 대조 완료 · 국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 표시된 조항의 원문 대조 완료",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -12276,9 +12926,59 @@ window.serviceCatalog={
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "action": "다음 청구일과 활성화된 유료 서비스를 대시보드에서 확인하세요."
         }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "해지한 기간의 미사용 요금은 원칙적으로 환불하지 않음",
+        "high",
+        "셀프서비스 약관은 해지한 구독 기간 전체의 요금을 청구하고 남은 기간 요금을 환불하지 않는다고 정합니다. 사용량 과금 서비스를 제외하면 현재 구독 기간 끝까지 유료 기능을 이용할 수 있습니다.",
+        "셀프서비스 약관은 해지한 구독 기간 전체의 요금을 청구하고 남은 기간 요금을 환불하지 않는다고 정합니다. 사용량 과금 서비스를 제외하면 현재 구독 기간 끝까지 유료 기능을 이용할 수 있습니다.",
+        "https://www.cloudflare.com/terms/",
+        {
+          "document": "Cloudflare Self-Serve Subscription Agreement",
+          "clause": "4.3 No Refunds",
+          "region": "Self-Serve Subscription Agreement · 개별 기업 계약과 구분",
+          "version": "최종 업데이트 2025-09-12",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "NO REFUNDS WILL BE PROVIDED FOR THE UNUSED PORTION",
+          "action": "다음 갱신일과 구독형·사용량형 과금 구분을 확인하세요.",
+          "impact": "중도 해지와 남은 기간의 일할 환불은 같은 의미가 아닙니다.",
+          "sourceType": "policy",
+          "applicability": "Self-Serve Subscription Agreement · 개별 기업 계약과 구분 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2025-09-12"
+        }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "요금 변경은 최소 30일 전 통지 조건",
+        "high",
+        "Cloudflare는 요금을 바꾸기 최소 30일 전에 통지하고 통지에 별도 내용이 없으면 통지 직후의 청구 기간에 변경 요금을 적용한다고 규정합니다.",
+        "Cloudflare는 요금을 바꾸기 최소 30일 전에 통지하고 통지에 별도 내용이 없으면 통지 직후의 청구 기간에 변경 요금을 적용한다고 규정합니다.",
+        "https://www.cloudflare.com/terms/",
+        {
+          "document": "Cloudflare Self-Serve Subscription Agreement",
+          "clause": "4.2 Price Changes",
+          "region": "셀프서비스 유료 이용자 · 별도 계약 조건 확인",
+          "version": "최종 업데이트 2025-09-12",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "at least thirty (30) days’ prior notice",
+          "action": "계정 이메일의 가격 변경 통지와 다음 청구 금액을 확인하세요.",
+          "impact": "기존 가입 가격이 계속 유지된다고 보장하지 않습니다.",
+          "sourceType": "policy",
+          "applicability": "셀프서비스 유료 이용자 · 별도 계약 조건 확인 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2025-09-12"
+        }
       ]
     ],
-    "reviewScope": "표시된 조항의 원문 대조 완료 · 국제 영문 약관 · 현지법 및 별도 계약 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 표시된 조항의 원문 대조 완료",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -13058,9 +13758,34 @@ window.serviceCatalog={
           "effectiveAt": "2026. 9. 28.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "구독은 종료 24시간 전까지 취소해야 자동 갱신 방지",
+        "high",
+        "Strava 약관은 현재 기간 종료 최소 24시간 전에 취소하지 않으면 자동 갱신된다고 정합니다. 취소는 현재 청구 기간 말에 적용되고 미국 외 거주자는 현지법에 따른 14일 철회·환불 권리가 있을 수 있다고 별도 안내합니다.",
+        "Strava 약관은 현재 기간 종료 최소 24시간 전에 취소하지 않으면 자동 갱신된다고 정합니다. 취소는 현재 청구 기간 말에 적용되고 미국 외 거주자는 현지법에 따른 14일 철회·환불 권리가 있을 수 있다고 별도 안내합니다.",
+        "https://www.strava.com/legal/terms",
+        {
+          "document": "Strava Terms of Service",
+          "clause": "Auto-Renewal / Cancellation / Cooling Off",
+          "region": "글로벌 약관 · 미국 외 현지법 철회 권리 및 결제 경로 차이",
+          "version": "시행 2026-09-28",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "unless canceled at least 24 hours before the end of the current period",
+          "action": "웹·앱스토어의 실제 결제 경로에서 갱신 시각과 취소 상태를 확인하세요.",
+          "impact": "기간 마지막 날에 처리하면 갱신 방지 기한을 놓칠 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "글로벌 약관 · 미국 외 현지법 철회 권리 및 결제 경로 차이 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-09-28",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "공개 경로·구간 콘텐츠의 계정 삭제 후 이용권 확인 · 국제 영문 약관 · 현지 강행법규 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 공개 경로·구간 콘텐츠의 계정 삭제 후 이용권 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -13656,9 +14381,34 @@ window.serviceCatalog={
           "effectiveAt": "2022. 9. 15.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "탈퇴해도 다른 저장소 기여물과 복사본은 남을 수 있음",
+        "high",
+        "Hugging Face는 계정 취소 후 본인 저장소의 정보를 90일 이내 삭제하도록 상업적으로 합리적인 노력을 기울인다고 설명합니다. 다른 이용자 저장소의 기여물·복사본은 삭제하지 않고 법적 의무·백업 등에 따른 보관 예외도 둡니다.",
+        "Hugging Face는 계정 취소 후 본인 저장소의 정보를 90일 이내 삭제하도록 상업적으로 합리적인 노력을 기울인다고 설명합니다. 다른 이용자 저장소의 기여물·복사본은 삭제하지 않고 법적 의무·백업 등에 따른 보관 예외도 둡니다.",
+        "https://huggingface.co/terms-of-service",
+        {
+          "document": "Hugging Face Terms of Service",
+          "clause": "Termination",
+          "region": "글로벌 일반 약관 · 서비스별 별도 계약 우선",
+          "version": "표시 시행일 2022-09-15",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "We will not delete the Content that you contributed to other Users' Repositories",
+          "action": "탈퇴 전에 공개 저장소·데이터셋의 배포 범위와 필요한 백업을 확인하세요.",
+          "impact": "계정 삭제로 이미 복제된 모델·데이터셋이 함께 회수되는 것은 아닙니다.",
+          "sourceType": "policy",
+          "applicability": "글로벌 일반 약관 · 서비스별 별도 계약 우선 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2022-09-15",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "공개 저장소 전환 시 다른 이용자의 권리 확인 · 국제 영문 약관 · 현지 강행법규 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 공개 저장소 전환 시 다른 이용자의 권리 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -14510,9 +15260,34 @@ window.serviceCatalog={
           "effectiveAt": "2026. 4. 20.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "구독은 당시 일반 요금으로 갱신되고 일할 환불은 제한",
+        "high",
+        "계정 설정에서 취소하지 않은 유료 구독은 처음 선택한 기간과 같은 기간으로 당시 비할인 요금에 갱신됩니다. 중도 취소해도 현재 기간까지 이용하며 해당 기간 요금의 비례 환불 대상은 아니라고 정합니다.",
+        "계정 설정에서 취소하지 않은 유료 구독은 처음 선택한 기간과 같은 기간으로 당시 비할인 요금에 갱신됩니다. 중도 취소해도 현재 기간까지 이용하며 해당 기간 요금의 비례 환불 대상은 아니라고 정합니다.",
+        "https://railway.com/legal/terms",
+        {
+          "document": "Railway Terms of Service",
+          "clause": "Paid Services · Automatic renewal / cancellation",
+          "region": "글로벌 일반 약관 · Paid Services 구독 조건",
+          "version": "시행 2026-04-20",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "you will not be eligible for a prorated refund",
+          "action": "다음 청구일·일반 갱신 가격과 사용량 과금을 각각 확인하세요.",
+          "impact": "프로젝트 사용을 줄였다는 이유만으로 구독료가 자동 중단되거나 일할 환불되지는 않습니다.",
+          "sourceType": "policy",
+          "applicability": "글로벌 일반 약관 · Paid Services 구독 조건 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-04-20",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "무료 사용 크레딧의 만료·잔액 반환 조건 확인 · 국제 영문 약관 · 현지 강행법규 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 무료 사용 크레딧의 만료·잔액 반환 조건 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -14563,9 +15338,34 @@ window.serviceCatalog={
           "effectiveAt": "2026. 4. 29.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "유료 구독 기능은 같은 기간·당시 요금으로 자동 갱신",
+        "high",
+        "Fly.io는 최초 기간 만료 전에 갱신을 거절하지 않으면 유료 구독 기능을 같은 기간 동안 당시 요금으로 자동 연장한다고 안내합니다. 9.2조는 상대방에 서면 통지해 현재 구독 기간 끝에 계약을 종료하는 절차를 정합니다.",
+        "Fly.io는 최초 기간 만료 전에 갱신을 거절하지 않으면 유료 구독 기능을 같은 기간 동안 당시 요금으로 자동 연장한다고 안내합니다. 9.2조는 상대방에 서면 통지해 현재 구독 기간 끝에 계약을 종료하는 절차를 정합니다.",
+        "https://fly.io/legal/terms-of-service/",
+        {
+          "document": "Fly.io Terms of Service",
+          "clause": "서두 자동 갱신 안내 / 9.2 Termination",
+          "region": "글로벌 고객 계약 · 유료 구독 기능, 모든 사용량 과금의 동일 주기를 뜻하지 않음",
+          "version": "시행 2026-04-29",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "YOUR SUBSCRIPTION WILL AUTOMATICALLY RENEW",
+          "action": "유료 구독 기능의 기간과 서면 종료 절차를 확인하세요.",
+          "impact": "사용량형 자원 정리와 구독 계약 종료를 같은 일로 볼 수 없습니다.",
+          "sourceType": "policy",
+          "applicability": "글로벌 고객 계약 · 유료 구독 기능, 모든 사용량 과금의 동일 주기를 뜻하지 않음 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2026-04-29",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "서비스 피드백의 권리와 출처 표시 조건 확인 · 국제 영문 약관 · 현지 강행법규 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 서비스 피드백의 권리와 출처 표시 조건 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -14868,9 +15668,34 @@ window.serviceCatalog={
           "effectiveAt": "2025. 1. 7.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "결제수단을 등록한 체험도 종료 후 자동 청구 가능",
+        "high",
+        "계정이 자동 갱신 상태이거나 체험 중이고 결제수단을 제공했다면 구독 취소를 알리지 않는 한 체험 종료·갱신 때 자동 청구할 수 있습니다.",
+        "계정이 자동 갱신 상태이거나 체험 중이고 결제수단을 제공했다면 구독 취소를 알리지 않는 한 체험 종료·갱신 때 자동 청구할 수 있습니다.",
+        "https://sign.dropbox.com/about/terms",
+        {
+          "document": "Dropbox Sign Terms of Service",
+          "clause": "8.4 Auto-renewals and Trials",
+          "region": "Dropbox Sign 서비스 고객 계약 · 결제수단 제공 체험·자동 갱신 계정",
+          "version": "시행 2025-01-07",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "DROPBOX MAY CHARGE YOU AUTOMATICALLY AT THE END OF THE TRIAL",
+          "action": "체험 종료일·자동 갱신 여부와 취소 완료 상태를 확인하세요.",
+          "impact": "결제수단을 등록한 체험을 방치하면 비용이 발생할 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "Dropbox Sign 서비스 고객 계약 · 결제수단 제공 체험·자동 갱신 계정 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2025-01-07",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "사용량 초과 시 자동 요금제 상승 조건 확인 · 국제 영문 약관 · 현지 강행법규 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 사용량 초과 시 자동 요금제 상승 조건 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -14946,9 +15771,34 @@ window.serviceCatalog={
           "effectiveAt": "2025. 9. 9.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "앱 환불 문의는 구매한 앱스토어가 처리",
+        "high",
+        "Notability 약관은 앱 환불과 환불 문의를 해당 앱스토어의 조건에 따라 앱스토어가 처리한다고 명시합니다. 요금·결제에는 결제 처리자의 약관과 개인정보처리방침도 함께 적용됩니다.",
+        "Notability 약관은 앱 환불과 환불 문의를 해당 앱스토어의 조건에 따라 앱스토어가 처리한다고 명시합니다. 요금·결제에는 결제 처리자의 약관과 개인정보처리방침도 함께 적용됩니다.",
+        "https://notability.com/tos.html",
+        {
+          "document": "Notability Terms of Service",
+          "clause": "Payment · App Store / Billing",
+          "region": "앱스토어에서 구매한 앱·유료 서비스 · 해당 스토어 약관 병행",
+          "version": "시행 2025-09-09",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "shall be handled solely by the applicable App Store",
+          "action": "구매 영수증에서 결제 주체를 확인하고 해당 앱스토어로 환불을 신청하세요.",
+          "impact": "개발사에만 문의하면 실제 환불 처리 경로를 찾는 데 시간이 걸릴 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "앱스토어에서 구매한 앱·유료 서비스 · 해당 스토어 약관 병행 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2025-09-09",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "공개 Gallery 콘텐츠의 재사용과 삭제 후 잔존 조건 확인 · 국제 영문 약관 · 현지 강행법규 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 공개 Gallery 콘텐츠의 재사용과 삭제 후 잔존 조건 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -14997,9 +15847,34 @@ window.serviceCatalog={
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "action": "오류 신고·기능 제안에 노트나 파일을 첨부할 때 이름·학교·비공개 자료를 먼저 제외하세요."
         }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "구독 자동 갱신과 버전별 일회 구매는 서로 다른 조건",
+        "high",
+        "반복 구독은 다음 갱신 전에 취소하지 않으면 당시 요금으로 연장됩니다. 일회 구매는 구매한 해당 버전을 Goodnotes가 지원하는 동안의 이용권으로 설명되어 새 주요 버전까지 영구 포함된다는 뜻은 아닙니다.",
+        "반복 구독은 다음 갱신 전에 취소하지 않으면 당시 요금으로 연장됩니다. 일회 구매는 구매한 해당 버전을 Goodnotes가 지원하는 동안의 이용권으로 설명되어 새 주요 버전까지 영구 포함된다는 뜻은 아닙니다.",
+        "https://www.goodnotes.com/terms-and-conditions?hsLang=en",
+        {
+          "document": "Goodnotes General Terms and Conditions",
+          "clause": "5. Fees and Payment · subscription / one-off fee",
+          "region": "Goodnotes General Terms · 각 서비스·구매 방식별 조건",
+          "version": "최종 업데이트 2025-09",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "for as long as Goodnotes supports that version",
+          "action": "구매 화면에서 반복 구독인지 해당 버전 일회 구매인지 확인하세요.",
+          "impact": "일회 구매를 향후 모든 버전·서비스의 무기한 이용권으로 오해할 수 있습니다.",
+          "sourceType": "policy",
+          "applicability": "Goodnotes General Terms · 각 서비스·구매 방식별 조건 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "직접 제출한 기능 피드백의 머신러닝 활용 조건 확인 · 국제 영문 약관 · 현지 강행법규 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 직접 제출한 기능 피드백의 머신러닝 활용 조건 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -15545,9 +16420,34 @@ window.serviceCatalog={
           "effectiveAt": "2017. 6. 1.",
           "effectiveAtBasis": "기존 버전 표기의 시행·발효일을 구조화한 기록입니다. 이번 원문 재검수 완료를 뜻하지 않습니다."
         }
+      ],
+      [
+        "cancel",
+        "해지·환불",
+        "유료 서비스에는 30일 환불 요청 정책이 있음",
+        "high",
+        "Bitwarden 약관은 월간·연간 요금을 선불 청구하고 모든 유료 서비스에 30일 환불 정책을 제공한다고 명시합니다. 환불을 원하면 지원팀에 문의하도록 안내하므로 계정 삭제와 별도로 요청해야 합니다.",
+        "Bitwarden 약관은 월간·연간 요금을 선불 청구하고 모든 유료 서비스에 30일 환불 정책을 제공한다고 명시합니다. 환불을 원하면 지원팀에 문의하도록 안내하므로 계정 삭제와 별도로 요청해야 합니다.",
+        "https://bitwarden.com/terms/",
+        {
+          "document": "Bitwarden Terms of Service",
+          "clause": "E.3 Billing Schedule; Refunds",
+          "region": "글로벌 일반 약관 · 유료 서비스, 별도 기업 계약 확인",
+          "version": "표시 시행일 2017-06-01",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "We offer a 30 day refund policy on all paid Services.",
+          "action": "복구할 수 없는 계정 삭제 전에 환불 요청과 필요한 자료 내보내기를 먼저 처리하세요.",
+          "impact": "계정 삭제가 환불 요청까지 자동 처리한다는 안내는 아닙니다.",
+          "sourceType": "policy",
+          "applicability": "글로벌 일반 약관 · 유료 서비스, 별도 기업 계약 확인 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": "2017-06-01",
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "계정 삭제의 복구 불가 조건 확인 · 국제 영문 약관 · 현지 강행법규 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 계정 삭제의 복구 불가 조건 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -15596,9 +16496,34 @@ window.serviceCatalog={
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "action": "금고의 Account Settings와 구매 경로에서 각 구독의 갱신일·취소 상태를 따로 확인하세요."
         }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "일반 약관은 결제 확정·미납 시 서비스 제한을 규정",
+        "high",
+        "개인용 약관은 원칙적으로 결제는 확정적이며 환불되지 않는다고 정하고 미납 시 통지 후 서비스를 중단·종료할 수 있다고 설명합니다. 다만 관련 법률상 철회·환불 권리가 적용되면 그 권리가 우선할 수 있습니다.",
+        "개인용 약관은 원칙적으로 결제는 확정적이며 환불되지 않는다고 정하고 미납 시 통지 후 서비스를 중단·종료할 수 있다고 설명합니다. 다만 관련 법률상 철회·환불 권리가 적용되면 그 권리가 우선할 수 있습니다.",
+        "https://www.lastpass.com/legal-center/terms-of-service/personal",
+        {
+          "document": "LastPass Personal Terms of Service",
+          "clause": "2.1 Fees / 2.3 Non-Payment; Price Updates",
+          "region": "개인용 서비스 약관 · 강행법상 환불 권리 예외",
+          "version": null,
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "All payments are final and non-refundable.",
+          "action": "갱신 전 취소 기한과 자신의 국가에 적용되는 법정 권리를 확인하세요.",
+          "impact": "사용하지 않았거나 결제수단에 문제가 있다는 사실만으로 취소·환불이 완료되지는 않습니다.",
+          "sourceType": "policy",
+          "applicability": "개인용 서비스 약관 · 강행법상 환불 권리 예외 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": null
+        }
       ]
     ],
-    "reviewScope": "개인용 구독의 갱신 거절 기한 확인 · 개인용 영문 약관 · 기업 계약 제외",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 개인용 구독의 갱신 거절 기한 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",
@@ -15647,9 +16572,34 @@ window.serviceCatalog={
           "checkedAt": "2026. 10. 13. (한국 시간)",
           "action": "단순 취소와 환불 요청을 구분하고 결제 경로·연간 여부·갱신일을 확인하세요."
         }
+      ],
+      [
+        "payment",
+        "결제·구독",
+        "동일 기간으로 당시 가격에 자동 갱신",
+        "high",
+        "Dashlane은 7(c)조에 따라 취소·변경하지 않으면 최초 구독과 같은 기간으로 당시 요금에 자동 갱신된다고 정합니다. 회사가 제공한 계정은 고용주와의 별도 계약이 적용됩니다.",
+        "Dashlane은 7(c)조에 따라 취소·변경하지 않으면 최초 구독과 같은 기간으로 당시 요금에 자동 갱신된다고 정합니다. 회사가 제공한 계정은 고용주와의 별도 계약이 적용됩니다.",
+        "https://www.dashlane.com/terms",
+        {
+          "document": "Dashlane Terms of Service",
+          "clause": "서두 d / f 및 7(c)",
+          "region": "개인용 약관 · 고용주 제공 B2B 계정은 별도 계약",
+          "version": "최종 업데이트 2026-04-08",
+          "checkedAt": "2026. 10. 30. (한국 시간)",
+          "quote": "AT THE THEN-CURRENT RATE",
+          "action": "갱신일·변경 가격과 개인용인지 조직 제공 계정인지 확인하세요.",
+          "impact": "첫 가입 가격이 다음 갱신에도 보장되는 것은 아닙니다.",
+          "sourceType": "policy",
+          "applicability": "개인용 약관 · 고용주 제공 B2B 계정은 별도 계약 관련 법령의 강행규정 및 별도 계약이 우선할 수 있습니다.",
+          "reviewMethod": "공식 원문의 표시 조항, 요약, 이용자 영향 및 적용 범위를 직접 대조. 추가한 항목만 확인했으며 전체 약관 검수·전문가 검토가 아닙니다.",
+          "effectiveAt": null,
+          "publishedAt": null,
+          "updatedAt": "2026-04-08"
+        }
       ]
     ],
-    "reviewScope": "개인용 연간·월간 구독의 환불 차이 확인 · 개인용 영문 약관 · B2B 제외 · 현지 법정 권리 우선",
+    "reviewScope": "표시된 일부 조항의 요약입니다. 항목마다 대조일과 적용 범위가 다르며, 표시되지 않은 조건이 없거나 검수가 완료되었다는 뜻은 아닙니다.",
     "reviewStatus": "2026. 10. 13. (한국 시간) · 개인용 연간·월간 구독의 환불 차이 확인",
     "status": "reviewed",
     "overall": "원문 대조 항목 있음",

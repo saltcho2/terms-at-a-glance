@@ -1,0 +1,990 @@
+{
+  "reviewDate": "2026-10-30",
+  "scope": "기존 한 항목 서비스의 누락 조건 표본 보완 · 전체 약관 검수 아님",
+  "addedServices": 32,
+  "addedItems": 38,
+  "changes": [
+    {
+      "service": "apple",
+      "name": "Apple iCloud",
+      "title": "iCloud+는 정기 청구되고 하향 변경은 다음 결제일 적용",
+      "category": "payment",
+      "source": "https://www.apple.com/legal/internet-services/icloud/kr/terms.html",
+      "clause": "III.A 지불",
+      "quote": "다운그레이드는 다음 연간 또는 월간 비용 청구일에 적용됩니다.",
+      "version": "최종 수정 2026-09-14",
+      "scope": "한국 iCloud 이용약관 · iCloud+ 가입자",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/apple.txt"
+    },
+    {
+      "service": "apple",
+      "name": "Apple iCloud",
+      "title": "요금제 용량을 넘으면 백업·일부 기능이 중단될 수 있음",
+      "category": "other",
+      "source": "https://www.apple.com/legal/internet-services/icloud/kr/terms.html",
+      "clause": "III.B 취소할 수 있는 권리",
+      "quote": "더 이상의 iCloud 백업을 생성할 수 없거나",
+      "version": "최종 수정 2026-09-14",
+      "scope": "한국 iCloud 이용약관 · 요금제 취소·하향 변경",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/apple.txt"
+    },
+    {
+      "service": "telegram",
+      "name": "Telegram",
+      "title": "일반 클라우드 대화와 비밀 대화의 보관 방식이 다름",
+      "category": "privacy",
+      "source": "https://telegram.org/privacy",
+      "clause": "3.3.1 Cloud Chats / 3.3.2 Secret Chats",
+      "quote": "Secret chats use end-to-end encryption.",
+      "version": null,
+      "scope": "글로벌 영문 개인정보처리방침 · 대화 유형별 차이",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/telegram.txt"
+    },
+    {
+      "service": "github",
+      "name": "GitHub",
+      "title": "개인용 AI 기능의 입력·출력은 학습 설정을 확인",
+      "category": "content",
+      "source": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+      "clause": "J.1 / J.3 AI Features, Training, and Your Data",
+      "quote": "you opt out through your account settings",
+      "version": "시행 2026-04-27",
+      "scope": "글로벌 약관 · J.3은 개인 라이선스에 한정",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/github.txt"
+    },
+    {
+      "service": "github",
+      "name": "GitHub",
+      "title": "탈퇴해도 다른 저장소에 기여한 코드와 포크는 남음",
+      "category": "cancel",
+      "source": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+      "clause": "M.2 Upon Cancellation",
+      "quote": "other Users have forked",
+      "version": "시행 2026-04-27",
+      "scope": "글로벌 일반 약관 · 별도 기업 계약과 구분",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/github.txt"
+    },
+    {
+      "service": "pinterest",
+      "name": "Pinterest",
+      "title": "서비스 밖의 활동도 콘텐츠·광고 추천에 활용",
+      "category": "privacy",
+      "source": "https://policy.pinterest.com/en/terms-of-service",
+      "clause": "1. The Service",
+      "quote": "based on your onsite and offsite activity",
+      "version": "시행 2025-04-30 · 2026-11-12 예정 버전 제외",
+      "scope": "한국 등 미국 외 이용자 · 2025-04-30 시행 본문, 2026-11-12 예정 약관 제외",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "turn380view1 L51-L56"
+    },
+    {
+      "service": "x",
+      "name": "X",
+      "title": "장기 미사용·운영 지속 가능성도 계정 종료 사유",
+      "category": "other",
+      "source": "https://x.com/en/tos",
+      "clause": "4. Using the Services · Ending These Terms",
+      "quote": "your account should be removed due to prolonged inactivity",
+      "version": "시행 2026-10-09",
+      "scope": "한국 등 EU·EFTA·영국 외 이용자용 약관",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/x.txt"
+    },
+    {
+      "service": "atlassian",
+      "name": "Atlassian",
+      "title": "별도 주문 조건이 없으면 갱신 시점의 요금으로 자동 연장",
+      "category": "payment",
+      "source": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "clause": "10.1(c) Renewals",
+      "quote": "will automatically renew",
+      "version": "시행 2026-10-01",
+      "scope": "Atlassian 고객 계약 적용 주문 · 개별 주문·제품별 추가 약관 우선",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/atlassian.txt"
+    },
+    {
+      "service": "atlassian",
+      "name": "Atlassian",
+      "title": "계약 종료 후 클라우드 접근과 데이터 보관도 종료될 수 있음",
+      "category": "cancel",
+      "source": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "clause": "12.4 Effect of Termination",
+      "quote": "in accordance with the Documentation.",
+      "version": "시행 2026-10-01",
+      "scope": "Atlassian 고객 계약 적용 주문 · 각 제품 문서의 보관·삭제 절차 확인",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/atlassian.txt"
+    },
+    {
+      "service": "trello",
+      "name": "Trello",
+      "title": "별도 주문 조건이 없으면 갱신 시점의 요금으로 자동 연장",
+      "category": "payment",
+      "source": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "clause": "10.1(c) Renewals",
+      "quote": "will automatically renew",
+      "version": "시행 2026-10-01",
+      "scope": "Atlassian 고객 계약 적용 주문 · 개별 주문·제품별 추가 약관 우선",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/trello.txt"
+    },
+    {
+      "service": "trello",
+      "name": "Trello",
+      "title": "계약 종료 후 클라우드 접근과 데이터 보관도 종료될 수 있음",
+      "category": "cancel",
+      "source": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "clause": "12.4 Effect of Termination",
+      "quote": "in accordance with the Documentation.",
+      "version": "시행 2026-10-01",
+      "scope": "Atlassian 고객 계약 적용 주문 · 각 제품 문서의 보관·삭제 절차 확인",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/trello.txt"
+    },
+    {
+      "service": "loom",
+      "name": "Loom",
+      "title": "별도 주문 조건이 없으면 갱신 시점의 요금으로 자동 연장",
+      "category": "payment",
+      "source": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "clause": "10.1(c) Renewals",
+      "quote": "will automatically renew",
+      "version": "시행 2026-10-01",
+      "scope": "Atlassian 고객 계약 적용 주문 · 개별 주문·제품별 추가 약관 우선",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/loom.txt"
+    },
+    {
+      "service": "loom",
+      "name": "Loom",
+      "title": "계약 종료 후 클라우드 접근과 데이터 보관도 종료될 수 있음",
+      "category": "cancel",
+      "source": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+      "clause": "12.4 Effect of Termination",
+      "quote": "in accordance with the Documentation.",
+      "version": "시행 2026-10-01",
+      "scope": "Atlassian 고객 계약 적용 주문 · 각 제품 문서의 보관·삭제 절차 확인",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/loom.txt"
+    },
+    {
+      "service": "asana",
+      "name": "Asana",
+      "title": "무료 개인 이용자의 콘텐츠에도 서비스 제공용 이용권 부여",
+      "category": "content",
+      "source": "https://asana.com/terms",
+      "clause": "8.2 Free User Content / 8.3 Managed User Content",
+      "quote": "Free Users maintain ownership",
+      "version": "시행 2024-01-01",
+      "scope": "글로벌 User Terms · 무료 이용자와 조직 관리 이용자 구분",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/asana.txt"
+    },
+    {
+      "service": "slack",
+      "name": "Slack",
+      "title": "워크스페이스 계정 해지는 조직 고객에게 요청",
+      "category": "cancel",
+      "source": "https://slack.com/intl/ko-kr/terms-of-service/user",
+      "clause": "귀하는 고객(및 Slack)의 뜻에 따라 본 서비스를 이용합니다",
+      "quote": "계정을 해지하고자 하는 경우 고객에게 문의해주십시오.",
+      "version": null,
+      "scope": "한국어 사용자 약관 · 조직이 초대한 승인된 사용자",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/slack.txt"
+    },
+    {
+      "service": "evernote",
+      "name": "Evernote",
+      "title": "연결한 외부 앱·AI 에이전트의 권한도 직접 확인",
+      "category": "privacy",
+      "source": "https://evernote.com/legal/terms-of-service",
+      "clause": "Evernote 서비스 이용 관련 계정·제3자 앱 조건",
+      "quote": "신뢰할 수 있는 승인된 제3자 애플리케이션",
+      "version": "최종 업데이트 2026-10-01",
+      "scope": "한국 등 EEA·영국·스위스 외 이용자용 약관",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/evernote.txt"
+    },
+    {
+      "service": "cloudflare",
+      "name": "Cloudflare",
+      "title": "해지한 기간의 미사용 요금은 원칙적으로 환불하지 않음",
+      "category": "cancel",
+      "source": "https://www.cloudflare.com/terms/",
+      "clause": "4.3 No Refunds",
+      "quote": "NO REFUNDS WILL BE PROVIDED FOR THE UNUSED PORTION",
+      "version": "최종 업데이트 2025-09-12",
+      "scope": "Self-Serve Subscription Agreement · 개별 기업 계약과 구분",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/cloudflare.txt"
+    },
+    {
+      "service": "cloudflare",
+      "name": "Cloudflare",
+      "title": "요금 변경은 최소 30일 전 통지 조건",
+      "category": "payment",
+      "source": "https://www.cloudflare.com/terms/",
+      "clause": "4.2 Price Changes",
+      "quote": "at least thirty (30) days’ prior notice",
+      "version": "최종 업데이트 2025-09-12",
+      "scope": "셀프서비스 유료 이용자 · 별도 계약 조건 확인",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/cloudflare.txt"
+    },
+    {
+      "service": "linear",
+      "name": "Linear",
+      "title": "이메일로 갱신을 취소할 때는 서면 확인까지 필요",
+      "category": "cancel",
+      "source": "https://linear.app/terms",
+      "clause": "5.1 Agreement Term and Renewals",
+      "quote": "provided that Linear confirms such cancellation in writing",
+      "version": "시행 2026-06-09",
+      "scope": "글로벌 고객 계약 · 주문서에 명시된 구독",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/linear.txt"
+    },
+    {
+      "service": "basecamp",
+      "name": "Basecamp",
+      "title": "이메일·전화 요청만으로 자동 취소되지는 않음",
+      "category": "cancel",
+      "source": "https://37signals.com/policies/terms",
+      "clause": "Cancellation and Termination",
+      "quote": "An email or phone request to cancel your account is not automatically considered cancellation.",
+      "version": "최종 업데이트 2026-09-16",
+      "scope": "37signals 공통 약관의 Basecamp · 별도 Refund Policy 함께 확인",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/basecamp.txt"
+    },
+    {
+      "service": "clickup",
+      "name": "ClickUp",
+      "title": "30일 만족 보장에는 갱신·체험 후 구매 등 제외 조건",
+      "category": "cancel",
+      "source": "https://clickup.com/terms",
+      "clause": "1.14 Satisfaction Guarantee",
+      "quote": "renewals or expansions of previously purchased Services",
+      "version": "시행 2025-06-27",
+      "scope": "글로벌 서비스 약관 · 구매 종류·경로별 만족 보장 예외",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/clickup.txt"
+    },
+    {
+      "service": "miro",
+      "name": "Miro",
+      "title": "기본 고객 계약은 만료 90일 전 갱신 거절 조건",
+      "category": "payment",
+      "source": "https://miro.com/legal/terms-of-service/",
+      "clause": "9.1 Subscription Term",
+      "quote": "at least 90 days before the current Subscription Term ends",
+      "version": "표시 시행일 2021-09-01",
+      "scope": "Miro Customer Agreement 적용 계약 · 개별 주문 조건 우선, 모든 요금제에 일괄 적용하지 않음",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/miro.txt"
+    },
+    {
+      "service": "replit",
+      "name": "Replit",
+      "title": "비공개 앱도 서비스 운영 목적의 접근 예외가 있음",
+      "category": "privacy",
+      "source": "https://replit.com/terms-of-service",
+      "clause": "Content · b. App Content",
+      "quote": "Replit reserves the right to access the content of your private apps",
+      "version": "최종 업데이트 2026-08-03",
+      "scope": "글로벌 일반 서비스 약관 · 앱 콘텐츠",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/replit.txt"
+    },
+    {
+      "service": "vercel",
+      "name": "Vercel",
+      "title": "로그·트래픽 등 시스템 데이터는 계약 종료 후에도 활용 가능",
+      "category": "privacy",
+      "source": "https://vercel.com/legal/terms",
+      "clause": "System Data 조항",
+      "quote": "including traffic data, telemetry, logs generated from the Services",
+      "version": "최종 업데이트 2026-10-19",
+      "scope": "글로벌 일반 약관 · Account Information과 구분되는 System Data",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/vercel.txt"
+    },
+    {
+      "service": "huggingface",
+      "name": "Hugging Face",
+      "title": "탈퇴해도 다른 저장소 기여물과 복사본은 남을 수 있음",
+      "category": "cancel",
+      "source": "https://huggingface.co/terms-of-service",
+      "clause": "Termination",
+      "quote": "We will not delete the Content that you contributed to other Users' Repositories",
+      "version": "표시 시행일 2022-09-15",
+      "scope": "글로벌 일반 약관 · 서비스별 별도 계약 우선",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/huggingface.txt"
+    },
+    {
+      "service": "railway",
+      "name": "Railway",
+      "title": "구독은 당시 일반 요금으로 갱신되고 일할 환불은 제한",
+      "category": "payment",
+      "source": "https://railway.com/legal/terms",
+      "clause": "Paid Services · Automatic renewal / cancellation",
+      "quote": "you will not be eligible for a prorated refund",
+      "version": "시행 2026-04-20",
+      "scope": "글로벌 일반 약관 · Paid Services 구독 조건",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/railway.txt"
+    },
+    {
+      "service": "flyio",
+      "name": "Fly.io",
+      "title": "유료 구독 기능은 같은 기간·당시 요금으로 자동 갱신",
+      "category": "payment",
+      "source": "https://fly.io/legal/terms-of-service/",
+      "clause": "서두 자동 갱신 안내 / 9.2 Termination",
+      "quote": "YOUR SUBSCRIPTION WILL AUTOMATICALLY RENEW",
+      "version": "시행 2026-04-29",
+      "scope": "글로벌 고객 계약 · 유료 구독 기능, 모든 사용량 과금의 동일 주기를 뜻하지 않음",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/flyio.txt"
+    },
+    {
+      "service": "bitwarden",
+      "name": "Bitwarden",
+      "title": "유료 서비스에는 30일 환불 요청 정책이 있음",
+      "category": "cancel",
+      "source": "https://bitwarden.com/terms/",
+      "clause": "E.3 Billing Schedule; Refunds",
+      "quote": "We offer a 30 day refund policy on all paid Services.",
+      "version": "표시 시행일 2017-06-01",
+      "scope": "글로벌 일반 약관 · 유료 서비스, 별도 기업 계약 확인",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/bitwarden.txt"
+    },
+    {
+      "service": "lastpass",
+      "name": "LastPass",
+      "title": "일반 약관은 결제 확정·미납 시 서비스 제한을 규정",
+      "category": "payment",
+      "source": "https://www.lastpass.com/legal-center/terms-of-service/personal",
+      "clause": "2.1 Fees / 2.3 Non-Payment; Price Updates",
+      "quote": "All payments are final and non-refundable.",
+      "version": null,
+      "scope": "개인용 서비스 약관 · 강행법상 환불 권리 예외",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/lastpass.txt"
+    },
+    {
+      "service": "dashlane",
+      "name": "Dashlane",
+      "title": "동일 기간으로 당시 가격에 자동 갱신",
+      "category": "payment",
+      "source": "https://www.dashlane.com/terms",
+      "clause": "서두 d / f 및 7(c)",
+      "quote": "AT THE THEN-CURRENT RATE",
+      "version": "최종 업데이트 2026-04-08",
+      "scope": "개인용 약관 · 고용주 제공 B2B 계정은 별도 계약",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/dashlane.txt"
+    },
+    {
+      "service": "dropboxsign",
+      "name": "Dropbox Sign",
+      "title": "결제수단을 등록한 체험도 종료 후 자동 청구 가능",
+      "category": "payment",
+      "source": "https://sign.dropbox.com/about/terms",
+      "clause": "8.4 Auto-renewals and Trials",
+      "quote": "DROPBOX MAY CHARGE YOU AUTOMATICALLY AT THE END OF THE TRIAL",
+      "version": "시행 2025-01-07",
+      "scope": "Dropbox Sign 서비스 고객 계약 · 결제수단 제공 체험·자동 갱신 계정",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/dropboxsign.txt"
+    },
+    {
+      "service": "strava",
+      "name": "Strava",
+      "title": "구독은 종료 24시간 전까지 취소해야 자동 갱신 방지",
+      "category": "payment",
+      "source": "https://www.strava.com/legal/terms",
+      "clause": "Auto-Renewal / Cancellation / Cooling Off",
+      "quote": "unless canceled at least 24 hours before the end of the current period",
+      "version": "시행 2026-09-28",
+      "scope": "글로벌 약관 · 미국 외 현지법 철회 권리 및 결제 경로 차이",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/strava.txt"
+    },
+    {
+      "service": "notability",
+      "name": "Notability",
+      "title": "앱 환불 문의는 구매한 앱스토어가 처리",
+      "category": "cancel",
+      "source": "https://notability.com/tos.html",
+      "clause": "Payment · App Store / Billing",
+      "quote": "shall be handled solely by the applicable App Store",
+      "version": "시행 2025-09-09",
+      "scope": "앱스토어에서 구매한 앱·유료 서비스 · 해당 스토어 약관 병행",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/notability.txt"
+    },
+    {
+      "service": "goodnotes",
+      "name": "Goodnotes",
+      "title": "구독 자동 갱신과 버전별 일회 구매는 서로 다른 조건",
+      "category": "payment",
+      "source": "https://www.goodnotes.com/terms-and-conditions?hsLang=en",
+      "clause": "5. Fees and Payment · subscription / one-off fee",
+      "quote": "for as long as Goodnotes supports that version",
+      "version": "최종 업데이트 2025-09",
+      "scope": "Goodnotes General Terms · 각 서비스·구매 방식별 조건",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/goodnotes.txt"
+    },
+    {
+      "service": "obsidian",
+      "name": "Obsidian",
+      "title": "유료 서비스 비용은 실제 사용량과 관계없이 환불 제한",
+      "category": "cancel",
+      "source": "https://obsidian.md/terms",
+      "clause": "Fees",
+      "quote": "All fees are non-cancellable and non-refundable",
+      "version": "최종 업데이트 2025-02-20",
+      "scope": "일반 유료 서비스 조건 · 무료 앱 사용 및 선택적 라이선스와 구분",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/obsidian.txt"
+    },
+    {
+      "service": "coursera",
+      "name": "Coursera",
+      "title": "수료증 취득이 대학 학점 인정까지 보장하지 않음",
+      "category": "other",
+      "source": "https://www.coursera.org/about/terms",
+      "clause": "No Academic Credit",
+      "quote": "Coursera does not grant academic credit",
+      "version": null,
+      "scope": "일반 Content Offerings · 학위·학점 과정의 명시적 별도 조건 확인",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "qa-20261030/expansion-sources/coursera.txt"
+    },
+    {
+      "service": "onedrive",
+      "name": "OneDrive",
+      "title": "용량 초과 통지를 방치하면 자료 접근·보관 제한 가능",
+      "category": "other",
+      "source": "https://www.microsoft.com/ko-kr/servicesagreement",
+      "clause": "서비스 조건 j(i) OneDrive 저장소 할당",
+      "quote": "초과 콘텐츠를 제거하거나",
+      "version": "발행 2026-07-30 · 적용 2026-09-30",
+      "scope": "한국어 Microsoft 소비자 서비스 계약 · OneDrive, 조직용 별도 계약과 구분",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "turn384view0 L363-L366"
+    },
+    {
+      "service": "outlook",
+      "name": "Outlook",
+      "title": "사서함·Microsoft 저장소 한도 초과 시 메일 송수신 제한",
+      "category": "other",
+      "source": "https://www.microsoft.com/ko-kr/servicesagreement",
+      "clause": "서비스 조건 j(iii) Outlook.com 저장소 할당",
+      "quote": "메시지를 보내거나 받을 수 없습니다.",
+      "version": "발행 2026-07-30 · 적용 2026-09-30",
+      "scope": "한국어 Microsoft 소비자 서비스 계약 · Outlook.com, 조직용 별도 계약과 구분",
+      "verification": "표시 조항과 직접 대조",
+      "evidence": "turn384view0 L367"
+    }
+  ],
+  "unresolvedSingleItemServices": [
+    {
+      "key": "reddit",
+      "name": "Reddit",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "snapchat",
+      "name": "Snapchat",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "twitch",
+      "name": "Twitch",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "primevideo",
+      "name": "Prime Video",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "gmarket",
+      "name": "G마켓",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "notion",
+      "name": "Notion",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "tripcom",
+      "name": "Trip.com",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "bluesky",
+      "name": "Bluesky",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "tumblr",
+      "name": "Tumblr",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "vimeo",
+      "name": "Vimeo",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "flickr",
+      "name": "Flickr",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "signal",
+      "name": "Signal",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "audible",
+      "name": "Audible",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "bugs",
+      "name": "벅스",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "webtoon",
+      "name": "WEBTOON",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "depop",
+      "name": "Depop",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "oliveyoung",
+      "name": "올리브영",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "box",
+      "name": "Box",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "expedia",
+      "name": "Expedia",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "hotelscom",
+      "name": "Hotels.com",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "kayak",
+      "name": "KAYAK",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "skyscanner",
+      "name": "Skyscanner",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "turo",
+      "name": "Turo",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "playstation",
+      "name": "PlayStation",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "riotgames",
+      "name": "Riot Games",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "ea",
+      "name": "Electronic Arts",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "ubisoft",
+      "name": "Ubisoft",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "quizlet",
+      "name": "Quizlet",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "whatsapp",
+      "name": "WhatsApp",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "viber",
+      "name": "Viber",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "imgur",
+      "name": "Imgur",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "giphy",
+      "name": "GIPHY",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "dribbble",
+      "name": "Dribbble",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "artstation",
+      "name": "ArtStation",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "kofi",
+      "name": "Ko-fi",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "buymeacoffee",
+      "name": "Buy Me a Coffee",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "wordpress",
+      "name": "WordPress.com",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "disqus",
+      "name": "Disqus",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "kick",
+      "name": "Kick",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "bandcamp",
+      "name": "Bandcamp",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "bunjang",
+      "name": "번개장터",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "protonmail",
+      "name": "Proton Mail",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "protondrive",
+      "name": "Proton Drive",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "wrike",
+      "name": "Wrike",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "zoho",
+      "name": "Zoho",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "hubspot",
+      "name": "HubSpot",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "mailchimp",
+      "name": "Mailchimp",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "typeform",
+      "name": "Typeform",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "jotform",
+      "name": "Jotform",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "surveymonkey",
+      "name": "SurveyMonkey",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "netlify",
+      "name": "Netlify",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "fitbit",
+      "name": "Fitbit",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "calm",
+      "name": "Calm",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "edx",
+      "name": "edX",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "skillshare",
+      "name": "Skillshare",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "codecademy",
+      "name": "Codecademy",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "replicate",
+      "name": "Replicate",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "docker",
+      "name": "Docker",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "sentry",
+      "name": "Sentry",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "mongodb",
+      "name": "MongoDB Atlas",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "ticktick",
+      "name": "TickTick",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "onepassword",
+      "name": "1Password",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "zapier",
+      "name": "Zapier",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "n8n",
+      "name": "n8n",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "hootsuite",
+      "name": "Hootsuite",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "later",
+      "name": "Later",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "freshworks",
+      "name": "Freshworks",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "wattpad",
+      "name": "Wattpad",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "goodreads",
+      "name": "Goodreads",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "masterclass",
+      "name": "MasterClass",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "brilliant",
+      "name": "Brilliant",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "domestika",
+      "name": "Domestika",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "teachable",
+      "name": "Teachable",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "thinkific",
+      "name": "Thinkific",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "carousell",
+      "name": "Carousell",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "vinted",
+      "name": "Vinted",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "alltrails",
+      "name": "AllTrails",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "headspace",
+      "name": "Headspace",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    },
+    {
+      "key": "noom",
+      "name": "Noom",
+      "items": 1,
+      "status": "추가 조항의 원문 대조 미완료"
+    }
+  ],
+  "specialUnresolved": [
+    {
+      "key": "onepassword",
+      "reason": "응답 본문에 최종 업데이트 2026-11-02가 표시됨. 점검일 이후 날짜여서 현행 버전으로 적용하지 않고 추가 보류."
+    }
+  ],
+  "limits": [
+    "공개 156개 서비스 전체 조항의 누락 검수 미완료",
+    "HTTP 응답 수집은 원문 내용·시행 버전 확인과 다름",
+    "모바일 실기기·실제 사용자·법률 전문가 검토 미수행",
+    "이전 항목의 점검일·검수 상태를 새로 확인한 것으로 갱신하지 않음"
+  ]
+}
