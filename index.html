@@ -107,7 +107,7 @@
   <footer><div class="footer-inner"><span>© 2026 약관 한눈에 · 독립 정보 프로젝트</span><span>서비스 명칭과 로고의 권리는 각 권리자에게 있으며, 해당 서비스와 제휴 관계가 없습니다.</span></div></footer>
 
   <script>window.termsAssetErrors=[];</script>
-  <script src="service-catalog.js?v=20261021r1" onerror="window.termsAssetErrors.push('service-catalog.js')"></script>
+  <script src="service-catalog.js?v=20261030r1" onerror="window.termsAssetErrors.push('service-catalog.js')"></script>
   <script src="casebook.js?v=20261017c" onerror="window.termsAssetErrors.push('casebook.js')"></script>
   <script src="search-engine.js?v=20261014a" onerror="window.termsAssetErrors.push('search-engine.js')"></script>
   <script src="source-status.js?v=20261018p4"></script>
@@ -204,7 +204,7 @@
       const evidence=item[7];
       if(!evidence||!item[6])return {url:null,note:'원문 대조 기록 없음',label:'공식 문서 미확인'};
       const parts=[evidence.document,evidence.clause,evidence.region,evidence.version||'원문에서 버전 날짜를 확인하지 못함',`${evidence.checkedAt} 해당 항목 대조`];
-      return {url:item[6],note:`<strong>${escapeHtml(parts[0])}</strong>${parts.slice(1).map(escapeHtml).join(' · ')}`,label:evidence.document.includes('고객센터')?'공식 고객센터 원문 확인':'공식 약관·방침 원문 확인'};
+      return {url:item[6],note:`<strong>${escapeHtml(parts[0])}</strong>${parts.slice(1).map(escapeHtml).join(' · ')}`,label:evidence.sourceType==='official-guidance'?'공식 안내 원문 확인':evidence.document.includes('고객센터')?'공식 고객센터 원문 확인':'공식 약관·방침 원문 확인'};
     }
     function evidencePanel(item){
       const e=item[7]||{},esc=escapeHtml;

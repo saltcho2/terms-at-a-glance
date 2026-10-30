@@ -1,0 +1,233 @@
+{
+  "checkedAt": "2026. 10. 30. (한국 시간)",
+  "scope": "10개 서비스에서 이번에 추가한 조항만 공식 원문 대조. 기존 전체 항목 재검수 아님.",
+  "services": [
+    "applemusic",
+    "coupang",
+    "discord",
+    "kakaotalk",
+    "naver",
+    "netflix",
+    "spotify",
+    "steam",
+    "temu",
+    "youtube"
+  ],
+  "addedItems": 23,
+  "changes": [
+    {
+      "service": "youtube",
+      "category": "payment",
+      "title": "Premium은 취소 전까지 결제 주기마다 자동 청구",
+      "type": "missing-important-condition",
+      "source": "https://support.google.com/youtube/answer/6308278?hl=ko",
+      "clause": "유료 멤버십 취소 / 참고",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "youtube",
+      "category": "cancel",
+      "title": "Apple·Google Play 결제는 해당 계정에서 취소",
+      "type": "missing-important-condition",
+      "source": "https://support.google.com/youtube/answer/6308278?hl=ko",
+      "clause": "취소하는 데 문제가 있으신가요?",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "netflix",
+      "category": "payment",
+      "title": "멤버십 요금은 매월 가입한 날짜에 청구",
+      "type": "missing-important-condition",
+      "source": "https://help.netflix.com/ko/node/41049",
+      "clause": "월별 청구 / 타사 결제",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "netflix",
+      "category": "cancel",
+      "title": "해지 버튼이 없으면 결제 파트너에서 해지",
+      "type": "missing-important-condition",
+      "source": "https://help.netflix.com/ko/node/407",
+      "clause": "해지 옵션이 표시되지 않는 경우 / 요금 청구 중단",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "naver",
+      "category": "privacy",
+      "title": "이용 기록·기기 정보가 추천·광고와 AI 기술 개발에 이용",
+      "type": "missing-important-condition",
+      "source": "https://policy.naver.com/policy/privacy.html",
+      "clause": "2. 수집하는 개인정보 / 수집·이용 목적",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "naver",
+      "category": "privacy",
+      "title": "외부 제공과 업무 위탁은 별도로 확인",
+      "type": "missing-important-condition",
+      "source": "https://policy.naver.com/policy/privacy.html",
+      "clause": "4. 개인정보의 제공 / 7. 개인정보의 처리 위탁",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "naver",
+      "category": "cancel",
+      "title": "탈퇴해도 법정 거래 기록은 일정 기간 보관",
+      "type": "missing-important-condition",
+      "source": "https://policy.naver.com/policy/privacy.html",
+      "clause": "8. 개인정보의 보관 및 삭제 · 보관 기간 표",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "coupang",
+      "category": "payment",
+      "title": "상품을 주문하지 않아도 와우 월회비는 자동 결제",
+      "type": "missing-important-condition",
+      "source": "https://news.coupang.com/archives/64216/",
+      "clause": "주문한 것이 없는데 매달 결제되는 건 뭔가요?",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "coupang",
+      "category": "cancel",
+      "title": "와우 회비 환불은 당월 혜택 사용 여부에 따라 다름",
+      "type": "missing-important-condition",
+      "source": "https://news.coupang.com/archives/64216/",
+      "clause": "와우 멤버십을 해지하면 언제 환불되나요?",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "coupang",
+      "category": "cancel",
+      "title": "와우 해지 시 쿠팡플레이 Pass 구독도 확인",
+      "type": "missing-important-condition",
+      "source": "https://news.coupang.com/archives/64216/",
+      "clause": "와우 멤버십을 해지하고 싶어요 · 참고사항",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "spotify",
+      "category": "privacy",
+      "title": "검색·재생 내역과 관심사 추정도 사용 데이터",
+      "type": "missing-important-condition",
+      "source": "https://www.spotify.com/kr-ko/legal/privacy-policy/",
+      "clause": "3. Spotify가 수집하는 개인 데이터 · 사용 데이터/정확한 위치",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "spotify",
+      "category": "cancel",
+      "title": "계정 삭제 뒤에도 분쟁·법적 사유의 보관 예외",
+      "type": "missing-important-condition",
+      "source": "https://www.spotify.com/kr-ko/legal/privacy-policy/",
+      "clause": "6. 데이터 보존 · 삭제 절차 및 방법",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "discord",
+      "category": "payment",
+      "title": "주 결제수단이 실패하면 예비 수단으로 청구 가능",
+      "type": "missing-important-condition",
+      "source": "https://discord.com/terms/paid-services-terms",
+      "clause": "Payment methods / Suspension or termination",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "temu",
+      "category": "cancel",
+      "title": "90일 반품에도 품목별 예외·전자제품 기간 차이",
+      "type": "missing-important-condition",
+      "source": "https://www.temu.com/kr/return-and-refund-policy.html",
+      "clause": "3. 반품 가능 기간",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "temu",
+      "category": "cancel",
+      "title": "같은 주문 두 번째 반품부터 배송비 공제 가능",
+      "type": "missing-important-condition",
+      "source": "https://www.temu.com/kr/return-and-refund-policy.html",
+      "clause": "2. 무료 반품 배송",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "temu",
+      "category": "cancel",
+      "title": "크레딧 환불은 일반적으로 현금 전환·선택 취소 불가",
+      "type": "missing-important-condition",
+      "source": "https://www.temu.com/kr/return-and-refund-policy.html",
+      "clause": "4. 환불 · VII",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "steam",
+      "category": "cancel",
+      "title": "게임 환불은 구매 14일 이내·플레이 2시간 미만 기준",
+      "type": "missing-important-condition",
+      "source": "https://store.steampowered.com/steam_refunds/?l=koreana",
+      "clause": "환불 정책이 적용되는 범위 / 서두",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "steam",
+      "category": "cancel",
+      "title": "DLC·게임 내 구매·외부 키는 환불 기준이 다름",
+      "type": "missing-important-condition",
+      "source": "https://store.steampowered.com/steam_refunds/?l=koreana",
+      "clause": "DLC / 게임 내 구매 / Steam 밖에서 진행된 구매",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "steam",
+      "category": "payment",
+      "title": "정기 구독 취소와 이미 결제된 기간 환불은 다름",
+      "type": "missing-important-condition",
+      "source": "https://store.steampowered.com/steam_refunds/?l=koreana",
+      "clause": "갱신 가능한 정기 구독",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "applemusic",
+      "category": "payment",
+      "title": "Apple 구독은 계정 설정에서 취소 전까지 갱신",
+      "type": "missing-important-condition",
+      "source": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+      "clause": "I. 구독",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "applemusic",
+      "category": "cancel",
+      "title": "한국 구독 약관의 7일 환불 절차·일할 계산 확인",
+      "type": "missing-important-condition",
+      "source": "https://www.apple.com/legal/internet-services/itunes/kr/terms.html",
+      "clause": "I. 구독 · 환불",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "kakaotalk",
+      "category": "privacy",
+      "title": "제휴 서비스 제공 동의·처리 위탁·국외 이전 구분",
+      "type": "missing-important-condition",
+      "source": "https://www.kakao.com/policy/privacy",
+      "clause": "4. 개인정보 제공 · 제3자 제공/처리위탁/국외이전",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    },
+    {
+      "service": "kakaotalk",
+      "category": "cancel",
+      "title": "카카오톡 탈퇴 후에도 특정 식별·신고 기록 보관",
+      "type": "missing-important-condition",
+      "source": "https://www.kakao.com/policy/privacy",
+      "clause": "5. 개인정보 파기 · 내부 방침 보관 정보",
+      "checkedAt": "2026. 10. 30. (한국 시간)"
+    }
+  ],
+  "remainingLimitations": [
+    "156개 공개 서비스 전체 약관 재검수는 미완료",
+    "기존 항목 대조일은 임의 갱신하지 않음",
+    "쿠팡 와우 약관 본문은 403으로 이번 직접 수집 불가; 공식 FAQ로 대체하고 구분 표기",
+    "넷플릭스 국가별 환불 약관 검수 미완료; 한국어 고객센터의 결제·해지 안내만 추가",
+    "법률 전문가 검토·실제 이용자 테스트 미수행"
+  ]
+}
