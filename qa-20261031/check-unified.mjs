@@ -14,6 +14,8 @@ for(const service of Object.values(catalog))for(const [index,item]of service.ite
  assert.equal((row.match(/class="term-copy"/g)||[]).length,1);
  assert.equal((row.match(/<details\b/g)||[]).length,1);
  assert(!/<details[^>]*\bopen\b/.test(row));
+ assert(row.includes(vm.runInContext('escapeHtml',context)(item[5])),'Full condition must remain available');
+ assert(row.indexOf('class="term-action"')<row.indexOf('class="term-copy"'),'Action should precede the explanation');
  assert(!row.includes('undefined'));assert(row.includes('<h3>'));assert(row.includes('href="'));
  rows++;
 }
